@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidy.constraintlayout.widget.ConstraintLayout android:paddingLeft="40.0dip" android:paddingRight="40.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/screen_share_warning_dialog" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintWidth_max="560.0dip">
+        <com.gbwhatsapp.WaFrameLayout android:layout_gravity="center" android:background="@drawable/panel_popup_top" android:layout_width="fill_parent" android:layout_height="112.0dip" app:waflBackgroundTint="@color/panelPopupTopTint">
+            <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/keep_warning_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/kic_sender_super_power_image" />
+        </com.gbwhatsapp.WaFrameLayout>
+        <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.gbwhatsapp.WaLinearLayout android:orientation="vertical" android:background="@drawable/panel_popup_bot" android:layout_width="fill_parent" android:layout_height="wrap_content" app:wallBackgroundTint="@color/panelPopupBotTint">
+                <com.gbwhatsapp.WaTextView android:textSize="20.0sp" android:textStyle="bold" android:gravity="left" android:id="@id/sender_super_power_title" android:paddingLeft="16.0dip" android:paddingTop="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/kic_sender_super_power_keep_failed_dialog_title" style="@style/Text" />
+                <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="@color/secondary_text" android:gravity="left" android:id="@id/sender_super_power_message" android:paddingLeft="16.0dip" android:paddingTop="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/kic_sender_super_power_keep_failed_dialog_message" style="@style/Text" />
+                <com.gbwhatsapp.components.AutoOrientationLinearLayout android:gravity="right" android:orientation="horizontal" android:id="@id/footer_layout" android:paddingTop="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.gbwhatsapp.WaButton android:id="@id/learn_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/learn_more" style="@style/WA.Button.Borderless.Colored" />
+                    <com.gbwhatsapp.WaButton android:id="@id/ok_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ok_short" style="@style/WA.Button.Borderless.Colored" />
+                </com.gbwhatsapp.components.AutoOrientationLinearLayout>
+            </com.gbwhatsapp.WaLinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</androidy.constraintlayout.widget.ConstraintLayout>

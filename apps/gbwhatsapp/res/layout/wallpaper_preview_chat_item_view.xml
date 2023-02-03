@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.gbwhatsapp.settings.chat.wallpaper.WallpaperImagePreview android:id="@id/wallpaper_preview_background" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.gbwhatsapp.settings.chat.wallpaper.WallpaperImagePreview android:id="@id/wallpaper_preview_background_doodle" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    </FrameLayout>
+    <com.gbwhatsapp.settings.chat.wallpaper.WallpaperImagePreview android:id="@id/wallpaper_preview_blur" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.gbwhatsapp.settings.chat.wallpaper.WallpaperMockChatView android:id="@id/wallpaper_preview_mock_chat" android:paddingTop="4.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:layout_gravity="center" android:id="@id/wallpaper_preview_download_container" android:background="@drawable/download_background" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.gbwhatsapp.CircularProgressBar android:layout_gravity="center" android:id="@id/wallpaper_preview_progress_bar" android:visibility="gone" android:layout_width="64.0dip" android:layout_height="64.0dip" android:indeterminate="true" app:cpbColor="@color/white" />
+        <com.gbwhatsapp.WaButton android:textColor="@color/white" android:id="@id/wallpaper_preview_download_btn" android:layout_margin="16.0dip" android:text="@string/button_download" android:drawableLeft="@drawable/btn_download" android:drawablePadding="8.0dip" style="@style/ConversationRowControlButton" />
+    </FrameLayout>
+</merge>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/novi_selfie_animation_face_container" android:background="@drawable/primary_color_circle" android:layout_width="@dimen/novi_selfie_face_animation_size" android:layout_height="@dimen/novi_selfie_face_animation_size">
+        <com.gbwhatsapp.WaImageView android:id="@id/novi_selfie_animation_face" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/novi_selfie_face_animation_margin" android:src="@drawable/novi_selfie_face_animation_left" />
+    </FrameLayout>
+    <com.gbwhatsapp.WaTextView android:textSize="20.0sp" android:textColor="@color/primary_text" android:gravity="center_horizontal" android:id="@id/selfie_head_direction_tv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="32.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="32.0dip" android:text="@string/novi_selfie_follow_face_instruction" app:fontFamily="sans-serif-medium" />
+</LinearLayout>

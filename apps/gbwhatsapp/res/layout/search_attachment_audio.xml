@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.conversation.conversationrow.ConversationRowAudioPreview android:id="@id/search_row_audio_preview" android:layout_width="wrap_content" android:layout_height="@dimen/search_message_audio_preview_size" android:layout_margin="4.0dip" android:minWidth="@dimen/search_message_audio_preview_size" />
+    <com.gbwhatsapp.search.views.itemviews.AudioPlayerView android:id="@id/search_row_audio_controls" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" whatsapp:seekbar_marginLeft="12.0dip" />
+</merge>

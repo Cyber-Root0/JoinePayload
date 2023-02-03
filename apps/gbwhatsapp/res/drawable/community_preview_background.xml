@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/space_base" />
+            <solid android:color="@color/community_preview_bubble_background" />
+        </shape>
+    </item>
+</selector>

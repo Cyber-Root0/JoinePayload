@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.ctwa.bizpreview.BusinessPreviewMediaCardGrid android:id="@id/product_catalog_media_card_view" android:layout_width="fill_parent" android:layout_height="fill_parent" app:gridColumns="4" app:icContentColor="@color/primary_surface" app:mcInfo="@string/business_product_catalog_see_all" app:mcTitle="@string/gallery_tab_products" style="@style/InfoCard"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

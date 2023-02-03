@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/warning_banner_background_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="@dimen/list_contact_selector_width" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_storage_warning" app:tint="@color/storage_usage_full_icon_color" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:layout_marginBottom="18.0dip" android:layout_weight="1.0">
+        <com.gbwhatsapp.WaTextView android:textSize="15.0sp" android:textColor="@color/storage_usage_banner_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_state_sync_fatal_banner_title" android:includeFontPadding="false" app:fontFamily="sans-serif-medium" />
+        <com.gbwhatsapp.WaTextView android:textSize="15.0sp" android:textColor="@color/storage_usage_banner_body" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/app_state_sync_fatal_banner_body" android:includeFontPadding="false" />
+    </LinearLayout>
+</LinearLayout>

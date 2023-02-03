@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:robobunny="http://robobunny.com">
+    <com.gbwhatsapp.yo.ColorPref android:title="@string/emojiHeaderColor" android:key="emojipopup_header" android:summary="@string/emojiHeaderColorSum" />
+    <com.gbwhatsapp.yo.ColorPref android:title="@string/emojiHeadIconsColor" android:key="emojipopup_icons" android:summary="@string/emojiHeadIconsColorSum" />
+    <com.gbwhatsapp.yo.ColorPref android:title="@string/emojiBackColor" android:key="emojipopup_body" android:summary="@string/emojiBackColorSum" />
+    <com.gbwhatsapp.yo.ColorPref android:title="@string/yoHyperLinksColor" android:key="ModChatBubbleHyperlinks" android:summary="@string/yoHyperLinksColorSum" />
+    <com.gbwhatsapp.yo.ColorPref android:title="@string/chatInfoBalloonsText" android:key="date_divider_color_picker" android:summary="@string/chatInfoBalloonsTextS" />
+    <com.gbwhatsapp.yo.ColorPref android:title="@string/chatInfoBalloonsBK" android:key="date_bubble_color_picker" android:summary="@string/chatInfoBalloonsBKS" />
+    <com.gbwhatsapp.yo.ColorPref android:title="@string/grparticpantName_color" android:key="participant_name_color_picker" android:summary="@string/grparticpantName_colorS" />
+    <com.gbwhatsapp.yo.ColorPref android:title="@string/yoVoiceNoteSeekbar" android:key="seekbar_color_chat_picker" android:summary="@string/yoVoiceNoteSeekbarS" />
+    <com.gbwhatsapp.yo.ColorPref android:title="@string/yoVoiceNotePlayBtn" android:key="btn_voice_color_chat_picker" android:summary="@string/yoVoiceNotePlayBtnS" />
+</PreferenceScreen>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="oval"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/missed_call_circle_background_color" />
+    <size android:height="@dimen/flash_call_missed_call_layout_height" android:width="@dimen/flash_call_missed_call_layout_width" />
+</shape>

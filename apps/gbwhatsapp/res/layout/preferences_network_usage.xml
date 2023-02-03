@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="?settingsTitleTextColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="72.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="24.0dip" android:text="@string/usage" app:fontFamily="sans-serif-medium" />
+        <com.gbwhatsapp.WaTextView android:id="@id/last_updated_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="72.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="8.0dip" style="?settingsSubtitleText" />
+        <com.gbwhatsapp.WaTextView android:textSize="28.0sp" android:textColor="?settingsTitleAccentColor" android:id="@id/total_network_usage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="72.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="8.0dip" />
+        <LinearLayout android:orientation="horizontal" android:paddingLeft="72.0dip" android:paddingTop="16.0dip" android:paddingRight="24.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:weightSum="2.0">
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <com.gbwhatsapp.WaTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sent" android:drawableLeft="@drawable/ic_small_arrow_up" android:drawablePadding="4.0dip" app:drawableTint="@color/settings_network_usage_arrow_tint" style="?settingsSubtitleText" />
+                <com.gbwhatsapp.WaTextView android:id="@id/total_network_usage_sent" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?settingsTitleText" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <com.gbwhatsapp.WaTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/received" android:drawableLeft="@drawable/ic_small_arrow_down" android:drawablePadding="4.0dip" app:drawableTint="@color/settings_network_usage_arrow_tint" style="?settingsSubtitleText" />
+                <com.gbwhatsapp.WaTextView android:id="@id/total_network_usage_received" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?settingsTitleText" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:layout_marginLeft="72.0dip" style="?settingsDivider" />
+        <FrameLayout android:id="@id/calls_row" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="72.0dip">
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.gbwhatsapp.WaImageView android:id="@id/calls_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="24.0dip" android:src="@drawable/ic_settings_phone" app:tint="?settingsIconColor" />
+                    <com.gbwhatsapp.WaTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/network_usage_calls" android:maxLines="1" android:singleLine="true" style="?settingsTitleText" />
+                    <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                    <com.gbwhatsapp.WaTextView android:id="@id/call_data_sent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:drawableLeft="@drawable/ic_small_arrow_up" android:drawablePadding="4.0dip" app:drawableTint="@color/settings_network_usage_arrow_tint" style="?settingsSubtitleText" />
+                    <com.gbwhatsapp.WaTextView android:id="@id/call_data_received" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableLeft="@drawable/ic_small_arrow_down" android:drawablePadding="4.0dip" app:drawableTint="@color/settings_network_usage_arrow_tint" style="?settingsSubtitleText" />
+                </LinearLayout>
+                <com.gbwhatsapp.components.RoundCornerProgressBar android:id="@id/calls_data_bar" style="@style/SettingsUsageBar" />
+                <com.gbwhatsapp.WaTextView android:textSize="13.0sp" android:textColor="?settingsSubtitleTextColor" android:id="@id/calls_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="72.0dip" android:layout_marginRight="24.0dip" android:maxLines="1" android:singleLine="true" />
+            </LinearLayout>
+        </FrameLayout>
+        <FrameLayout android:id="@id/media_row" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="72.0dip">
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.gbwhatsapp.WaImageView android:id="@id/media_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="24.0dip" android:src="@drawable/ic_settings_media" app:tint="?settingsIconColor" />
+                    <com.gbwhatsapp.WaTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/media" android:maxLines="1" android:singleLine="true" style="?settingsTitleText" />
+                    <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                    <com.gbwhatsapp.WaTextView android:id="@id/media_data_sent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:drawableLeft="@drawable/ic_small_arrow_up" android:drawablePadding="4.0dip" app:drawableTint="@color/settings_network_usage_arrow_tint" style="?settingsSubtitleText" />
+                    <com.gbwhatsapp.WaTextView android:id="@id/media_data_received" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableLeft="@drawable/ic_small_arrow_down" android:drawablePadding="4.0dip" app:drawableTint="@color/settings_network_usage_arrow_tint" style="?settingsSubtitleText" />
+                </LinearLayout>
+                <com.gbwhatsapp.components.RoundCornerProgressBar android:id="@id/media_data_bar" style="@style/SettingsUsageBar" />
+            </LinearLayout>
+        </FrameLayout>
+        <FrameLayout android:id="@id/gdrive_row" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="72.0dip">
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.gbwhatsapp.WaImageView android:id="@id/gdrive_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="24.0dip" android:src="@drawable/ic_settings_google_drive" app:tint="?settingsIconColor" />
+                    <com.gbwhatsapp.WaTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/google_drive" android:maxLines="1" android:singleLine="true" style="?settingsTitleText" />
+                    <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                    <com.gbwhatsapp.WaTextView android:id="@id/gdrive_data_sent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:drawableLeft="@drawable/ic_small_arrow_up" android:drawablePadding="4.0dip" app:drawableTint="@color/settings_network_usage_arrow_tint" style="?settingsSubtitleText" />
+                    <com.gbwhatsapp.WaTextView android:id="@id/gdrive_data_received" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableLeft="@drawable/ic_small_arrow_down" android:drawablePadding="4.0dip" app:drawableTint="@color/settings_network_usage_arrow_tint" style="?settingsSubtitleText" />
+                </LinearLayout>
+                <com.gbwhatsapp.components.RoundCornerProgressBar android:id="@id/gdrive_data_bar" style="@style/SettingsUsageBar" />
+            </LinearLayout>
+        </FrameLayout>
+        <FrameLayout android:id="@id/messages_row" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="72.0dip">
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.gbwhatsapp.WaImageView android:id="@id/messages_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="24.0dip" android:src="@drawable/ic_settings_chats" app:tint="?settingsIconColor" />
+                    <com.gbwhatsapp.WaTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/messages" android:maxLines="1" android:singleLine="true" style="?settingsTitleText" />
+                    <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                    <com.gbwhatsapp.WaTextView android:id="@id/messages_data_sent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:drawableLeft="@drawable/ic_small_arrow_up" android:drawablePadding="4.0dip" app:drawableTint="@color/settings_network_usage_arrow_tint" style="?settingsSubtitleText" />
+                    <com.gbwhatsapp.WaTextView android:id="@id/messages_data_received" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableLeft="@drawable/ic_small_arrow_down" android:drawablePadding="4.0dip" app:drawableTint="@color/settings_network_usage_arrow_tint" style="?settingsSubtitleText" />
+                </LinearLayout>
+                <com.gbwhatsapp.components.RoundCornerProgressBar android:id="@id/messages_data_bar" style="@style/SettingsUsageBar" />
+                <com.gbwhatsapp.WaTextView android:textSize="13.0sp" android:textColor="?settingsSubtitleTextColor" android:id="@id/messages_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="72.0dip" android:layout_marginRight="24.0dip" android:maxLines="1" android:singleLine="true" />
+            </LinearLayout>
+        </FrameLayout>
+        <FrameLayout android:id="@id/status_row" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="72.0dip">
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.gbwhatsapp.WaImageView android:id="@id/status_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="24.0dip" android:src="@drawable/ic_settings_data_usage" app:tint="?settingsIconColor" />
+                    <com.gbwhatsapp.WaTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/status" android:maxLines="1" android:singleLine="true" style="?settingsTitleText" />
+                    <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                    <com.gbwhatsapp.WaTextView android:id="@id/status_data_sent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:drawableLeft="@drawable/ic_small_arrow_up" android:drawablePadding="4.0dip" app:drawableTint="@color/settings_network_usage_arrow_tint" style="?settingsSubtitleText" />
+                    <com.gbwhatsapp.WaTextView android:id="@id/status_data_received" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableLeft="@drawable/ic_small_arrow_down" android:drawablePadding="4.0dip" app:drawableTint="@color/settings_network_usage_arrow_tint" style="?settingsSubtitleText" />
+                </LinearLayout>
+                <com.gbwhatsapp.components.RoundCornerProgressBar android:id="@id/status_data_bar" style="@style/SettingsUsageBar" />
+                <com.gbwhatsapp.WaTextView android:textSize="13.0sp" android:textColor="?settingsSubtitleTextColor" android:id="@id/status_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="72.0dip" android:layout_marginRight="24.0dip" />
+            </LinearLayout>
+        </FrameLayout>
+        <FrameLayout android:id="@id/roaming_row" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="72.0dip">
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.gbwhatsapp.WaImageView android:id="@id/roaming_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="24.0dip" android:src="@drawable/ic_settings_roaming" app:tint="?settingsIconColor" />
+                    <com.gbwhatsapp.WaTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/roaming" android:maxLines="1" android:singleLine="true" style="?settingsTitleText" />
+                    <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                    <com.gbwhatsapp.WaTextView android:id="@id/roaming_data_sent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:drawableLeft="@drawable/ic_small_arrow_up" android:drawablePadding="4.0dip" app:drawableTint="@color/settings_network_usage_arrow_tint" style="?settingsSubtitleText" />
+                    <com.gbwhatsapp.WaTextView android:id="@id/roaming_data_received" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableLeft="@drawable/ic_small_arrow_down" android:drawablePadding="4.0dip" app:drawableTint="@color/settings_network_usage_arrow_tint" style="?settingsSubtitleText" />
+                </LinearLayout>
+                <com.gbwhatsapp.components.RoundCornerProgressBar android:id="@id/roaming_data_bar" style="@style/SettingsUsageBar" />
+            </LinearLayout>
+        </FrameLayout>
+        <View style="?settingsDivider" />
+        <FrameLayout android:id="@id/reset_network_usage_row" android:background="?android:selectableItemBackground" android:paddingTop="15.0dip" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="72.0dip">
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingLeft="72.0dip" android:paddingRight="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.gbwhatsapp.WaTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/network_usage_reset" android:maxLines="1" android:singleLine="true" style="?settingsTitleText" />
+                <com.gbwhatsapp.WaTextView android:id="@id/last_usage_reset" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" style="?settingsSubtitleText" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</ScrollView>

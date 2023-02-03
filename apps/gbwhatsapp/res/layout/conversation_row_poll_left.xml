@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center|left" android:orientation="vertical" android:id="@id/polls_main_layout" android:layout_width="@dimen/conversation_row_poll_width" android:layout_height="wrap_content" android:layout_marginRight="@dimen/conversation_row_margin_large" android:minHeight="30.0dip">
+        <include layout="@layout/conversation_row_participant_header_with_padding" />
+        <com.gbwhatsapp.TextEmojiLabel android:textAppearance="@style/WA.TextAppearance.ConversationRowMessage" android:layout_gravity="left" android:id="@id/poll_name" android:paddingLeft="10.0dip" android:paddingTop="6.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="no" app:fontFamily="sans-serif-medium" />
+        <LinearLayout android:orientation="vertical" android:id="@id/poll_options" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:importantForAccessibility="no" />
+        <ViewStub android:id="@id/invalid_poll_text" android:visibility="gone" android:layout="@layout/conversation_poll_invalid_text" android:inflatedId="@id/invalid_poll_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" />
+        <include layout="@layout/conversation_row_date_wrapper_left" />
+        <View android:background="@color/poll_conversation_divider" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="8.0dip" android:importantForAccessibility="no" />
+        <com.gbwhatsapp.WaTextView android:textSize="@dimen/conversation_text_row_tv" android:textColor="@color/selector_incoming_poll_view_votes_color" android:gravity="center" android:id="@id/view_details" android:padding="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/poll_view_details" app:fontFamily="sans-serif-medium" />
+    </LinearLayout>
+</merge>

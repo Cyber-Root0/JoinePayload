@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.TextEmojiLabel android:textSize="@dimen/linked_devices_description_text_size" android:textColor="@color/secondary_text" android:gravity="center_horizontal" android:id="@id/place_holder_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="32.0dip" android:layout_marginTop="@dimen/linked_devices_no_device_placeholder_margin_top" android:layout_marginRight="32.0dip" android:text="@string/device_linking_no_devices_place_holder" android:lineSpacingExtra="@dimen/linked_devices_description_text_spacing" android:layout_marginHorizontal="32.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

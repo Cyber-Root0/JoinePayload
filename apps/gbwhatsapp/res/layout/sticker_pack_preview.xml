@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/sticker_pack_preview_layout" android:background="?android:actionBarItemBackground" android:layout_width="40.0dip" android:layout_height="36.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaImageView android:id="@id/icon" android:padding="6.0dip" android:layout_width="40.0dip" android:layout_height="36.0dip" android:src="@drawable/selector_sticker_pack_error" android:scaleType="fitCenter" />
+    <View android:layout_gravity="bottom" android:id="@id/sel_marker" android:background="@color/picker_underline_color" android:layout_width="40.0dip" android:layout_height="2.0dip" />
+    <View android:layout_gravity="center|right|top" android:id="@id/badge" android:visibility="gone" style="@style/StickerUpdateBadge" />
+</FrameLayout>

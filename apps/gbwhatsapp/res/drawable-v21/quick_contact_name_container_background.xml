@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="?colorControlHighlight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <padding android:left="4.0dip" android:top="4.0dip" android:right="4.0dip" android:bottom="8.0dip" />
+            <solid android:color="@color/quick_contact_window_background_color" />
+        </shape>
+    </item>
+</ripple>

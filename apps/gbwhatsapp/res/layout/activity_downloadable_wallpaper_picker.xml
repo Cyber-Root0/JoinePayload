@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:theme="@style/ThemeOverlay.AppCompat.ActionBar" android:id="@id/appbar" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.BidiToolbar android:id="@id/toolbar" style="@style/Toolbar.Neutral" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidy.recyclerview.widget.RecyclerView android:id="@id/wallpaper_thumbnail_recyclerview" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:id="@id/wallpaper_thumbnail_error_container" android:padding="@dimen/wallpaper_picker_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.gbwhatsapp.WaTextView android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/wallpaper_thumbnails_loading_error_message" />
+        <com.gbwhatsapp.WaButton android:id="@id/wallpaper_thumbnail_reload_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="140.0dip" android:layout_marginBottom="140.0dip" android:text="@string/wallpaper_thumbnails_reload" style="@style/WA.Button" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/wallpaper_thumbnails_progress_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_gravity="center" android:layout_width="48.0dip" android:layout_height="48.0dip" android:indeterminate="true" style="?android:progressBarStyleLarge" />
+    </FrameLayout>
+</LinearLayout>

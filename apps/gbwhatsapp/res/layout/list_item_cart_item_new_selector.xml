@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/selector_orange_gradient" android:paddingRight="@dimen/horizontal_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidy.cardview.widget.CardView android:id="@id/cart_item_thumbnail_card" android:layout_width="@dimen/product_catalog_list_thumb_size" android:layout_height="@dimen/product_catalog_list_thumb_size" android:layout_marginLeft="@dimen/product_catalog_list_thumb_margin_horizontal" android:layout_marginTop="@dimen/product_catalog_list_thumb_margin_vertical" android:layout_marginBottom="@dimen/product_catalog_list_thumb_margin_vertical" app:cardCornerRadius="@dimen/catalog_item_image_radius">
+        <com.gbwhatsapp.WaImageView android:id="@id/cart_item_thumbnail" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </androidy.cardview.widget.CardView>
+    <LinearLayout android:orientation="vertical" android:id="@id/cart_item_description_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/cart_item_price_container" android:layout_toRightOf="@id/cart_item_thumbnail_card" android:layout_centerVertical="true">
+        <com.gbwhatsapp.TextEmojiLabel android:id="@id/cart_item_title" android:layout_marginLeft="16.0dip" style="@style/ProductTitle" />
+        <com.gbwhatsapp.biz.catalog.view.widgets.QuantitySelector android:id="@id/cart_item_quantity_selector" android:layout_width="wrap_content" android:layout_height="42.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="8.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/cart_item_price_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <com.gbwhatsapp.TextEmojiLabel android:textSize="16.0sp" android:textColor="@color/primary_text" android:id="@id/cart_item_price" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" />
+        <com.gbwhatsapp.TextEmojiLabel android:layout_gravity="end" android:id="@id/cart_item_original_price" style="@style/ProductPrice" />
+    </LinearLayout>
+</RelativeLayout>

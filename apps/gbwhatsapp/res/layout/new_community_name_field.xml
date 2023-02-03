@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/name_text_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaTextView android:theme="@style/TextAppearance.General.Body2.TextInputLayout" android:gravity="left" android:id="@id/name_hint" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/community_name_hint" android:importantForAccessibility="yes" />
+    <com.gbwhatsapp.WaEditText android:textSize="@dimen/new_community_edit_text_size" android:textColorHint="@color/secondary_text" android:id="@id/group_name" android:background="@drawable/new_community_edit_text_background" android:paddingRight="@dimen/counter_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:lines="1" android:singleLine="true" android:inputType="textCapWords" android:imeOptions="actionNext" android:contentDescription="@string/community_name_hint" />
+</LinearLayout>

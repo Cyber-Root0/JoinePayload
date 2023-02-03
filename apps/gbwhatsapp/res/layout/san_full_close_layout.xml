@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/fl_close" android:background="@drawable/san_vast_player_reward_time_bg" android:layout_width="wrap_content" android:layout_height="@dimen/common_dimens_25dp" android:layout_marginTop="@dimen/common_dimens_20dp" android:layout_marginRight="@dimen/common_dimens_12dp" android:minWidth="@dimen/common_dimens_25dp" android:layout_alignParentRight="true" android:layout_marginEnd="@dimen/common_dimens_12dp" android:layout_alignParentEnd="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/iv_close" android:padding="@dimen/common_dimens_2dp" android:visibility="gone" android:layout_width="@dimen/common_dimens_25dp" android:layout_height="@dimen/common_dimens_25dp" android:src="@drawable/san_interstitial_close" android:scaleType="fitXY" />
+    <TextView android:textSize="@dimen/common_text_size_13sp" android:textColor="@color/white" android:layout_gravity="center" android:id="@id/tv_count" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/common_dimens_9dp" android:layout_marginRight="@dimen/common_dimens_9dp" />
+</FrameLayout>

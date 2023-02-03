@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidy.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/catalog_image_list" android:background="@color/catalog_image_list_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:layout_gravity="top" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.BidiToolbar android:id="@id/catalog_image_list_toolbar" android:background="@color/primary" android:layout_width="fill_parent" android:layout_height="@dimen/actionbar_height" app:popupTheme="@style/Toolbar.Popup" app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+    </FrameLayout>
+    <View android:layout_gravity="top" android:id="@id/transition_clipper_top" android:layout_width="fill_parent" android:layout_height="0.0dip" android:transitionName="@string/transition_clipper_top" />
+    <View android:layout_gravity="bottom" android:id="@id/transition_clipper_bottom" android:layout_width="fill_parent" android:layout_height="0.0dip" android:transitionName="@string/transition_clipper_bottom" />
+</FrameLayout>

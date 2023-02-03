@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/web_container_layout" android:layout="@layout/rwd_base_web_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include android:id="@id/base_loadingbar_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/rwd_base_loadingbar_layout" />
+    <ViewStub android:id="@id/base_error_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/base_empty_layout" android:layout="@layout/rwd_base_empty_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

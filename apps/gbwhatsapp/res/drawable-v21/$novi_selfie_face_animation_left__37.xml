@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator android:interpolator="@drawable/$novi_selfie_face_animation_left__38" android:duration="1000" android:startOffset="0" android:propertyName="translateXY" android:pathData="M 52.706,-6.075C 52.706,-6.075 52.706,-6.075 52.706,-6.075" android:propertyXName="translateX" android:propertyYName="translateY" />
+    <objectAnimator android:interpolator="@drawable/$novi_selfie_face_animation_left__39" android:duration="1000" android:startOffset="1000" android:propertyName="translateXY" android:pathData="M 52.706,-6.075C 52.706,-6.075 2.706,-6.075 2.706,-6.075" android:propertyXName="translateX" android:propertyYName="translateY" />
+    <objectAnimator android:interpolator="@drawable/$novi_selfie_face_animation_left__40" android:duration="1000" android:startOffset="2000" android:propertyName="translateXY" android:pathData="M 2.706,-6.075C 2.706,-6.075 2.706,-6.075 2.706,-6.075" android:propertyXName="translateX" android:propertyYName="translateY" />
+    <objectAnimator android:interpolator="@drawable/$novi_selfie_face_animation_left__41" android:duration="1000" android:startOffset="3000" android:propertyName="translateXY" android:pathData="M 2.706,-6.075C 2.706,-6.075 52.706,-6.075 52.706,-6.075" android:propertyXName="translateX" android:propertyYName="translateY" />
+</set>

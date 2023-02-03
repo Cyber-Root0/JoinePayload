@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/button_div" style="@style/SectionDivider.Heavy" />
+    <FrameLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/native_flow_action_button" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="44.0dip">
+        <com.gbwhatsapp.TextEmojiLabel android:textColor="@color/conversation_row_button_text_selector" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/button_content" android:padding="0.0dip" android:focusable="false" android:layout_width="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="13.0dip" android:maxLines="1" android:drawablePadding="@dimen/button_inset_vertical" app:drawableTint="@color/conversation_row_button_text_selector" style="@style/ConversationSharedContactButton" />
+    </FrameLayout>
+</merge>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:drawable="@drawable/next_payment_entry_action_button_disabled" />
+    <item android:drawable="@drawable/next_payment_entry_action_button" />
+</selector>

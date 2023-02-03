@@ -1,0 +1,2 @@
+org.spongycastle.jce.provider.BouncyCastleProvider
+org.spongycastle.pqc.jcajce.provider.BouncyCastlePQCProvider

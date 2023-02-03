@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/chips_tab_unselected_pill_bg" />
+    <corners android:radius="@dimen/chips_tab_pill_radius" />
+</shape>

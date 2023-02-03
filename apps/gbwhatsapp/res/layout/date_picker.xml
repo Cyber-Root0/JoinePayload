@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.textfield.TextInputLayout android:theme="@style/WaTextInputLayoutAppearance" android:gravity="start" android:id="@id/inputView" android:layout_width="fill_parent" android:layout_height="wrap_content" whatsapp:hintEnabled="true">
+        <com.google.android.material.textfield.TextInputEditText android:textSize="16.0sp" android:textColor="@color/primary_text" android:gravity="start" android:id="@id/hintOrDate" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:imeOptions="flagNoExtractUi" />
+    </com.google.android.material.textfield.TextInputLayout>
+</LinearLayout>

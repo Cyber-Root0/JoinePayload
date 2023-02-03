@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.AppCompat" parent="@style/Base.V28.Theme.AppCompat" />
+    <style name="Base.Theme.AppCompat.Light" parent="@style/Base.V28.Theme.AppCompat.Light" />
+    <style name="FlashCallPermissionExplanationStyle">
+        <item name="android:textSize">@dimen/flash_call_permission_text_size</item>
+        <item name="android:textColor">@color/secondary_text</item>
+        <item name="android:gravity">left</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:lineHeight">@dimen/flash_call_permission_text_line_height</item>
+    </style>
+    <style name="IndiaSendPaymentAmountInput">
+        <item name="android:textSize">42.0dip</item>
+        <item name="android:textColor">@color/payments_currency_amount_text_color</item>
+        <item name="android:textColorHint">@color/payments_currency_amount_hint_color</item>
+        <item name="android:gravity">start</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textCursorDrawable">@drawable/payment_amount_cursor</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:lineHeight">48.0dip</item>
+    </style>
+    <style name="IndiaSendPaymentCurrencySymbolAmount">
+        <item name="android:textSize">42.0dip</item>
+        <item name="android:textColor">@color/payments_currency_amount_text_color</item>
+        <item name="android:layout_gravity">start|center|top</item>
+        <item name="android:layout_marginLeft">8.0dip</item>
+        <item name="android:layout_marginRight">4.0dip</item>
+        <item name="android:lineHeight">48.0dip</item>
+    </style>
+    <style name="NoviSendPaymentAmountInput">
+        <item name="android:textSize">42.0dip</item>
+        <item name="android:textColor">@color/novi_payments_currency_amount_text_color</item>
+        <item name="android:textColorHint">@color/novi_payments_currency_amount_hint_color</item>
+        <item name="android:gravity">start</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textCursorDrawable">@drawable/payment_amount_cursor</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:lineHeight">48.0dip</item>
+    </style>
+    <style name="SendPaymentAmountInput">
+        <item name="android:textSize">42.0dip</item>
+        <item name="android:textColor">@color/payments_currency_amount_text_color</item>
+        <item name="android:textColorHint">@color/payments_currency_amount_hint_color</item>
+        <item name="android:gravity">start</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textCursorDrawable">@drawable/payment_amount_cursor</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:lineHeight">48.0dip</item>
+    </style>
+    <style name="SendPaymentCurrencySymbolAfterAmount">
+        <item name="android:textSize">42.0dip</item>
+        <item name="android:textColor">@color/payments_currency_amount_text_color</item>
+        <item name="android:layout_gravity">end|center|top</item>
+        <item name="android:layout_marginLeft">4.0dip</item>
+        <item name="android:layout_marginTop">10.0dip</item>
+        <item name="android:layout_marginRight">8.0dip</item>
+        <item name="android:lineHeight">48.0dip</item>
+    </style>
+    <style name="SendPaymentCurrencySymbolBeforeAmount">
+        <item name="android:textSize">42.0dip</item>
+        <item name="android:textColor">@color/payments_currency_amount_text_color</item>
+        <item name="android:layout_gravity">start|center|top</item>
+        <item name="android:layout_marginLeft">8.0dip</item>
+        <item name="android:layout_marginRight">4.0dip</item>
+        <item name="android:lineHeight">48.0dip</item>
+    </style>
+    <style name="Base.V28.Theme.AppCompat" parent="@style/Base.V26.Theme.AppCompat">
+        <item name="dialogCornerRadius">?android:dialogCornerRadius</item>
+    </style>
+    <style name="Base.V28.Theme.AppCompat.Light" parent="@style/Base.V26.Theme.AppCompat.Light">
+        <item name="dialogCornerRadius">?android:dialogCornerRadius</item>
+    </style>
+</resources>

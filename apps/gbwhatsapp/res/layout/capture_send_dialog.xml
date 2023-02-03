@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.KeyboardPopupLayout android:id="@id/main" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/caption_entry" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <include layout="@layout/media_caption_entry" />
+    </FrameLayout>
+</com.gbwhatsapp.KeyboardPopupLayout>

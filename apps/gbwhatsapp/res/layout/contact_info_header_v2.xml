@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/header_placeholder" android:layout_width="fill_parent" android:layout_height="@dimen/info_screen_header" />
+    <include layout="@layout/smb_label_scroller_stub" />
+    <View android:id="@id/header_bottom_shadow" android:visibility="gone" style="@style/ListBottomShadow" />
+    <ViewStub android:id="@id/business_details_card_stub" android:inflatedId="@id/business_details_card" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/contact_details_card_stub" android:inflatedId="@id/contact_details_card" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include layout="@layout/contact_info_status_phone_card" />
+    <include layout="@layout/privacy_card_v2" />
+    <com.gbwhatsapp.chatinfo.view.custom.ChatInfoMediaCardV2 android:id="@id/media_card_view" android:layout_width="fill_parent" android:layout_height="wrap_content" app:icContentColor="@color/primary_surface" app:mcTitle="@string/view_conversation_media" style="@style/InfoCard" />
+    <include layout="@layout/live_location_card" />
+    <include layout="@layout/actions_card_v2" />
+    <include layout="@layout/contact_info_security_card_v2" />
+    <LinearLayout android:orientation="vertical" android:id="@id/groups_card" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View style="@style/ListTopShadow" />
+        <FrameLayout android:background="@color/primary_surface" android:paddingLeft="@dimen/info_screen_padding" style="@style/FlatCardHeader">
+            <com.gbwhatsapp.WaTextView android:ellipsize="end" android:id="@id/groups_in_common" android:singleLine="true" style="@style/FlatCardTitle.V2" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:background="@color/primary_surface" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/create_new_group_stub" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

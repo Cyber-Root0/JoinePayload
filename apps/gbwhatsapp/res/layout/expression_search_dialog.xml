@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/expression_search_dialog_container" android:background="@color/primary_surface" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/search_bar_layout" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@id/back_btn" android:layout_width="48.0dip" android:layout_height="fill_parent" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:src="@drawable/ic_back" android:contentDescription="@string/back" app:tint="@color/icon_secondary" style="@style/ActionBarButtonStyle" />
+        <com.gbwhatsapp.WaEditText android:textSize="16.0sp" android:textColor="@color/primary_text" android:textColorHint="@color/hint_text" android:layout_gravity="center_vertical" android:id="@id/search_text_field" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:hint="@string/searching" android:singleLine="true" android:layout_weight="1.0" android:imeOptions="actionSearch" />
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@id/clear_search_bar_btn" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="fill_parent" android:layout_marginRight="16.0dip" android:src="@drawable/ic_close" android:contentDescription="@string/clear" app:tint="@color/icon_secondary" style="@style/ActionBarButtonStyle" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/expression_tabs_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.material.tabs.TabLayout android:id="@id/expression_category_tabs" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:tabGravity="fill" app:tabIndicatorColor="@color/media_gallery_tab_indicator" app:tabIndicatorHeight="3.0dip" app:tabMaxWidth="0.0dip" app:tabMode="fixed" app:tabRippleColor="@color/mediaGalleryRippleColor" app:tabTextAppearance="@style/TabTextSentenceCase" />
+        <com.gbwhatsapp.collections.MarginCorrectedViewPager android:id="@id/expression_category_viewpager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <View android:id="@id/separator" style="@style/SectionDivider" />
+    </LinearLayout>
+</LinearLayout>

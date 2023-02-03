@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/list_item_with_left_icon" android:background="@drawable/selector_orange_gradient" android:padding="@dimen/info_screen_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaImageView android:layout_gravity="center|left" android:id="@id/list_item_icon" android:layout_width="@dimen/list_item_icon_size" android:layout_height="@dimen/list_item_icon_size" android:layout_marginLeft="@dimen/space_base" android:layout_marginRight="@dimen/space_xLoose" android:scaleType="center" android:layout_marginStart="@dimen/space_base" android:layout_marginEnd="@dimen/space_xLoose" app:tint="@color/icon_secondary" app:tintMode="src_in" />
+    <LinearLayout android:gravity="left" android:layout_gravity="center|left" android:orientation="vertical" android:paddingRight="@dimen/list_item_right_view_padding" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.gbwhatsapp.WaTextView android:id="@id/list_item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ListItemTitle.V2" />
+        <com.gbwhatsapp.TextEmojiLabel android:textSize="@dimen/list_item_subtitle_size" android:textColor="@color/secondary_text" android:gravity="left" android:id="@id/list_item_description" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/right_view_container" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/conversation_chat_history_progress" android:background="@drawable/date_balloon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:importantForAccessibility="no"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/history_sync_progress_loader" android:padding="3.0dip" android:layout_width="25.0dip" android:layout_height="25.0dip" style="?android:progressBarStyle" />
+    <com.gbwhatsapp.WaTextView android:textColor="@color/conversation_divider_text" android:gravity="center" android:id="@id/history_sync_progress_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

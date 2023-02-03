@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="@color/payments_header_font_color" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="12.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:fontFamily="sans-serif-medium" />
+    <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="@color/secondary_text" android:id="@id/education" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="24.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+    <com.gbwhatsapp.components.Button android:id="@id/confirm" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/WA.Button" />
+</LinearLayout>

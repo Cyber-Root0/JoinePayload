@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list android:opacity="opaque"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="bottom|center" android:bottom="20.0dip">
+        <bitmap android:gravity="bottom|center" android:src="@drawable/splash_from_meta" />
+    </item>
+</layer-list>

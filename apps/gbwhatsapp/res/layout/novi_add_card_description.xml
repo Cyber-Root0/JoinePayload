@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/novi_send_money_review_header" />
+    <com.gbwhatsapp.WaTextView android:textSize="15.0sp" android:id="@id/novi_add_debit_card_description_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="17.0dip" android:text="@string/novi_deposit_add_debit_card" />
+    <ViewStub android:id="@id/novi_withdraw_review_confirm" android:inflatedId="@id/novi_withdraw_review_confirm_inflated" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip" />
+</LinearLayout>

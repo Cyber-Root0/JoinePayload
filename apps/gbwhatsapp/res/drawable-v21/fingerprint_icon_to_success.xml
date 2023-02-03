@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector android:drawable="@drawable/$fingerprint_icon_to_success__0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <target android:name="path" android:animation="@drawable/$fingerprint_icon_to_success__1" />
+    <target android:name="path_5" android:animation="@drawable/$fingerprint_icon_to_success__2" />
+    <target android:name="path_8" android:animation="@drawable/$fingerprint_icon_to_success__3" />
+    <target android:name="path_4" android:animation="@drawable/$fingerprint_icon_to_success__4" />
+    <target android:name="path_10" android:animation="@drawable/$fingerprint_icon_to_success__5" />
+    <target android:name="path_11" android:animation="@drawable/$fingerprint_icon_to_success__6" />
+</animated-vector>

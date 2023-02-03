@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="14.0dip" android:width="12.0dip" android:viewportWidth="12.0" android:viewportHeight="14.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/home_placeholder_lock_tint" android:pathData="M10,4.6667H9.3333V3.3333C9.3333,1.4933 7.84,0 6,0C4.16,0 2.6666,1.4933 2.6666,3.3333V4.6667H2C1.2666,4.6667 0.6666,5.2667 0.6666,6V12.6667C0.6666,13.4 1.2666,14 2,14H10C10.7333,14 11.3333,13.4 11.3333,12.6667V6C11.3333,5.2667 10.7333,4.6667 10,4.6667ZM6,10.6667C5.2666,10.6667 4.6666,10.0667 4.6666,9.3333C4.6666,8.6 5.2666,8 6,8C6.7333,8 7.3333,8.6 7.3333,9.3333C7.3333,10.0667 6.7333,10.6667 6,10.6667ZM4,3.3333V4.6667H8V3.3333C8,2.2267 7.1066,1.3333 6,1.3333C4.8933,1.3333 4,2.2267 4,3.3333Z" android:fillType="evenOdd" />
+</vector>

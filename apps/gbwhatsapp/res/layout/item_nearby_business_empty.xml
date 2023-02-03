@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/product_margin_24dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="@color/secondary_text" android:gravity="center" android:id="@id/error_message" android:paddingLeft="@dimen/product_margin_16dp" android:paddingRight="@dimen/product_margin_16dp" android:paddingBottom="@dimen/product_margin_24dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/biz_directory_nearby_business_not_found" />
+    <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:gravity="center" android:id="@id/update_location_button" android:paddingLeft="@dimen/dir_margin_44" android:paddingTop="@dimen/dir_margin_20" android:paddingRight="@dimen/dir_margin_44" android:paddingBottom="@dimen/dir_margin_20" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/biz_dir_change_location" app:textAllCaps="true" style="@style/CategorySeeMoreLabel" />
+</LinearLayout>

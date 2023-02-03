@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.KeyboardPopupLayout android:id="@id/main" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/filler" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/container" android:layout_alignParentTop="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/container" android:background="@drawable/bottom_sheet_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip">
+                <com.gbwhatsapp.WaTextView android:textSize="18.0sp" android:textColor="@color/primary_light" android:id="@id/send_invite_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/send_group_invite_title" />
+                <androidy.recyclerview.widget.RecyclerView android:layout_gravity="left" android:id="@id/invite_contacts_recycler" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="5.0dip" />
+                <com.gbwhatsapp.WaFrameLayout android:background="@drawable/link_preview_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="10.0dip" android:foreground="@drawable/balloon_incoming_frame" whatsapp:waflForegroundTint="@color/bubble_color_incoming">
+                    <LinearLayout android:orientation="horizontal" android:padding="@dimen/group_invite_bubble_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <com.gbwhatsapp.components.button.ThumbnailButton android:enabled="false" android:layout_gravity="center|top" android:id="@id/group_photo" android:layout_width="44.0dip" android:layout_height="44.0dip" android:layout_marginRight="@dimen/group_invite_avatar_right_padding" android:src="@drawable/avatar_group" android:scaleType="fitCenter" whatsapp:tbtnForegroundOnly="false" whatsapp:tbtnRadius="@dimen/small_avatar_radius" />
+                        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:clipChildren="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                <com.gbwhatsapp.TextEmojiLabel android:textSize="17.0sp" android:textColor="@color/list_item_title" android:ellipsize="end" android:id="@id/group_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="right" android:orientation="horizontal" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                <com.gbwhatsapp.TextEmojiLabel android:textSize="12.0sp" android:textColor="@color/list_item_sub_title" android:gravity="left" android:layout_gravity="left" android:id="@id/group_invite_subtitle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/group_invite" android:layout_weight="1.0" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </com.gbwhatsapp.WaFrameLayout>
+            </LinearLayout>
+        </ScrollView>
+        <include layout="@layout/group_invite_comment_entry" />
+    </LinearLayout>
+</com.gbwhatsapp.KeyboardPopupLayout>

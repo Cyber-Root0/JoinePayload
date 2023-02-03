@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.InfoCard android:orientation="vertical" android:id="@id/contact_info_security_card" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/InfoCard"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@color/primary_surface" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.ListItemWithLeftIcon android:id="@id/encryption_info_view" android:layout_width="fill_parent" android:layout_height="wrap_content" app:listItemWithIconIcon="@drawable/ic_ee_indicator_yes" app:listItemWithIconTitle="@string/contact_encryption" />
+        <com.gbwhatsapp.ListItemWithLeftIcon android:id="@id/ephemeral_msg_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:listItemWithIconIcon="@drawable/ic_group_ephemeral" app:listItemWithIconTitle="@string/ephemeral_setting" />
+        <com.gbwhatsapp.ListItemWithLeftIcon android:id="@id/phone_number_sharing_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:listItemWithIconIcon="@drawable/ic_pn_sharing_on_24" app:listItemWithIconTitle="@string/pn_sharing_setting" />
+        <com.gbwhatsapp.ListItemWithLeftIcon android:id="@id/group_settings_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:listItemWithIconIcon="@drawable/ic_settings_settings" app:listItemWithIconTitle="@string/group_settings_title" />
+    </LinearLayout>
+</com.gbwhatsapp.InfoCard>

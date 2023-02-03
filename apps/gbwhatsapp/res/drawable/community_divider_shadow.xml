@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <size android:height="@dimen/community_home_divider_height" />
+            <solid android:color="@color/dimmed_background" />
+        </shape>
+    </item>
+    <item android:left="0.0dip" android:top="0.0dip" android:right="0.0dip" android:bottom="6.0dip">
+        <shape>
+            <gradient android:startColor="@color/transparent" android:endColor="@color/wds_cool_gray_alpha_05" android:angle="90.0" android:type="linear" />
+        </shape>
+    </item>
+</layer-list>

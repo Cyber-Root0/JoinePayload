@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:robobunny="http://robobunny.com">
+    <ListPreference android:entries="@array/home_theme" android:title="@string/yoconh" android:key="HomeEntry" android:summary="@string/yoconhS" android:defaultValue="0" android:entryValues="@array/home_theme_values" />
+    <SwitchPreference android:title="@string/yoSwipeRow" android:key="isSwipeEnabledV2" android:summary="@string/yoSwipeRowS" android:defaultValue="false" />
+    <com.gbwhatsapp.yo.SeekBarPreference android:max="35" android:title="@string/MainSize" android:key="main_text" android:summary="@string/MainSizeS" android:defaultValue="17" robobunny:min="10" robobunny:unitsLeft="" robobunny:unitsRight="sp" />
+    <com.gbwhatsapp.yo.ColorPref android:title="@string/textcoloruni" android:key="ModConTextColor" android:summary="@string/textcolormain" />
+    <com.gbwhatsapp.yo.ColorPref android:title="@string/yoContactNameC" android:key="ModContactNameColor" android:summary="@string/yoContactNameCS" />
+    <com.gbwhatsapp.yo.ColorPref android:title="@string/unread_counter" android:key="HomeCounterBK" android:summary="@string/unread_counterS" />
+    <com.gbwhatsapp.yo.ColorPref android:title="@string/unread_textcounter" android:key="HomeCounterText" android:summary="@string/unread_textcounterS" />
+    <com.gbwhatsapp.yo.ColorPref android:title="@string/contact_online_mod" android:key="ModOnlineColor" android:summary="@string/contact_online_summary" />
+    <com.gbwhatsapp.yo.ColorPref android:title="@string/contact_lastseen_mod" android:key="ModlastseenColor" android:summary="@string/contact_lastseen_mod_summary" />
+    <com.gbwhatsapp.yo.ColorPref android:title="@string/MentionIndicatorBackgroundColor" android:key="ModHomeMentionIndBackground" />
+    <com.gbwhatsapp.yo.ColorPref android:title="@string/MentionIndicatorIconColor" android:key="ModHomeMentionIconColor" />
+    <SwitchPreference android:title="@string/yoOnlineHome" android:key="onlinechat" android:summary="@string/yoOnlineSum" android:defaultValue="false" />
+    <SwitchPreference android:title="@string/OnlineDotHome" android:key="onlineDotchat" android:defaultValue="false" />
+    <com.gbwhatsapp.yo.ColorPref android:title="@string/OnlineDotHomeColor" android:key="onlineDotchatColor" />
+    <SwitchPreference android:title="@string/elapsedT" android:key="elapsed_time" android:summary="@string/elapsedTS" android:defaultValue="false" />
+</PreferenceScreen>

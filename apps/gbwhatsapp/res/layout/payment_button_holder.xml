@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="bottom" android:id="@id/payment_button_holder" android:visibility="gone" android:clipChildren="false" android:layout_width="@dimen/conversation_entry_input_width" android:layout_height="@dimen/conversation_entry_input_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaImageButton android:layout_gravity="center" android:id="@id/payment_button" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="center" android:contentDescription="@string/payment" app:tint="@color/inputCameraTint" style="@style/ActionBarButtonStyle" />
+    <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/payment_button_nux" android:visibility="gone" android:clickable="false" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/sticker_store_halo_pulse" android:importantForAccessibility="no" />
+</FrameLayout>

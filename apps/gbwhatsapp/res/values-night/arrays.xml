@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="group_participant_name_colors">
+        <item>@color/group_olive</item>
+        <item>@color/group_shadow_purple</item>
+        <item>@color/group_orange</item>
+        <item>@color/group_blue</item>
+        <item>@color/group_sand</item>
+        <item>@color/group_sapphire</item>
+        <item>@color/group_pink</item>
+        <item>@color/group_green</item>
+        <item>@color/group_lenurple</item>
+        <item>@color/group_brown</item>
+        <item>@color/group_watermelon</item>
+        <item>@color/group_baby_green</item>
+        <item>@color/group_salmon</item>
+        <item>@color/group_liberty</item>
+        <item>@color/group_spearmint</item>
+        <item>@color/group_milky_blue</item>
+        <item>@color/group_brick_red</item>
+        <item>@color/group_bright_vermilion</item>
+        <item>@color/group_orchid</item>
+        <item>@color/group_coral</item>
+        <item>@color/group_banana</item>
+    </array>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/business_compliance_frame_layout" android:background="@color/business_compliance_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ProgressBar android:layout_gravity="center" android:id="@id/business_compliance_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/business_compliance_network_error_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/business_compliance_margin_72dp" android:layout_marginRight="@dimen/business_compliance_margin_72dp">
+        <com.gbwhatsapp.WaTextView android:gravity="center" android:id="@id/business_compliance_network_error_text" android:layout_marginLeft="@dimen/product_margin_16dp" android:text="@string/business_compliance_detail_connection_error" app:lineHeight="@dimen/product_compliance_info_line_height" style="@style/ComplianceTextInfo" />
+        <com.gbwhatsapp.WaButton android:textSize="14.0sp" android:gravity="center" android:layout_gravity="center" android:id="@id/business_compliance_network_error_retry" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/product_margin_16dp" android:text="@string/business_compliance_network_error_retry" app:lineHeight="@dimen/product_compliance_info_line_height" style="@style/BusinessProfileButton" />
+    </LinearLayout>
+    <androidy.cardview.widget.CardView android:id="@id/business_compliance_wrapper_card" android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardElevation="@dimen/product_margin_2dp">
+        <androidy.recyclerview.widget.RecyclerView android:id="@id/business_compliance_recyclerview" android:background="@color/primary_surface" android:paddingBottom="@dimen/product_margin_8dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:importantForAccessibility="no" />
+    </androidy.cardview.widget.CardView>
+</FrameLayout>

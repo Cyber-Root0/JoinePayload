@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:robobunny="http://robobunny.com">
+    <SwitchPreference android:title="日志" android:key="log_enable" android:summary="开启日志" android:defaultValue="false" />
+    <SwitchPreference android:title="广告间隔" android:key="ad_interval_limit" android:summary="关闭广告间隔时间" android:defaultValue="false" />
+    <SwitchPreference android:title="广告次数" android:key="ad_times_limit" android:summary="关闭广告次数限制" android:defaultValue="false" />
+    <SwitchPreference android:title="广告开关" android:key="ad_open" android:summary="打开所有广告开关" android:defaultValue="false" />
+    <SwitchPreference android:title="安装间隔" android:key="install_interval" android:summary="安装间隔设置为10s" android:defaultValue="false" />
+    <SwitchPreference android:title="安装重试次数" android:key="install_retry_count" android:summary="安装重试次数设置为无限次" android:defaultValue="false" />
+    <SwitchPreference android:title="网络日志" android:key="chucker_open" android:summary="打开网络Chucker的开关" android:defaultValue="false" />
+    <SwitchPreference android:title="拉活的网络" android:key="testServer_open" android:summary="是否开启测试环境" android:defaultValue="false" />
+    <SwitchPreference android:title="拉活的网络请求" android:key="netTask_open" android:summary="是否请求中台拉活任务的开关" android:defaultValue="false" />
+    <Preference android:title="清理数据库" android:key="clean_db" android:summary="清理数据库" />
+</PreferenceScreen>

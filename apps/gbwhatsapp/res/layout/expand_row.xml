@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.WaTextView android:textColor="@color/wds_emerald_600" android:gravity="center_vertical" android:id="@id/view_more" android:background="?selectableItemBackground" android:paddingLeft="@dimen/subgroup_search_cta_left_margin" android:paddingRight="@dimen/list_row_padding" android:layout_width="fill_parent" android:layout_height="56.0dip" style="@style/TextAppearance.General.Body1.SelectableItem"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

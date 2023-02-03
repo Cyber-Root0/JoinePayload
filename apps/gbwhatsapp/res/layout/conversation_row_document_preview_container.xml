@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/document_frame" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/conversation_row_document_frame_margin">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <view android:id="@id/preview" android:layout_width="fill_parent" android:layout_height="@dimen/conversation_row_document_preview_height" android:scaleType="centerCrop" class="com.gbwhatsapp.conversation.conversationrow.ConversationRowDocument$DocumentPreviewView" />
+            <View android:id="@id/preview_separator" android:background="@color/conversation_row_preview_separator_color" android:layout_width="fill_parent" android:layout_height="@dimen/conversation_row_document_preview_separator_height" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/document_info_container" android:background="@color/share_preview_container_background" android:paddingLeft="@dimen/conversation_row_inner_item_padding" android:paddingRight="@dimen/conversation_row_inner_item_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxHeight="@dimen/conversation_row_document_info_container_max_height">
+                <com.gbwhatsapp.WaImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/conversation_row_document_icon_top_margin" android:scaleType="fitCenter" />
+                <LinearLayout android:orientation="vertical" android:padding="@dimen/conversation_row_inner_item_padding" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.gbwhatsapp.TextEmojiLabel android:textSize="15.0sp" android:textColor="?android:textColorPrimary" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" />
+                    <com.gbwhatsapp.WaTextView android:id="@id/media_transfer_eta" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="@style/ConversationDocumentInfo" />
+                    <LinearLayout android:id="@id/metadata_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <com.gbwhatsapp.WaTextView android:id="@id/info" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ConversationDocumentInfo" />
+                        <com.gbwhatsapp.WaTextView android:id="@id/bullet_info" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ConversationDocumentInfoBullet" />
+                        <com.gbwhatsapp.WaTextView android:id="@id/file_size" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ConversationDocumentInfo" />
+                        <com.gbwhatsapp.WaTextView android:id="@id/bullet_file_size" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ConversationDocumentInfoBullet" />
+                        <com.gbwhatsapp.WaTextView android:id="@id/file_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="@style/ConversationDocumentInfo" />
+                    </LinearLayout>
+                </LinearLayout>
+                <FrameLayout android:gravity="center" android:id="@id/control_btn_holder" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/conversation_row_document_control_button_top_margin">
+                    <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/control_btn" android:background="@null" android:padding="@dimen/conversation_row_inner_item_padding" android:layout_width="@dimen/conversation_row_document_icon_size" android:layout_height="@dimen/conversation_row_document_icon_size" android:scaleType="fitCenter" android:alpha="0.7" app:tint="@color/documentControlButtonTint" />
+                    <ViewStub android:layout_gravity="center" android:id="@id/progress_bar" android:layout="@layout/circular_progress_bar" android:inflatedId="@id/progress_bar" android:layout_width="@dimen/conversation_row_document_icon_size" android:layout_height="@dimen/conversation_row_document_icon_size" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</merge>

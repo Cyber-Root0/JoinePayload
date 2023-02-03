@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.san.widget.landingpage.ExpandableTextView android:id="@id/expand_text_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/common_dimens_15dp" android:layout_marginRight="@dimen/common_dimens_15dp" app:canCollapse="true" app:expandToggleOnTextClick="false" app:expandToggleType="TextView" app:maxCollapsedLines="5" app:animDuration="200"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/common_text_size_16sp" android:textColor="#ff757575" android:id="@id/expandable_text" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:textColor="#ff247fff" android:layout_gravity="bottom|center|right" android:id="@id/expand_collapse" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</com.san.widget.landingpage.ExpandableTextView>

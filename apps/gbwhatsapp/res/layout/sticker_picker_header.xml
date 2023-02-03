@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/emoji_popup_body" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/sticker_picker_header_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/sticker_header_recycler_container" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="8.0">
+        <androidy.recyclerview.widget.RecyclerView android:layout_gravity="left" android:id="@id/sticker_header_recycler" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/store_button_view_top" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <com.gbwhatsapp.WaImageView android:id="@id/sticker_store_button" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/open_sticker_store" android:contentDescription="@string/sticker_store_content_description" app:tint="@color/stickerStoreIconTint" style="@style/ActionBarButtonStyle" />
+        <View android:layout_gravity="center|right|top" android:id="@id/sticker_store_badge" android:visibility="gone" style="@style/StickerUpdateBadge" />
+    </FrameLayout>
+</LinearLayout>

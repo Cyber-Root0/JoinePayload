@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="400.0dip" android:width="400.0dip" android:viewportWidth="1200.0" android:viewportHeight="1200.0" xmlns:aapt="http://schemas.android.com/aapt"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@drawable/rc_profile_1" android:pathData="M600,600m-550,0a550,550 0,1 1,1100 0a550,550 0,1 1,-1100 0" />
+    <path android:fillColor="#ffffffff" android:pathData="M600.23,659.2c-111.71,0 -202.6,-90.89 -202.6,-202.6s90.89,-202.6 202.6,-202.6s202.6,90.89 202.6,202.6S711.95,659.2 600.23,659.2zM600.23,313.14c-79.11,0 -143.47,64.36 -143.47,143.47s64.36,143.47 143.47,143.47s143.47,-64.36 143.47,-143.47S679.34,313.14 600.23,313.14z" />
+    <path android:fillColor="#ffffffff" android:pathData="M921.06,945.99c-16.33,0 -29.57,-13.24 -29.57,-29.57c0,-98.95 -80.5,-179.45 -179.45,-179.45H487.95c-98.95,0 -179.45,80.5 -179.45,179.45c0,16.33 -13.24,29.57 -29.57,29.57c-16.33,0 -29.57,-13.24 -29.57,-29.57c0,-131.55 107.03,-238.58 238.58,-238.58h224.1c131.55,0 238.58,107.03 238.58,238.58C950.63,932.75 937.39,945.99 921.06,945.99z" />
+</vector>

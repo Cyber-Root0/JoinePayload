@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">%d saniyə irəli çəkin</item>
+        <item quantity="one">%d saniyə irəli çəkin</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">%d saniyə geri çəkin</item>
+        <item quantity="one">%d saniyə geri çəkin</item>
+    </plurals>
+    <plurals name="export_backup_not_enough_space_message">
+        <item quantity="other">Söhbətləri ixrac etmək üçün %s yaddaş lazımdır. İxrac etməzdən əvvəl yaddaş yerini boşaldın.</item>
+    </plurals>
+    <plurals name="import_backup_not_enough_space_message">
+        <item quantity="other">İdxal etmək üçün %s yaddaş lazımdır. İdxal etməzdən əvvəl yaddaş yerini boşaldın.</item>
+    </plurals>
+    <plurals name="move_chats_insufficient_space_dialog">
+        <item quantity="other">Köçürmə üçün bu cihazda %1$s olmalıdır. WhatsApp-ın yaddaş idarəetmə alətindən istifadə edərək yer boşaldın.</item>
+    </plurals>
+    <plurals name="settings_gdrive_video_size_to_be_uploaded_plural">
+        <item quantity="other">‎%s yüklənəcək</item>
+    </plurals>
+</resources>

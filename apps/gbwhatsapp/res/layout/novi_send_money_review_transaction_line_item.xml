@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="@color/secondary_text" android:id="@id/novi_send_money_review_transaction_line_item_lhs" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:fontFamily="sans-serif" />
+    <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="@color/primary_text" android:id="@id/novi_send_money_review_transaction_line_item_rhs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif" />
+</LinearLayout>

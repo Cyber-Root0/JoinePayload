@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Spoel %d sekondes vinnig vorentoe</item>
+        <item quantity="one">Spoel %d sekonde vinnig vorentoe</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Spoel %d sekondes terug</item>
+        <item quantity="one">Spoel %d sekonde terug</item>
+    </plurals>
+    <plurals name="export_backup_not_enough_space_message">
+        <item quantity="other">Vir uitvoer van gesprekke is %s berging nodig. Maak bergingspasie beskikbaar voor uitvoering.</item>
+    </plurals>
+    <plurals name="import_backup_not_enough_space_message">
+        <item quantity="other">Vir invoer is %s berging nodig. Maak bergingspasie beskikbaar voor invoering.</item>
+    </plurals>
+    <plurals name="move_chats_insufficient_space_dialog">
+        <item quantity="other">‎%1$s is op hierdie toestel nodig vir oordrag. Maak spasie skoon deur WhatsApp se nutsding vir bergingsbestuur te gebruik.</item>
+    </plurals>
+    <plurals name="settings_gdrive_video_size_to_be_uploaded_plural">
+        <item quantity="other">‎%s gaan opgelaai word</item>
+    </plurals>
+</resources>

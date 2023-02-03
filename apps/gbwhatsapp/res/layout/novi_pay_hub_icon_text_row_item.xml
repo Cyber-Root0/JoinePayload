@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/selector_orange_gradient" android:paddingLeft="@dimen/payment_settings_default_margin" android:paddingTop="@dimen/payment_settings_default_margin" android:paddingRight="@dimen/payment_settings_default_margin" android:paddingBottom="@dimen/payment_settings_default_margin" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaImageView android:id="@id/icon" android:layout_width="@dimen/novi_pay_hub_row_icon_size" android:layout_height="@dimen/novi_pay_hub_row_icon_size" android:scaleType="fitCenter" />
+    <com.gbwhatsapp.WaTextView android:id="@id/text" android:layout_marginLeft="24.0dip" style="@style/NoviPrimaryText" />
+</LinearLayout>

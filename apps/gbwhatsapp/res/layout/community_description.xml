@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/primary_surface" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/community_home_top_divider" android:background="@color/settings_divider" android:layout_width="fill_parent" android:layout_marginLeft="@dimen/space_loose" android:layout_marginTop="@dimen/space_base" android:layout_marginRight="@dimen/space_loose" style="@style/SectionDivider.Heavy" />
+    <com.gbwhatsapp.text.ReadMoreTextView android:textSize="16.0sp" android:textColor="@color/primary_text" android:gravity="center|left" android:id="@id/community_description_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/community_home_description_margin" whatsapp:rmtvLines="2" whatsapp:rmtvLinkColor="@color/primary_light" whatsapp:rmtvText="@string/read_more" />
+</LinearLayout>

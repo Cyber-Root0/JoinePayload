@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:id="@id/scroll_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.gbwhatsapp.WaImageView android:id="@id/logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_delete_logo_margin_top" android:src="@drawable/settings_delete" />
+            <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="@color/settings_item_title_text" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="24.0dip" android:text="@string/settings_delete_account_confirmation" android:lineSpacingExtra="4.0dip" app:fontFamily="sans-serif-medium" />
+            <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="@color/settings_item_title_text" android:gravity="center" android:id="@id/delete_account_confirmation_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="24.0dip" android:text="@string/settings_delete_account_confirmation_info" android:lineSpacingExtra="4.0dip" />
+        </LinearLayout>
+    </ScrollView>
+    <FrameLayout android:id="@id/bottom_button_container" android:background="@color/primary_surface" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.components.Button android:layout_gravity="center_horizontal" android:id="@id/delete_account_submit" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:text="@string/settings_delete_account" style="@style/WA.Button.Error" />
+    </FrameLayout>
+</LinearLayout>

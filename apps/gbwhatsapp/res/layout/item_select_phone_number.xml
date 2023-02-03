@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaImageView android:layout_gravity="center_vertical" android:paddingLeft="24.0dip" android:paddingRight="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_settings_phone" app:tint="@color/phone_icon_color" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingLeft="12.0dip" android:paddingRight="24.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <com.gbwhatsapp.WaTextView android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingMultiplier="1.5" style="@style/ListItemTitle" />
+        <com.gbwhatsapp.WaTextView android:id="@id/subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ListItemSubtitle" />
+    </LinearLayout>
+    <RadioButton android:layout_gravity="center_vertical" android:id="@id/radio" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="35.0dip" android:layout_height="wrap_content" android:layout_marginRight="24.0dip" />
+</LinearLayout>

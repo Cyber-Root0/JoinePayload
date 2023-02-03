@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/selector_orange_gradient" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/product_list_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/product_item_quantity_selector" android:layout_toStartOf="@id/product_item_quantity_selector">
+        <include layout="@layout/catalog_list_product" />
+    </LinearLayout>
+    <com.gbwhatsapp.biz.catalog.view.widgets.QuantitySelector android:id="@id/product_item_quantity_selector" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="42.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="10.0dip" />
+    <com.gbwhatsapp.WaImageView android:id="@id/draggable_indicator" android:visibility="gone" android:layout_width="@dimen/draggable_indicator_width" android:layout_height="@dimen/draggable_indicator_height" android:layout_marginLeft="@dimen/draggable_indicator_margin_left" android:layout_marginRight="@dimen/draggable_indicator_margin_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginStart="@dimen/draggable_indicator_margin_left" android:layout_marginEnd="@dimen/draggable_indicator_margin_right" android:layout_alignParentEnd="true" app:srcCompat="@drawable/ic_drag_handle" />
+</RelativeLayout>

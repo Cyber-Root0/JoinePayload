@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Sogeza mbele haraka kwa sekunde %d</item>
+        <item quantity="one">Sogeza mbele haraka kwa sekunde %d</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Rudisha nyuma kwa sekunde %d</item>
+        <item quantity="one">Rudisha nyuma kwa sekunde %d</item>
+    </plurals>
+    <plurals name="export_backup_not_enough_space_message">
+        <item quantity="other">Kuhamisha soga kutahitaji hifadhi ya %s. Tafadhali achilia nafasi ya hifadhi kabla ya kuhamisha.</item>
+    </plurals>
+    <plurals name="import_backup_not_enough_space_message">
+        <item quantity="other">Kuingiza soga kutahitaji hifadhi ya %s. Tafadhali achilia nafasi ya hifadhi kabla ya kuingiza.</item>
+    </plurals>
+    <plurals name="move_chats_insufficient_space_dialog">
+        <item quantity="other">‎%1$s zinahitajika kwenye kifaa hiki ili uweze kuhamisha. Tafadhali futa uongeze nafasi kwa kutumia zana ya WhatsApp ya kudhibiti hifadhi.</item>
+        <item quantity="one">‎%1$s inahitajika kwenye kifaa hiki ili uweze kuhamisha. Tafadhali futa uongeze nafasi kwa kutumia zana ya WhatsApp ya kudhibiti hifadhi.</item>
+    </plurals>
+    <plurals name="settings_gdrive_video_size_to_be_uploaded_plural">
+        <item quantity="other">‎%s zitapakiwa</item>
+        <item quantity="one">‎%s itapakiwa</item>
+    </plurals>
+</resources>

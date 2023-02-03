@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iv_gp_gallery_item" android:layout_width="315.0dip" android:layout_height="177.0dip" />
+    <com.san.widget.landingpage.RoundCornerCoverView android:visibility="visible" android:layout_width="315.0dip" android:layout_height="177.0dip" app:cover_color="@android:color/white" app:left_bottom_radius="10.0dip" app:left_top_radius="10.0dip" app:right_bottom_radius="10.0dip" app:right_top_radius="10.0dip" />
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaImageView android:enabled="false" android:id="@id/back" android:background="?actionBarItemBackground" android:paddingRight="0.0dip" android:layout_width="@dimen/conversation_back_button_size" android:layout_height="@dimen/conversation_back_button_size" android:scaleType="center" android:minWidth="0.0dip" android:minHeight="0.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@string/abc_action_bar_up_description" app:srcCompat="?homeAsUpIndicator" />
+    <FrameLayout android:id="@id/icon_layout_anchor" android:background="?actionBarItemBackground" android:layout_width="wrap_content" android:layout_height="@dimen/conversation_profile_photo_size" android:layout_marginRight="0.0dip" android:layout_toRightOf="@id/back" android:layout_centerVertical="true">
+        <com.gbwhatsapp.WaImageView android:id="@id/conversation_contact_photo" android:scaleType="fitCenter" style="@style/ConversationToolbarContactPhotoView" />
+        <com.gbwhatsapp.community.SubgroupPileView android:layout_gravity="center" android:id="@id/subgroup_facepile_toolbar_photo" android:visibility="gone" android:layout_width="@dimen/conversation_facepile_width" android:layout_height="wrap_content" app:subgroupPileView_pileSize="@dimen/space_xxxLoose" />
+        <ViewStub android:id="@id/change_photo_progress_stub" android:layout="@layout/conversation_actionbar_progress" style="@style/ConversationToolbarContactPhotoView" />
+        <com.gbwhatsapp.WaImageView android:layout_gravity="bottom|center|right" android:id="@id/ephemeral_status" android:background="@drawable/primary_color_circle" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_ephemeral" app:backgroundTint="@color/primary" app:tint="@color/screen_title_text" />
+    </FrameLayout>
+</merge>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_action_select_multiple_teal" android:enabled="true" android:id="@id/multi_select" android:visible="true" android:title="@string/select_multiple" android:titleCondensed="@string/select_multiple" app:iconTint="@color/gallery_toolbar_icon" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_more_teal" android:enabled="true" android:id="@id/more" android:visible="true" android:title="@string/more" android:titleCondensed="@string/more" app:iconTint="@color/gallery_toolbar_icon" app:showAsAction="always">
+        <menu />
+    </item>
+</menu>

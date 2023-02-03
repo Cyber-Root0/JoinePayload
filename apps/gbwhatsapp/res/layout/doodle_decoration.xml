@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/doodle_decoration" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/shape_picker" />
+    <com.gbwhatsapp.mediacomposer.doodle.ColorPickerComponent android:id="@id/color_picker_component" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.gbwhatsapp.WaImageView android:gravity="center" android:layout_gravity="center|left|top" android:id="@id/trash" android:paddingLeft="8.0dip" android:paddingTop="17.0dip" android:paddingRight="36.0dip" android:paddingBottom="36.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_cam_delete" android:scaleType="center" />
+</FrameLayout>

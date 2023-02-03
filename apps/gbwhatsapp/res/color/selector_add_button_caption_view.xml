@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:color="@color/icon_color_disabled_onSurface" />
+    <item android:color="@color/icon_color_disabled_onSurface" android:state_activated="false" />
+    <item android:color="@color/capturePreviewCaptionInputIconTint" />
+</selector>

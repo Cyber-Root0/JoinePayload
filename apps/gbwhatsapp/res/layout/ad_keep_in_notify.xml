@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/alive_notify_bg" android:layout_width="fill_parent" android:layout_height="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/image_icon" android:layout_width="@dimen/common_dimens_40dp" android:layout_height="@dimen/common_dimens_40dp" android:layout_marginLeft="@dimen/common_dimens_12dp" android:src="@drawable/ad_keep_in_notify_icon" android:layout_centerVertical="true" />
+    <TextView android:textSize="@dimen/common_dimens_14dp" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_open" android:background="@drawable/ad_keep_in_notify_open_bg" android:layout_width="@dimen/common_dimens_60dp" android:layout_height="@dimen/common_dimens_24dp" android:layout_marginRight="@dimen/common_dimens_12dp" android:text="@string/ads_open" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/common_dimens_12dp" android:layout_marginRight="@dimen/common_dimens_12dp" android:layout_toLeftOf="@id/tv_open" android:layout_toRightOf="@id/image_icon" android:layout_centerVertical="true">
+        <TextView android:textSize="@dimen/common_dimens_15dp" android:textColor="@color/color_191919" android:ellipsize="end" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Find apps need to install" android:maxLines="1" />
+        <TextView android:textSize="@dimen/common_dimens_14dp" android:textColor="@color/color_757575" android:ellipsize="end" android:id="@id/tv_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/common_dimens_2dp" android:text="Install the experience now" android:maxLines="1" />
+    </LinearLayout>
+</RelativeLayout>

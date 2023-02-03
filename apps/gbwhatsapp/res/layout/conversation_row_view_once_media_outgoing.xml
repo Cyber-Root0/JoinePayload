@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/conversation_row_margin_large" android:minHeight="30.0dip">
+        <include layout="@layout/conversation_row_quoted_frame" />
+        <include layout="@layout/conversation_row_web_page_preview_frame" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/view_once_media_container_small" android:paddingLeft="@dimen/conversationRowViewOnce_small_marginLeft" android:paddingRight="@dimen/space_xTight" android:paddingBottom="@dimen/space_xTight" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.gbwhatsapp.conversation.conversationrow.components.ViewOnceDownloadProgressView android:gravity="center" android:layout_gravity="center" android:id="@id/view_once_download_small" android:paddingTop="1.0dip" android:paddingRight="@dimen/conversationRowViewOnce_progress_marginRight" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/conversationRowViewOnce_progress_marginVertical" android:layout_marginBottom="@dimen/conversationRowViewOnce_progress_marginVertical" />
+            <com.gbwhatsapp.components.TextAndDateLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.gbwhatsapp.WaTextView android:textSize="@dimen/conversation_text_row_tv" android:gravity="center_vertical" android:layout_gravity="left" android:id="@id/view_once_media_type_small" android:paddingTop="@dimen/conversationRowViewOnce_text_marginVertical" android:paddingBottom="@dimen/conversationRowViewOnce_text_marginVertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+                <include layout="@layout/conversation_row_date_wrapper_right" />
+            </com.gbwhatsapp.components.TextAndDateLayout>
+        </LinearLayout>
+    </LinearLayout>
+</merge>

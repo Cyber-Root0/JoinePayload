@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/template_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/conversation_row_margin_large">
+        <include layout="@layout/conversation_row_participant_header" />
+        <com.gbwhatsapp.TextEmojiLabel android:textSize="@dimen/conversation_template_title_tv" android:textStyle="bold" android:textColor="@color/conversation_template_row_title_color" android:id="@id/title_text_message" android:paddingLeft="@dimen/conversation_row_inner_item_padding" android:paddingRight="@dimen/conversation_row_inner_item_padding" android:paddingBottom="@dimen/conversation_template_row_title_padding_small" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.gbwhatsapp.conversation.conversationrow.TemplateRowContentLayout android:id="@id/template_message_content" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <com.gbwhatsapp.conversation.conversationrow.TemplateQuickReplyButtonsLayout android:id="@id/template_quick_reply_buttons" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</merge>

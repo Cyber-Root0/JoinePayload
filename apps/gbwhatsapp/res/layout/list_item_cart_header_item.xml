@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingTop="@dimen/horizontal_padding" android:paddingBottom="@dimen/horizontal_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaTextView android:id="@id/total_quantity_textview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/horizontal_padding" android:layout_marginRight="@dimen/product_margin_8dp" android:layout_toLeftOf="@id/add_more_btn" android:layout_alignParentLeft="true" style="@style/OrderTotalQuantity" />
+    <com.gbwhatsapp.WaTextView android:id="@id/estimated_value_textview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/horizontal_padding" android:layout_marginRight="@dimen/product_margin_8dp" android:maxLines="2" android:singleLine="false" android:layout_toLeftOf="@id/add_more_btn" android:layout_below="@id/total_quantity_textview" android:layout_alignParentLeft="true" style="@style/OrderTotalPrice" />
+    <com.gbwhatsapp.components.Button android:id="@id/add_more_btn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/horizontal_padding" android:text="@string/add_more" android:layout_alignParentRight="true" style="@style/WA.Button.Secondary" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="fill_vertical|center|left" android:layout_gravity="bottom|center" android:orientation="vertical" android:id="@id/toast_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidy.cardview.widget.CardView android:orientation="vertical" android:id="@id/card_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/status_reply_sent_toast_text_margin" app:cardBackgroundColor="@color/wds_cool_gray_alpha_90" app:cardCornerRadius="@dimen/status_reply_sent_toast_card_radius">
+        <com.gbwhatsapp.WaTextView android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/status_reply_sent_toast_text_size" android:textColor="@color/white" android:layout_gravity="bottom" android:id="@id/toast_text" android:paddingLeft="@dimen/status_reply_sent_toast_text_h_padding" android:paddingTop="@dimen/status_reply_sent_toast_text_v_padding" android:paddingRight="@dimen/status_reply_sent_toast_text_h_padding" android:paddingBottom="@dimen/status_reply_sent_toast_text_v_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/status_reply_sent_toast_text_h_padding" android:paddingVertical="@dimen/status_reply_sent_toast_text_v_padding" />
+    </androidy.cardview.widget.CardView>
+</LinearLayout>

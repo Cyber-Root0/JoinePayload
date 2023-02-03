@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/live_location_btn" android:background="@drawable/selector_orange_gradient" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="@dimen/location_picker_row_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="left" android:layout_width="@dimen/location_picker_row_height" android:layout_height="@dimen/location_picker_row_height">
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:background="@drawable/send_live_location_background" android:layout_width="@dimen/location_picker_icon_size" android:layout_height="@dimen/location_picker_icon_size" android:src="@drawable/ic_live_location" android:scaleType="center" />
+    </FrameLayout>
+    <com.gbwhatsapp.WaTextView android:textAppearance="?android:textAppearanceSmallInverse" android:textSize="17.0sp" android:textColor="@color/primary_text" android:ellipsize="end" android:gravity="left" android:layout_gravity="center|left" android:orientation="vertical" android:paddingLeft="@dimen/location_picker_row_height" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/novi_withdraw_cash_location_permission_row_label" android:singleLine="true" />
+    <View android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="0.5dip" style="@style/SectionDivider" />
+</FrameLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.WaFrameLayout android:id="@id/invite_layout" android:background="@drawable/link_preview_background" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="4.0dip" android:foreground="@drawable/balloon_incoming_frame" whatsapp:waflForegroundTint="@color/bubble_color_incoming"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/small_list_avatar_padding" android:paddingTop="8.0dip" android:paddingRight="@dimen/list_row_padding" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.gbwhatsapp.components.button.ThumbnailButton android:id="@id/avatar" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginRight="@dimen/small_list_avatar_padding" android:src="@drawable/avatar_contact" android:scaleType="fitCenter" android:contentDescription="@string/contact_profile_photo" whatsapp:tbtnForegroundOnly="false" whatsapp:tbtnRadius="@dimen/small_avatar_radius" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:clipChildren="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.gbwhatsapp.TextEmojiLabel android:textSize="16.0sp" android:textColor="@color/list_item_title" android:ellipsize="end" android:id="@id/group_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <com.gbwhatsapp.TextEmojiLabel android:id="@id/instructions" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/group_invite" />
+        </LinearLayout>
+    </LinearLayout>
+</com.gbwhatsapp.WaFrameLayout>

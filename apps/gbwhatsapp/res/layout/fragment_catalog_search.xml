@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/container_catalog_search" android:background="@color/primary_surface" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/search_call_to_action" android:paddingLeft="@dimen/space_base_halfStep" android:paddingTop="@dimen/space_loose" android:paddingRight="@dimen/space_base_halfStep" android:paddingBottom="@dimen/space_loose" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_tight">
+        <com.gbwhatsapp.WaImageView android:id="@id/search_call_to_action_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/search" app:srcCompat="@drawable/ic_search_24dp" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_loose">
+            <com.gbwhatsapp.WaTextView android:textSize="@dimen/catalog_search_call_to_action_text_size" android:textColor="@color/secondary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/catalog_search_cta_static_text" android:includeFontPadding="false" />
+            <com.gbwhatsapp.WaTextView android:textSize="@dimen/catalog_search_call_to_action_text_size" android:textColor="@color/primary_text" android:ellipsize="end" android:id="@id/search_call_to_action_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_tight" android:maxLines="1" android:includeFontPadding="false" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/search_results_error_view_holder" android:paddingLeft="@dimen/space_base_halfStep" android:paddingTop="@dimen/space_base_halfStep" android:paddingRight="@dimen/space_base_halfStep" android:paddingBottom="@dimen/space_base_halfStep" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_xxLoose">
+        <com.gbwhatsapp.WaTextView android:textSize="@dimen/catalog_search_error_view_text_size" android:gravity="center" android:id="@id/search_results_error_view_text" android:layout_width="@dimen/catalog_search_error_view_layout_width" android:layout_height="wrap_content" android:lineSpacingExtra="@dimen/catalog_search_error_view_line_spacing_extra" />
+        <com.gbwhatsapp.WaButton android:id="@id/search_results_error_view_retry_btn" android:text="@string/retry" android:contentDescription="@string/retry" style="@style/WA.Button.Borderless" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/search_child_fragment_holder" android:background="@color/primary_surface" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:id="@id/search_result_list_holder" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <androidy.recyclerview.widget.RecyclerView android:id="@id/list_search_result" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layoutManager="androidy.recyclerview.widget.LinearLayoutManager" />
+            <View android:layout_gravity="bottom" android:id="@id/shadow_bottom_search_result_list" android:background="@drawable/list_upward_shadow" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/list_bottom_shadow_height" />
+        </FrameLayout>
+        <com.gbwhatsapp.components.Button android:layout_gravity="center_horizontal" android:id="@id/view_cart" android:visibility="gone" android:layout_width="fill_parent" android:layout_marginLeft="@dimen/product_margin_8dp" android:layout_marginTop="@dimen/product_margin_10dp" android:layout_marginRight="@dimen/product_margin_8dp" android:layout_marginBottom="@dimen/product_margin_10dp" android:text="@string/view_cart" style="@style/WA.Button" />
+    </LinearLayout>
+</FrameLayout>

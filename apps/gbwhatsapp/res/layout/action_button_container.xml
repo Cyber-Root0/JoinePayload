@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/action_button" android:background="@drawable/forward_background" android:padding="@dimen/space_tight" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <android.widget.Space android:id="@id/space" android:layout_width="@dimen/space_base" android:layout_height="@dimen/space_base" />
+    <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/rate_button" android:background="@drawable/forward_background" android:padding="@dimen/space_tight" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_action_rate" android:contentDescription="@string/conversation_rate_message_content_description" app:tint="@color/quickActionIconTint" />
+</merge>

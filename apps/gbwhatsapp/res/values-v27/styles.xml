@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="RoundedBottomSheetDialogTheme" parent="@style/BaseRoundedBottomSheetDialog">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/lightNavigationBarBackgroundColor</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+    <style name="Theme.App" parent="@style/Theme.Base">
+        <item name="android:navigationBarColor">@color/lightNavigationBarBackgroundColor</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+    <style name="Theme.App.Black" parent="@style/Theme.App">
+        <item name="android:windowBackground">@color/black</item>
+        <item name="android:navigationBarColor">@color/wds_black</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="actionBarStyle">@style/Widget.Styled.ActionBar.GifVideoPreview</item>
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryDark">@color/transparent</item>
+        <item name="homeAsUpIndicator">@drawable/ic_back</item>
+    </style>
+    <style name="Theme.App.NoActionBar.CropImage" parent="@style/Theme.App.NoActionBar">
+        <item name="android:navigationBarColor">@color/wds_black</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+    <style name="Theme.App.QrScanner" parent="@style/Theme.App">
+        <item name="android:windowBackground">@color/black</item>
+        <item name="android:navigationBarColor">@color/wds_black</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+    <style name="Theme.App.TextStatusComposer" parent="@style/Theme.App.NoActionBar">
+        <item name="android:navigationBarColor">@color/wds_black</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="colorControlActivated">@android:color/white</item>
+    </style>
+    <style name="Theme.Camera" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:navigationBarColor">@color/wds_black</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="colorAccent">@color/primary_light</item>
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+    </style>
+    <style name="RoundedFcsBottomSheetDialogTheme" parent="@style/BaseRoundedBottomSheetDialog">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/lightNavigationBarBackgroundColor</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+</resources>

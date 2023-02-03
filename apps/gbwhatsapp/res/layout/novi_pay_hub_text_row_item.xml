@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/selector_orange_gradient" android:paddingTop="@dimen/novi_pay_hub_vertical_padding" android:paddingBottom="@dimen/novi_pay_hub_vertical_padding" style="@style/NoviTextRow"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaTextView android:id="@id/primaryText" style="@style/NoviPrimaryText" />
+    <com.gbwhatsapp.WaTextView android:id="@id/secondaryText" style="@style/NoviSecondaryText" />
+</LinearLayout>

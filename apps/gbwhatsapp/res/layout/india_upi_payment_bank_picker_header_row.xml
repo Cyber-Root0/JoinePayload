@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/list_section_divider_status" style="?listSectionDivider" />
+    <com.gbwhatsapp.WaTextView android:id="@id/header_text" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" style="@style/PaymentSettingsSectionHeader" />
+</FrameLayout>

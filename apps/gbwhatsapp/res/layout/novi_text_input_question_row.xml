@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/novi_margin_large"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/novi_text_input_text_question_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaTextView android:id="@id/novi_text_input_text_question_title" style="@style/NoviPayTextInputQuestionTitle" />
+        <com.google.android.material.textfield.TextInputLayout android:textColorHint="@color/hint_text" android:id="@id/novi_text_input_text_question_input_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.gbwhatsapp.WaEditText android:id="@id/novi_text_input_text_question_answer" app:backgroundTint="@color/hint_text" style="@style/NoviPayTextInputQuestionAnswer" />
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/novi_text_input_dropdown_question_container" android:focusable="true" android:focusableInTouchMode="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.gbwhatsapp.WaTextView android:id="@id/novi_text_input_dropdown_question_title" style="@style/NoviPayTextInputQuestionTitle" />
+        <com.google.android.material.textfield.TextInputLayout android:textColorHint="@color/hint_text" android:id="@id/novi_text_input_dropdown_question_answer_text" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.gbwhatsapp.WaEditText android:focusable="false" android:focusableInTouchMode="false" android:drawableRight="@drawable/novi_dropdown_icon" android:drawablePadding="8.0dip" android:inputType="none" app:backgroundTint="@color/hint_text" style="@style/NoviPayTextInputQuestionAnswer" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.gbwhatsapp.payments.ui.stepup.NoviTextInputSpinner android:id="@id/novi_text_input_dropdown_question_answer_spinner" android:layout_width="0.0dip" android:layout_height="0.0dip" android:spinnerMode="dialog" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.WaTextView android:textColor="@color/secondary_button_text_color_selector" android:gravity="center_vertical" android:id="@id/button" android:paddingLeft="@dimen/product_margin_16dp" android:paddingRight="@dimen/product_margin_16dp" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/see_all" android:textAllCaps="true" app:fontFamily="sans-serif-medium"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

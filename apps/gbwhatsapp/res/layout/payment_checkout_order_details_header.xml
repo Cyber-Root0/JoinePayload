@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/order_detail_container" android:background="@color/order_details_background_settings_color" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/contact_photo" android:background="@drawable/divider_gray_border" android:layout_width="@dimen/order_item_thumb_image_width_48dp" android:layout_height="@dimen/order_item_thumb_image_width_48dp" android:layout_marginTop="@dimen/order_details_layout_margin_20dp" />
+    <com.gbwhatsapp.WaTextView android:textSize="@dimen/order_details_text_size_20sp" android:textColor="@color/primary_text" android:layout_gravity="center" android:id="@id/contact_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/order_details_layout_margin_12dp" android:lineSpacingMultiplier="1.2" android:fontFamily="sans-serif-medium" />
+    <com.gbwhatsapp.WaTextView android:textSize="@dimen/order_details_text_size_14sp" android:textColor="@color/secondary_text" android:gravity="center" android:layout_gravity="center" android:id="@id/reference_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/order_details_layout_margin_4dp" android:lineSpacingMultiplier="1.14" android:fontFamily="sans-serif-medium" />
+</LinearLayout>

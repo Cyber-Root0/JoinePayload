@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.WaTextView android:id="@id/date_divider_header" android:visibility="gone" style="@style/DateDivider"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

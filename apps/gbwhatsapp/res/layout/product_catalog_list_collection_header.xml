@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/collection_divider" android:visibility="gone" android:layout_marginLeft="@dimen/product_margin_16dp" android:layout_marginTop="12.0dip" style="@style/ListSectionDivider.V2" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/product_margin_16dp" android:layout_marginTop="14.0dip" android:layout_marginRight="@dimen/product_margin_16dp" android:layout_marginBottom="@dimen/product_margin_8dp" android:layout_weight="1.0">
+            <com.gbwhatsapp.WaTextView android:textSize="20.0sp" android:textColor="@color/list_item_title" android:ellipsize="end" android:gravity="left" android:id="@id/textview_collection_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" app:fontFamily="sans-serif-medium" />
+            <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="@color/list_item_sub_title" android:ellipsize="end" android:gravity="left" android:id="@id/textview_collection_subtitle" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:singleLine="true" />
+        </LinearLayout>
+        <com.gbwhatsapp.WaButton android:textSize="16.0sp" android:textColor="@color/primary_light" android:id="@id/button_collection_see_all" android:background="@null" android:padding="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/collection_header_see_all" android:textAllCaps="false" app:fontFamily="sans-serif-regular" app:variant="borderless" />
+    </LinearLayout>
+</LinearLayout>

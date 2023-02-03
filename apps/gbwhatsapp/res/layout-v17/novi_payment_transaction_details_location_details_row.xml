@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center" android:background="@drawable/selector_orange_gradient" android:padding="@dimen/payment_settings_default_margin" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.CircleWaImageView android:id="@id/icon" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginRight="@dimen/payment_settings_default_margin" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_marginEnd="@dimen/payment_settings_default_margin" android:layout_alignParentStart="true" />
+    <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="@color/primary_text" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/icon" android:layout_alignParentTop="true" android:layout_toEndOf="@id/icon" app:fontFamily="sans-serif" />
+    <com.gbwhatsapp.WaTextView android:textSize="13.0sp" android:textColor="@color/secondary_text" android:id="@id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/title" android:layout_alignLeft="@id/title" android:layout_alignStart="@id/title" app:fontFamily="sans-serif" />
+</RelativeLayout>

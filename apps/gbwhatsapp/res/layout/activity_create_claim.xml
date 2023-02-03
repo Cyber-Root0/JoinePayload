@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/round_rectangle" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.payments.ui.widget.PayToolbar android:id="@id/pay_service_toolbar" android:layout_width="fill_parent" android:layout_height="48.0dip" app:contentInsetLeft="0.0dip" app:contentInsetStartWithNavigation="0.0dip" />
+        <View android:layout_gravity="bottom" android:id="@id/toolbar_bottom_divider" android:background="@drawable/payments_divider_gray" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <ScrollView android:orientation="vertical" android:id="@id/payment_claims_scroll_view_layout" android:paddingBottom="100.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/create_claim_body" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:id="@id/create_claim_instructions" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+                    <com.gbwhatsapp.WaTextView android:textSize="20.0sp" android:textColor="@color/primary_text" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/novi_payment_create_claim_title" android:fontFamily="sans-serif-medium" />
+                    <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="@color/secondary_text" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" android:text="@string/novi_payment_create_claim_description" android:lineSpacingMultiplier="1.2" />
+                    <com.gbwhatsapp.WaTextView android:textSize="12.0sp" android:textColor="@color/secondary_text" android:layout_gravity="start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="22.0dip" android:layout_marginRight="16.0dip" android:text="@string/novi_payment_selected_transaction_header" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.gbwhatsapp.WaTextView android:textSize="12.0sp" android:textColor="@color/secondary_text" android:layout_gravity="start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" android:text="@string/novi_payment_create_claim_additional_info" />
+                    <com.gbwhatsapp.WaEditText android:scrollbarAlwaysDrawVerticalTrack="true" android:scrollbarStyle="outsideOverlay" android:textSize="16.0sp" android:textColor="@color/settings_contact_us_describe_problem_text" android:gravity="start|center|top" android:id="@id/additional_information" android:background="@drawable/description_field_background_state_list" android:padding="8.0dip" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip" android:minLines="3" android:selectAllOnFocus="true" android:capitalize="sentences" android:autoText="true" android:imeOptions="actionDone" android:scrollbarFadeDuration="300" android:scrollbarDefaultDelayBeforeFade="200" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:background="@drawable/rounded_box" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="12.0dip">
+                    <com.gbwhatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@id/lock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:src="@drawable/ic_info" app:tint="@color/fb_pay_hub_icon_tint" />
+                    <com.gbwhatsapp.WaTextView android:textSize="13.0sp" android:textColor="@color/novi_info_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="8.0dip" android:text="@string/novi_payment_create_claim_warning" android:lineSpacingMultiplier="1.2" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="bottom" android:background="@color/bloks_activity_background" android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/create_claim_button_container" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" style="@style/NoviPayButtonFrame">
+            <com.gbwhatsapp.components.Button android:enabled="false" android:id="@id/create_claim_button" android:layout_width="fill_parent" android:text="@string/submit" style="@style/NoviPayPrimaryButton" />
+            <ProgressBar android:layout_gravity="center" android:id="@id/create_claim_button_progressbar" android:visibility="gone" style="@style/NoviPayLoadingSpinner" />
+        </FrameLayout>
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidy.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/activity_community_home_header" />
+    <androidy.recyclerview.widget.RecyclerView android:id="@id/subgroup_recycler_view" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+</androidy.coordinatorlayout.widget.CoordinatorLayout>

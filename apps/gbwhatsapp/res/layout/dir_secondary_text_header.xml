@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.WaTextView android:id="@id/header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/product_margin_16dp" android:text="@string/biz_dir_browse_by_categories" android:fontFamily="sans-serif-medium" style="@style/BizDirectorySecondaryText"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

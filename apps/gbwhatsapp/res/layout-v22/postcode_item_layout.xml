@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/postcode_item" android:background="@color/primary_surface" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@color/primary_surface" android:paddingTop="@dimen/product_list_postcode_banner_vertical_padding" android:paddingBottom="@dimen/product_list_postcode_banner_vertical_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingVertical="@dimen/product_list_postcode_banner_vertical_padding">
+        <com.gbwhatsapp.WaImageView android:id="@id/postcode_item_location" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/product_list_postcode_location_item_left_margin" android:src="@drawable/ic_business_location" android:tint="@color/green" android:layout_centerVertical="true" android:layout_marginStart="@dimen/product_list_postcode_location_item_left_margin" />
+        <RelativeLayout android:paddingLeft="@dimen/product_list_postcode_text_left_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/postcode_item_location" android:layout_centerVertical="true" android:paddingStart="@dimen/product_list_postcode_text_left_padding" android:layout_toEndOf="@id/postcode_item_location">
+            <com.gbwhatsapp.WaTextView android:id="@id/postcode_item_text" android:text="@string/catalog_product_available_in_location" android:letterSpacing="0.02" style="@style/ProductTitle" />
+            <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="@color/selector_product_catalog_secondary_text" android:id="@id/postcode_item_location_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/postcode_item_text" android:letterSpacing="0.02" style="@style/ProductPrice" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <View android:background="@color/black_alpha_10" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

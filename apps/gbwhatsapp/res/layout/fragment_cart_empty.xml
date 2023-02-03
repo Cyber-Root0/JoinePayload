@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/cart_empty_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/cart_title_divider">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <androidy.core.widget.NestedScrollView android:layout_gravity="center" android:id="@id/cart_empty_scroll_view" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="@dimen/cart_empty_screen_text_horizontal_padding" android:paddingTop="@dimen/horizontal_padding" android:paddingRight="@dimen/cart_empty_screen_text_horizontal_padding" android:paddingBottom="@dimen/horizontal_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <include layout="@layout/cart_add_more_logo" />
+                    <com.gbwhatsapp.WaTextView android:textSize="20.0sp" android:textColor="@color/selector_product_catalog_primary_text" android:id="@id/empty_cart_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:text="@string/empty_cart_message" app:fontFamily="sans-serif-medium" />
+                    <com.gbwhatsapp.WaTextView android:textSize="17.0sp" android:textColor="@color/selector_product_catalog_secondary_text" android:gravity="center" android:id="@id/empty_cart_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/horizontal_padding" android:text="@string/empty_cart_description" android:lineSpacingExtra="4.0dip" />
+                </LinearLayout>
+            </androidy.core.widget.NestedScrollView>
+        </FrameLayout>
+        <com.gbwhatsapp.components.Button android:id="@id/cart_empty_view_catalog_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/horizontal_padding" android:layout_marginTop="12.0dip" android:layout_marginRight="@dimen/horizontal_padding" android:layout_marginBottom="12.0dip" android:text="@string/view_catalog" android:layout_weight="0.0" style="@style/WA.Button" />
+    </LinearLayout>
+</merge>

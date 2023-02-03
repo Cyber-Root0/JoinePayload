@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/guide_body" android:background="@drawable/color_ffffff_btn_bg" android:layout_width="310.0dip" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:id="@id/guide_img" android:layout_width="fill_parent" android:layout_height="162.5dip" android:src="@drawable/update_bg" android:scaleType="centerCrop" android:layout_alignParentTop="true" />
+            <ImageView android:id="@id/guide_ad" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_ad" />
+            <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="#ff333333" android:gravity="center" android:id="@id/guide_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_below="@id/guide_img" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+            <TextView android:textSize="14.0sp" android:textColor="#ff757575" android:gravity="start|center" android:id="@id/guide_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="24.0dip" android:layout_below="@id/guide_title" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+            <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/guide_btn" android:background="@drawable/green_btn_bg" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginBottom="28.0dip" android:layout_below="@id/guide_content" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" />
+        </RelativeLayout>
+        <ImageView android:id="@id/guide_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:src="@drawable/ic_close_circle" android:layout_above="@id/guide_body" android:layout_alignEnd="@id/guide_body" />
+    </RelativeLayout>
+</RelativeLayout>

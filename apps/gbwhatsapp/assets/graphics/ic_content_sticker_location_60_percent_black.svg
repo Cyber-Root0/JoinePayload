@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px"
+    height="50px"
+    viewBox="0 0 34 50"
+    version="1.1"
+    xmlns="http://www.w3.org/2000/svg">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_content_sticker_location_b</title>
+    <desc>Created with Sketch.</desc>
+    <g id="content-stikers"
+        stroke="none"
+        stroke-width="1"
+        fill="none"
+        fill-rule="evenodd"
+        fill-opacity="0.6">
+        <g id="Android-xxhdpi-Copy-3"
+            transform="translate(-139.000000, -541.000000)"
+            fill="#000000">
+            <path d="M156,565.17242 C152.6,565.17242 149.929588,562.502008 149.929588,559.102008 C149.929588,555.702008 152.6,553.029563 156,553.029563 C159.4,553.029563 162.070412,555.702008 162.070412,559.102008 C162.070412,562.502008 159.4,565.17242 156,565.17242 M156,542.099976 C146.529588,542.099976 139,549.629563 139,559.102008 C139,571.730579 156,590.673436 156,590.673436 C156,590.673436 173,571.730579 173,559.102008 C173,549.629563 165.470412,542.099976 156,542.099976" id="Fill-1-Copy"/>
+        </g>
+    </g>
+</svg>

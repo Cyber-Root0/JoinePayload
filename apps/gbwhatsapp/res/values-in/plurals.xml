@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Maju cepat %d detik</item>
+        <item quantity="one">Maju cepat %d detik</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Mundur %d detik</item>
+        <item quantity="one">Mundur %d detik</item>
+    </plurals>
+    <plurals name="export_backup_not_enough_space_message">
+        <item quantity="other">Mengekspor chat akan membutuhkan ruang penyimpanan sebesar %s. Harap kosongkan sebagian ruang penyimpanan sebelum mengekspor.</item>
+    </plurals>
+    <plurals name="import_backup_not_enough_space_message">
+        <item quantity="other">Mengimpor akan membutuhkan ruang penyimpanan sebesar %s. Harap kosongkan sebagian ruang penyimpanan sebelum mengimpor.</item>
+    </plurals>
+    <plurals name="move_chats_insufficient_space_dialog">
+        <item quantity="other">Diperlukan %1$s di perangkat ini untuk mentransfer. Harap kosongkan sebagian ruang menggunakan alat pengelolaan penyimpanan WhatsApp.</item>
+    </plurals>
+    <plurals name="settings_gdrive_video_size_to_be_uploaded_plural">
+        <item quantity="other">‎%s akan diunggah</item>
+    </plurals>
+</resources>

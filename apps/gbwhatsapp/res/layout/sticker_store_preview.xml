@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/sticker_preview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/sticker_error" android:scaleType="centerCrop" />
+    <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/loading_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/sticker_error" android:scaleType="fitXY" />
+</FrameLayout>

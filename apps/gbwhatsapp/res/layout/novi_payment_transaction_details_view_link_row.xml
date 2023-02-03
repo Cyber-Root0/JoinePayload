@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.WaTextView android:textSize="@dimen/novi_payment_transaction_detail_label_text_size" android:textColor="@color/payments_link_highlight" android:id="@id/title" android:background="@drawable/selector_orange_gradient" android:padding="@dimen/payment_settings_default_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" style="@style/ListItemTitle"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

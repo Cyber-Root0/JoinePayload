@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:gravity="center" android:id="@id/set_different_location" android:paddingLeft="@dimen/dir_margin_44" android:paddingTop="@dimen/dir_margin_20" android:paddingRight="@dimen/dir_margin_44" android:paddingBottom="@dimen/dir_margin_20" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/biz_set_different_location_button" app:textAllCaps="true" style="@style/CategorySeeMoreLabel"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root_view" android:background="@color/primary_surface" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@color/transparent" android:divider="@drawable/status_contact_picker_divider" android:dividerHeight="0.5dip" />
+    <com.gbwhatsapp.WaTextView android:textSize="17.0sp" android:textColor="@color/welcome_statuses_message_color" android:gravity="center" android:id="@android:id/empty" android:padding="32.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:progressBarStyleInverse" />
+    <com.gbwhatsapp.components.FloatingActionButton android:id="@id/fab" android:src="@drawable/ic_camera" android:contentDescription="@string/menuitem_new_status" app:tint="@color/white" style="@style/WA.FAB" />
+    <com.gbwhatsapp.components.FloatingActionButton android:id="@id/fab_second" android:src="@drawable/ic_text_status_compose" android:contentDescription="@string/menuitem_new_text_status" app:tint="@color/fabSecondaryContent" style="@style/WA.FAB.Secondary" />
+    <com.gbwhatsapp.youbasha.ui.views.FloatingActionButton android:layout_gravity="end|bottom|center" android:id="@id/fabdiv" android:layout_width="@dimen/fab_button_size" android:layout_height="@dimen/fab_button_size" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="142.0dip" android:src="@drawable/abc_ic_menu_cut_mtrl_alpha" android:scaleType="center" android:onClick="FABStatusSplit" />
+</FrameLayout>

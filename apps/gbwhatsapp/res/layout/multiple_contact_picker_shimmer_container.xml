@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.shimmer.ShimmerFrameLayout android:id="@id/contact_list_shimmer_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:shimmer_auto_start="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingTop="8.0dip" android:paddingRight="@dimen/list_row_padding" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/contact_picker_row_text_height">
+        <include layout="@layout/multiple_contact_picker_shimmer_row" />
+        <include layout="@layout/multiple_contact_picker_shimmer_row" />
+        <include layout="@layout/multiple_contact_picker_shimmer_row" />
+        <include layout="@layout/multiple_contact_picker_shimmer_row" />
+        <include layout="@layout/multiple_contact_picker_shimmer_row" />
+        <include layout="@layout/multiple_contact_picker_shimmer_row" />
+        <include layout="@layout/multiple_contact_picker_shimmer_row" />
+        <include layout="@layout/multiple_contact_picker_shimmer_row" />
+    </LinearLayout>
+</com.facebook.shimmer.ShimmerFrameLayout>

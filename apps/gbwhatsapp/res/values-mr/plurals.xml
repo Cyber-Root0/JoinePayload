@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">%d सेकंद फास्ट फॉरवर्ड करा</item>
+        <item quantity="one">%d सेकंद फास्ट फॉरवर्ड करा</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">%d सेकंद रिवाइंड करा</item>
+        <item quantity="one">%d सेकंद रिवाइंड करा</item>
+    </plurals>
+    <plurals name="export_backup_not_enough_space_message">
+        <item quantity="other">चॅट्स एक्स्पोर्ट करण्यासाठी %s एवढे स्टोरेज लागेल. एक्स्पोर्ट करण्याआधी कृपया स्टोरेजची जागा मोकळी करा.</item>
+    </plurals>
+    <plurals name="import_backup_not_enough_space_message">
+        <item quantity="other">चॅट्स इंपोर्ट करण्यासाठी %s एवढे स्टोरेज लागेल. इंपोर्ट करण्याआधी कृपया स्टोरेजची जागा मोकळी करा.</item>
+    </plurals>
+    <plurals name="move_chats_insufficient_space_dialog">
+        <item quantity="other">ट्रान्सफर करण्यासाठी या डिव्हाइसवर %1$s असणे आवश्यक आहे. कृपया WhatsApp चे स्टोरेज व्यवस्थापन टूल वापरून जागा मोकळी करा.</item>
+    </plurals>
+    <plurals name="settings_gdrive_video_size_to_be_uploaded_plural">
+        <item quantity="other">‎%s अपलोड करायचे आहे</item>
+    </plurals>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="16.0dip" android:paddingTop="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="@color/payments_header_font_color" android:layout_gravity="center_vertical" android:id="@id/add_payment_method_bottom_sheet_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add_payment_method_bottom_sheet_title" app:fontFamily="sans-serif-medium" />
+    <com.gbwhatsapp.TextEmojiLabel android:textSize="14.0sp" android:textColor="@color/secondary_text" android:id="@id/add_payment_method_bottom_sheet_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:text="@string/add_payment_method_bottom_sheet_desc" android:lineSpacingExtra="3.0dip" app:fontFamily="sans-serif" />
+    <com.gbwhatsapp.components.Button android:id="@id/add_payment_method" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="-6.0dip" android:layout_marginRight="-6.0dip" android:layout_marginBottom="20.0dip" android:text="@string/add_payment_method_bottom_sheet_btn_label" style="@style/FbPayPrimaryButton" />
+    <View android:id="@id/extra_info_education_divider" android:background="@drawable/payments_divider_gray" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/extra_info_education_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="11.0dip" android:layout_marginBottom="13.0dip">
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center_vertical" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/ic_action_info" app:tint="@color/secondary_text" />
+        <com.gbwhatsapp.WaTextView android:textSize="13.0sp" android:textColor="@color/secondary_text" android:id="@id/extra_info_education_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_weight="1.0" app:fontFamily="sans-serif" />
+    </LinearLayout>
+</LinearLayout>

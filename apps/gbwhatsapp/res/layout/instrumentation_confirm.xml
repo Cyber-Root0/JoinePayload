@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView style="@style/InstrumentationAuthScrollView">
+        <LinearLayout style="@style/InstrumentationAuthTopPane">
+            <com.caverock.androidsvg.SVGImageView app:svg="graphics/stella_e2e.svg" style="@style/InstrumentationAuthImage" />
+            <com.gbwhatsapp.WaTextView android:text="@string/instrumentation_auth_complete_title" style="@style/InstrumentationAuthTitleText" />
+            <LinearLayout style="@style/InstrumentationAuthListItem">
+                <com.gbwhatsapp.WaImageView android:src="@drawable/ic_lock_black" style="@style/InstrumentationAuthListItemIcon" />
+                <com.gbwhatsapp.WaTextView android:text="@string/instrumentation_auth_complete_bullet_one" style="@style/InstrumentationAuthListItemText" />
+            </LinearLayout>
+            <LinearLayout style="@style/InstrumentationAuthListItem">
+                <com.gbwhatsapp.WaImageView android:src="@drawable/ic_graphic_eq" style="@style/InstrumentationAuthListItemIcon" />
+                <com.gbwhatsapp.WaTextView android:text="@string/instrumentation_auth_complete_bullet_two" style="@style/InstrumentationAuthListItemText" />
+            </LinearLayout>
+            <LinearLayout style="@style/InstrumentationAuthListItem">
+                <com.gbwhatsapp.WaImageView android:src="@drawable/ic_chat_outline" style="@style/InstrumentationAuthListItemIcon" />
+                <com.gbwhatsapp.WaTextView android:text="@string/instrumentation_auth_complete_bullet_three" style="@style/InstrumentationAuthListItemText" />
+            </LinearLayout>
+            <com.gbwhatsapp.WaTextView android:id="@id/instrumentation_auth_complete_link" android:text="@string/instrumentation_auth_complete_link" style="@style/InstrumentationAuthParagraphText" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout style="@style/InstrumentationAuthBottomPane">
+        <com.gbwhatsapp.components.Button android:id="@id/instrumentation_auth_complete_button" android:text="@string/instrumentation_auth_complete_button" style="@style/InstrumentationAuthButton" />
+    </LinearLayout>
+</LinearLayout>

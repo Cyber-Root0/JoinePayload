@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/business_avatar" android:background="@drawable/business_avatar_template" android:layout_width="@dimen/biz_avatar_size" android:layout_height="@dimen/biz_avatar_size" android:layout_marginLeft="@dimen/horizontal_margin" android:layout_marginRight="@dimen/horizontal_margin" />
+    <View android:layout_gravity="center_vertical" android:id="@id/business_name" android:background="@drawable/business_line_template" android:layout_width="128.0dip" android:layout_height="16.0dip" />
+</LinearLayout>

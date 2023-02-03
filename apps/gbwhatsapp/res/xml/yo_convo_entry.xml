@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference android:entries="@array/conversation_style_entry" android:title="@string/yoconv" android:key="ConvoEntry" android:summary="@string/yoconvS" android:defaultValue="0" android:entryValues="@array/conversation_style_entry_values" />
+    <com.gbwhatsapp.yo.ColorPref android:title="@string/HangoutsBK" android:key="BGColor" android:summary="@string/HangoutsBKS" />
+    <com.gbwhatsapp.yo.ColorPref android:title="@string/HangoutsBt" android:key="ModChatBtnColor" android:summary="@string/HangoutsBtS" />
+    <com.gbwhatsapp.yo.ColorPref android:title="@string/yoEmojibtn" android:key="ModChatEmojiColor" android:summary="@string/yoEmojibtnS" />
+    <com.gbwhatsapp.yo.ColorPref android:title="@string/yoSendBtn" android:key="ModChaSendColor" android:summary="@string/yoSendBtnS" />
+    <com.gbwhatsapp.yo.ColorPref android:title="@string/yoSendBK" android:key="ModChaSendBKColor" android:summary="@string/yoSendBKS" />
+    <com.gbwhatsapp.yo.ColorPref android:title="@string/EntryBak" android:key="ModChatEntry" android:summary="@string/EntryBak" />
+    <com.gbwhatsapp.yo.ColorPref android:title="@string/entryText" android:key="ModChatTextColor" android:summary="@string/entryTextSum" />
+</PreferenceScreen>

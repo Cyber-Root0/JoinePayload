@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/live_location_label_holder" android:background="@drawable/live_location_gray_bottom_radius_background" android:paddingLeft="@dimen/bubble_horizontal_inner_frame_padding_relative_to_frame" android:paddingTop="@dimen/space_xTight" android:paddingRight="@dimen/bubble_horizontal_inner_frame_padding_relative_to_frame" android:paddingBottom="@dimen/space_xTight" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bubble_inner_frame_inset" android:layout_marginRight="@dimen/bubble_inner_frame_inset" android:minHeight="32.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center|left" android:paddingRight="@dimen/bubble_horizontal_inner_frame_padding_relative_to_frame" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaImageView android:id="@id/live_location_icon_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_live_location_animation_1" app:tint="@color/liveLocationIconActiveTint" />
+        <com.gbwhatsapp.WaImageView android:id="@id/live_location_icon_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_live_location_animation_2" app:tint="@color/liveLocationIconActiveTint" />
+        <com.gbwhatsapp.WaImageView android:id="@id/live_location_icon_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_live_location_animation_3" app:tint="@color/liveLocationIconActiveTint" />
+    </FrameLayout>
+    <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="@color/link_color" android:layout_gravity="center|left" android:id="@id/live_location_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/conversation_live_location_label_padding_right" />
+</LinearLayout>

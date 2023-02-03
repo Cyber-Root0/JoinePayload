@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidy.constraintlayout.widget.ConstraintLayout android:background="@drawable/selector_orange_gradient" android:paddingLeft="@dimen/dir_margin_14" android:paddingTop="@dimen/dir_margin_12" android:paddingRight="@dimen/dir_margin_14" android:paddingBottom="@dimen/dir_margin_12" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaImageView android:id="@id/category_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="12.0dip" android:layout_marginRight="18.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/category_name" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:tint="@color/icon_secondary" />
+    <com.gbwhatsapp.WaTextView android:id="@id/category_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/category_icon" app:layout_constraintTop_toTopOf="parent" style="@style/ListItemTitle" />
+</androidy.constraintlayout.widget.ConstraintLayout>

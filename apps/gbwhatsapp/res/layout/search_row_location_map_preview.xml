@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaImageView android:id="@id/search_map_preview_map_thumb" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/map_loading" android:scaleType="centerCrop" />
+    <com.gbwhatsapp.location.WaMapView android:id="@id/search_map_preview_map" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:layout_gravity="center" android:id="@id/search_map_preview_avatar_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <View android:layout_gravity="center" android:background="@drawable/ic_live_location_places" android:visibility="visible" android:layout_width="@dimen/search_small_avatar_shadow_background_size" android:layout_height="@dimen/search_small_avatar_shadow_background_size" />
+        <com.gbwhatsapp.components.button.ThumbnailButton android:layout_gravity="center" android:id="@id/search_map_preview_contact_thumbnail" android:visibility="visible" android:layout_width="@dimen/search_small_avatar_size" android:layout_height="@dimen/search_small_avatar_size" android:src="@drawable/avatar_contact" android:scaleType="fitCenter" whatsapp:tbtnBorderColor="@color/live_location_live_location_marker_border" whatsapp:tbtnBorderSize="1.0dip" whatsapp:tbtnForegroundOnly="false" whatsapp:tbtnRadius="@dimen/small_avatar_radius" />
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/search_map_preview_contact_thumbnail_overlay" android:visibility="visible" android:layout_width="@dimen/search_small_avatar_size" android:layout_height="@dimen/search_small_avatar_size" android:src="@drawable/live_location_expired_contact_mask" />
+    </FrameLayout>
+    <com.gbwhatsapp.WaTextView android:id="@id/search_map_preview_thumb_button" android:background="@drawable/selector_orange_gradient" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</merge>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/payment_entry_action" android:background="@drawable/input_circle" android:addStatesFromChildren="true" android:layout_width="@dimen/input_layout_buttons_size" android:layout_height="@dimen/input_layout_buttons_size" android:layout_marginRight="@dimen/input_layout_buttons_margin" android:layout_marginBottom="@dimen/input_layout_buttons_margin" android:elevation="2.0dip" android:stateListAnimator="@anim/fab_animation"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaImageButton android:layout_gravity="center" android:id="@id/send_payment_send" android:background="@android:color/transparent" android:layout_width="47.0dip" android:layout_height="47.0dip" android:src="@drawable/input_send" android:scaleType="center" android:contentDescription="@string/send_button" />
+</FrameLayout>

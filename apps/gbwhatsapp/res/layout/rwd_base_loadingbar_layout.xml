@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.san.rwdtask.ui.widget.materialprogressbar.getErrorCode android:id="@id/progress_bar" android:background="@drawable/wheel_progress_background" android:padding="@dimen/progressbar_padding_normal" android:layout_width="@dimen/progressbar_size_normal" android:layout_height="@dimen/progressbar_size_normal" android:layout_centerInParent="true" app:mpb_strokeWidth="@dimen/common_dimens_3dp" />
+    <TextView android:textSize="14.0sp" android:textColor="#ff191919" android:id="@id/loading_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_below="@id/progress_bar" android:layout_centerHorizontal="true" />
+</RelativeLayout>

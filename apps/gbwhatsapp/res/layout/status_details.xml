@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/status_details_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/status_details_content" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/panel_popup_top" android:paddingTop="10.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" app:wallBackgroundTint="@color/panelStatusDetailsTopTint">
+            <com.gbwhatsapp.WaTextView android:textSize="18.0sp" android:textColor="@color/white" android:layout_gravity="center|left" android:id="@id/title" android:paddingLeft="6.0dip" android:paddingRight="6.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <ViewStub android:id="@id/panel_action_buttons" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </com.gbwhatsapp.WaLinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/list_container" android:background="@color/primary_surface" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.4499817dip" android:layout_marginRight="5.649994dip">
+            <ViewStub android:id="@id/list_container_header_stub" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <androidy.recyclerview.widget.RecyclerView android:id="@android:id/list" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.gbwhatsapp.WaTextView android:gravity="center" android:id="@android:id/empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/small_list_row_height" android:text="@string/no_one_saw_your_status" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

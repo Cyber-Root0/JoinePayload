@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingTop="@dimen/header_height" android:paddingRight="@dimen/list_container_padding_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/search_divider" android:layout_marginLeft="@dimen/search_help_left_margin" android:layout_alignParentTop="true" style="@style/SectionDivider.Heavy" />
+    <com.gbwhatsapp.WaTextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/search_help_title_top" android:text="@string/settings_help" android:layout_below="@id/search_divider" style="?listSectionTitleText" />
+    <com.gbwhatsapp.WaImageView android:id="@id/help_center_icon" android:background="@drawable/white_circle" android:layout_width="@dimen/contact_picker_avatar_size" android:layout_height="@dimen/contact_picker_avatar_size" android:layout_marginLeft="@dimen/search_help_left_margin" android:layout_marginTop="@dimen/search_help_center_top" android:layout_marginRight="8.0dip" android:layout_marginBottom="8.0dip" android:scaleType="fitCenter" android:layout_below="@id/title" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/help_center_text_container" android:paddingTop="8.0dip" android:paddingRight="@dimen/contact_picker_row_text_padding_right" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/contact_picker_row_text_height" android:layout_toRightOf="@id/help_center_icon" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true">
+        <com.gbwhatsapp.WaTextView android:layout_gravity="center|left" android:id="@id/help_center_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" style="@style/ListItemTitle" />
+    </LinearLayout>
+</RelativeLayout>

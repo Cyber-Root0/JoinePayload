@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.WaTextView android:textSize="@dimen/community_members_footer_size" android:textColor="@color/secondary_text" android:gravity="center_horizontal" android:padding="@dimen/community_members_footer_paddingTop" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/community_view_member_footer"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

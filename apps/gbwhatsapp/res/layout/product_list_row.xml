@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.TextEmojiLabel android:textSize="12.0sp" android:ellipsize="end" android:id="@id/product_section" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="8.0dip" android:maxLines="1" android:textAllCaps="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

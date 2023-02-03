@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/container" android:background="@color/primary_surface" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/toolbar_with_search" />
+        <ListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@color/transparent" android:divider="@drawable/status_contact_picker_divider" android:dividerHeight="0.5dip" android:headerDividersEnabled="false" android:footerDividersEnabled="true" />
+        <ScrollView android:id="@android:id/empty" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ProgressBar android:layout_gravity="center" android:id="@id/init_contacts_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:progressBarStyleInverse" />
+                <com.gbwhatsapp.WaTextView android:textSize="18.0sp" android:textColor="?android:textColorSecondary" android:gravity="center" android:layout_gravity="center" android:id="@id/search_no_matches" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </FrameLayout>
+        </ScrollView>
+    </LinearLayout>
+    <com.gbwhatsapp.components.FloatingActionButton android:id="@id/done" android:src="@drawable/ic_done" android:contentDescription="@string/done" style="@style/WA.FAB" />
+</FrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidy.constraintlayout.widget.ConstraintLayout android:background="#7f000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iv_main_ad_close" android:visibility="visible" android:layout_width="27.0dip" android:layout_height="27.0dip" android:layout_marginBottom="12.0dip" android:src="@drawable/ic_ad_close" app:layout_constraintBottom_toTopOf="@id/ad_view" app:layout_constraintEnd_toEndOf="@id/ad_view" />
+    <androidy.constraintlayout.widget.ConstraintLayout android:id="@id/ad_view" android:background="@drawable/color_ffffff_btn_bg" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.san.ads.MediaView android:id="@id/image_ad_poster" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintDimensionRatio="600:770" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <ImageView android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@drawable/ic_ad_label" app:layout_constraintStart_toStartOf="@id/image_ad_poster" app:layout_constraintTop_toTopOf="@id/image_ad_poster" />
+    </androidy.constraintlayout.widget.ConstraintLayout>
+</androidy.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/small_list_row_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaTextView android:textSize="@dimen/live_location_end_text_size" android:textColor="@color/live_location_stop_sharing_red" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/live_location_ended" />
+    <com.gbwhatsapp.WaTextView android:gravity="center" android:id="@id/live_location_end_text" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

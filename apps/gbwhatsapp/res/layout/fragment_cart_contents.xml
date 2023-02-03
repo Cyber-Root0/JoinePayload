@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidy.recyclerview.widget.RecyclerView android:id="@id/cart_items_recycler_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/horizontal_padding" android:layout_below="@id/cart_title_divider" app:layoutManager="androidy.recyclerview.widget.LinearLayoutManager" />
+    <include layout="@layout/theme_conversation_stock_entry" />
+    <include layout="@layout/send_cart_footer" />
+</merge>

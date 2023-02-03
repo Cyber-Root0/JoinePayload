@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/paletteSurface_3dp" />
+    <corners android:topLeftRadius="@dimen/video_call_focus_menu_radius" android:topRightRadius="@dimen/video_call_focus_menu_radius" android:bottomLeftRadius="@dimen/video_call_focus_menu_radius" android:bottomRightRadius="@dimen/video_call_focus_menu_radius" />
+</shape>

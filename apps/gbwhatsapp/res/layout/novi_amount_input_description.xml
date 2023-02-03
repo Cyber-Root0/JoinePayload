@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/send_payment_amount_description_shimmer" android:padding="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="24.0dip" style="@style/NoviPaymentLoadingShimmer">
+        <View android:layout_gravity="center" android:background="@drawable/payment_loading_box" android:layout_width="200.0dip" android:layout_height="16.0dip" />
+    </com.facebook.shimmer.ShimmerFrameLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/send_payment_amount_description_layout" android:padding="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="@color/secondary_text" android:layout_gravity="center_vertical" android:id="@id/send_payment_amount_description" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@id/send_payment_switch_currency_icon" android:background="@drawable/selector_orange_gradient_round_bg" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="8.0dip" android:src="@drawable/ic_switch_currency" android:contentDescription="@string/switch_currency_icon_description" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/wds_orange_400" />
+            <size android:height="62.0dip" android:width="62.0dip" />
+        </shape>
+    </item>
+    <item android:gravity="center" android:height="31.0dip" android:width="31.0dip">
+        <bitmap android:src="@drawable/input_mic_white" />
+    </item>
+</layer-list>

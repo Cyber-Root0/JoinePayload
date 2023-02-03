@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/primary_surface" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/out_of_chat_playback_holder" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include android:id="@id/action_bar" layout="@layout/toolbar_with_search" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:orientation="vertical" android:id="@id/warning" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/selected_contacts_layout_height">
+                <com.gbwhatsapp.WaTextView android:textColor="@color/text_subtle_warning" android:layout_gravity="center" android:id="@id/warning_text" android:padding="@dimen/conversation_row_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="center" />
+                <View android:layout_gravity="bottom" android:background="@drawable/divider_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            </FrameLayout>
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <RelativeLayout android:id="@id/selected_list" android:layout_width="fill_parent" android:layout_height="@dimen/selected_contacts_layout_height">
+                    <androidy.recyclerview.widget.RecyclerView android:layout_gravity="top" android:id="@id/selected_items" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+                    <View android:layout_gravity="center" android:id="@id/selected_items_divider" android:background="@drawable/divider_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+                    <com.gbwhatsapp.WaImageButton android:id="@id/selected_list_action_fab_1" android:background="@drawable/selected_contacts_action_fab_background" android:visibility="gone" android:layout_width="@dimen/selected_contacts_list_action_fab_size" android:layout_height="@dimen/selected_contacts_list_action_fab_size" android:layout_marginTop="@dimen/selected_contacts_top_offset" android:src="@drawable/ic_fab_next" android:layout_alignTop="@id/selected_items" android:layout_alignParentRight="true" android:contentDescription="@string/next" />
+                    <com.gbwhatsapp.WaImageButton android:id="@id/selected_list_action_fab_2" android:background="@drawable/selected_contacts_action_fab_background" android:visibility="gone" android:layout_width="@dimen/selected_contacts_list_action_fab_size" android:layout_height="@dimen/selected_contacts_list_action_fab_size" android:layout_marginTop="@dimen/selected_contacts_top_offset" android:src="@drawable/ic_fab_next" android:layout_alignTop="@id/selected_items" android:layout_alignParentRight="true" android:contentDescription="@string/next" />
+                </RelativeLayout>
+                <ListView android:id="@android:id/list" android:background="@android:color/transparent" android:paddingLeft="@dimen/contact_list_padding_left" android:paddingRight="@dimen/contact_list_padding_right" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@null" android:choiceMode="singleChoice" android:headerDividersEnabled="false" android:footerDividersEnabled="true" />
+            </FrameLayout>
+            <FrameLayout android:id="@android:id/empty" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ProgressBar android:layout_gravity="center" android:id="@id/init_contacts_progress" android:padding="16.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:progressBarStyleInverse" />
+                <LinearLayout android:orientation="vertical" android:id="@id/search_no_matches_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <com.gbwhatsapp.WaTextView android:textSize="18.0sp" android:textColor="?android:textColorSecondary" android:gravity="center" android:id="@id/search_no_matches" android:paddingLeft="12.0dip" android:paddingTop="32.0dip" android:paddingRight="12.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <com.gbwhatsapp.WaTextView android:id="@id/moreText" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/more" style="?listSectionTitleText" />
+                </LinearLayout>
+                <com.gbwhatsapp.EmptyTellAFriendView android:id="@id/contacts_empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <include android:id="@id/contacts_empty_permission_denied" android:visibility="gone" layout="@layout/empty_contacts_permissions_needed" />
+            </FrameLayout>
+        </LinearLayout>
+        <com.gbwhatsapp.components.FloatingActionButton android:id="@id/next_btn" android:visibility="invisible" android:src="@drawable/ic_fab_next" android:contentDescription="@string/next" style="@style/WA.FAB" />
+    </FrameLayout>
+</LinearLayout>

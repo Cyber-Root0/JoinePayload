@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/novi_payment_method_remove_option_section" android:background="@color/primary_surface" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/novi_payment_method_remove_option_divider" layout="@layout/divider" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/novi_payment_method_remove_option_row" android:background="?android:selectableItemBackground" android:paddingTop="16.0dip" android:paddingRight="24.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_width="72.0dip" android:layout_height="wrap_content">
+            <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/novi_payment_method_remove_option_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_settings_delete" android:scaleType="center" />
+        </FrameLayout>
+        <com.gbwhatsapp.WaTextView android:textSize="@dimen/settings_title_text_size" android:textColor="@color/settings_item_title_text" android:id="@id/novi_payment_method_remove_option_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/remove_card" android:singleLine="true" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.WaImageView android:focusable="true" android:clickable="true" android:layout_width="24.0dip" android:layout_height="fill_parent" android:layout_marginRight="@dimen/product_margin_24dp" android:src="@drawable/ic_history" android:scaleType="fitCenter" android:layout_centerVertical="true" whatsapp:tint="@color/icon_secondary"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto" />

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="?android:colorControlHighlight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/mask" android:drawable="@color/white" />
+    <item>
+        <selector>
+            <item android:state_activated="true">
+                <shape>
+                    <solid android:color="@color/list_item_selected" />
+                    <stroke android:width="1.0dip" android:color="@color/novi_payments_cancel_button_border_color" />
+                    <corners android:radius="2.0dip" />
+                </shape>
+            </item>
+            <item android:state_pressed="true">
+                <shape>
+                    <solid android:color="@color/list_item_selected" />
+                    <stroke android:width="1.0dip" android:color="@color/novi_payments_cancel_button_border_color" />
+                    <corners android:radius="2.0dip" />
+                </shape>
+            </item>
+            <item android:state_activated="false">
+                <shape>
+                    <solid android:color="@color/transparent" />
+                    <stroke android:width="1.0dip" android:color="@color/novi_payments_cancel_button_border_color" />
+                    <corners android:radius="2.0dip" />
+                </shape>
+            </item>
+            <item android:state_activated="false">
+                <shape>
+                    <solid android:color="@color/white" />
+                    <stroke android:width="1.0dip" android:color="@color/novi_payments_cancel_button_border_color" />
+                    <corners android:radius="2.0dip" />
+                </shape>
+            </item>
+        </selector>
+    </item>
+</ripple>

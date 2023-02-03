@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/dimmed_background" android:layout_width="fill_parent" android:layout_height="@dimen/payment_settings_card_separator_height" />
+    <View android:background="@drawable/list_separator_top" android:layout_width="fill_parent" android:layout_height="@dimen/payment_settings_card_separator_height" />
+</FrameLayout>

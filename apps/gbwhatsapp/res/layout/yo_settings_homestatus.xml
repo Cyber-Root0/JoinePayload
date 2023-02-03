@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/yosettings_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/yo_toolbar" />
+    <LinearLayout android:orientation="vertical" android:id="@id/preview" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="@dimen/settings_divider_vertical_margin" android:layout_marginTop="@dimen/settings_divider_text_margin_top" android:layout_marginRight="@dimen/settings_divider_vertical_margin" android:layout_weight="1.0">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/conversations_row_height">
+            <FrameLayout android:id="@id/contact_selector" android:paddingLeft="@dimen/list_row_padding" android:layout_width="wrap_content" android:layout_height="@dimen/conversations_row_height" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+                <ImageView android:layout_gravity="center|left" android:id="@id/contact_photo" android:padding="2.5dip" android:layout_width="@dimen/status_thumbnail_size" android:layout_height="@dimen/status_thumbnail_size" android:src="@drawable/avatar_contact" android:scaleType="centerCrop" whatsapp:cstErrorColor="@color/status_error" whatsapp:cstSeenColor="@color/status_seen" whatsapp:cstUnseenColor="@color/status_unseen" whatsapp:tbtnBorderSize="2.5dip" whatsapp:tbtnForegroundOnly="false" whatsapp:tbtnRadius="@dimen/small_avatar_radius" />
+                <ImageView android:layout_gravity="bottom|center|right" android:id="@id/contact_mark" android:paddingBottom="6.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/my_status_add" />
+            </FrameLayout>
+            <LinearLayout android:gravity="left" android:orientation="vertical" android:paddingLeft="@dimen/list_row_padding" android:paddingRight="@dimen/list_row_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/contact_selector" android:layout_centerVertical="true">
+                <com.gbwhatsapp.yo.tf android:textSize="17.0sp" android:textColor="@color/primary_text" android:ellipsize="end" android:layout_gravity="left" android:id="@id/contact_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Testing Name" android:singleLine="true" />
+                <com.gbwhatsapp.yo.tf android:textSize="15.0sp" android:textColor="@color/conversations_text_gray" android:ellipsize="end" android:layout_gravity="left" android:id="@id/date_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add_to_status" android:singleLine="true" />
+            </LinearLayout>
+            <View android:id="@id/divider" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <View android:id="@id/divider" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+        <FrameLayout android:background="@color/list_section_background" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <View android:background="@color/list_section_divider" android:layout_width="fill_parent" android:layout_height="0.30000007dip" />
+            <com.gbwhatsapp.yo.tf android:textSize="14.0sp" android:textColor="@color/dark_gray" android:id="@id/title" android:paddingLeft="14.0dip" android:paddingTop="6.0dip" android:paddingRight="14.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/recent_updates" android:singleLine="true" />
+        </FrameLayout>
+    </LinearLayout>
+    <ListView android:id="@android:id/list" android:background="@drawable/rounded_card" android:padding="@dimen/info_screen_padding" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="@dimen/settings_divider_text_margin_top" android:divider="@drawable/divider_gray" android:layout_weight="4.0" />
+</LinearLayout>

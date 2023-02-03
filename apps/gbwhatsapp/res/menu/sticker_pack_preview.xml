@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_action_forward" android:id="@id/menu_sticker_pack_share" android:visible="false" android:title="@string/forward_to" app:contentDescription="@string/forward_to_content_description" app:showAsAction="ifRoom" />
+</menu>

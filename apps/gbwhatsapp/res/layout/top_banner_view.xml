@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.InfoCard android:orientation="vertical" android:id="@id/trust_signal_card" android:paddingTop="0.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" whatsapp:icTopDrawable="@null"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <androidy.constraintlayout.widget.ConstraintLayout android:background="@color/trust_banner_bg_color" android:paddingLeft="@dimen/space_16dp" android:paddingTop="@dimen/space_12dp" android:paddingRight="@dimen/space_16dp" android:paddingBottom="@dimen/space_12dp" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.gbwhatsapp.WaTextView android:textSize="@dimen/text_size_14" android:textColor="@color/trust_banner_text_color" android:id="@id/trust_banner_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" whatsapp:layout_constraintLeft_toLeftOf="parent" whatsapp:layout_constraintRight_toLeftOf="@id/barrier" whatsapp:layout_constraintTop_toTopOf="parent" />
+        <androidy.appcompat.widget.LinearLayoutCompat android:id="@id/follower_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_10dp" whatsapp:layout_constraintBottom_toBottomOf="parent" whatsapp:layout_constraintLeft_toLeftOf="parent" whatsapp:layout_constraintRight_toLeftOf="@id/barrier" whatsapp:layout_constraintTop_toBottomOf="@id/trust_banner_title">
+            <androidy.appcompat.widget.LinearLayoutCompat android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/fb_follower_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.gbwhatsapp.WaImageView android:layout_width="wrap_content" android:layout_height="wrap_content" whatsapp:srcCompat="@drawable/ic_banner_facebook" />
+                <com.gbwhatsapp.WaTextView android:textSize="@dimen/text_size_14" android:textColor="@color/trust_banner_text_color" android:id="@id/fb_follower_count" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" />
+            </androidy.appcompat.widget.LinearLayoutCompat>
+            <androidy.appcompat.widget.LinearLayoutCompat android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ig_follower_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.gbwhatsapp.WaImageView android:layout_width="wrap_content" android:layout_height="wrap_content" whatsapp:srcCompat="@drawable/ic_banner_instagram" />
+                <com.gbwhatsapp.WaTextView android:textSize="@dimen/text_size_14" android:textColor="@color/trust_banner_text_color" android:id="@id/ig_follower_count" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" />
+            </androidy.appcompat.widget.LinearLayoutCompat>
+        </androidy.appcompat.widget.LinearLayoutCompat>
+        <androidy.constraintlayout.widget.Barrier android:id="@id/barrier" android:layout_width="wrap_content" android:layout_height="wrap_content" whatsapp:barrierDirection="left" whatsapp:constraint_referenced_ids="trust_banner_close_btn" />
+        <com.gbwhatsapp.WaImageView android:id="@id/trust_banner_close_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" whatsapp:layout_constraintBottom_toBottomOf="parent" whatsapp:layout_constraintLeft_toRightOf="@id/barrier" whatsapp:layout_constraintRight_toRightOf="parent" whatsapp:layout_constraintTop_toTopOf="parent" whatsapp:srcCompat="@drawable/ic_close" />
+    </androidy.constraintlayout.widget.ConstraintLayout>
+</com.gbwhatsapp.InfoCard>

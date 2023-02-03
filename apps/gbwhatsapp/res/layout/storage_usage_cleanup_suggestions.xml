@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="16.0dip" android:text="@string/storage_usage_cleanup_suggestions_title" style="@style/SettingsSectionTitleText" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/forwarded_files_container" android:paddingLeft="16.0dip" android:paddingTop="16.0dip" android:paddingRight="16.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip">
+            <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="@color/settings_item_title_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/storage_usage_forwarded_files_title" android:layout_weight="1.0" />
+            <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="@color/settings_item_subtitle_text" android:id="@id/forwarded_files_size_text_view" android:paddingLeft="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.gbwhatsapp.WaImageView android:paddingLeft="8.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/chevron_right" app:tint="@color/settings_item_subtitle_text" />
+        </LinearLayout>
+        <com.gbwhatsapp.storage.StorageUsageMediaPreviewView android:id="@id/forwarded_files_preview_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/large_files_container" android:paddingLeft="16.0dip" android:paddingTop="16.0dip" android:paddingRight="16.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip">
+            <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="@color/settings_item_title_text" android:id="@id/large_files_title_text_view" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/storage_usage_large_files_title" android:layout_weight="1.0" />
+            <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="@color/settings_item_subtitle_text" android:id="@id/large_files_size_text_view" android:paddingLeft="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.gbwhatsapp.WaImageView android:paddingLeft="8.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/chevron_right" app:tint="@color/settings_item_subtitle_text" />
+        </LinearLayout>
+        <com.gbwhatsapp.storage.StorageUsageMediaPreviewView android:id="@id/large_files_preview_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View android:background="@color/divider_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="8.0dip" />
+</LinearLayout>

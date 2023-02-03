@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidy.viewpager.widget.ViewPager android:id="@id/user_problems_view_pager" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.google.android.material.tabs.TabLayout android:id="@id/tab_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </androidy.viewpager.widget.ViewPager>
+</LinearLayout>

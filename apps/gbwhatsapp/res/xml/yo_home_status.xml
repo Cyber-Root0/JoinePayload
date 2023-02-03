@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.yo.ColorPref android:title="@string/statusesTitleBack" android:key="statuses_bar_bg_picker" android:summary="@string/statusesTitleBackS" />
+    <com.gbwhatsapp.yo.ColorPref android:title="@string/statusesTitleText" android:key="statuses_bar_text_picker" android:summary="@string/statusesTitleTextS" />
+    <com.gbwhatsapp.yo.ColorPref android:title="@string/name_contact_sto" android:key="key_name_stories" android:summary="@string/name_contact_sto_sum" android:defaultValue="@color/white" />
+    <com.gbwhatsapp.yo.ColorPref android:title="@string/SeenST" android:key="SeenColor" android:summary="@string/SeenSTS" />
+    <com.gbwhatsapp.yo.ColorPref android:title="@string/UnSeenST" android:key="UnSeenColor" android:summary="@string/UnSeenSTS" />
+    <com.gbwhatsapp.yo.ColorPref android:title="@string/bg_counter_color" android:key="key_counter_bg" android:summary="@string/bg_counter_color_sum" android:defaultValue="@color/accent" />
+    <com.gbwhatsapp.yo.ColorPref android:title="@string/text_counter_color" android:key="key_counter_tx" android:summary="@string/text_counter_color_sum" android:defaultValue="@color/white" />
+    <SwitchPreference android:title="@string/change_p_s" android:key="key_with_thumb" android:summary="@string/sum_change_p_s" android:defaultValue="false" />
+    <SwitchPreference android:title="@string/yoFiveMinStatus" android:key="enable_fivminstatus" android:summary="@string/yoFiveMinStatusS" android:defaultValue="false" />
+    <SwitchPreference android:title="@string/hidesMStatus" android:key="imsHideMStatus" android:summary="@string/hidesMStatussum" android:defaultValue="false" />
+    <SwitchPreference android:title="@string/hidesVStatus" android:key="imsHideVStatus" android:summary="@string/hidesVStatussum" android:defaultValue="false" />
+    <SwitchPreference android:title="@string/hideRStatus" android:key="imsHideRStatus" android:summary="@string/hideRstatussum" android:defaultValue="false" />
+</PreferenceScreen>

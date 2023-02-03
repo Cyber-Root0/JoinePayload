@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/info_screen_card_spacing" android:paddingBottom="@dimen/info_screen_card_spacing" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidy.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaImageView android:id="@id/shops_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_shops_logo" app:layout_constraintBottom_toBottomOf="@id/see_all" app:layout_constraintStart_toStartOf="parent" app:tint="@color/business_account_light_grey" />
+        <com.gbwhatsapp.WaTextView android:textColor="@color/business_profile_link" android:id="@id/see_all" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/business_product_catalog_see_all" android:contentDescription="@string/business_product_catalog_see_all" android:textAllCaps="true" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidy.constraintlayout.widget.ConstraintLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="120.0dip" android:layout_marginTop="4.0dip">
+        <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/shimmer_container" android:layout_width="fill_parent" android:layout_height="fill_parent" app:shimmer_auto_start="false" app:shimmer_highlight_alpha="0.7">
+            <androidy.constraintlayout.widget.ConstraintLayout android:id="@id/placeholder_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </com.facebook.shimmer.ShimmerFrameLayout>
+        <com.facebook.rendercore.RootHostView android:id="@id/bk_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</LinearLayout>

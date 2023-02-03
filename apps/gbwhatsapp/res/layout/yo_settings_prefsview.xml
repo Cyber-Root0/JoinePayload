@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:background="@color/yosettings_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/yo_toolbar" />
+        <LinearLayout android:orientation="vertical" android:background="@drawable/rounded_card" android:padding="@dimen/info_screen_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/settings_divider_text_margin_top">
+            <com.gbwhatsapp.youbasha.ui.YoNoScrollListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="0.0dip" android:divider="@drawable/divider_gray" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.WaTextView android:id="@id/category_name" android:paddingLeft="@dimen/product_margin_16dp" android:paddingTop="@dimen/product_margin_24dp" android:paddingRight="@dimen/product_margin_16dp" android:paddingBottom="@dimen/product_margin_8dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/biz_dir_refine_results" app:textAllCaps="true" style="@style/SubCategoryListHeading"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

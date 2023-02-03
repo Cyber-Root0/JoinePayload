@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ActionBarPopupTheme" parent="@style/ThemeOverlay.AppCompat.Dark">
+        <item name="android:colorBackground">@color/paletteSurface_4dp</item>
+    </style>
+    <style name="ActionBarTheme" parent="@style/ThemeOverlay.AppCompat.Dark" />
+    <style name="BaseRoundedBottomSheetDialog" parent="@style/Theme.Design.BottomSheetDialog">
+        <item name="android:windowBackground">@color/bottom_sheet_dialog_background</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="bottomSheetStyle">@style/RoundedBottomSheet</item>
+    </style>
+    <style name="DropDownListViewStyle" parent="@style/Widget.AppCompat.ListView.DropDown">
+        <item name="android:background">@color/paletteSurface_4dp</item>
+    </style>
+    <style name="EncryptedBackupEncryptionKeyBackgroundHidden" parent="@style/EncryptedBackupEncryptionKeyBackground">
+        <item name="android:background">@drawable/enc_backup_enc_key_bg_hidden_night</item>
+    </style>
+    <style name="PopupWindowTheme" parent="@style/Widget.AppCompat.PopupMenu">
+        <item name="android:popupBackground">@color/paletteSurface_4dp</item>
+    </style>
+    <style name="Theme.App.CondensedActionBar" parent="@style/Theme.App">
+        <item name="android:itemTextAppearance">@style/TextAppearance</item>
+        <item name="actionBarStyle">@style/Widget.Styled.ActionBar.Condensed</item>
+        <item name="actionButtonStyle">@style/ActionBarCondensedButtonStyle</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.App.Light" parent="@style/Theme.App" />
+    <style name="Theme.App.Teal" parent="@style/Theme.App" />
+    <style name="Theme.App.White.NoActionBarLightStatusBar" parent="@style/Theme.App.White.NoActionBar" />
+    <style name="Theme.AppCompat.DayNight" parent="@style/Theme.AppCompat" />
+    <style name="Theme.AppCompat.DayNight.DarkActionBar" parent="@style/Theme.AppCompat" />
+    <style name="Theme.AppCompat.DayNight.Dialog" parent="@style/Theme.AppCompat.Dialog" />
+    <style name="Theme.AppCompat.DayNight.Dialog.Alert" parent="@style/Theme.AppCompat.Dialog.Alert" />
+    <style name="Theme.AppCompat.DayNight.Dialog.MinWidth" parent="@style/Theme.AppCompat.Dialog.MinWidth" />
+    <style name="Theme.AppCompat.DayNight.DialogWhenLarge" parent="@style/Theme.AppCompat.DialogWhenLarge" />
+    <style name="Theme.AppCompat.DayNight.NoActionBar" parent="@style/Theme.AppCompat.NoActionBar" />
+    <style name="ThemeOverlay.AppCompat.DayNight" parent="@style/ThemeOverlay.AppCompat.Dark" />
+    <style name="Toolbar.Popup" parent="@style/ThemeOverlay.AppCompat.Dark">
+        <item name="android:colorBackground">@color/paletteSurface_4dp</item>
+    </style>
+    <style name="TextAppearance">
+        <item name="android:textColor">@color/primary_text</item>
+    </style>
+</resources>

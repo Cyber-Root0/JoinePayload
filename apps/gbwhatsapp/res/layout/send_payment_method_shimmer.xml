@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/payment_method_name_shimmer" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="50.0dip" android:layout_weight="1.0" app:shimmer_auto_start="false" style="@style/BalanceLoadingShimmer">
+        <com.gbwhatsapp.components.button.ThumbnailButton android:layout_gravity="center_vertical" android:id="@id/payment_icon_shimmer" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/bank_logo_placeholder" android:scaleType="fitXY" />
+        <View android:textSize="13.0sp" android:layout_gravity="center" android:background="@drawable/payments_divider_gray" android:layout_width="wrap_content" android:layout_height="20.0dip" android:layout_marginLeft="52.0dip" android:layout_marginRight="48.0dip" style="@style/ListItemTitle" />
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center|right" android:id="@id/expand_details_button_shimmer" android:background="@drawable/selector_orange_gradient_round_bg" android:paddingLeft="8.0dip" android:visibility="visible" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginRight="12.0dip" android:src="@drawable/chevron_right" android:scaleType="center" android:contentDescription="@string/payment_expand_more" />
+    </com.facebook.shimmer.ShimmerFrameLayout>
+</LinearLayout>

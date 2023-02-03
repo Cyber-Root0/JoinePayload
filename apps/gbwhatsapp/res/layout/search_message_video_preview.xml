@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_gravity="top" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.search.views.MessageThumbView android:id="@id/thumb_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <com.gbwhatsapp.search.views.itemviews.MessageGifVideoPlayer android:id="@id/video_player" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/overlay" android:background="@drawable/gallery_album_overlay" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:layout_gravity="bottom|center|left" android:orientation="horizontal" android:id="@id/button_frame" android:paddingLeft="@dimen/search_grid_video_mark_margin_left" android:paddingBottom="@dimen/search_grid_video_mark_margin_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@id/button_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:layout_marginRight="@dimen/search_grid_video_icon_margin_end" app:tint="@color/white" />
+        <com.gbwhatsapp.WaTextView android:textSize="@dimen/search_grid_thumb_text_size" android:textColor="@color/white" android:layout_gravity="center_vertical" android:id="@id/media_time" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <include layout="@layout/search_message_media_preview_star" />
+</merge>

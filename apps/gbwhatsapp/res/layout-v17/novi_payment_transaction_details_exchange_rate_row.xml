@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="end" android:id="@id/root" android:paddingLeft="@dimen/payment_settings_default_margin" android:paddingRight="@dimen/payment_settings_default_margin" android:paddingBottom="@dimen/novi_payment_transaction_detail_breakdown_last_item_bottom_margin" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaTextView android:textSize="12.0sp" android:textColor="@color/settings_item_subtitle_text" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:drawablePadding="4.0dip" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" app:fontFamily="sans-serif" style="@style/ListItemTitle" />
+</RelativeLayout>

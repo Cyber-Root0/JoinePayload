@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body { margin: 0; width:100%%; height:100%%;  background-color:#000000; }
+            html { width:100%%; height:100%%; background-color:#000000; }
+            .embed-container iframe,
+            .embed-container object,
+            .embed-container embed {
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%% !important;
+              height: 100%% !important;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="embed-container">
+            <div id="player"></div>
+        </div>
+        <script src="https://www.youtube.com/iframe_api" onerror="window.location.href='y://error'"></script>
+        <script>
+            var player;
+            var loaded = false;
+            var error = false;
+            var currentTime = -1;
+            YT.ready(function() {
+              if (window.YoutubeJsInterface == undefined) {
+                window.location.href='y://error';
+                return;
+              }
+              player = new YT.Player("player", %1$s);
+              player.setSize(window.innerWidth, window.innerHeight);
+              function getCurrentTimeLooper() {
+                if (error) {
+                  YoutubeJsInterface.postPlayerEvent(3, 0);
+                  return;
+                }
+                if (loaded == false) {
+                  YoutubeJsInterface.postPlayerEvent(2, player.getDuration());
+                }
+                var newCurrentTime = Math.round(player.getCurrentTime());
+                if (currentTime != newCurrentTime) {
+                  currentTime = newCurrentTime;
+                  YoutubeJsInterface.postPlayerEvent(1, currentTime);
+                }
+              }
+              window.setInterval(getCurrentTimeLooper, 200);
+            });
+            function onPlayerReady(event) {
+              if (error) {
+                YoutubeJsInterface.postPlayerEvent(3, 0);
+                return;
+              }
+              player.playVideo();
+              YoutubeJsInterface.postPlayerEvent(2, player.getDuration());
+            }
+            function onPlayerStateChange(event) {
+              YoutubeJsInterface.postPlayerEvent(0, player.getPlayerState());
+            }
+            function onPlayerError(event) {
+              error = true;
+              YoutubeJsInterface.postPlayerEvent(3, event.data);
+            }
+            window.onresize = function() {
+              player.setSize(window.innerWidth, window.innerHeight);
+            }
+        </script>
+    </body>
+</html>

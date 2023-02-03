@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.chatinfo.view.custom.ContactDetailsCard android:orientation="vertical" android:id="@id/contact_details_card" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.InfoCard android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" app:icContentColor="@color/primary_surface" style="@style/InfoCardTop">
+        <com.gbwhatsapp.TextEmojiLabel android:textSize="24.0sp" android:textColor="@color/ui_refresh_contact_info_title" android:ellipsize="end" android:gravity="center" android:id="@id/contact_title" android:paddingLeft="@dimen/info_screen_padding" android:paddingRight="@dimen/info_screen_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.gbwhatsapp.TextEmojiLabel android:textSize="18.0sp" android:textColor="@color/ui_refresh_contact_info_subtitle" android:ellipsize="end" android:gravity="center" android:id="@id/contact_subtitle" android:paddingLeft="@dimen/info_screen_padding" android:paddingRight="@dimen/info_screen_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_tight" android:layout_marginBottom="@dimen/space_tight" />
+        <com.gbwhatsapp.TextEmojiLabel android:textSize="14.0sp" android:textColor="@color/ui_refresh_contact_info_subtitle" android:ellipsize="end" android:gravity="center" android:id="@id/contact_chat_status" android:background="@drawable/contact_info_last_seen_background" android:paddingLeft="@dimen/space_base" android:paddingTop="@dimen/space_xTight" android:paddingRight="@dimen/space_base" android:paddingBottom="@dimen/space_xTight" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_xTight" android:layout_marginBottom="@dimen/space_xTight" />
+        <include layout="@layout/phone_number_hidden" />
+        <include layout="@layout/contact_details_actions" />
+    </com.gbwhatsapp.InfoCard>
+</com.gbwhatsapp.chatinfo.view.custom.ContactDetailsCard>

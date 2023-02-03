@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidy.constraintlayout.widget.ConstraintLayout android:paddingTop="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaTextView android:textColor="@color/primary_text" android:id="@id/title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/payments_sim_picker_title" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Base.TextAppearance.AppCompat.Title" />
+    <RadioGroup android:gravity="left" android:orientation="vertical" android:id="@id/radio_group" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title" />
+    <com.gbwhatsapp.WaTextView android:id="@id/notes" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/payments_sim_picker_note" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/radio_group" />
+    <com.gbwhatsapp.components.Button android:id="@id/cancel_button" android:text="@string/cancel" app:fontFamily="sans-serif-medium" app:layout_constraintEnd_toStartOf="@id/confirm_button" app:layout_constraintTop_toBottomOf="@id/notes" style="@style/WA.Button.Borderless" />
+    <com.gbwhatsapp.components.Button android:id="@id/confirm_button" android:text="@string/confirm_button_label" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@id/notes" style="@style/WA.Button.Borderless" />
+</androidy.constraintlayout.widget.ConstraintLayout>

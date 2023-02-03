@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:background="@color/wds_cool_gray_1000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/status_gallery_deleting" android:scaleType="fitEnd" android:layout_weight="1.0" android:contentDescription="@string/deleting_your_status" app:tint="@color/white_alpha_30" />
+    <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="@color/white" android:id="@id/status_playback_deleting_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/deleting_your_status" android:layout_weight="1.0" style="@style/TextAppearance.MaterialComponents.Subtitle1" />
+</LinearLayout>

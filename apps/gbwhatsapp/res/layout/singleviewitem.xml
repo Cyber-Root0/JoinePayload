@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/top" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textStyle="bold" android:textColor="@color/list_item_title" android:ellipsize="end" android:gravity="start|center" android:id="@id/rank" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="Theme Name:" android:maxLines="1" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" android:layout_toStartOf="@id/country" android:layout_alignParentStart="true" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/list_item_title" android:gravity="end|center" android:id="@id/country" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginRight="4.0dip" android:text="11/10/2017" android:layout_alignParentRight="true" android:layout_marginEnd="4.0dip" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <View android:background="#1f000000" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    </LinearLayout>
+    <ImageView android:id="@id/flag" android:background="#10000000" android:padding="1.0dip" android:layout_width="100.0dip" android:layout_height="100.0dip" android:layout_marginLeft="3.0dip" android:src="@drawable/temp_img" android:layout_below="@id/top" android:layout_alignParentLeft="true" android:layout_marginStart="3.0dip" android:layout_alignParentStart="true" />
+    <ImageView android:id="@id/flag2" android:background="#10000000" android:padding="1.0dip" android:layout_width="100.0dip" android:layout_height="100.0dip" android:src="@drawable/temp_img" android:layout_alignTop="@id/flag" android:layout_centerHorizontal="true" />
+    <Button android:textColor="@color/primaryButtonTextColor" android:id="@id/div2" android:background="@color/primaryButtonColor" android:padding="1.0dip" android:layout_width="100.0dip" android:layout_height="35.0dip" android:layout_marginRight="3.0dip" android:text="@string/common_google_play_services_install_button" android:layout_alignRight="@id/top" android:layout_alignBottom="@id/flag2" android:layout_marginEnd="3.0dip" android:layout_alignEnd="@id/top" />
+</RelativeLayout>

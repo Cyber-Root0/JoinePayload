@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View style="@style/SectionDivider.Heavy" />
+    <com.gbwhatsapp.TextEmojiLabel android:textColor="@drawable/flat_button_link_color_incoming" android:id="@id/action_view_business" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/view_business_of_contact_button" style="@style/ConversationSharedContactButton" />
+</LinearLayout>

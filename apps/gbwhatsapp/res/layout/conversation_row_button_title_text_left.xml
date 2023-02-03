@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/dynamic_reply_buttons_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/conversation_row_margin_large" android:minWidth="@dimen/conversation_row_document_width">
+        <include layout="@layout/conversation_row_quoted_frame" />
+        <include layout="@layout/conversation_row_participant_header" />
+        <com.gbwhatsapp.TextEmojiLabel android:textSize="@dimen/conversation_template_title_tv" android:textStyle="bold" android:textColor="@color/conversation_template_row_title_color" android:id="@id/title_text_message" android:paddingLeft="@dimen/conversation_row_inner_item_padding" android:paddingTop="@dimen/conversation_template_row_title_padding_small" android:paddingRight="@dimen/conversation_row_inner_item_padding" android:paddingBottom="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.gbwhatsapp.conversation.conversationrow.DynamicButtonsRowContentLayout android:id="@id/dynamic_reply_buttons_message_content" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="@dimen/conversation_row_document_width" />
+        <com.gbwhatsapp.conversation.conversationrow.NativeFlowButtonsRowContentLayout android:id="@id/native_flow_action_button_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="@dimen/conversation_row_document_width" />
+    </LinearLayout>
+    <com.gbwhatsapp.conversation.conversationrow.DynamicButtonsLayout android:id="@id/dynamic_reply_buttons" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</merge>

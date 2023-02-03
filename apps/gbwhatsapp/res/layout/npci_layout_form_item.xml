@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/form_item_root" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/npci_text_secondary_dark" android:gravity="center_vertical" android:id="@id/form_item_title" android:layout_width="wrap_content" android:layout_height="36.0dip" />
+    <org.npci.commonlibrary.widget.FormItemEditText android:textSize="20.0sp" android:typeface="monospace" android:textStyle="bold" android:id="@id/form_item_input" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:cursorVisible="false" android:digits="\ 1234567890" android:layout_below="@id/form_item_title" android:inputType="number" android:filterTouchesWhenObscured="true" android:textIsSelectable="false" app:pinAnimationType="popIn" app:pinCharacterSize="20.0dip" app:pinCharacterSpacing="5.0dip" app:pinLineColors="@color/form_item_input_colors_black" app:pinLineStroke="2.0dip" app:pinLineStrokeSelected="4.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/form_item_action_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBottom="@id/form_item_input" android:layout_alignParentRight="true">
+        <ProgressBar android:id="@id/form_item_progress" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="8.0dip" style="?progressBarStyle" />
+        <com.gbwhatsapp.WaImageView android:id="@id/form_item_image" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" />
+        <androidy.appcompat.widget.AppCompatButton android:textSize="12.0sp" android:textColor="#ff1b3281" android:id="@id/form_item_button" android:background="?selectableItemBackground" android:padding="0.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="36.0dip" android:textAllCaps="false" />
+    </LinearLayout>
+</RelativeLayout>

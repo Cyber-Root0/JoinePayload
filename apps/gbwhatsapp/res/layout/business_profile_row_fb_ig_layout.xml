@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/fb_ig_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/fb_layout" android:background="@drawable/linked_account_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3.0dip">
+        <com.gbwhatsapp.WaImageView android:id="@id/fb_icon" android:src="@drawable/ic_facebook" style="@style/LinkedAccountLogo" />
+        <com.gbwhatsapp.WaTextView android:id="@id/fb_likes" style="@style/LinkedAccountTextView" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/ig_layout" android:background="@drawable/linked_account_selector" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaImageView android:id="@id/ig_icon" android:src="@drawable/ic_instagram" style="@style/LinkedAccountLogo" />
+        <com.gbwhatsapp.WaTextView android:id="@id/ig_followers" style="@style/LinkedAccountTextView" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/navigation_bar_protection" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:id="@id/mWall" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/out_of_chat_playback_holder" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <FrameLayout android:id="@id/call_notification_holder" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <FrameLayout android:id="@android:id/content" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:id="@id/pager_holder" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <view android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="fill_parent" class="com.gbwhatsapp.HomeActivity$TabsPager" />
+                <zoo.update.view.UpdateHintView android:id="@id/update_hint" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginTop="104.0dip" />
+            </FrameLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.gbwhatsapp.BidiToolbar android:id="@id/toolbar" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:minHeight="?actionBarSize" whatsapp:popupTheme="@style/Toolbar.Popup" whatsapp:theme="@style/Toolbar.HomeActivity" />
+                <View android:id="@id/toolbar_padding" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+                <com.gbwhatsapp.HomePagerSlidingTabStrip android:id="@id/tabs" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="@dimen/tab_height" whatsapp:pstsDividerColor="@color/transparent" whatsapp:pstsIndicatorColor="@color/homeActivityTabIndicator" />
+                <FrameLayout android:layout_gravity="top" android:id="@id/mStatusContainer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <com.gbwhatsapp.WaTextView android:textSize="@dimen/biz_tools_tab_tooltip_font_size" android:textColor="@color/white" android:layout_gravity="center|left|top" android:id="@id/biz_tools_tool_tip" android:paddingLeft="@dimen/biz_tools_tab_tooltip_padding_left" android:paddingTop="@dimen/biz_tools_tab_tooltip_padding_top" android:paddingRight="@dimen/biz_tools_tab_tooltip_padding_right" android:paddingBottom="@dimen/biz_tools_tab_tooltip_padding_bottom" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/biz_tools_tab_tooltip_margin_left" android:layout_marginTop="@dimen/biz_tools_tab_tooltip_margin_top" android:maxWidth="@dimen/biz_tools_tab_tooltip_max_width" android:text="@string/business_tools_tab_tooltip_content" whatsapp:fontFamily="sans-serif-medium" whatsapp:lineHeight="@dimen/biz_tools_tab_tooltip_line_height" />
+            <LinearLayout android:id="@id/search_fragment_holder" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <FrameLayout android:id="@id/media_fragment_holder" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <FrameLayout android:id="@id/search_holder" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/abc_action_bar_default_height_material" />
+            <ViewStub android:layout_gravity="center|right|top" android:id="@id/filter_chat_tip_view_stub" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/abc_action_bar_default_height_material" />
+            <LinearLayout android:layout_gravity="end|bottom|center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <zoo.update.view.UpdateFloatingLayout android:layout_gravity="end|bottom|center" android:id="@id/fab_update_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <include layout="@layout/yo_fab_aux" />
+                <com.gbwhatsapp.components.FloatingActionButton android:id="@id/fab_third" android:visibility="gone" android:layout_marginBottom="@dimen/fab_third_margin_bottom" android:src="@drawable/input_mic_white" whatsapp:tint="@color/fabSecondaryContent" style="@style/WA.FAB.Secondary" />
+                <com.gbwhatsapp.components.FloatingActionButton android:id="@id/fab_second" android:visibility="gone" android:layout_marginBottom="10.0dip" android:contentDescription="@string/menuitem_new_text_status" whatsapp:tint="@color/fabSecondaryContent" style="@style/WA.FAB.Secondary" />
+                <com.gbwhatsapp.components.FloatingActionButton android:id="@id/fab" style="@style/WA.FAB" />
+                <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:id="@id/fabText" android:background="@drawable/rounded_rect" android:padding="@dimen/space_loose" android:visibility="gone" android:layout_height="@dimen/fab_button_size" android:layout_marginLeft="@dimen/fab_button_margin" android:layout_marginRight="@dimen/fab_button_margin" android:layout_marginBottom="@dimen/fab_button_margin" android:maxLines="1" android:textAllCaps="true" style="@style/WA.FAB" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/bottom_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include layout="@layout/yo_fab" />
+                <include android:visibility="gone" layout="@layout/rc_tab_oneui" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+    <rc.whatsapp.rounded.RoundedLayoutHome android:id="@id/bgLisBg" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <rc.whatsapp.rounded.statusbarAux android:id="@id/aux_statubar" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <rc.whatsapp.rounded.RoundedLayout android:id="@id/bgCurveContent" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <com.gbwhatsapp.yo.tf android:id="@id/titulo" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <com.gbwhatsapp.yo.tf android:id="@id/mSubtitle" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/holder" android:layout_width="0.0dip" android:layout_height="0.0dip">
+        <LinearLayout android:id="@id/titulo_anim" android:layout_width="0.0dip" android:layout_height="0.0dip">
+            <ImageView android:id="@id/mIconT" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+        </LinearLayout>
+    </com.google.android.material.appbar.CollapsingToolbarLayout>
+    <FrameLayout android:id="@id/preview_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

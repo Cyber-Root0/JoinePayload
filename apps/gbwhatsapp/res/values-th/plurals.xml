@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">กรอไปข้างหน้า %d วินาที</item>
+        <item quantity="one">กรอไปข้างหน้า %d วินาที</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">กรอกลับ %d วินาที</item>
+        <item quantity="one">กรอกลับ %d วินาที</item>
+    </plurals>
+    <plurals name="export_backup_not_enough_space_message">
+        <item quantity="other">การส่งออกแชทจะต้องมีพื้นที่เก็บข้อมูล %s โปรดเพิ่มพื้นที่เก็บข้อมูลก่อนส่งออก</item>
+    </plurals>
+    <plurals name="import_backup_not_enough_space_message">
+        <item quantity="other">การนำเข้าจะต้องมีพื้นที่เก็บข้อมูล %s โปรดเพิ่มพื้นที่เก็บข้อมูลก่อนนำเข้า</item>
+    </plurals>
+    <plurals name="move_chats_insufficient_space_dialog">
+        <item quantity="other">ต้องมี %1$s ในอุปกรณ์นี้สำหรับการโอนข้อมูล โปรดล้างพื้นที่โดยใช้เครื่องมือจัดการพื้นที่เก็บข้อมูลของ WhatsApp</item>
+    </plurals>
+    <plurals name="settings_gdrive_video_size_to_be_uploaded_plural">
+        <item quantity="other">‎%s ที่จะอัปโหลด</item>
+    </plurals>
+</resources>

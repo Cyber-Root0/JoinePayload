@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.biz.BusinessHoursView android:id="@id/business_hours" android:visibility="gone" style="@style/BusinessProfileFieldView" />
+    <com.gbwhatsapp.biz.BusinessProfileFieldView android:id="@id/business_location" android:visibility="gone" app:bpfvImage="@drawable/ic_business_location" style="@style/BusinessProfileFieldView" />
+    <com.gbwhatsapp.biz.BusinessProfileFieldView android:id="@id/business_vertical" android:visibility="gone" app:bpfvImage="@drawable/ic_business_category" style="@style/BusinessProfileFieldView" />
+    <com.gbwhatsapp.biz.BusinessProfileFieldView android:id="@id/business_email" android:visibility="gone" app:bpfvEllipsize="end" app:bpfvImage="@drawable/ic_business_email" app:bpfvSingleLine="true" style="@style/BusinessProfileFieldView" />
+    <com.gbwhatsapp.biz.BusinessProfileFieldView android:id="@id/business_link" android:tag="website" android:visibility="gone" app:bpfvEllipsize="end" app:bpfvImage="@drawable/ic_business_link" app:bpfvSingleLine="true" style="@style/BusinessProfileFieldView" />
+    <com.gbwhatsapp.biz.BusinessProfileFieldView android:id="@id/business_link_2" android:tag="website" android:visibility="gone" app:bpfvEllipsize="end" app:bpfvImage="@drawable/ic_business_link" app:bpfvSingleLine="true" style="@style/BusinessProfileFieldView" />
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaTextView android:gravity="center" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="@string/companion_registration_title" style="@style/CompanionRegistrationTitle" />
+        <com.gbwhatsapp.WaTextView android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/companion_registration_loading_spinner_top_padding" android:text="@string/companion_bootstrap_text" style="@style/CompanionRegistrationSubtitle" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/loading_spinner" android:layout_width="@dimen/loading_spinner_size" android:layout_height="@dimen/loading_spinner_size" android:layout_margin="@dimen/loading_spinner_padding" />
+        <com.gbwhatsapp.WaLinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/companion_registration_loading_spinner_bottom_padding">
+            <com.gbwhatsapp.WaImageView android:layout_width="@dimen/label_text_size" android:layout_height="@dimen/label_text_size" android:src="@drawable/ic_encryption_lock" />
+            <com.gbwhatsapp.WaTextView android:textSize="@dimen/label_text_size" android:textColor="@color/secondary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/end_to_end_encrypted_label" style="@style/TextAppearance.AppCompat.Subhead" />
+        </com.gbwhatsapp.WaLinearLayout>
+    </LinearLayout>
+</ScrollView>

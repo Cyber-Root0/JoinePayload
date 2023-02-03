@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaFrameLayout android:id="@id/order_message_preview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="4.0dip" android:foreground="@drawable/balloon_outgoing_frame" app:waflForegroundTint="@color/bubble_color_outgoing">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/link_preview_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:minWidth="@dimen/order_message_preview_min_width">
+            <FrameLayout android:id="@id/thumb_frame" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.gbwhatsapp.components.button.ThumbnailButton android:id="@id/thumb" android:layout_width="@dimen/link_preview_thumb_width" android:layout_height="@dimen/link_preview_thumb_height" android:scaleType="centerCrop" />
+                <com.gbwhatsapp.CircularProgressBar android:layout_gravity="center" android:id="@id/progress" android:padding="16.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:indeterminateOnly="true" app:cpbBackground="@color/transparent" app:cpbColor="@color/neutral_progress_bar" app:cpbFill="@color/transparent" app:cpbOutlineColor="@color/neutral_progress_bar_outline" app:cpbOutlineWidth="1.0dip" app:cpbStrokeWidthFactor="10.0" />
+            </FrameLayout>
+            <RelativeLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:paddingLeft="8.0dip" android:paddingRight="4.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/primary_text" android:ellipsize="end" android:gravity="left" android:layout_gravity="left" android:id="@id/order_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_toRightOf="@id/order_icon" android:lineSpacingMultiplier="1.08" />
+                <com.gbwhatsapp.WaImageView android:gravity="center" android:id="@id/order_icon" android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@drawable/ic_shopping_cart" android:layout_alignTop="@id/order_title" android:layout_alignBottom="@id/order_title" app:tint="@color/primary_text" />
+                <com.gbwhatsapp.WaTextView android:textColor="@color/secondary_text_on_right_bubble" android:ellipsize="end" android:gravity="center" android:id="@id/order_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginTop="3.0dip" android:maxLines="1" android:singleLine="true" android:includeFontPadding="false" android:layout_below="@id/order_title" />
+            </RelativeLayout>
+        </LinearLayout>
+    </com.gbwhatsapp.WaFrameLayout>
+</merge>

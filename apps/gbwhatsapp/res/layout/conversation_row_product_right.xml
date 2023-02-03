@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="@dimen/conversation_row_width" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip">
+        <LinearLayout android:orientation="vertical" android:id="@id/product_message_view" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <include layout="@layout/conversation_row_quoted_frame" />
+            <FrameLayout android:id="@id/media_container" android:paddingLeft="@dimen/conversation_video_thumb_padding" android:paddingTop="@dimen/conversation_video_thumb_padding" android:paddingRight="@dimen/conversation_video_thumb_padding" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <view android:id="@id/image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop" class="com.gbwhatsapp.conversation.conversationrow.ConversationRowImage$RowImageView" />
+                <FrameLayout android:layout_gravity="center" android:id="@id/control_frame" android:background="@drawable/download_background" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ViewStub android:layout_gravity="center" android:id="@id/progress_bar" android:layout="@layout/circular_progress_bar_white_tint" android:inflatedId="@id/progress_bar" android:layout_width="@dimen/conversation_row_circular_progress_bar_upload_download_size" android:layout_height="@dimen/conversation_row_circular_progress_bar_upload_download_size" />
+                    <ViewStub android:layout_gravity="center" android:id="@id/cancel_download" android:layout="@layout/cancel_download_button" android:inflatedId="@id/cancel_download" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <com.gbwhatsapp.WaButton android:id="@id/control_btn" style="@style/ConversationRowControlButton.Right" />
+                </FrameLayout>
+            </FrameLayout>
+            <LinearLayout android:orientation="vertical" android:background="@drawable/gray_bottom_radius_background" android:paddingRight="@dimen/bubble_horizontal_inner_frame_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.gbwhatsapp.TextEmojiLabel android:id="@id/product_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/productMessageTitle" />
+                <com.gbwhatsapp.components.TextAndDateLayout android:id="@id/text_and_date" android:layout_width="fill_parent" android:layout_height="wrap_content" app:maxTextLineCount="2">
+                    <com.gbwhatsapp.TextEmojiLabel android:id="@id/caption" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/productMessageDescription" />
+                    <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom|center|right" android:orientation="horizontal" android:id="@id/date_wrapper" android:paddingLeft="@dimen/conversation_image_date_padding_right" android:paddingBottom="@dimen/conversation_image_date_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <com.gbwhatsapp.WaTextView android:id="@id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/WA.TextAppearance.ConversationRowDateRight" />
+                        <com.gbwhatsapp.WaImageView android:id="@id/status" android:paddingLeft="@dimen/conversation_row_status_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </com.gbwhatsapp.components.TextAndDateLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/product_content_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.gbwhatsapp.TextEmojiLabel android:textAppearance="@style/WA.TextAppearance.ConversationRowMessage" android:gravity="left" android:id="@id/product_body" android:paddingLeft="@dimen/conversation_row_inner_item_padding" android:paddingRight="@dimen/product_margin_8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" />
+                <com.gbwhatsapp.TextEmojiLabel android:textSize="@dimen/conversation_text_row_tv_small" android:textColor="@color/conversation_row_date" android:gravity="left" android:id="@id/product_footer" android:paddingLeft="@dimen/conversation_row_inner_item_padding" android:paddingTop="4.0dip" android:paddingRight="@dimen/conversation_row_inner_item_padding" android:paddingBottom="@dimen/conversation_template_row_footer_margin_bottom" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <FrameLayout android:layout_gravity="bottom|center|right" android:id="@id/product_content_date_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <include android:layout_gravity="bottom|center|right" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/conversation_row_date_wrapper_right" />
+                </FrameLayout>
+                <View android:id="@id/btn_divider" style="@style/SectionDivider.Heavy" />
+            </LinearLayout>
+            <com.gbwhatsapp.TextEmojiLabel android:textColor="@drawable/flat_button_link_color_incoming" android:layout_gravity="center" android:id="@id/view_product_btn" android:paddingTop="@dimen/conversation_row_inner_item_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ConversationSharedContactButton" />
+        </LinearLayout>
+    </FrameLayout>
+</merge>

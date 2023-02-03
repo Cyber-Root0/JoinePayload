@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaImageView android:id="@id/quick_reply_btn_background_1" style="@style/TemplateQuickReplyButtonBackground" />
+    <com.gbwhatsapp.TextEmojiLabel android:id="@id/quick_reply_btn_1" style="@style/TemplateQuickReplyButtonText" />
+    <com.gbwhatsapp.WaImageView android:id="@id/quick_reply_btn_background_2" style="@style/TemplateQuickReplyButtonBackground" />
+    <com.gbwhatsapp.TextEmojiLabel android:id="@id/quick_reply_btn_2" style="@style/TemplateQuickReplyButtonText" />
+    <com.gbwhatsapp.WaImageView android:id="@id/quick_reply_btn_background_3" style="@style/TemplateQuickReplyButtonBackground" />
+    <com.gbwhatsapp.TextEmojiLabel android:id="@id/quick_reply_btn_3" style="@style/TemplateQuickReplyButtonText" />
+</merge>

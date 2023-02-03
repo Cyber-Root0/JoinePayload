@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Előretekerés %d másodperccel</item>
+        <item quantity="one">Előretekerés %d másodperccel</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Visszatekerés %d másodperccel</item>
+        <item quantity="one">Visszatekerés %d másodperccel</item>
+    </plurals>
+    <plurals name="export_backup_not_enough_space_message">
+        <item quantity="other">A csevegések exportálásához %s szabad tárhely szükséges. Az exportálás előtt szabadíts fel tárhelyet.</item>
+    </plurals>
+    <plurals name="import_backup_not_enough_space_message">
+        <item quantity="other">Az importáláshoz %s szabad tárhely szükséges. Az importálás előtt szabadíts fel tárhelyet.</item>
+    </plurals>
+    <plurals name="move_chats_insufficient_space_dialog">
+        <item quantity="other">‎%1$s szabad helyre van szükség ezen a készüléken az áthelyezéshez. A WhatsApp tárhelykezelő eszközével szabadíts fel tárhelyet.</item>
+    </plurals>
+    <plurals name="settings_gdrive_video_size_to_be_uploaded_plural">
+        <item quantity="other">‎%s feltöltésre vár</item>
+    </plurals>
+</resources>

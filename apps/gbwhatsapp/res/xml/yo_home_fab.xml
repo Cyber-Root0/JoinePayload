@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference android:title="@string/HideFAB" android:key="hide_fab" android:defaultValue="false" />
+    <com.gbwhatsapp.yo.ColorPref android:title="@string/acj_fab_normal" android:key="ModFabNormalColor" android:summary="@string/acj_fab_normal_sum" />
+    <com.gbwhatsapp.yo.ColorPref android:title="@string/acj_fab_pressed" android:key="ModFabPressedColor" android:summary="@string/acj_fab_pressed_sum" />
+    <com.gbwhatsapp.yo.ColorPref android:title="@string/acj_fab_icons" android:key="ModFabTextColor" />
+    <SwitchPreference android:title="@string/hide_actionm" android:key="hide_action_m" android:defaultValue="false" />
+    <SwitchPreference android:title="@string/hide_actionb" android:key="hide_action_b" android:defaultValue="false" />
+    <SwitchPreference android:title="@string/hide_actionl" android:key="hide_action_l" android:defaultValue="false" />
+    <SwitchPreference android:title="@string/hide_actiona" android:key="hide_action_a" android:defaultValue="false" />
+</PreferenceScreen>

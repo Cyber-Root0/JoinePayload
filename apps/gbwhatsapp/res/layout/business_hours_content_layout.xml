@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/business_hours_grid" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/business_hours_day_layout_0" style="@style/BusinessHoursDay.First">
+        <include layout="@layout/business_hours_day_layout" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/business_hours_day_layout_1" style="@style/BusinessHoursDay">
+        <include layout="@layout/business_hours_day_layout" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/business_hours_day_layout_2" style="@style/BusinessHoursDay">
+        <include layout="@layout/business_hours_day_layout" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/business_hours_day_layout_3" style="@style/BusinessHoursDay">
+        <include layout="@layout/business_hours_day_layout" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/business_hours_day_layout_4" style="@style/BusinessHoursDay">
+        <include layout="@layout/business_hours_day_layout" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/business_hours_day_layout_5" style="@style/BusinessHoursDay">
+        <include layout="@layout/business_hours_day_layout" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/business_hours_day_layout_6" style="@style/BusinessHoursDay.Last">
+        <include layout="@layout/business_hours_day_layout" />
+    </LinearLayout>
+</LinearLayout>

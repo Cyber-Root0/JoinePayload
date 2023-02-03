@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="end|bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fab="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_gravity="end|bottom|center" android:id="@id/iv_float_ad" android:visibility="gone" android:layout_width="71.0dip" android:layout_height="78.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="2.0dip">
+        <ImageButton android:id="@id/iv_float_btn" android:background="@drawable/bg_home_white" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginTop="11.0dip" android:onClick="onClickFloatAd" android:elevation="4.0dip" />
+        <ImageView android:id="@id/iv_float_close" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_home_float_close" android:onClick="onClickFloatClose" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <com.gbwhatsapp.youbasha.ui.views.FloatingActionButton android:layout_gravity="end|bottom|center" android:id="@id/action_delet_call" android:visibility="gone" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_marginLeft="8.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/ic_delete_sweep_white_24dp" android:scaleType="center" android:onClick="FABClearcll" />
+    <com.gbwhatsapp.youbasha.ui.views.FloatingActionButton android:layout_gravity="end|bottom|center" android:id="@id/fabdiv" android:visibility="gone" android:layout_width="@dimen/fab_button_size" android:layout_height="@dimen/fab_button_size" android:layout_marginLeft="8.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/abc_ic_menu_cut_mtrl_alpha" android:scaleType="center" android:onClick="FABStatusSplit" />
+</FrameLayout>

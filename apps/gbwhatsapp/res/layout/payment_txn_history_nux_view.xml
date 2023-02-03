@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaImageView android:layout_gravity="center_horizontal" android:id="@id/payment_nux_logo" android:layout_width="56.0dip" android:layout_height="56.0dip" android:src="@drawable/ic_txn_empty" android:contentDescription="@string/payment_logo" />
+    <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="@color/secondary_text" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="20.0dip" android:text="@string/payments_no_history" />
+</LinearLayout>

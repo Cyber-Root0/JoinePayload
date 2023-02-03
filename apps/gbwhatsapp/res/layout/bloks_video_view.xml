@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.videoplayback.VideoSurfaceView android:layout_gravity="center" android:id="@id/video_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/loading_progress" android:layout_width="70.0dip" android:layout_height="70.0dip" />
+    <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/play_button" android:background="@drawable/exo_player_gray_circle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_video_play" android:scaleType="fitCenter" android:contentDescription="@string/play_video" />
+</FrameLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">%d ثانیه سریع به‌جلو بردن</item>
+        <item quantity="one">%d ثانیه سریع به‌جلو بردن</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">%d ثانیه به‌عقب بردن</item>
+        <item quantity="one">%d ثانیه به‌عقب بردن</item>
+    </plurals>
+    <plurals name="export_backup_not_enough_space_message">
+        <item quantity="other">‏گفتگوهایی که از آن‌ها خروجی گرفته می‌شود به %s فضای ذخیره‌سازی نیاز خواهند داشت. لطفاً قبل از گرفتن خروجی، فضا آزاد کنید.</item>
+    </plurals>
+    <plurals name="import_backup_not_enough_space_message">
+        <item quantity="other">‏برای وارد کردن، به %s فضای ذخیره‌سازی نیاز است. لطفاً قبل از وارد کردن، فضا آزاد کنید.</item>
+    </plurals>
+    <plurals name="move_chats_insufficient_space_dialog">
+        <item quantity="other">‏برای انتقال، %1$s فضای خالی روی این دستگاه نیاز است. لطفاً با استفاده از ابزار مدیریت فضای ذخیره‌سازی واتساپ، مقداری فضا آزاد کنید.</item>
+    </plurals>
+    <plurals name="settings_gdrive_video_size_to_be_uploaded_plural">
+        <item quantity="other">‏%s باید آپلود شود</item>
+    </plurals>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/frame_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/bubble_inner_frame_inset">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/header" android:background="@drawable/link_preview_background" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.gbwhatsapp.components.button.ThumbnailButton android:id="@id/thumbnail" android:layout_width="@dimen/link_preview_thumb_width" android:layout_height="@dimen/link_preview_thumb_height" android:scaleType="centerCrop" />
+            <LinearLayout android:orientation="vertical" android:id="@id/text_linear_layout" android:paddingLeft="8.0dip" android:paddingRight="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.gbwhatsapp.TextEmojiLabel android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/primary_text" android:ellipsize="end" android:id="@id/header_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:lineSpacingMultiplier="1.08" app:lineHeight="18.0sp" />
+                <com.gbwhatsapp.TextEmojiLabel android:textSize="14.0sp" android:textColor="@color/secondary_text" android:ellipsize="end" android:gravity="center|left|top" android:id="@id/items_count" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</merge>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/add_participant_button" android:background="@drawable/selector_orange_gradient" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/contact_picker_row_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaImageView android:id="@id/add_participant_icon" android:layout_width="@dimen/small_list_avatar_size" android:layout_height="@dimen/small_list_avatar_size" android:layout_marginLeft="@dimen/small_list_avatar_padding" android:layout_marginRight="@dimen/small_list_avatar_padding" android:src="@drawable/ic_voip_add_person" android:scaleType="center" app:tint="@color/white" />
+    <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="@color/white" android:id="@id/add_participant_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/voip_joinable_add_participant" android:fontFamily="sans-serif-regular" style="@style/ListItemTitle" />
+</LinearLayout>

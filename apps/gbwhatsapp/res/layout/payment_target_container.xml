@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/payment_target_container" android:background="@color/primary_surface" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/payment_target_view_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:background="@drawable/payments_divider_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="@color/list_item_sub_title" android:ellipsize="end" android:gravity="center" android:id="@id/payment_target_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="12.0dip" android:maxLines="2" />
+    </LinearLayout>
+    <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/payment_target_container_shimmer" android:padding="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="24.0dip" style="@style/PaymentLoadingShimmer">
+        <View android:layout_gravity="center" android:background="@drawable/payment_loading_box" android:layout_width="280.0dip" android:layout_height="24.0dip" />
+    </com.facebook.shimmer.ShimmerFrameLayout>
+</FrameLayout>

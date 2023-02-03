@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/emoji_popup_body" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="36.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/gif_recents_icon" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/selector_emoji_recent" android:scaleType="center" android:contentDescription="@string/recent_gifs" />
+        <View android:layout_gravity="bottom" android:id="@id/gif_recent_marker" android:background="@color/picker_underline_color" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/gif_favorites_icon" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/selector_gif_favorites" android:scaleType="center" android:contentDescription="@string/starred_gifs" />
+        <View android:layout_gravity="bottom" android:id="@id/gif_favorites_marker" android:background="@color/picker_underline_color" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+    </FrameLayout>
+    <androidy.recyclerview.widget.RecyclerView android:id="@id/gif_category_recycler" android:paddingLeft="2.0dip" android:paddingRight="2.0dip" android:clipToPadding="false" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="7.0" />
+</LinearLayout>

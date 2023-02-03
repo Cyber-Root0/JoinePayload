@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">%d سیکنڈز تیزی سے فارورڈ کریں</item>
+        <item quantity="one">%d سیکنڈ تیزی سے فارورڈ کریں</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">%d سیکنڈز ریوائنڈ کریں</item>
+        <item quantity="one">%d سیکنڈ ریوائنڈ کریں</item>
+    </plurals>
+    <plurals name="export_backup_not_enough_space_message">
+        <item quantity="other">‏چیٹس برآمد کرنے کے لیے %s اسٹوریج درکار ہوگی۔ براہ کرم برآمد کرنے سے قبل اسٹوریج کی جگہ خالی کریں۔</item>
+    </plurals>
+    <plurals name="import_backup_not_enough_space_message">
+        <item quantity="other">‏درآمد کرنے کے لیے %s اسٹوریج درکار ہوگی۔ براہ کرم درآمد کرنے سے قبل اسٹوریج کی جگہ خالی کریں۔</item>
+    </plurals>
+    <plurals name="move_chats_insufficient_space_dialog">
+        <item quantity="other">‏منتقلی کے لیے اس آلے پر %1$s کی ضرورت ہے۔ براہ کرم WhatsApp کے اسٹوریج مینجمنٹ ٹول کے ذریعے جگہ صاف کریں۔</item>
+    </plurals>
+    <plurals name="settings_gdrive_video_size_to_be_uploaded_plural">
+        <item quantity="other">‏%s اپ لوڈ ہونے والی ہیں</item>
+        <item quantity="one">‏%s اپ لوڈ ہونے والی ہے</item>
+    </plurals>
+</resources>

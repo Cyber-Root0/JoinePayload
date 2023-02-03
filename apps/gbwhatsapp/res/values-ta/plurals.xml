@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">%d வினாடிகள் ஃபாஸ்ட் ஃபார்வர்ட் ஆகும்</item>
+        <item quantity="one">%d வினாடி ஃபாஸ்ட் ஃபார்வர்ட் ஆகும்</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">%d வினாடிகள் ரீவைண்ட் ஆகும்</item>
+        <item quantity="one">%d வினாடி ரீவைண்ட் ஆகும்</item>
+    </plurals>
+    <plurals name="export_backup_not_enough_space_message">
+        <item quantity="other">அரட்டைகளை தரவிறக்க %s சேமிப்பிடம் தேவை. இடத்தைக் காலியாக்கிவிட்டு தரவிறக்கவும்.</item>
+        <item quantity="one">அரட்டைகளைத் தரவிறக்க %s சேமிப்பிடம் தேவை. இடத்தைக் காலியாக்கிவிட்டு தரவிறக்கவும்.</item>
+    </plurals>
+    <plurals name="import_backup_not_enough_space_message">
+        <item quantity="other">அரட்டைகளை இறக்குமதி செய்ய %s சேமிப்பிடம் தேவை. இடத்தைக் காலியாக்கிவிட்டு இறக்குமதி செய்யவும்.</item>
+    </plurals>
+    <plurals name="move_chats_insufficient_space_dialog">
+        <item quantity="other">இந்தப் பரிமாற்றத்திற்கு %1$s தேவைப்படுகிறது. WhatsApp இன் சேமிப்பக நிர்வாகக் கருவியைப் பயன்படுத்தி இடத்தைக் காலியாக்கவும்.</item>
+    </plurals>
+    <plurals name="settings_gdrive_video_size_to_be_uploaded_plural">
+        <item quantity="other">பதிவேற்றவிருப்பது %s</item>
+    </plurals>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/fl_foreground" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/iv_back" android:layout_width="@dimen/common_dimens_36dp" android:layout_height="@dimen/common_dimens_36dp" android:layout_marginLeft="@dimen/common_dimens_8dp" android:layout_marginTop="@dimen/common_dimens_16dp" android:src="@drawable/san_mads_webview_back" android:scaleType="fitXY" />
+</FrameLayout>

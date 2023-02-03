@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="right" android:drawable="@drawable/ic_settings_row_badge" android:top="-2.0dip" android:right="4.0dip" android:bottom="24.0dip" />
+    <item android:id="@id/base_badge_layer">
+        <shape />
+    </item>
+</layer-list>

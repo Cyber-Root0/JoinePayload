@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/novi_send_money_review_header" layout="@layout/novi_send_money_review_header" />
+    <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="@color/primary_text" android:id="@id/novi_education_description" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/product_margin_16dp" android:text="@string/novi_add_payment_method_description" />
+    <com.gbwhatsapp.components.Button android:id="@id/novi_education_action_button" android:layout_width="fill_parent" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip" android:text="@string/novi_add_debit_card_title" style="@style/NoviPayPrimaryButton" />
+</LinearLayout>

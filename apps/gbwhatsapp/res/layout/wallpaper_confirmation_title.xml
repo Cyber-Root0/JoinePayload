@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/wallpaper_confirmation_dialog_padding" android:paddingTop="@dimen/wallpaper_confirmation_dialog_padding" android:paddingRight="@dimen/wallpaper_confirmation_dialog_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaTextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/primary_text" android:id="@id/wallpaper_confirmation_title_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:includeFontPadding="false" />
+</LinearLayout>

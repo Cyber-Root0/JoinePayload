@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/wds_cool_gray_alpha_80" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.BidiToolbar android:id="@id/toolbar" android:background="?colorPrimaryDark" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:minHeight="?actionBarSize" style="@style/Toolbar.Neutral" />
+    <com.gbwhatsapp.KeyboardPopupLayout android:gravity="bottom" android:id="@id/conversation_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/emoji_popup_anchor" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:id="@id/message_bubble_place_holder" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <include layout="@layout/conversation_entry_component" />
+            <com.gbwhatsapp.emoji.search.EmojiSearchContainer android:id="@id/emoji_search_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </com.gbwhatsapp.KeyboardPopupLayout>
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/toolbar" />
+    <ScrollView android:id="@id/scroll_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.gbwhatsapp.WaImageView android:layout_gravity="center_horizontal" android:id="@id/hero_img" android:layout_width="140.0dip" android:layout_height="140.0dip" android:layout_marginTop="16.0dip" android:src="@drawable/ic_hero_account_added_landing_mpin" android:contentDescription="@null" />
+            <com.gbwhatsapp.WaTextView android:gravity="center" android:layout_gravity="center" android:id="@id/title" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:text="@string/bankaccount_linking_confirmation_title_first_account_with_mpin" style="@style/OnboardingBodyTitle" />
+            <com.gbwhatsapp.WaTextView android:textColor="@color/list_item_sub_title" android:gravity="center" android:layout_gravity="center" android:id="@id/desc" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/bankaccount_linking_confirmation_desc_first_account" android:lineSpacingExtra="6.0dip" />
+            <View android:background="@drawable/payments_divider_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="16.0dip" />
+            <include android:id="@id/account_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/india_upi_account_picker_list_row" />
+            <View android:background="@drawable/payments_divider_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" />
+            <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/india_upi_account_picker_list_row_footer" />
+            <com.gbwhatsapp.WaTextView android:textSize="12.0sp" android:textColor="@color/list_item_sub_title" android:layout_gravity="center" android:id="@id/overdraft_description" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:lineSpacingExtra="6.0dip" />
+            <include layout="@layout/incentive_info_view" />
+        </LinearLayout>
+    </ScrollView>
+    <com.gbwhatsapp.components.Button android:layout_gravity="center_horizontal" android:id="@id/primary_button" android:layout_width="fill_parent" android:layout_marginLeft="8.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="8.0dip" android:maxLines="1" style="@style/WA.Button.FullWidth" />
+    <com.gbwhatsapp.components.Button android:layout_gravity="center_horizontal" android:id="@id/secondary_button" android:layout_width="fill_parent" android:layout_marginLeft="8.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="8.0dip" android:maxLines="1" style="@style/WA.Button.Secondary.FullWidth" />
+    <com.gbwhatsapp.WaImageView android:layout_gravity="center_horizontal" android:layout_marginTop="16.0dip" style="@style/BhimUpiLogo" />
+</LinearLayout>

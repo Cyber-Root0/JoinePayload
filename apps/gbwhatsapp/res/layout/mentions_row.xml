@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/mention_picker_row_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.components.button.ThumbnailButton android:id="@id/contact_photo" style="@style/ContactPhoto.Mentions" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingRight="@dimen/list_row_padding" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.gbwhatsapp.TextEmojiLabel android:textColor="@color/screen_title_text" android:id="@id/contact_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="@style/ListItemSubtitle" />
+            <com.gbwhatsapp.TextEmojiLabel android:textAppearance="@style/TextAppearance.ContactPushName" android:textColor="@color/screen_title_text" android:layout_gravity="right" android:id="@id/push_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_gravity="bottom" android:id="@id/separator" style="@style/SectionDivider" />
+</FrameLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="@color/step_num_text" android:gravity="center" android:layout_gravity="start" android:id="@id/bind_step_number" android:background="@drawable/step_circle" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="8.0dip" android:layout_marginTop="8.0dip" android:lineSpacingExtra="6.0dip" />
+    <com.gbwhatsapp.WaImageView android:id="@id/bind_step_check" android:background="@drawable/step_circle" android:paddingLeft="8.0dip" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:visibility="invisible" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="8.0dip" android:layout_marginTop="8.0dip" android:src="@drawable/ic_tick_ok" app:tint="@color/step_num_text" />
+    <ProgressBar android:theme="@style/StepperProgressBar" android:id="@id/bind_step_number_progress" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+    <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="@color/primary_text" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/bind_step_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="60.0dip" android:layout_marginRight="20.0dip" android:text="@string/payments_device_bind_sms_step" android:lineSpacingExtra="4.0sp" />
+</FrameLayout>

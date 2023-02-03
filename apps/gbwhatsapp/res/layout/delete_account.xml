@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/scroll_view" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:paddingTop="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.gbwhatsapp.WaImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_settings_warning" app:tint="@color/settings_dangerous_text" />
+                <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="@color/settings_dangerous_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:text="@string/delete_account_header" android:maxLines="1" android:singleLine="true" android:lineSpacingExtra="4.0dip" app:fontFamily="sans-serif-medium" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:paddingLeft="72.0dip" android:paddingRight="18.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+                <com.gbwhatsapp.WaTextView android:id="@id/delete_whatsapp_account_warning_text" android:layout_marginTop="4.0dip" android:text="@string/delete_account_item_1" style="@style/SettingsBulletPointText" />
+                <com.gbwhatsapp.WaTextView android:id="@id/delete_message_history_warning_text" android:text="@string/delete_account_item_2" style="@style/SettingsBulletPointText" />
+                <com.gbwhatsapp.WaTextView android:id="@id/delete_whatsapp_group_warning_text" android:text="@string/delete_account_item_3" style="@style/SettingsBulletPointText" />
+                <com.gbwhatsapp.WaTextView android:id="@id/delete_google_drive_warning_text" android:text="@string/delete_account_item_4" style="@style/SettingsBulletPointText" />
+                <com.gbwhatsapp.WaTextView android:id="@id/delete_payments_account_warning_text" android:text="@string/delete_account_item_5" style="@style/SettingsBulletPointText" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:background="@color/settings_divider" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="72.0dip" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip">
+                <com.gbwhatsapp.WaImageView android:id="@id/change_number_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_settings_change_number" app:tint="@color/settings_icon" />
+                <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="@color/settings_item_title_text" android:ellipsize="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:text="@string/settings_delete_account_change_number_question" android:maxLines="2" android:lineSpacingExtra="4.0dip" />
+            </LinearLayout>
+            <com.gbwhatsapp.components.Button android:id="@id/delete_account_change_number_option" android:layout_marginLeft="72.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="24.0dip" android:text="@string/settings_change_number" style="@style/WA.Button" />
+        </LinearLayout>
+        <View android:background="@color/settings_divider" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/delete_account_instructions_with_payments" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip">
+                <com.gbwhatsapp.WaImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_settings_checklist" app:tint="@color/settings_icon" />
+                <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="@color/settings_item_title_text" android:ellipsize="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:text="@string/delete_account_instructions_with_payments_title" android:maxLines="2" android:lineSpacingExtra="4.0dip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="72.0dip">
+                <com.gbwhatsapp.WaTextView android:id="@id/delete_account_instructions_payments_1" android:layout_marginTop="4.0dip" android:text="@string/delete_account_instructions_with_payments_item_1" style="@style/SettingsBulletPointText" />
+                <com.gbwhatsapp.WaTextView android:id="@id/delete_account_instructions_payments_2" android:visibility="gone" android:layout_marginTop="4.0dip" style="@style/SettingsBulletPointText" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:paddingRight="16.0dip" android:paddingBottom="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="72.0dip">
+            <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="@color/settings_item_title_text" android:id="@id/delete_account_instructions" android:paddingTop="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/delete_account_instructions" android:lineSpacingMultiplier="1.3" />
+            <fragment android:name="com.gbwhatsapp.phonematching.MatchPhoneNumberFragment" android:id="@id/delete_account_match_phone_number_fragment" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.gbwhatsapp.components.Button android:id="@id/delete_account_submit" android:layout_marginTop="24.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="12.0dip" android:text="@string/settings_delete_account" style="@style/WA.Button.Error" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

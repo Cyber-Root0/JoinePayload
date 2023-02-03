@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@drawable/community_divider_shadow" android:layout_width="fill_parent" android:layout_height="@dimen/community_home_divider_height" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/invite_members_row" android:background="@drawable/selector_orange_gradient" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_gravity="center" android:id="@id/invite_members_icon_holder" android:layout_width="@dimen/contact_selector_width_small" android:layout_height="@dimen/contact_picker_row_small_height">
+            <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/add_participant_icon" android:background="@drawable/primary_light_circle_background" android:layout_width="@dimen/contact_picker_avatar_size" android:layout_height="@dimen/contact_picker_avatar_size" android:layout_marginLeft="@dimen/small_list_avatar_padding" android:layout_marginRight="@dimen/small_list_avatar_padding" android:src="@drawable/ic_action_add_person" android:scaleType="center" />
+        </FrameLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingRight="@dimen/list_row_padding" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="@dimen/contact_picker_row_text_height" android:layout_weight="1.0">
+            <com.gbwhatsapp.TextEmojiLabel android:layout_gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/invite_members_section_text" style="@style/ListItemTitle" />
+        </LinearLayout>
+        <com.gbwhatsapp.WaImageButton android:layout_gravity="center" android:id="@id/invite_members_remove_button" android:background="?selectableItemBackgroundBorderless" android:layout_width="@dimen/community_home_invite_member_cancel_button_padding" android:layout_height="@dimen/community_home_invite_member_cancel_button_padding" android:src="@drawable/ic_close" android:scaleType="centerInside" android:contentDescription="@string/close" />
+    </LinearLayout>
+</merge>

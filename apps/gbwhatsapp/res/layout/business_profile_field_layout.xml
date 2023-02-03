@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaImageView android:id="@id/field_icon" android:visibility="gone" android:src="@drawable/ic_business_info" android:layout_weight="0.0" app:tint="@color/business_icon" style="@style/BusinessProfileFieldIcon" />
+    <LinearLayout android:gravity="left" android:orientation="vertical" android:id="@id/business_field_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.gbwhatsapp.biz.catalog.view.EllipsizedTextEmojiLabel android:id="@id/field_textview" android:paddingTop="@dimen/business_field_view_top_bottom_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" style="@style/BusinessProfileFieldTextView" />
+        <FrameLayout android:id="@id/business_profile_field_bottom_container" android:paddingTop="@dimen/business_field_view_top_bottom_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <com.gbwhatsapp.biz.catalog.view.EllipsizedTextEmojiLabel android:gravity="right" android:id="@id/sub_field_textview" android:paddingTop="@dimen/business_field_view_top_bottom_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:layout_weight="1.0" style="@style/BusinessProfileFieldTextView" />
+</merge>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/catalog_all_category_search_ctx_horizontal_margin" android:paddingTop="@dimen/catalog_all_category_search_ctx_vertical_margin" android:paddingRight="@dimen/catalog_all_category_search_ctx_horizontal_margin" android:paddingBottom="@dimen/catalog_all_category_search_ctx_vertical_margin" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="@color/dark_gray" android:ellipsize="end" android:id="@id/title_category_list_item" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/search_header_browse_by_category" android:maxLines="1" app:fontFamily="sans-serif-medium" />
+</LinearLayout>

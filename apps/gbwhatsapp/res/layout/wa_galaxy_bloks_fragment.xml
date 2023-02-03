@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaTextView android:textSize="@dimen/error_text_size_16sp" android:textColor="@color/secondary_text" android:gravity="center" android:layout_gravity="center" android:id="@id/extensions_error_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/error_layout_height" android:layout_marginLeft="@dimen/error_layout_margin" android:layout_marginRight="@dimen/error_layout_margin" app:fontFamily="Roboto" app:lineHeight="@dimen/error_line_height_24sp" />
+    <include android:id="@id/extensions_container" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/fragment_bloks" />
+</FrameLayout>

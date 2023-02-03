@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/title_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="@color/primary_text" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/header_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/pin_bottomsheet_title_margin_top" android:layout_marginBottom="@dimen/pin_bottomsheet_title_margin_bottom" android:text="@string/payment_pin_bottom_sheet_title" app:fontFamily="sans-serif-medium" />
+    <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/pin_bottomsheet_subtitle_margin_left" android:layout_marginRight="@dimen/pin_bottomsheet_subtitle_margin_left" android:layout_marginBottom="@dimen/pin_bottomsheet_title_margin_bottom" android:text="@string/account_recovery_payment_pin_bottom_sheet_subtitle" />
+    <com.gbwhatsapp.CodeInputField android:textSize="22.0dip" android:layout_gravity="center_horizontal" android:id="@id/code" android:background="@null" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:cursorVisible="false" android:singleLine="true" android:digits="\ 0123456789" android:inputType="number" />
+    <FrameLayout android:paddingTop="@dimen/pin_bottomsheet_text_padding_top" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/pin_text_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.gbwhatsapp.WaTextView android:textSize="12.0sp" android:textColor="@color/secondary_text" android:layout_gravity="center_horizontal" android:id="@id/error_text" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/pin_bottomsheet_title_margin_top" android:layout_marginRight="@dimen/pin_bottomsheet_title_margin_top" android:layout_marginBottom="@dimen/pin_bottomsheet_error_text_margin_bottom" />
+            <com.gbwhatsapp.components.Button android:layout_gravity="center_horizontal" android:id="@id/forgot_pin_button" android:layout_marginBottom="@dimen/pin_bottomsheet_forgot_pin_button_margin_bottom" android:text="@string/payment_forgot_pin" style="@style/FbPayBorderlessButton" />
+        </LinearLayout>
+        <FrameLayout android:layout_gravity="center_horizontal" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.gbwhatsapp.CircularProgressBar android:id="@id/progress_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:cpbBackground="@android:color/transparent" app:cpbColor="@color/fb_pay_spinner" />
+        </FrameLayout>
+    </FrameLayout>
+    <com.gbwhatsapp.numberkeyboard.NumberEntryKeyboard android:id="@id/number_entry_keyboard" android:layout_width="fill_parent" android:layout_height="wrap_content" app:custom_key="none" />
+</LinearLayout>

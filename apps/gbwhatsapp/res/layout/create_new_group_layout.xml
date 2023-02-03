@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/create_new_group_button" android:background="@drawable/selector_orange_gradient" android:layout_width="fill_parent" android:layout_height="@dimen/small_list_row_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaImageView android:id="@id/create_new_group_icon" android:background="@drawable/primary_light_circle_background" android:src="@drawable/ic_add_new_group" style="@style/ListItemIcon" />
+    <com.gbwhatsapp.WaTextView android:ellipsize="end" android:id="@id/create_new_group_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/create_group_from_1_on_1_chat" android:maxLines="2" android:singleLine="false" style="@style/ListItemTitle" />
+</LinearLayout>

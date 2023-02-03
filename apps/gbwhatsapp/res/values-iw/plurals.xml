@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">הרצה %d שניות קדימה</item>
+        <item quantity="one">הרצה שנייה אחת (%d) קדימה</item>
+        <item quantity="two">הרצה %d שניות קדימה</item>
+        <item quantity="many">הרצה %d שניות קדימה</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">הרצה %d שניות אחורה</item>
+        <item quantity="one">הרצה שנייה אחת (%d) אחורה</item>
+        <item quantity="two">הרצה %d שניות אחורה</item>
+        <item quantity="many">הרצה %d שניות אחורה</item>
+    </plurals>
+    <plurals name="export_backup_not_enough_space_message">
+        <item quantity="other">"‏כדי לייצא את הצ'אטים דרוש אחסון בגודל %s. יש לפנות שטח אחסון לפני הייצוא."</item>
+    </plurals>
+    <plurals name="import_backup_not_enough_space_message">
+        <item quantity="other">"‏כדי לייבא את הצ'אטים דרוש אחסון בגודל %s. יש לפנות שטח אחסון לפני הייבוא."</item>
+    </plurals>
+    <plurals name="move_chats_insufficient_space_dialog">
+        <item quantity="other">‏כדי להשלים את ההעברה נדרשים %1$s פנויים במכשיר. עליך לפנות מקום בעזרת הכלי של WhatsApp לניהול האחסון.</item>
+        <item quantity="one">‏כדי להשלים את ההעברה נדרש %1$s פנוי במכשיר. עליך לפנות מקום בעזרת הכלי של WhatsApp לניהול האחסון.</item>
+    </plurals>
+    <plurals name="settings_gdrive_video_size_to_be_uploaded_plural">
+        <item quantity="other">‏%s בתור להעלאה</item>
+    </plurals>
+</resources>

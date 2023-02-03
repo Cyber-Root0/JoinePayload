@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/view_shared_contact_array_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidy.recyclerview.widget.RecyclerView android:id="@id/rvContacts" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.gbwhatsapp.components.FloatingActionButton android:id="@id/send_btn" android:visibility="gone" android:src="@drawable/input_send" android:contentDescription="@string/send" style="@style/WA.FAB" />
+</FrameLayout>

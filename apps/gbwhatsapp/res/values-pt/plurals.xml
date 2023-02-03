@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Avançar %d segundos</item>
+        <item quantity="one">Avançar %d segundo</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Retroceder %d segundos</item>
+        <item quantity="one">Retroceder %d segundo</item>
+    </plurals>
+    <plurals name="export_backup_not_enough_space_message">
+        <item quantity="other">Vai precisar de %s de espaço de armazenamento para exportar as conversas. Liberte espaço de armazenamento antes de o fazer.</item>
+    </plurals>
+    <plurals name="import_backup_not_enough_space_message">
+        <item quantity="other">Vai precisar de %s de espaço de armazenamento para fazer a importação. Liberte espaço de armazenamento antes de a fazer.</item>
+    </plurals>
+    <plurals name="move_chats_insufficient_space_dialog">
+        <item quantity="other">São necessários %1$s disponíveis neste dispositivo para realizar a transferência. Liberte espaço com a ferramenta de gestão do armazenamento do WhatsApp.</item>
+        <item quantity="one">É necessário %1$s disponível neste dispositivo para realizar a transferência. Liberte espaço com a ferramenta de gestão do armazenamento do WhatsApp.</item>
+    </plurals>
+    <plurals name="settings_gdrive_video_size_to_be_uploaded_plural">
+        <item quantity="other">‎%s a carregar</item>
+    </plurals>
+</resources>

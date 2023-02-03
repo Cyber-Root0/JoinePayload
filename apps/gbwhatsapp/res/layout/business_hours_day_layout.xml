@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaTextView android:gravity="start" android:id="@id/business_hours_day_layout_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.45" style="@style/BusinessProfileFieldTextView" />
+    <com.gbwhatsapp.WaTextView android:gravity="start" android:id="@id/business_hours_day_layout_description" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.55" android:lineSpacingMultiplier="1.3" style="@style/BusinessProfileFieldTextView" />
+</merge>

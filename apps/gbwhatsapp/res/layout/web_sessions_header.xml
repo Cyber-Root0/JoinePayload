@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.WaLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaImageView android:paddingTop="28.0dip" android:paddingBottom="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/active_connections" whatsapp:tint="@color/on_surface_drawable_tint" />
+    <com.gbwhatsapp.WaLinearLayout android:orientation="vertical" android:id="@id/header" android:background="@drawable/panel_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/card_v_padding" whatsapp:wallBackgroundTint="@color/background_panel_tint">
+        <FrameLayout style="@style/CardHeader">
+            <com.gbwhatsapp.WaTextView android:id="@id/sessions_title" android:text="@string/currently_logged_into" style="@style/CardTitle" />
+            <com.gbwhatsapp.WaTextView style="@style/CardInfo" />
+            <View style="@style/CardSeparator" />
+        </FrameLayout>
+    </com.gbwhatsapp.WaLinearLayout>
+</com.gbwhatsapp.WaLinearLayout>

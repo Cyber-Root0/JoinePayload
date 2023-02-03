@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/icon" android:layout_width="90.0dip" android:layout_height="90.0dip" android:layout_marginTop="30.0dip" android:src="@drawable/image_sales" android:contentDescription="@string/payments_settings_business_account_icon" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="@dimen/product_margin_16dp" android:layout_marginRight="24.0dip" android:layout_marginBottom="28.0dip">
+        <com.gbwhatsapp.WaTextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/primary_text" android:ellipsize="end" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/merchant_upgrade_nudge_title" android:singleLine="true" />
+        <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="@color/secondary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/merchant_upgrade_nudge_desc_br" app:lineHeight="24.0sp" />
+    </LinearLayout>
+</LinearLayout>

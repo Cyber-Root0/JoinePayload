@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient android:startColor="@color/category_entry_point_thumbnail_text_bg_start" android:endColor="@color/category_entry_point_thumbnail_text_bg_end" android:angle="270.0" android:centerColor="@color/category_entry_point_thumbnail_text_bg_center" />
+    <corners android:radius="@dimen/catalog_item_image_radius" />
+</shape>

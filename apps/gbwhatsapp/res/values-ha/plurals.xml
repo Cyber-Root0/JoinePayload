@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="export_backup_not_enough_space_message">
+        <item quantity="other">"Fitar da hirarraki na buƙatar ma'ajiya %s. Daure ka samar da sarari a ma'ajiya kafin fitarwa."</item>
+    </plurals>
+    <plurals name="import_backup_not_enough_space_message">
+        <item quantity="other">"Shigarwa na buƙatar ma'ajiya %s. Daure ka samar da sarari a ma'ajiya kafin shigarwa."</item>
+    </plurals>
+    <plurals name="move_chats_insufficient_space_dialog">
+        <item quantity="other">"Ana buƙatar %1$s a kan wannan na'urar domin gusarwa. Daure ka share sarari ta hanyar amfani da kayan aikin kula da ma'adanar WhatsApp."</item>
+    </plurals>
+    <plurals name="settings_gdrive_video_size_to_be_uploaded_plural">
+        <item quantity="other">za a ɗora %s</item>
+    </plurals>
+</resources>

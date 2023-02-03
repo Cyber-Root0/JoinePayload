@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidy.coordinatorlayout.widget.CoordinatorLayout android:layout_gravity="bottom" android:id="@id/filter_sheet_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.mediacomposer.doodle.ImagePreviewContentLayout android:id="@id/media_content" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include layout="@layout/media_guidelines" />
+    <include layout="@layout/doodle_view" />
+    <include layout="@layout/doodle_decoration" />
+    <include layout="@layout/filter_sheet" />
+</androidy.coordinatorlayout.widget.CoordinatorLayout>

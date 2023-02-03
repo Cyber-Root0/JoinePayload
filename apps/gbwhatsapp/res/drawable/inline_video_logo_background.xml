@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:height="@dimen/inline_video_logo_background_height" />
+    <solid android:color="@color/wds_cool_gray_alpha_70" />
+    <corners android:radius="@dimen/inline_video_logo_background_radius" />
+</shape>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/title_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@color/novi_payments_exchange_rate_background_color" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <com.gbwhatsapp.WaTextView android:textSize="12.0dip" android:textColor="@color/secondary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/novi_send_money_review_extras_rate_label" android:fontFamily="sans-serif-medium" />
+        <com.gbwhatsapp.WaTextView android:textSize="12.0dip" android:textColor="@color/secondary_text" android:id="@id/novi_send_money_review_transaction_exchange_rate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:fontFamily="sans-serif-medium" />
+    </LinearLayout>
+    <View android:background="@drawable/payments_divider_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginBottom="8.0dip" />
+    <include android:id="@id/novi_send_money_review_transaction_details_sender_crypto_layout" layout="@layout/novi_send_money_review_transaction_line_item" style="@style/NoviSendPaymentReviewTransactionLineItem" />
+    <include android:id="@id/novi_send_money_review_transaction_details_sender_fiat_layout" layout="@layout/novi_send_money_review_transaction_line_item" style="@style/NoviSendPaymentReviewTransactionLineItem" />
+    <com.gbwhatsapp.WaTextView android:textSize="12.0sp" android:textColor="@color/novi_payments_exchange_rate_font_color" android:layout_gravity="end" android:id="@id/novi_send_money_review_transaction_details_sender_exchange_rate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="20.0dip" android:fontFamily="sans-serif" style="@style/NoviSendPaymentReviewTransactionLineItem" />
+    <View android:background="@drawable/payments_divider_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="8.0dip" />
+    <include android:id="@id/novi_send_money_review_transaction_details_receiver_crypto_layout" layout="@layout/novi_send_money_review_transaction_line_item" style="@style/NoviSendPaymentReviewTransactionLineItem" />
+    <include android:id="@id/novi_send_money_review_transaction_details_receiver_fiat_layout" layout="@layout/novi_send_money_review_transaction_line_item" style="@style/NoviSendPaymentReviewTransactionLineItem" />
+    <com.gbwhatsapp.WaTextView android:textSize="12.0sp" android:textColor="@color/novi_payments_exchange_rate_font_color" android:layout_gravity="end" android:id="@id/novi_send_money_review_transaction_details_receiver_exchange_rate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:fontFamily="sans-serif" style="@style/NoviSendPaymentReviewTransactionLineItem" />
+</LinearLayout>

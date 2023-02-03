@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="192.0dip" android:width="192.0dip" android:viewportWidth="192.0" android:viewportHeight="192.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group android:name="_R_G">
+        <group android:name="_R_G_L_4_G" android:translateX="-12.5" android:translateY="-6.223">
+            <path android:name="_R_G_L_4_G_D_0_P_0" android:pathData=" M16.28 102.22 C16.28,51.29 57.57,10 108.5,10 C159.43,10 200.72,51.29 200.72,102.22 C200.72,153.16 159.43,194.45 108.5,194.45 C57.57,194.45 16.28,153.16 16.28,102.22c " android:strokeColor="@color/novi_selfie_animation_icon_stroke" android:strokeWidth="7.23" android:strokeLineCap="round" android:strokeLineJoin="round" android:strokeAlpha="1.0" />
+        </group>
+        <group android:name="_R_G_L_3_G_T_1" android:translateX="97.181" android:translateY="137.473">
+            <group android:name="_R_G_L_3_G" android:translateX="-122.181" android:translateY="-143.696">
+                <path android:name="_R_G_L_3_G_D_0_P_0" android:pathData=" M106.5 145.2 C125.75,155.75 141.22,144.36 141.22,144.36 " android:strokeColor="@color/novi_selfie_animation_icon_stroke" android:strokeWidth="7.23" android:strokeLineCap="round" android:strokeLineJoin="round" android:strokeAlpha="1.0" />
+            </group>
+        </group>
+        <group android:name="_R_G_L_2_G_T_1" android:translateX="58.294" android:translateY="81.203">
+            <group android:name="_R_G_L_2_G" android:translateX="-70.794" android:translateY="-87.425">
+                <path android:name="_R_G_L_2_G_D_0_P_0" android:pathData=" M70.79 80.96 C70.79,80.96 70.79,93.89 70.79,93.89 " android:strokeColor="@color/novi_selfie_animation_icon_stroke" android:strokeWidth="11.947" android:strokeLineCap="round" android:strokeLineJoin="round" android:strokeAlpha="1.0" />
+            </group>
+        </group>
+        <group android:name="_R_G_L_1_G_T_1" android:translateX="133.706" android:translateY="81.203">
+            <group android:name="_R_G_L_1_G" android:translateX="-146.206" android:translateY="-87.425">
+                <path android:name="_R_G_L_1_G_D_0_P_0" android:pathData=" M146.21 80.96 C146.21,80.96 146.21,93.89 146.21,93.89 " android:strokeColor="@color/novi_selfie_animation_icon_stroke" android:strokeWidth="11.947" android:strokeLineCap="round" android:strokeLineJoin="round" android:strokeAlpha="1.0" />
+            </group>
+        </group>
+        <group android:name="_R_G_L_0_G_T_1" android:translateX="91.265" android:translateY="100.942">
+            <group android:name="_R_G_L_0_G" android:translateX="-103.765" android:translateY="-107.165">
+                <path android:name="_R_G_L_0_G_D_0_P_0" android:pathData=" M108.5 118.97 C103.27,118.97 99.03,114.24 99.03,108.41 C99.03,108.41 99.16,95.36 99.16,95.36 " android:strokeColor="@color/novi_selfie_animation_icon_stroke" android:strokeWidth="7.23" android:strokeLineCap="round" android:strokeLineJoin="round" android:strokeAlpha="1.0" />
+            </group>
+        </group>
+    </group>
+    <group android:name="time_group" />
+</vector>

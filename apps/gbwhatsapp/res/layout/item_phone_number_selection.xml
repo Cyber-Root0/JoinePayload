@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioButton android:layout_gravity="center_vertical" android:id="@id/phone_number_selection_radio_button" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="16.0dip" android:layout_weight="1.0">
+        <com.gbwhatsapp.WaTextView android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/space_tight" android:lineSpacingMultiplier="1.5" style="@style/ListItemTitle" />
+        <com.gbwhatsapp.WaTextView android:id="@id/subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ListItemSubtitle" />
+    </LinearLayout>
+</LinearLayout>

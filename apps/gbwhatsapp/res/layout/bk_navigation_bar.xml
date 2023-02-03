@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/bk_navigation_custom_view" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="@dimen/actionbar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaRoundCornerImageView android:layout_gravity="center_vertical" android:id="@id/bk_navigation_logo" android:layout_width="36.0dip" android:layout_height="36.0dip" app:radius="100.0dip" />
+    <com.gbwhatsapp.WaTextView android:textSize="20.0sp" android:textColor="@color/wabloksui_navigation_bar_text" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/bk_navigation_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:lines="1" app:fontFamily="sans-serif-medium" />
+</LinearLayout>

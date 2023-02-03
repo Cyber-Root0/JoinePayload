@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/yosettings_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/yo_toolbar" />
+    <FrameLayout android:id="@id/layout_frame" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/settings_divider_vertical_margin" android:layout_marginRight="@dimen/settings_divider_vertical_margin" />
+    <ListView android:id="@android:id/list" android:background="@drawable/rounded_card" android:padding="@dimen/info_screen_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_divider_text_margin_top" android:divider="@drawable/divider_gray" />
+</LinearLayout>

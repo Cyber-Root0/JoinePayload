@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center|left" android:orientation="vertical" android:id="@id/main_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="40.0dip" android:minHeight="30.0dip">
+        <include layout="@layout/conversation_row_participant_header_with_padding" />
+        <include layout="@layout/conversation_row_quoted_frame" />
+        <FrameLayout android:id="@id/requested_message_holder" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/payment_bubble_margin_width" android:layout_marginTop="@dimen/payment_bubble_margin_width" android:layout_marginRight="@dimen/payment_bubble_margin_width">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/link_preview_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="120.0dip" android:minHeight="48.0dip">
+                <com.gbwhatsapp.TextEmojiLabel android:ellipsize="end" android:layout_gravity="left" android:id="@id/request_text" android:paddingLeft="@dimen/conversation_row_inner_item_padding" android:paddingTop="4.0dip" android:paddingRight="@dimen/conversation_row_inner_item_padding" android:paddingBottom="4.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="3" android:layout_weight="1.0" />
+                <FrameLayout android:gravity="center" android:id="@id/requested_payment_amount_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                    <com.gbwhatsapp.WaImageView android:id="@id/requested_payment_amount_expressive_background" android:layout_width="52.0dip" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+                    <com.gbwhatsapp.WaTextView android:textSize="20.0sp" android:textColor="#ff00897b" android:gravity="center" android:layout_gravity="center" android:id="@id/requested_payment_amount_text" android:paddingLeft="@dimen/space_base" android:paddingRight="@dimen/space_base" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxLines="1" />
+                </FrameLayout>
+                <com.gbwhatsapp.WaTextView android:textSize="20.0sp" android:textColor="#ff00897b" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/requested_payment_amount" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" />
+            </LinearLayout>
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:id="@id/payment_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/payment_bubble_margin_width">
+                <androidy.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/payment_bubble_amount_width">
+                    <FrameLayout android:id="@id/payment_amount_container" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+                        <include layout="@layout/payment_localization" />
+                        <ViewStub android:id="@id/payment_amount_summary_stub" android:inflatedId="@id/payment_amount_summary_inflated" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    </FrameLayout>
+                    <androidy.constraintlayout.widget.ConstraintLayout android:background="@drawable/payments_message_bubble_background" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/payment_amount_container">
+                        <FrameLayout android:id="@id/payment_security_strip" android:background="@drawable/payment_security_strip_background" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+                            <com.gbwhatsapp.WaImageView android:id="@id/security_strip_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/payments_security_strip" android:scaleType="centerCrop" />
+                        </FrameLayout>
+                        <com.gbwhatsapp.WaTextView android:textSize="15.0sp" android:id="@id/payment_symbol" android:paddingLeft="@dimen/conversation_row_inner_item_padding" android:paddingTop="7.0dip" android:paddingBottom="7.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                        <com.gbwhatsapp.WaImageView android:id="@id/payment_unsupported_icon" android:paddingLeft="@dimen/conversation_row_inner_item_padding" android:paddingTop="7.0dip" android:paddingBottom="7.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_unsupported" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:tint="#ff78909c" />
+                        <androidy.constraintlayout.widget.Barrier android:id="@id/payment_status_barrier" android:layout_width="wrap_content" android:layout_height="wrap_content" app:barrierDirection="end" app:constraint_referenced_ids="payment_symbol,payment_unsupported_icon" />
+                        <com.gbwhatsapp.conversation.conversationrow.ConversationPaymentRowTransactionLayout android:orientation="vertical" android:id="@id/transaction_status_container" android:paddingLeft="@dimen/conversation_row_inner_item_padding" android:paddingTop="7.0dip" android:paddingRight="@dimen/conversation_row_inner_item_padding" android:paddingBottom="7.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/payment_status_barrier" app:layout_constraintTop_toTopOf="parent">
+                            <com.gbwhatsapp.TextEmojiLabel android:textSize="12.0sp" android:textColor="@color/payments_pill_text_left" android:textColorHighlight="@color/payments_pill_text_highlight" android:layout_gravity="center|left|top" android:id="@id/message_text" android:paddingTop="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="4" android:lineSpacingExtra="4.0sp" app:fontFamily="sans-serif" />
+                            <com.gbwhatsapp.TextEmojiLabel android:textSize="12.0sp" android:textColor="@color/payments_pill_text_left" android:textColorHighlight="@color/payments_pill_text_highlight" android:layout_gravity="center|left|top" android:id="@id/transaction_status" android:paddingTop="1.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="4" android:lineSpacingExtra="4.0sp" />
+                        </com.gbwhatsapp.conversation.conversationrow.ConversationPaymentRowTransactionLayout>
+                    </androidy.constraintlayout.widget.ConstraintLayout>
+                </androidy.constraintlayout.widget.ConstraintLayout>
+            </FrameLayout>
+            <FrameLayout android:id="@id/suspicious_link_indicator_holder" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:paddingBottom="2.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <include layout="@layout/payment_sticker" />
+            <com.gbwhatsapp.components.TextAndDateLayout android:id="@id/text_and_date" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.gbwhatsapp.TextEmojiLabel android:textAppearance="@style/WA.TextAppearance.ConversationRowMessage" android:textSize="@dimen/conversation_text_row_tv" android:layout_gravity="left" android:id="@id/payment_note" android:paddingLeft="@dimen/conversation_row_inner_item_padding" android:paddingRight="@dimen/conversation_row_inner_item_padding" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-1.0dip" />
+                <include layout="@layout/conversation_row_date_wrapper_left" />
+            </com.gbwhatsapp.components.TextAndDateLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/retry_withdrawal_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:id="@id/retry_divider" style="@style/SectionDivider.Heavy" />
+            <com.gbwhatsapp.TextEmojiLabel android:textColor="@color/selector_payments_request_action" android:id="@id/retry_withdrawal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/payments_retry_withdrawal" style="@style/ConversationSharedContactButton" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/accept_payment_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:id="@id/accept_payment_divider" style="@style/SectionDivider.Heavy" />
+            <com.gbwhatsapp.TextEmojiLabel android:textColor="@color/selector_payments_request_action" android:id="@id/accept_payment" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/payments_accept_payment" style="@style/ConversationSharedContactButton" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/request_actions_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:id="@id/request_buttons_divider" style="@style/SectionDivider.Heavy" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.gbwhatsapp.TextEmojiLabel android:textColor="@color/selector_payments_request_action" android:id="@id/request_decline_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/payments_decline_request" android:layout_weight="1.0" style="@style/ConversationSharedContactButton" />
+                <View android:id="@id/buttons_vertical_divider" style="@style/SectionDivider.Vertical" />
+                <com.gbwhatsapp.TextEmojiLabel android:textColor="@color/selector_payments_request_action" android:id="@id/request_pay_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/payments_pay_request" android:layout_weight="1.0" style="@style/ConversationSharedContactButton" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/bip_actions_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:id="@id/bip_buttons_divider" style="@style/SectionDivider.Heavy" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.gbwhatsapp.TextEmojiLabel android:textColor="@color/selector_payments_request_action" android:id="@id/bip_decline_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/payments_decline_bip" android:layout_weight="1.0" style="@style/ConversationSharedContactButton" />
+                <View android:id="@id/bip_buttons_vertical_divider" style="@style/SectionDivider.Vertical" />
+                <com.gbwhatsapp.TextEmojiLabel android:textColor="@color/selector_payments_request_action" android:id="@id/bip_accept_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/payments_accept_bip" android:layout_weight="1.0" style="@style/ConversationSharedContactButton" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</merge>

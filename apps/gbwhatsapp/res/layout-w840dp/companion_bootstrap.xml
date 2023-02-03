@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="@dimen/content_section_width" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaTextView android:id="@id/title" android:paddingLeft="@dimen/content_section_text_padding" android:paddingRight="@dimen/content_section_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/companion_registration_title" style="@style/CompanionRegistrationTitle" />
+        <com.gbwhatsapp.WaTextView android:paddingLeft="@dimen/content_section_text_padding" android:paddingRight="@dimen/content_section_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/companion_bootstrap_text" style="@style/CompanionRegistrationSubtitle" />
+        <LinearLayout android:gravity="center_vertical" android:paddingLeft="@dimen/content_section_text_padding" android:paddingTop="136.0dip" android:paddingRight="@dimen/content_section_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.gbwhatsapp.WaImageView android:layout_width="@dimen/label_text_size" android:layout_height="@dimen/label_text_size" android:src="@drawable/ic_encryption_lock" />
+            <com.gbwhatsapp.WaTextView android:textSize="@dimen/label_text_size" android:textColor="@color/secondary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/end_to_end_encrypted_label" style="@style/TextAppearance.AppCompat.Subhead" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/separator" android:layout_height="@dimen/separator_height" android:layout_marginLeft="@dimen/companion_registration_linking_padding" android:layout_marginRight="@dimen/companion_registration_linking_padding" style="@style/SectionDivider.Vertical" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/loading_spinner" android:layout_width="@dimen/loading_spinner_size" android:layout_height="@dimen/loading_spinner_size" android:layout_margin="@dimen/loading_spinner_padding" />
+</LinearLayout>

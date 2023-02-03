@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.WaLinearLayout android:orientation="horizontal" android:paddingTop="@dimen/call_rating_user_problems_divider_margin" android:paddingBottom="@dimen/call_rating_user_problems_divider_margin" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidy.appcompat.widget.AppCompatCheckBox android:layout_gravity="start" android:id="@id/problem_check_box" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.gbwhatsapp.WaTextView android:layout_gravity="center_vertical" android:id="@id/user_problem_text" android:layout_marginLeft="@dimen/call_rating_bottom_sheet_default_margin" android:layout_marginStart="@dimen/call_rating_bottom_sheet_default_margin" style="@style/Theme.CallRatingText" />
+</com.gbwhatsapp.WaLinearLayout>

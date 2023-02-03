@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidy.cardview.widget.CardView android:layout_width="@dimen/gallery_selected_media_image_size" android:layout_height="@dimen/gallery_selected_media_image_size" android:layout_marginRight="2.0dip" app:cardCornerRadius="4.0dip" app:cardElevation="0.0dip" app:contentPadding="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaMediaThumbnailView android:layout_gravity="center" android:id="@id/selected_media_item_thumbnail" android:layout_width="@dimen/gallery_selected_media_image_size" android:layout_height="@dimen/gallery_selected_media_image_size" android:scaleType="centerCrop" />
+</androidy.cardview.widget.CardView>

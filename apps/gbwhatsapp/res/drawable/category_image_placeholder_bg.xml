@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/category_image_placeholder_color" />
+    <corners android:radius="@dimen/catalog_category_item_image_radius" />
+</shape>

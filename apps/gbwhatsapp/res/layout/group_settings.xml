@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/scroll_view" android:background="@color/dimmed_background" android:paddingTop="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View style="@style/ListTopShadow" />
+        <com.gbwhatsapp.group.GroupSettingsRowView android:id="@id/restricted_mode_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" whatsapp:settingsRowTitleText="@string/group_settings_restricted_mode_title" />
+        <View android:id="@id/restricted_mode_separator" style="@style/FlatCardSeparator" />
+        <View android:id="@id/announcement_group_layout_top_shadow" android:visibility="gone" style="@style/ListTopShadow" />
+        <com.gbwhatsapp.group.GroupSettingsRowView android:id="@id/announcement_group_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" whatsapp:settingsRowTitleText="@string/group_settings_announcement_title" />
+        <View android:id="@id/announcement_group_layout_bottom_shadow" style="@style/ListBottomShadow" />
+        <View android:id="@id/frequently_forwarded_divider_top" style="@style/ListTopShadow" />
+        <com.gbwhatsapp.group.GroupSettingsRowView android:id="@id/frequently_forwarded_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <View android:id="@id/frequently_forwarded_divider_bottom" style="@style/ListBottomShadow" />
+        <LinearLayout android:orientation="vertical" android:id="@id/manage_admins_group" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View style="@style/ListTopShadow" />
+            <FrameLayout android:background="@color/primary_surface" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.gbwhatsapp.WaTextView android:textAppearance="@style/ListItemTitle" android:id="@id/manage_admins" android:text="@string/edit_group_admins" style="@style/ContactInfoRow.GroupSetting" />
+            </FrameLayout>
+            <View style="@style/ListBottomShadow" />
+        </LinearLayout>
+        <View android:id="@id/membership_approval_divider_top" android:visibility="gone" style="@style/ListTopShadow" />
+        <ViewStub android:id="@id/membership_approval_row_view_stub_v1" android:layout="@layout/group_setting_membership_approval_row_v1" android:inflatedId="@id/membership_approval_row" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/membership_approval_row_view_stub_v2" android:layout="@layout/group_setting_membership_approval_row_v2" android:inflatedId="@id/membership_approval_row" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <View android:id="@id/membership_approval_divider_bottom" android:visibility="gone" style="@style/ListBottomShadow" />
+    </LinearLayout>
+</ScrollView>

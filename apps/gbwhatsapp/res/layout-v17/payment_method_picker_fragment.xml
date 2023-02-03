@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?actionBarSize">
+        <com.gbwhatsapp.WaImageButton android:layout_gravity="center_vertical" android:id="@id/back" android:visibility="visible" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/ic_back" android:contentDescription="@string/back" app:tint="@color/fb_pay_hub_icon_tint" style="?actionButtonStyle" />
+        <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="@color/list_item_title" android:gravity="center_horizontal" android:id="@id/text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:text="@string/payment_method_picker_action_bar_title" android:layout_weight="1.0" app:fontFamily="sans-serif-medium" />
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@id/icon_lock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:src="@drawable/ic_fbpay_lock_gray" android:layout_marginEnd="16.0dip" app:tint="@color/fb_pay_hub_icon_tint" />
+    </LinearLayout>
+    <com.gbwhatsapp.BottomSheetListView android:id="@id/methods_list" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:divider="@null" android:choiceMode="none" android:headerDividersEnabled="false" android:footerDividersEnabled="false" />
+    <LinearLayout android:orientation="vertical" android:id="@id/additional_bottom_row" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:id="@id/footer_view" android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

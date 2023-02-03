@@ -1,0 +1,51 @@
+.class final Lcom/google/androidx/exoplayer2/upstream/Loader$ReleaseTask;
+.super Ljava/lang/Object;
+.source "Loader.java"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/androidx/exoplayer2/upstream/Loader;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1a
+    name = "ReleaseTask"
+.end annotation
+
+
+# instance fields
+.field private final callback:Lcom/google/androidx/exoplayer2/upstream/Loader$ReleaseCallback;
+
+
+# direct methods
+.method public constructor <init>(Lcom/google/androidx/exoplayer2/upstream/Loader$ReleaseCallback;)V
+    .locals 0
+    .param p1, "callback"    # Lcom/google/androidx/exoplayer2/upstream/Loader$ReleaseCallback;
+
+    .line 523
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 524
+    iput-object p1, p0, Lcom/google/androidx/exoplayer2/upstream/Loader$ReleaseTask;->callback:Lcom/google/androidx/exoplayer2/upstream/Loader$ReleaseCallback;
+
+    .line 525
+    return-void
+.end method
+
+
+# virtual methods
+.method public run()V
+    .locals 1
+
+    .line 529
+    iget-object v0, p0, Lcom/google/androidx/exoplayer2/upstream/Loader$ReleaseTask;->callback:Lcom/google/androidx/exoplayer2/upstream/Loader$ReleaseCallback;
+
+    invoke-interface {v0}, Lcom/google/androidx/exoplayer2/upstream/Loader$ReleaseCallback;->onLoaderReleased()V
+
+    .line 530
+    return-void
+.end method

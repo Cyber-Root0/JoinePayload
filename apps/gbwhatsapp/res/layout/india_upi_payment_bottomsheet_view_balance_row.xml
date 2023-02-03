@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/check_balance_divider" android:background="@color/divider_gray" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/check_balance_container" android:background="?android:selectableItemBackground" android:paddingLeft="@dimen/settings_row_horizontal_padding" android:paddingTop="@dimen/settings_row_vertical_padding_small" android:paddingRight="@dimen/settings_row_horizontal_padding" android:paddingBottom="@dimen/settings_row_vertical_padding_small" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaImageView android:id="@id/check_balance_icon" android:layout_width="@dimen/payment_settings_icon_size" android:layout_height="@dimen/payment_settings_icon_size" android:layout_marginRight="@dimen/settings_icon_margin_end" android:src="@drawable/bank_logo_placeholder" />
+        <com.gbwhatsapp.WaTextView android:textSize="@dimen/settings_title_text_size" android:textColor="@color/settings_item_title_text" android:id="@id/check_balance_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/check_balance_title" />
+    </LinearLayout>
+</LinearLayout>

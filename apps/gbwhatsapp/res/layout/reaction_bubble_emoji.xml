@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.TextEmojiLabel android:textSize="@dimen/reaction_bubble_emoji_size" android:gravity="center" android:paddingLeft="@dimen/product_margin_2dp" android:paddingRight="@dimen/product_margin_2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

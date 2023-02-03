@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true">
+        <shape>
+            <corners android:radius="@dimen/common_dimens_50dp" />
+            <solid android:color="#80fb5627" />
+        </shape>
+    </item>
+    <item android:state_focused="true">
+        <shape>
+            <corners android:radius="@dimen/common_dimens_50dp" />
+            <solid android:color="@color/common_black_transparent_30" />
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape>
+            <corners android:radius="@dimen/common_dimens_50dp" />
+            <solid android:color="#80fb5627" />
+        </shape>
+    </item>
+    <item android:state_enabled="false">
+        <shape>
+            <corners android:radius="@dimen/common_dimens_50dp" />
+            <solid android:color="@color/common_content_view_disable_blue_color" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <corners android:radius="@dimen/common_dimens_50dp" />
+            <solid android:color="#fffb5627" />
+        </shape>
+    </item>
+</selector>

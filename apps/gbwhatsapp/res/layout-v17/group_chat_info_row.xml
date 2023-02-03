@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/group_chat_info_layout" android:background="@color/primary_surface" android:paddingRight="@dimen/list_row_padding" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/small_list_row_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaImageView android:id="@id/avatar" android:layout_marginLeft="@dimen/small_list_avatar_padding" style="@style/ContactPhoto.SmallList" />
+    <com.gbwhatsapp.wds.components.profilephoto.WDSProfilePhoto android:layout_gravity="center" android:id="@id/wdsProfilePicture" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/small_list_avatar_padding" android:layout_marginRight="@dimen/small_list_avatar_padding" android:scaleType="fitCenter" whatsapp:profilePhotoSize="small" />
+    <LinearLayout android:orientation="vertical" android:clipChildren="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <com.gbwhatsapp.TextEmojiLabel android:layout_gravity="start|center" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ListItemTitle" />
+            </LinearLayout>
+            <com.gbwhatsapp.TextEmojiLabel android:gravity="center" android:id="@id/counter" android:text="\?" style="@style/GroupMemberStatus.Admin" />
+            <com.gbwhatsapp.WaTextView android:layout_gravity="end|center" android:id="@id/owner" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/group_admin" style="@style/GroupInfoLabel.Green" />
+            <com.gbwhatsapp.TextEmojiLabel android:ellipsize="end" android:layout_gravity="end|center" android:id="@id/push_name_alternative" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:maxWidth="120.0dip" android:maxLines="1" style="@style/TextAppearance.ContactPushNameAlternative" />
+        </LinearLayout>
+        <LinearLayout android:gravity="right" android:orientation="horizontal" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.gbwhatsapp.TextEmojiLabel android:textColor="@color/community_new_green" android:gravity="start" android:layout_gravity="start" android:id="@id/community_new" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/new_community_new" android:layout_weight="1.0" android:textAlignment="viewStart" style="@style/ListItemSubtitle" />
+            <com.gbwhatsapp.TextEmojiLabel android:textSize="@dimen/list_item_subtitle_size" android:textColor="@color/ui_refresh_contact_info_subtitle" android:gravity="left" android:layout_gravity="left" android:id="@id/status" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/ListItemSubtitleSmall" />
+            <com.gbwhatsapp.TextEmojiLabel android:textAppearance="@style/TextAppearance.ContactPushName" android:id="@id/push_name" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.gbwhatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@id/group_chat_info_pin_indicator" android:visibility="gone" android:layout_width="@dimen/space_loose_halfStep" android:layout_height="@dimen/space_loose_halfStep" android:layout_marginLeft="@dimen/conversation_row_indicator_margin_left" android:src="@drawable/ic_inline_pin_new" android:scaleType="fitStart" android:tint="@color/msgStatusTint" android:contentDescription="@string/menuitem_pin" />
+</LinearLayout>

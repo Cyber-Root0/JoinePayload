@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="300.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?actionBarSize">
+        <com.gbwhatsapp.WaImageView android:layout_gravity="start|center" android:id="@id/novi_location_details_header_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:src="@drawable/ic_back" app:tint="@color/fb_pay_hub_icon_tint" />
+        <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/list_item_sub_title_v2" android:gravity="center" android:layout_gravity="center" android:id="@id/novi_details_header_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/novi_withdraw_location_details_title" />
+        <com.gbwhatsapp.WaImageView android:layout_gravity="end|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:src="@drawable/ic_fbpay_lock" app:tint="@color/fb_pay_hub_icon_tint" style="?actionButtonStyle" />
+        <View android:layout_gravity="bottom" android:background="@drawable/payments_divider_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    </FrameLayout>
+    <ViewStub android:id="@id/novi_withdraw_review_method" android:inflatedId="@id/novi_withdraw_review_method_inflated" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/novi_margin_medium" />
+</LinearLayout>

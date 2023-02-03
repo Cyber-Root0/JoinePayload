@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/buttons_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/button_1" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="44.0dip">
+            <com.gbwhatsapp.TextEmojiLabel android:id="@id/button_content_1" app:drawableTint="@color/conversation_row_button_text_selector" style="@style/NativeFlowButton" />
+        </FrameLayout>
+        <View android:id="@id/button_div_horizontal" android:visibility="gone" android:layout_width="fill_parent" style="@style/SectionDivider.Heavy" />
+        <View android:layout_gravity="center_vertical" android:id="@id/button_div_vertical" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="28.0dip" style="@style/SectionDivider.Vertical" />
+        <FrameLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/button_2" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="44.0dip">
+            <com.gbwhatsapp.TextEmojiLabel android:id="@id/button_content_2" app:drawableTint="@color/conversation_row_button_text_selector" style="@style/NativeFlowButton" />
+        </FrameLayout>
+    </LinearLayout>
+</merge>

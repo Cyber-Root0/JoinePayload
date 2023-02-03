@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/phone_container" android:layout_width="fill_parent" android:layout_height="@dimen/small_list_row_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center|left" android:id="@id/phone_content" android:background="@drawable/selector_orange_gradient" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center|left" android:id="@id/primary_action_btn" android:background="@drawable/selector_orange_gradient" android:paddingLeft="@dimen/info_screen_padding" android:layout_width="0.0dip" android:layout_height="@dimen/small_list_row_height" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center|left" android:layout_gravity="center|left" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <com.gbwhatsapp.WaTextView android:layout_gravity="left" android:id="@id/title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textIsSelectable="true" style="@style/ListItemTitle" />
+                <com.gbwhatsapp.WaTextView android:layout_gravity="left" android:id="@id/subtitle_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ListItemSubtitleSmall" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/contact_info_phone_actions" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.gbwhatsapp.WaImageView android:id="@id/primary_action_icon" android:src="@drawable/ic_action_message" android:contentDescription="@string/message_contact" style="@style/ListItemActionButton" />
+            <com.gbwhatsapp.WaImageView android:id="@id/secondary_action_btn" android:src="@drawable/ic_action_call" android:contentDescription="@string/audio_call" style="@style/ListItemActionButton" />
+            <com.gbwhatsapp.WaImageView android:id="@id/third_action_btn" android:visibility="gone" android:src="@drawable/ic_action_videocall" android:contentDescription="@string/video_call" style="@style/ListItemActionButton" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/divider" android:layout_marginLeft="@dimen/info_screen_padding" style="@style/SectionDivider" />
+</LinearLayout>

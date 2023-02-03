@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/phone_number_hidden_container" android:background="@drawable/pnh_message_background" android:paddingLeft="12.0dip" android:paddingTop="8.0dip" android:paddingRight="12.0dip" android:paddingBottom="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaImageView android:layout_gravity="center_vertical" android:layout_width="20.0dip" android:layout_height="20.0dip" app:srcCompat="@drawable/ic_pn_sharing_off_24" app:tint="@color/conversation_divider_text" />
+    <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="@color/conversation_divider_text" android:layout_gravity="center_vertical" android:id="@id/phone_number_hidden_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" />
+</LinearLayout>

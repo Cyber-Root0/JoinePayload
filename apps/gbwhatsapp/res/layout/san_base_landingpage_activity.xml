@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.san.widget.landingpage.AnimatedDoorLayout android:id="@id/root_door_view" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/root_view" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:id="@id/root_view_background" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.0" />
+        <com.san.widget.landingpage.ObservableScrollView android:id="@id/sv_observable" android:background="@android:color/transparent" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/container" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </com.san.widget.landingpage.ObservableScrollView>
+        <LinearLayout android:orientation="vertical" android:id="@id/gp_video_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <include android:id="@id/layout_connect_network" android:visibility="gone" layout="@layout/san_landing_page_connect_network_layout" />
+        <include layout="@layout/san_view_title_bar" />
+    </FrameLayout>
+</com.san.widget.landingpage.AnimatedDoorLayout>

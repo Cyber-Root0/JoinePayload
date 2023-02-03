@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingLeft="@dimen/card_h_padding" android:paddingRight="@dimen/card_h_padding" android:layout_width="fill_parent" android:layout_height="@dimen/group_participant_row_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="left" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.gbwhatsapp.WaImageView android:id="@id/mde_agent_attr_ic" android:layout_width="22.0dip" android:layout_height="wrap_content" app:tint="@color/msgStatusTint" />
+            <com.gbwhatsapp.TextEmojiLabel android:id="@id/biz_agent_name" android:paddingLeft="2.0dip" android:paddingRight="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ListItemTitle" />
+        </LinearLayout>
+        <com.gbwhatsapp.WaTextView android:layout_gravity="left" android:id="@id/biz_agent_sent_time" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ListItemSubtitle" />
+    </LinearLayout>
+    <View android:id="@id/agent_separator" style="@style/CardSeparator" />
+</FrameLayout>

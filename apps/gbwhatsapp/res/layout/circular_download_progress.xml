@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/control_btn" android:layout_width="26.0dip" android:layout_height="26.0dip" android:scaleType="fitCenter" android:alpha="0.7" app:tint="@color/documentControlButtonTint" />
+    <ViewStub android:layout_gravity="center" android:id="@id/progress_bar" android:layout="@layout/circular_progress_bar" android:inflatedId="@id/progress_bar" android:layout_width="42.0dip" android:layout_height="42.0dip" />
+</merge>

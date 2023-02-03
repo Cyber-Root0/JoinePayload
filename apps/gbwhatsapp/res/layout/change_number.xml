@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="?settingsBackgroundColor" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:id="@id/scroll_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:paddingLeft="24.0dip" android:paddingTop="24.0dip" android:paddingRight="24.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.gbwhatsapp.WaTextView android:textSize="@dimen/settings_title_text_size" android:textColor="?settingsTitleTextColor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="14.0dip" android:text="@string/change_number_old_number" />
+            <com.gbwhatsapp.components.PhoneNumberEntry android:gravity="center_vertical" android:id="@id/registration_fields" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip" />
+            <com.gbwhatsapp.WaTextView android:textSize="@dimen/settings_title_text_size" android:textColor="?settingsTitleTextColor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="14.0dip" android:text="@string/change_number_new_number" />
+            <com.gbwhatsapp.components.PhoneNumberEntry android:gravity="center_vertical" android:id="@id/registration_new_fields" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" />
+        </LinearLayout>
+    </ScrollView>
+    <FrameLayout android:id="@id/bottom_button_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.components.Button android:layout_gravity="center_horizontal" android:id="@id/next_btn" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:text="@string/next" style="@style/WA.Button" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/selector_orange_gradient" android:padding="@dimen/product_margin_16dp" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@id/payment_method_icon" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginRight="22.0dip" android:src="@drawable/av_bank" android:scaleType="fitCenter" android:contentDescription="@string/payments_settings_bank_account_icon" />
+    <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="@color/primary_text" android:layout_gravity="center_vertical" android:id="@id/payment_method_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

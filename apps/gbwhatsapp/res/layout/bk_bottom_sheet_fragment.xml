@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.BidiToolbar android:id="@id/bk_bottom_sheet_toolbar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:navigationIcon="@drawable/ic_back_teal" />
+    <include android:id="@id/bs_bloks_fragment" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/fragment_bloks" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:interpolator="@anim/san_shake_cycle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <translate android:duration="300" android:fromXDelta="0.0" android:toXDelta="-10.0" android:fromYDelta="0.0" android:toYDelta="-10.0" />
+    <translate android:duration="300" android:startOffset="300" android:fromXDelta="0.0" android:toXDelta="10.0" android:fromYDelta="0.0" android:toYDelta="-10.0" />
+    <translate android:duration="300" android:startOffset="600" android:fromXDelta="0.0" android:toXDelta="-10.0" android:fromYDelta="0.0" android:toYDelta="10.0" />
+    <translate android:duration="300" android:startOffset="900" android:fromXDelta="0.0" android:toXDelta="10.0" android:fromYDelta="0.0" android:toYDelta="10.0" />
+</set>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/logo" android:drawable="@drawable/ill_eula" />
+    <item android:drawable="@drawable/doodle_mask_pre_tos" />
+</layer-list>

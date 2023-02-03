@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/horizontal_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View style="@style/SectionDivider.Heavy" />
+    <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="@color/catalog_detail_description_color" android:id="@id/order_detail_timestamp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/horizontal_padding" />
+</LinearLayout>

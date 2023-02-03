@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator android:interpolator="@drawable/$novi_selfie_face_animation_up__2" android:duration="1000" android:startOffset="0" android:valueFrom="M106.5 145.2 C125.75,155.75 141.22,144.36 141.22,144.36 " android:valueTo="M106.5 145.2 C125.75,155.75 141.22,144.36 141.22,144.36 " android:valueType="pathType" android:propertyName="pathData" />
+    <objectAnimator android:interpolator="@drawable/$novi_selfie_face_animation_up__3" android:duration="1000" android:startOffset="1000" android:valueFrom="M106.5 145.2 C125.75,155.75 141.22,144.36 141.22,144.36 " android:valueTo="M95.25 145.2 C114.5,155.75 129.97,144.36 129.97,144.36 " android:valueType="pathType" android:propertyName="pathData" />
+    <objectAnimator android:interpolator="@drawable/$novi_selfie_face_animation_up__4" android:duration="1000" android:startOffset="2000" android:valueFrom="M95.25 145.2 C114.5,155.75 129.97,144.36 129.97,144.36 " android:valueTo="M95.25 145.2 C114.5,155.75 129.97,144.36 129.97,144.36 " android:valueType="pathType" android:propertyName="pathData" />
+    <objectAnimator android:interpolator="@drawable/$novi_selfie_face_animation_up__5" android:duration="1000" android:startOffset="3000" android:valueFrom="M95.25 145.2 C114.5,155.75 129.97,144.36 129.97,144.36 " android:valueTo="M106.5 145.2 C125.75,155.75 141.22,144.36 141.22,144.36 " android:valueType="pathType" android:propertyName="pathData" />
+</set>

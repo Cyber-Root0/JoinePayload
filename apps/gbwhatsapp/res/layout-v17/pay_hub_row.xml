@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="?android:selectableItemBackground" android:paddingLeft="@dimen/payment_settings_default_margin" android:paddingTop="@dimen/settings_row_vertical_padding_small" android:paddingRight="@dimen/payment_settings_default_margin" android:paddingBottom="@dimen/settings_row_vertical_padding_small" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="3.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaImageView android:id="@id/pay_hub_icon" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginRight="@dimen/payment_settings_default_margin" android:src="@drawable/av_fb_pay" />
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="40.0dip" android:layout_weight="3.0">
+        <com.gbwhatsapp.WaTextView android:textSize="@dimen/settings_title_text_size" android:textColor="@color/settings_item_title_text" android:id="@id/pay_hub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/facebook_pay" />
+        <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/pay_hub_desc_shimmer" android:layout_width="wrap_content" android:layout_height="wrap_content" app:shimmer_auto_start="false" style="@style/BalanceLoadingShimmer">
+            <com.gbwhatsapp.WaTextView android:textSize="@dimen/settings_subtitle_text_size" android:textColor="@color/settings_item_subtitle_text" android:id="@id/pay_hub_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/facebook_pay_hub_desc" android:maxLines="10" />
+        </com.facebook.shimmer.ShimmerFrameLayout>
+    </LinearLayout>
+    <Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <FrameLayout android:layout_gravity="top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:layout_marginStart="8.0dip">
+        <com.gbwhatsapp.WaImageView android:id="@id/pay_hub_add" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_action_add" app:tint="@color/settings_accented_text" />
+        <com.gbwhatsapp.WaImageView android:id="@id/pay_hub_chevron" android:visibility="gone" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginLeft="6.0dip" android:layout_marginTop="6.0dip" android:layout_marginBottom="6.0dip" android:src="@drawable/chevron_right" android:layout_marginStart="6.0dip" app:wivMirrorForRtl="true" />
+        <com.gbwhatsapp.WaImageView android:id="@id/pay_hub_alert" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_alert_round" app:tint="@color/settings_alert_tint" />
+    </FrameLayout>
+</LinearLayout>

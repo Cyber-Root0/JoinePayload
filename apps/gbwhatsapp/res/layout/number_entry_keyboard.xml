@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaTextView android:id="@id/one_key" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/NumberKeyboardKey" />
+        <com.gbwhatsapp.WaTextView android:id="@id/two_key" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/NumberKeyboardKey" />
+        <com.gbwhatsapp.WaTextView android:id="@id/three_key" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/NumberKeyboardKey" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaTextView android:id="@id/four_key" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/NumberKeyboardKey" />
+        <com.gbwhatsapp.WaTextView android:id="@id/five_key" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/NumberKeyboardKey" />
+        <com.gbwhatsapp.WaTextView android:id="@id/six_key" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/NumberKeyboardKey" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaTextView android:id="@id/seven_key" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/NumberKeyboardKey" />
+        <com.gbwhatsapp.WaTextView android:id="@id/eight_key" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/NumberKeyboardKey" />
+        <com.gbwhatsapp.WaTextView android:id="@id/nine_key" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/NumberKeyboardKey" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/custom_key_container" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <com.gbwhatsapp.WaTextView android:id="@id/zero_key" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/NumberKeyboardKey" />
+        <com.gbwhatsapp.WaImageView android:id="@id/backspace_key" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_key_delete" android:scaleType="centerInside" android:layout_weight="1.0" app:tint="@color/number_entry_keyboard_text_color" />
+    </LinearLayout>
+</merge>

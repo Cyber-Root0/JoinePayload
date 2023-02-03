@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">快轉 %d 秒</item>
+        <item quantity="one">快轉 %d 秒</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">倒帶 %d 秒</item>
+        <item quantity="one">倒帶 %d 秒</item>
+    </plurals>
+    <plurals name="export_backup_not_enough_space_message">
+        <item quantity="other">匯出對話需要 %s 儲存空間。請先釋出儲存空間，然後再匯出。</item>
+    </plurals>
+    <plurals name="import_backup_not_enough_space_message">
+        <item quantity="other">匯入備份需要 %s 儲存空間。請先釋出儲存空間，然後再匯入。</item>
+    </plurals>
+    <plurals name="move_chats_insufficient_space_dialog">
+        <item quantity="other">此裝置上需有 %1$s 儲存空間方可完成轉移。請使用 WhatsApp 儲存空間管理工具釋出更多空間。</item>
+    </plurals>
+    <plurals name="settings_gdrive_video_size_to_be_uploaded_plural">
+        <item quantity="other">‎%s 有待上載</item>
+    </plurals>
+</resources>

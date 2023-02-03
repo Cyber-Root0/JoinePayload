@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/stub_toolbar_search" android:layout="@layout/toolbar_with_search" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <androidy.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/product_list" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <View android:layout_gravity="bottom" android:id="@id/shadow_bottom" android:background="@drawable/list_upward_shadow" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+            </FrameLayout>
+            <com.gbwhatsapp.components.Button android:layout_gravity="center_horizontal" android:id="@id/view_cart" android:visibility="gone" android:layout_width="fill_parent" android:layout_marginLeft="@dimen/product_margin_8dp" android:layout_marginTop="10.0dip" android:layout_marginRight="@dimen/product_margin_8dp" android:layout_marginBottom="10.0dip" style="@style/WA.Button" />
+        </LinearLayout>
+        <ViewStub android:layout_gravity="bottom|center|right" android:id="@id/edit_fab_stub" android:inflatedId="@id/collection_product_list_edit_fab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" />
+        <ViewStub android:gravity="center_horizontal" android:id="@id/empty_state_stub" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/catalog_search_host" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</LinearLayout>

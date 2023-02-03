@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="@dimen/product_margin_24dp" android:paddingTop="@dimen/product_margin_24dp" android:paddingBottom="@dimen/product_margin_24dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/product_margin_24dp" android:paddingVertical="@dimen/product_margin_24dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/progressbar" android:layout_width="@dimen/product_margin_24dp" android:layout_height="@dimen/product_margin_24dp" />
+    <com.gbwhatsapp.WaTextView android:textAppearance="@style/TextAppearance.General.Body1" android:paddingLeft="@dimen/product_margin_16dp" android:paddingRight="@dimen/product_margin_16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/biz_getting_business_info" android:layout_toRightOf="@id/progressbar" android:layout_toEndOf="@id/progressbar" android:paddingHorizontal="@dimen/product_margin_16dp" />
+</RelativeLayout>

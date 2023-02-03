@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.inappsupport.ui.AddScreenshotImageView android:id="@id/screenshot_imageview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="4.0dip" />
+    <FrameLayout android:id="@id/remove_button" android:layout_width="@dimen/selection_check_image_size" android:layout_height="@dimen/selection_check_image_size" android:layout_marginRight="-6.0dip" android:layout_marginBottom="-6.0dip" android:layout_alignRight="@id/screenshot_imageview" android:layout_alignBottom="@id/screenshot_imageview">
+        <com.gbwhatsapp.WaImageView android:background="@drawable/primary_color_circle" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:background="@drawable/grey_circle" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/ic_profile_x" android:scaleType="center" android:contentDescription="@string/remove" app:tint="@color/selection_check" />
+    </FrameLayout>
+</RelativeLayout>

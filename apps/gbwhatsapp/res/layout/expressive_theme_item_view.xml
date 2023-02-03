@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidy.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/payment_background_selection" android:background="@drawable/expressive_theme_selected_background" android:visibility="invisible" android:layout_width="116.0dip" android:layout_height="74.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidy.cardview.widget.CardView android:id="@id/payment_background_card_container" android:layout_width="wrap_content" android:layout_height="wrap_content" app:cardBackgroundColor="@color/expressive_payment_background_color" app:cardCornerRadius="4.0dip" app:cardElevation="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.gbwhatsapp.WaImageView android:id="@id/background_theme" android:layout_width="112.0dip" android:layout_height="70.0dip" android:scaleType="fitXY" />
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/retry_download_icon" android:background="@drawable/download_background" android:visibility="gone" android:layout_width="@dimen/expressive_bg_asset_download_icon_width" android:layout_height="@dimen/expressive_bg_asset_download_icon_height" android:src="@drawable/btn_download" android:scaleType="center" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/asset_download_progress" android:visibility="gone" android:layout_width="@dimen/expressive_bg_icon_width" android:layout_height="@dimen/expressive_bg_icon_height" android:indeterminate="true" />
+    </androidy.cardview.widget.CardView>
+</androidy.constraintlayout.widget.ConstraintLayout>

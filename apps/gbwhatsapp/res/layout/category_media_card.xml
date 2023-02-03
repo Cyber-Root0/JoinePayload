@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <HorizontalScrollView android:gravity="center_vertical" android:id="@id/media_card_scroller" android:visibility="gone" android:scrollbars="none" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:overScrollMode="never">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/media_card_thumbs" android:paddingLeft="@dimen/category_entry_point_thumbnails_view_padding" android:paddingTop="@dimen/category_entry_point_thumbnails_view_padding_top" android:paddingRight="@dimen/category_entry_point_thumbnails_view_padding" android:paddingBottom="@dimen/category_entry_point_thumbnails_view_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:divider="@drawable/category_media_card_thumbnail_divider" android:showDividers="middle" />
+    </HorizontalScrollView>
+</merge>

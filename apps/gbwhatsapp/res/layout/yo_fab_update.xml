@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_gravity="bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidy.constraintlayout.widget.ConstraintLayout android:layout_gravity="end|bottom|center" android:layout_width="81.0dip" android:layout_height="67.0dip">
+        <ImageButton android:id="@id/fab_upgrade" android:background="@drawable/bg_home_white" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginLeft="8.0dip" android:src="@drawable/update_home_float_icon" android:elevation="4.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidy.constraintlayout.widget.ConstraintLayout>
+</merge>

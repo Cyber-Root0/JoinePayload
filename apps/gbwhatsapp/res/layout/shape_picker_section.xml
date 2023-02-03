@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.WaTextView android:gravity="center|left" android:id="@id/section_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:shadowColor="#80000000" android:shadowDy="1.0" android:shadowRadius="1.0" style="@style/ShapePickerSectionTextStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

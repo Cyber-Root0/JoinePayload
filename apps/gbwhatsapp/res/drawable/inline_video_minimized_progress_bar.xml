@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <clip>
+            <shape>
+                <corners android:radius="@dimen/inline_video_minimized_progress_bar_radius" />
+                <solid android:color="@color/wds_white_alpha_20" />
+            </shape>
+        </clip>
+    </item>
+    <item android:id="@android:id/secondaryProgress">
+        <clip>
+            <shape>
+                <corners android:radius="@dimen/inline_video_minimized_progress_bar_radius" />
+                <solid android:color="@color/wds_white_alpha_20" />
+            </shape>
+        </clip>
+    </item>
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <corners android:radius="@dimen/inline_video_minimized_progress_bar_radius" />
+                <solid android:color="@color/wds_white" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>

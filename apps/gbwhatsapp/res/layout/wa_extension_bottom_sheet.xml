@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/fcs_bottom_sheet" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="24.0dip" android:minHeight="150.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.BidiToolbar android:id="@id/bk_bottom_sheet_toolbar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/galaxy_toolbar_height" app:navigationIcon="@drawable/ic_close">
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/bk_branding_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/business_logo_max_width" android:maxHeight="@dimen/business_logo_max_height" />
+        <ProgressBar android:layout_gravity="end|center" android:id="@id/bk_toolbar_loading" android:visibility="gone" android:layout_width="@dimen/progress_bar_size" android:layout_height="@dimen/progress_bar_size" android:layout_marginRight="@dimen/product_margin_16dp" />
+    </com.gbwhatsapp.BidiToolbar>
+    <View android:id="@id/divider" style="@style/SectionDivider" />
+    <LinearLayout android:orientation="vertical" android:id="@id/wa_fcs_bottom_sheet_fragment_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

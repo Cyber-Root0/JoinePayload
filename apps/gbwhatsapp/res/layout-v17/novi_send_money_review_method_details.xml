@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/title_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:background="@drawable/payments_divider_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginBottom="8.0dip" />
+    <include android:id="@id/novi_send_money_review_method_details_balance_layout" layout="@layout/novi_send_money_review_transaction_line_item" style="@style/NoviSendPaymentReviewTransactionLineItem" />
+    <include android:id="@id/novi_send_money_review_method_details_fees_layout" android:visibility="gone" layout="@layout/novi_send_money_review_transaction_line_item" style="@style/NoviSendPaymentReviewTransactionLineItem" />
+    <com.gbwhatsapp.WaTextView android:textSize="12.0sp" android:textColor="@color/novi_payments_exchange_rate_font_color" android:layout_gravity="end" android:id="@id/novi_send_money_review_method_details_transaction_exchange_rate" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" style="@style/NoviSendPaymentReviewTransactionLineItem" />
+    <LinearLayout android:orientation="vertical" android:id="@id/novi_send_money_review_method_details_deposit_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:background="@drawable/payments_divider_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="8.0dip" />
+        <FrameLayout android:id="@id/novi_send_money_review_method_details_payment_method_container" android:background="@drawable/selector_orange_gradient" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip">
+            <com.gbwhatsapp.payments.ui.widget.PaymentMethodRow android:id="@id/novi_send_money_review_method_details_payment_method_row" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.gbwhatsapp.WaImageView android:layout_gravity="center|right" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/chevron_right" android:contentDescription="@string/payment_expand_more" />
+        </FrameLayout>
+        <include android:id="@id/novi_send_money_review_method_details_transaction_fee_layout" layout="@layout/novi_send_money_review_transaction_line_item" style="@style/NoviSendPaymentReviewTransactionLineItem" />
+        <include android:id="@id/novi_send_money_review_method_details_deposit_fee_layout" layout="@layout/novi_send_money_review_transaction_line_item" style="@style/NoviSendPaymentReviewTransactionLineItem" />
+        <include android:id="@id/novi_send_money_review_method_details_deposit_amount_layout" layout="@layout/novi_send_money_review_transaction_line_item" style="@style/NoviSendPaymentReviewTransactionLineItem" />
+        <com.gbwhatsapp.WaTextView android:textSize="12.0sp" android:textColor="@color/novi_payments_exchange_rate_font_color" android:layout_gravity="end" android:id="@id/novi_send_money_review_method_details_deposit_exchange_rate" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/NoviSendPaymentReviewTransactionLineItem" />
+        <View android:background="@drawable/payments_divider_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" />
+        <com.gbwhatsapp.TextEmojiLabel android:textSize="12.0sp" android:textColor="@color/secondary_text" android:layout_gravity="center_horizontal" android:id="@id/novi_send_money_review_method_details_amount_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="20.0dip" android:textAlignment="center" />
+    </LinearLayout>
+</LinearLayout>

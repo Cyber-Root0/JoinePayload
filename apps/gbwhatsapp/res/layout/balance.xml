@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaTextView android:textSize="@dimen/settings_subtitle_text_size" android:textColor="@color/settings_item_title_text" android:gravity="center" android:id="@id/balance_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/payment_settings_default_margin" android:layout_marginTop="@dimen/novi_pay_hub_vertical_margin_large" android:layout_marginRight="@dimen/payment_settings_default_margin" android:layout_marginBottom="4.0dip" android:text="@string/novi_balance" />
+    <LinearLayout android:orientation="vertical" android:id="@id/balance_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/balance_shimmer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/payment_settings_default_margin" android:layout_marginRight="@dimen/payment_settings_default_margin" android:layout_marginBottom="4.0dip" style="@style/BalanceLoadingShimmer">
+            <com.gbwhatsapp.WaTextView android:textSize="@dimen/novi_pay_hub_balance_text_size" android:textColor="@color/settings_item_title_text" android:gravity="center" android:id="@id/balance" android:layout_width="fill_parent" android:layout_height="wrap_content" app:fontFamily="sans-serif-medium" />
+        </com.facebook.shimmer.ShimmerFrameLayout>
+        <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/conversion_summary_shimmer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/novi_pay_hub_horizontal_margin" android:layout_marginRight="@dimen/novi_pay_hub_horizontal_margin" android:layout_marginBottom="@dimen/novi_pay_hub_vertical_margin_large" style="@style/BalanceLoadingShimmer">
+            <com.gbwhatsapp.WaTextView android:gravity="center" android:id="@id/conversion_summary" style="@style/NoviSecondaryText" />
+        </com.facebook.shimmer.ShimmerFrameLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/balance_error_container" android:paddingTop="40.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/novi_pay_hub_balance_section_height">
+        <com.gbwhatsapp.WaTextView android:textSize="@dimen/novi_pay_hub_balance_error_text_size" android:paddingRight="@dimen/novi_pay_hub_balance_text_spacing" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/novi_not_load_balance" />
+        <com.gbwhatsapp.WaTextView android:textSize="@dimen/novi_pay_hub_balance_error_text_size" android:textColor="@color/novi_purple" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/novi_retry_load_balance" />
+    </LinearLayout>
+</merge>

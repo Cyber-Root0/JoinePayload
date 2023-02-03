@@ -1,0 +1,1176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="assume_strong_biometrics_models">
+        <item>Pixel 4</item>
+        <item>Pixel 4 XL</item>
+    </string-array>
+    <string-array name="autodownload">
+        <item>@string/settings_autodownload_images</item>
+        <item>@string/settings_autodownload_audio</item>
+        <item>@string/settings_autodownload_videos</item>
+        <item>@string/settings_autodownload_documents</item>
+    </string-array>
+    <string-array name="autodownload_cellular_defaults">
+        <item>0</item>
+    </string-array>
+    <array name="autodownload_roaming_defaults" />
+    <string-array name="autodownload_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="autodownload_wifi_defaults">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="call_link_types">
+        <item>@string/video_call_link</item>
+        <item>@string/voice_call_link</item>
+    </string-array>
+    <array name="crypto_fingerprint_fallback_prefixes" />
+    <string-array name="crypto_fingerprint_fallback_vendors">
+        <item>samsung</item>
+    </string-array>
+    <string-array name="default_statuses">
+        <item>@string/status_default_available</item>
+        <item>@string/status_default_busy</item>
+        <item>@string/status_default_at_school</item>
+        <item>@string/status_default_at_movies</item>
+        <item>@string/status_default_at_work</item>
+        <item>@string/status_default_battery_die</item>
+        <item>@string/status_default_cannot_talk</item>
+        <item>@string/status_default_in_meeting</item>
+        <item>@string/status_default_at_gym</item>
+        <item>@string/status_default_sleeping</item>
+        <item>@string/status_default_urgent</item>
+    </string-array>
+    <string-array name="delay_showing_prompt_models">
+        <item>Pixel 4</item>
+        <item>Pixel 4 XL</item>
+    </string-array>
+    <string-array name="directory_search_hints">
+        <item>@string/biz_dir_search_hint_pizza</item>
+        <item>@string/biz_dir_search_hint_school</item>
+        <item>@string/biz_dir_search_hint_cafe</item>
+    </string-array>
+    <string-array name="exo_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>@string/exo_controls_playback_speed_normal</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </string-array>
+    <integer-array name="exo_speed_multiplied_by_100">
+        <item>25</item>
+        <item>50</item>
+        <item>75</item>
+        <item>100</item>
+        <item>125</item>
+        <item>150</item>
+        <item>200</item>
+    </integer-array>
+    <string-array name="font_size">
+        <item>@string/font_small</item>
+        <item>@string/font_medium</item>
+        <item>@string/font_large</item>
+        <item>Extra Large</item>
+    </string-array>
+    <string-array name="font_size_values">
+        <item>-2</item>
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <array name="group_editor_background_color_rings">
+        <item>@color/group_editor_color_highlight_1</item>
+        <item>@color/group_editor_color_highlight_2</item>
+        <item>@color/group_editor_color_highlight_3</item>
+        <item>@color/group_editor_color_highlight_4</item>
+        <item>@color/group_editor_color_highlight_5</item>
+        <item>@color/group_editor_color_highlight_6</item>
+        <item>@color/group_editor_color_highlight_7</item>
+        <item>@color/group_editor_color_highlight_8</item>
+        <item>@color/group_editor_color_highlight_9</item>
+        <item>@color/group_editor_color_highlight_10</item>
+        <item>@color/group_editor_color_highlight_11</item>
+    </array>
+    <array name="group_editor_background_colors">
+        <item>@color/group_editor_color_1</item>
+        <item>@color/group_editor_color_2</item>
+        <item>@color/group_editor_color_3</item>
+        <item>@color/group_editor_color_4</item>
+        <item>@color/group_editor_color_5</item>
+        <item>@color/group_editor_color_6</item>
+        <item>@color/group_editor_color_7</item>
+        <item>@color/group_editor_color_8</item>
+        <item>@color/group_editor_color_9</item>
+        <item>@color/group_editor_color_10</item>
+        <item>@color/group_editor_color_11</item>
+    </array>
+    <array name="group_participant_name_colors">
+        <item>@color/group_olive</item>
+        <item>@color/group_cranberry</item>
+        <item>@color/group_orange</item>
+        <item>@color/group_blue</item>
+        <item>@color/group_sand</item>
+        <item>@color/group_navy</item>
+        <item>@color/group_pink</item>
+        <item>@color/group_army_green</item>
+        <item>@color/group_dark_purple</item>
+        <item>@color/group_brown</item>
+        <item>@color/group_watermelon</item>
+        <item>@color/group_green</item>
+        <item>@color/group_salmon</item>
+        <item>@color/group_iris</item>
+        <item>@color/group_jazzberry_jam</item>
+        <item>@color/group_dune</item>
+        <item>@color/group_kenyan</item>
+        <item>@color/group_vermilion</item>
+        <item>@color/group_royal_purple</item>
+        <item>@color/group_ruddy</item>
+    </array>
+    <string-array name="hide_fingerprint_instantly_prefixes">
+        <item>SM-A50</item>
+        <item>SM-G973</item>
+        <item>SM-G975</item>
+        <item>SM-G977</item>
+        <item>SM-G770</item>
+        <item>SM-N970</item>
+        <item>SM-N971</item>
+        <item>SM-N975</item>
+        <item>SM-N976</item>
+        <item>SM-N770</item>
+        <item>SC-03L</item>
+        <item>SC-04L</item>
+        <item>SC-05L</item>
+        <item>SC-01M</item>
+        <item>SCV41</item>
+        <item>SCV42</item>
+        <item>SCV45</item>
+    </string-array>
+    <string-array name="hosts_allowlist_sample">
+        <item>fdb00c43dbde8b51cb312aa81d3b5fa17713adb94b28f598d77f8eb89daceedf, com.google.android.projection.gearhead</item>
+        <item>70811a3eacfd2e83e18da9bfede52df16ce91f2e69a44d21f18ab66991130771, com.google.android.projection.gearhead</item>
+        <item>1975b2f17177bc89a5dff31f9e64a6cae281a53dc1d1d59b1d147fe1c82afa00, com.google.android.projection.gearhead</item>
+        <item>c241ffbc8e287c4e9a4ad19632ba1b1351ad361d5177b7d7b29859bd2b7fc631, com.google.android.apps.automotive.templates.host</item>
+        <item>dd66deaf312d8daec7adbe85a218ecc8c64f3b152f9b5998d5b29300c2623f61, com.google.android.apps.automotive.templates.host</item>
+        <item>50e603d333c6049a37bd751375d08f3bd0abebd33facd30bd17b64b89658b421, com.google.android.apps.automotive.templates.host</item>
+    </string-array>
+    <string-array name="led_color_values">
+        <item>000000</item>
+        <item>FFFFFF</item>
+        <item>FF0000</item>
+        <item>FFFF00</item>
+        <item>00FF00</item>
+        <item>00FFFF</item>
+        <item>0000FF</item>
+        <item>FF00FF</item>
+    </string-array>
+    <string-array name="message_yourself_search_terms">
+        <item>@string/message_yourself_me_search_term</item>
+        <item>@string/message_yourself_you_search_term</item>
+    </string-array>
+    <integer-array name="night_solid_color_wallpaper_values">
+        <item>26</item>
+        <item>24</item>
+        <item>17</item>
+        <item>19</item>
+        <item>10</item>
+        <item>21</item>
+    </integer-array>
+    <string-array name="popup_mode">
+        <item>@string/popup_notification_mode_none</item>
+        <item>@string/popup_notification_mode_screen_on</item>
+        <item>@string/popup_notification_mode_screen_off</item>
+        <item>@string/popup_notification_mode_always</item>
+    </string-array>
+    <string-array name="popup_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>3</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="profile_photo_actions">
+        <item>@string/biz_profile_action_view_photo</item>
+        <item>@string/biz_profile_action_view_status</item>
+    </string-array>
+    <array name="solid_color_wallpaper_colors">
+        <item>@color/wallpaper_color_cinder_black</item>
+        <item>@color/wallpaper_color_midnight_express</item>
+        <item>@color/wallpaper_color_mandarian_orange</item>
+        <item>@color/wallpaper_color_buccaneer_brown</item>
+        <item>@color/wallpaper_color_breaker_bay</item>
+        <item>@color/wallpaper_color_fjord_gray</item>
+        <item>@color/wallpaper_color_tory_blue</item>
+        <item>@color/wallpaper_color_pelorus_blue</item>
+        <item>@color/wallpaper_color_seagull_blue</item>
+        <item>@color/wallpaper_color_downy_green</item>
+        <item>@color/wallpaper_color_cruise_green</item>
+        <item>@color/wallpaper_color_scandal_green</item>
+        <item>@color/wallpaper_color_monte_carlo_green</item>
+        <item>@color/wallpaper_color_cape_honey_yellow</item>
+        <item>@color/wallpaper_color_canary_yellow</item>
+        <item>@color/wallpaper_color_radical_red</item>
+        <item>@color/wallpaper_color_bittersweet_orange</item>
+        <item>@color/wallpaper_color_rose_bud</item>
+        <item>@color/wallpaper_color_flamingo_red</item>
+        <item>@color/wallpaper_color_caramel_yellow</item>
+        <item>@color/wallpaper_color_tusk_green</item>
+        <item>@color/wallpaper_color_orinoco_green</item>
+        <item>@color/wallpaper_color_brook_green</item>
+        <item>@color/wallpaper_color_hawkes_blue</item>
+        <item>@color/wallpaper_color_quartz_blue</item>
+        <item>@color/wallpaper_color_very_light_gray</item>
+        <item>@color/wallpaper_color_solitude_gray</item>
+    </array>
+    <array name="solid_color_wallpaperv2_colors">
+        <item>@color/wallpaper_color_cruise_green</item>
+        <item>@color/wallpaper_color_scandal_green</item>
+        <item>@color/wallpaper_color_monte_carlo_green</item>
+        <item>@color/wallpaper_color_hawkes_blue</item>
+        <item>@color/wallpaper_color_downy_green</item>
+        <item>@color/wallpaper_color_seagull_blue</item>
+        <item>@color/wallpaper_color_quartz_blue</item>
+        <item>@color/wallpaper_color_very_light_gray</item>
+        <item>@color/wallpaper_color_orinoco_green</item>
+        <item>@color/wallpaper_color_tusk_green</item>
+        <item>@color/wallpaper_color_cape_honey_yellow</item>
+        <item>@color/wallpaper_color_caramel_yellow</item>
+        <item>@color/wallpaper_color_rose_bud</item>
+        <item>@color/wallpaper_color_bittersweet_orange</item>
+        <item>@color/wallpaper_color_radical_red</item>
+        <item>@color/wallpaper_color_mandarian_orange</item>
+        <item>@color/wallpaper_color_flamingo_red</item>
+        <item>@color/wallpaper_color_buccaneer_brown</item>
+        <item>@color/wallpaper_color_breaker_bay</item>
+        <item>@color/wallpaper_color_pelorus_blue</item>
+        <item>@color/wallpaper_color_tory_blue</item>
+        <item>@color/wallpaper_color_fjord_gray</item>
+        <item>@color/wallpaper_color_cinder_black</item>
+        <item>@color/wallpaper_color_midnight_express</item>
+        <item>@color/wallpaper_color_solitude_gray</item>
+        <item>@color/wallpaper_color_canary_yellow</item>
+        <item>@color/wallpaper_color_brook_green</item>
+    </array>
+    <string-array name="vibrate_lengths">
+        <item>@string/vibrate_length_off</item>
+        <item>@string/vibrate_length_default</item>
+        <item>@string/vibrate_length_short</item>
+        <item>@string/vibrate_length_long</item>
+    </string-array>
+    <string-array name="vibrate_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <array name="voip_group_participant_name_colors">
+        <item>@color/group_olive</item>
+        <item>@color/group_shadow_purple</item>
+        <item>@color/group_orange</item>
+        <item>@color/group_blue</item>
+        <item>@color/group_sand</item>
+        <item>@color/group_sapphire</item>
+        <item>@color/group_pink</item>
+        <item>@color/group_green</item>
+        <item>@color/group_lenurple</item>
+        <item>@color/group_brown</item>
+        <item>@color/group_watermelon</item>
+        <item>@color/group_baby_green</item>
+        <item>@color/group_salmon</item>
+        <item>@color/group_liberty</item>
+        <item>@color/group_spearmint</item>
+        <item>@color/group_milky_blue</item>
+        <item>@color/group_brick_red</item>
+        <item>@color/group_bright_vermilion</item>
+        <item>@color/group_orchid</item>
+        <item>@color/group_coral</item>
+        <item>@color/group_banana</item>
+    </array>
+    <array name="wallpaper_doodle_tint_colors">
+        <item>@color/wallpaper_doodle_tint_color_cruise_green</item>
+        <item>@color/wallpaper_doodle_tint_color_scandal_green</item>
+        <item>@color/wallpaper_doodle_tint_color_monte_carlo_green</item>
+        <item>@color/wallpaper_doodle_tint_color_hawkes_blue</item>
+        <item>@color/wallpaper_doodle_tint_color_downy_green</item>
+        <item>@color/wallpaper_doodle_tint_color_seagull_blue</item>
+        <item>@color/wallpaper_doodle_tint_color_quartz_blue</item>
+        <item>@color/wallpaper_doodle_tint_color_very_light_gray</item>
+        <item>@color/wallpaper_doodle_tint_color_orinoco_green</item>
+        <item>@color/wallpaper_doodle_tint_color_tusk_green</item>
+        <item>@color/wallpaper_doodle_tint_color_cape_honey_yellow</item>
+        <item>@color/wallpaper_doodle_tint_color_caramel_yellow</item>
+        <item>@color/wallpaper_doodle_tint_color_rose_bud</item>
+        <item>@color/wallpaper_doodle_tint_color_bittersweet_orange</item>
+        <item>@color/wallpaper_doodle_tint_color_radical_red</item>
+        <item>@color/wallpaper_doodle_tint_color_mandarian_orange</item>
+        <item>@color/wallpaper_doodle_tint_color_flamingo_red</item>
+        <item>@color/wallpaper_doodle_tint_color_buccaneer_brown</item>
+        <item>@color/wallpaper_doodle_tint_color_breaker_bay</item>
+        <item>@color/wallpaper_doodle_tint_color_pelorus_blue</item>
+        <item>@color/wallpaper_doodle_tint_color_tory_blue</item>
+        <item>@color/wallpaper_doodle_tint_color_fjord_gray</item>
+        <item>@color/wallpaper_doodle_tint_color_cinder_black</item>
+        <item>@color/wallpaper_doodle_tint_color_midnight_express</item>
+        <item>@color/wallpaper_doodle_tint_color_solitude_gray</item>
+        <item>@color/wallpaper_doodle_tint_color_canary_yellow</item>
+        <item>@color/wallpaper_doodle_tint_color_brook_green</item>
+    </array>
+    <string-array name="yo_niconss">
+        <item>Default</item>
+        <item>Icon 01</item>
+        <item>Icon 02</item>
+        <item>Icon 03</item>
+        <item>Icon 04</item>
+        <item>Icon 05</item>
+        <item>Icon 06</item>
+        <item>Icon 07</item>
+        <item>Icon 08</item>
+        <item>Icon 09</item>
+        <item>Icon 10</item>
+        <item>Icon 11</item>
+        <item>Icon 12</item>
+        <item>Icon 13</item>
+        <item>Icon 14</item>
+        <item>Icon 15</item>
+        <item>Icon 16</item>
+        <item>Icon 17</item>
+        <item>Icon 18</item>
+        <item>Icon 19</item>
+        <item>Icon 20</item>
+        <item>Icon 21</item>
+        <item>Icon 22</item>
+        <item>Icon 23</item>
+        <item>Icon 24</item>
+        <item>Icon 25</item>
+        <item>Icon 26</item>
+        <item>Icon 27</item>
+        <item>Icon 28</item>
+        <item>Icon 29</item>
+        <item>Icon 30</item>
+        <item>Icon 31</item>
+        <item>Icon 32</item>
+        <item>Icon 33</item>
+        <item>Icon 34</item>
+        <item>Icon 35</item>
+        <item>Icon 36</item>
+        <item>Icon 37</item>
+        <item>Icon 38</item>
+        <item>Icon 39</item>
+        <item>Icon 40</item>
+        <item>Icon 41</item>
+        <item>Icon 42</item>
+        <item>Icon 43</item>
+        <item>Icon 44</item>
+        <item>Icon 45</item>
+        <item>Icon 46</item>
+        <item>Icon 47</item>
+        <item>Icon 48</item>
+        <item>Icon 49</item>
+        <item>Icon 50</item>
+    </string-array>
+    <string-array name="conversation_bubbleStyleList">
+        <item>@string/vibrate_length_default</item>
+        <item>Facebook Messenger</item>
+        <item>Old Hangouts</item>
+        <item>3D</item>
+        <item>Rounded</item>
+        <item>Materialized</item>
+        <item>MD</item>
+        <item>Samyadeep Crayon Alt</item>
+        <item>New Hangouts 4.0</item>
+        <item>WA+ Paper Redesigned</item>
+        <item>Transparent</item>
+        <item>Twitter</item>
+        <item>Whatsapp LB</item>
+        <item>BBM</item>
+        <item>iOS</item>
+        <item>Hike</item>
+        <item>Textra SMS</item>
+        <item>Go SMS</item>
+        <item>Bubble Drop</item>
+        <item>Samyadeep Dual</item>
+        <item>Plus Messenger ED</item>
+        <item>WA+ Chat On</item>
+        <item>Telegram</item>
+        <item>In</item>
+        <item>Bryed</item>
+        <item>Fold</item>
+        <item>Fold v2</item>
+        <item>Ilkhang</item>
+        <item>Line</item>
+        <item>Popzup</item>
+        <item>DoodleHang</item>
+        <item>Aranbor</item>
+        <item>Win</item>
+        <item>Mood</item>
+        <item>Cr Messenger</item>
+        <item>RC BURBUJA 2</item>
+        <item>RC BURBUJA 5</item>
+        <item>3D V2</item>
+        <item>Kitty</item>
+        <item>Amor</item>
+        <item>RC SAMS BORD</item>
+        <item>RC IOS 11</item>
+        <item>RC GOOGLE ASSISTAN</item>
+        <item>Gabi Outline</item>
+        <item>Gabi Squa</item>
+        <item>Gabi Dot</item>
+        <item>Rc line</item>
+        <item>Gabi Dot 2</item>
+        <item>Roundle</item>
+        <item>Gaby Ron</item>
+        <item>CV ios</item>
+        <item>Rc Pal</item>
+        <item>Rc ios Line</item>
+        <item>Rc IM Line</item>
+        <item>Rc Go SMS</item>
+        <item>Rc tran Line</item>
+        <item>Rc Imess</item>
+        <item>Gabi Mess</item>
+        <item>Rc Fancy</item>
+    </string-array>
+    <string-array name="conversation_bubbleStyleListValues">
+        <item>yousef</item>
+        <item>fbm</item>
+        <item>hangouts</item>
+        <item>d3</item>
+        <item>rounded</item>
+        <item>materialized</item>
+        <item>md</item>
+        <item>altcr</item>
+        <item>hang</item>
+        <item>wapaper</item>
+        <item>trans</item>
+        <item>twitter</item>
+        <item>walb</item>
+        <item>bbm</item>
+        <item>apple</item>
+        <item>hike</item>
+        <item>textra</item>
+        <item>gosms</item>
+        <item>bdrop</item>
+        <item>dual</item>
+        <item>ed</item>
+        <item>chaton</item>
+        <item>telegram</item>
+        <item>in</item>
+        <item>bryed</item>
+        <item>fold</item>
+        <item>foldv2</item>
+        <item>ilkhang</item>
+        <item>line</item>
+        <item>popzup</item>
+        <item>doodlehang</item>
+        <item>aranbor</item>
+        <item>win</item>
+        <item>mood</item>
+        <item>crmessenger</item>
+        <item>rcburbuja2</item>
+        <item>rcburbuja5</item>
+        <item>3d2</item>
+        <item>kitty</item>
+        <item>amor</item>
+        <item>bubble</item>
+        <item>ios11</item>
+        <item>bolha</item>
+        <item>gabioutline</item>
+        <item>gabisqua</item>
+        <item>gabidot</item>
+        <item>rcline</item>
+        <item>gabidot2</item>
+        <item>roundle</item>
+        <item>gabyron</item>
+        <item>cvios</item>
+        <item>rcpal</item>
+        <item>rciosline</item>
+        <item>rcimline</item>
+        <item>rcgosms</item>
+        <item>rctranline</item>
+        <item>rcimess</item>
+        <item>gabymess</item>
+        <item>rcfancy</item>
+    </string-array>
+    <string-array name="conversation_bubbleStyleListValuesI">
+        <item>balloon_outgoing_normal</item>
+        <item>fbm</item>
+        <item>hangouts</item>
+        <item>d3</item>
+        <item>rounded</item>
+        <item>materialized</item>
+        <item>md</item>
+        <item>altcr</item>
+        <item>hang</item>
+        <item>wapaper</item>
+        <item>trans</item>
+        <item>twitter</item>
+        <item>walb</item>
+        <item>bbm</item>
+        <item>apple</item>
+        <item>hike</item>
+        <item>textra</item>
+        <item>gosms</item>
+        <item>bdrop</item>
+        <item>dual</item>
+        <item>ed</item>
+        <item>chaton</item>
+        <item>telegram</item>
+        <item>in</item>
+        <item>bryed</item>
+        <item>fold</item>
+        <item>foldv2</item>
+        <item>ilkhang</item>
+        <item>line</item>
+        <item>popzup</item>
+        <item>doodlehang</item>
+        <item>aranbor</item>
+        <item>win</item>
+        <item>mood</item>
+        <item>crmessenger</item>
+        <item>rcburbuja2</item>
+        <item>rcburbuja5</item>
+        <item>3d2</item>
+        <item>kitty</item>
+        <item>amor</item>
+        <item>bubble</item>
+        <item>ios11</item>
+        <item>bolha</item>
+        <item>gabioutline</item>
+        <item>gabisqua</item>
+        <item>gabidot</item>
+        <item>rcline</item>
+        <item>gabidot2</item>
+        <item>roundle</item>
+        <item>gabyron</item>
+        <item>cvios</item>
+        <item>rcpal</item>
+        <item>rciosline</item>
+        <item>rcimline</item>
+        <item>rcgosms</item>
+        <item>rctranline</item>
+        <item>rcimess</item>
+        <item>gabymess</item>
+        <item>rcfancy</item>
+    </string-array>
+    <string-array name="tick_style_entries">
+        <item>@string/vibrate_length_default</item>
+        <item>Allo</item>
+        <item>Alien</item>
+        <item>Alt CrayonV2</item>
+        <item>Alt Crayon</item>
+        <item>Aran</item>
+        <item>Bar</item>
+        <item>Bat</item>
+        <item>BBM</item>
+        <item>Blend</item>
+        <item>NG Android Bot</item>
+        <item>BPG Circle</item>
+        <item>Circles</item>
+        <item>Samyadeep Circles</item>
+        <item>Coalfield</item>
+        <item>Color Simple</item>
+        <item>Ctoon</item>
+        <item>Eclipsis</item>
+        <item>Face Switch</item>
+        <item>Feet</item>
+        <item>Flat Circles</item>
+        <item>Gifcon</item>
+        <item>Google V2</item>
+        <item>Google</item>
+        <item>GRW</item>
+        <item>Sidzy HD</item>
+        <item>SV Heart</item>
+        <item>Hike</item>
+        <item>Inbox</item>
+        <item>Insect</item>
+        <item>iOS</item>
+        <item>Jalopy</item>
+        <item>Jessy</item>
+        <item>Joaquins</item>
+        <item>Joker Traffic</item>
+        <item>Letter</item>
+        <item>Like</item>
+        <item>Love Switch</item>
+        <item>Material V2</item>
+        <item>Material Switch</item>
+        <item>Messenger</item>
+        <item>Mickey Hands</item>
+        <item>Minions</item>
+        <item>New Waca</item>
+        <item>NEY Heart</item>
+        <item>NHSC</item>
+        <item>Naza NH</item>
+        <item>NL Circle</item>
+        <item>Old Waca</item>
+        <item>Pacman</item>
+        <item>Pixelated</item>
+        <item>Pokemon</item>
+        <item>Quinn</item>
+        <item>SnapChat</item>
+        <item>SDot</item>
+        <item>Seasons</item>
+        <item>Smile</item>
+        <item>Star</item>
+        <item>Flat Switch</item>
+        <item>Time Bomb</item>
+        <item>Joker Traffic</item>
+        <item>Treble</item>
+        <item>Twitter Concept</item>
+        <item>WBG</item>
+        <item>X</item>
+        <item>Pointer</item>
+        <item>TIC TIC circle 2</item>
+        <item>Ice Cream</item>
+        <item>Pony</item>
+        <item>Kitty</item>
+        <item>Flower</item>
+        <item>Sticker</item>
+        <item>RC iOS 11</item>
+        <item>BBM V2</item>
+        <item>B.W Ticks</item>
+        <item>CirCheck</item>
+        <item>Circle Print</item>
+        <item>Gab Circle</item>
+        <item>Gab Face</item>
+        <item>Gab iflo</item>
+        <item>Green Tick</item>
+        <item>iOS 2</item>
+        <item>Letter Circle</item>
+        <item>RC Alo</item>
+        <item>RC Tick</item>
+        <item>Triangle</item>
+        <item>VantCircle</item>
+    </string-array>
+    <string-array name="tick_style_values">
+        <item>stockorg</item>
+        <item>allo</item>
+        <item>alien</item>
+        <item>altcrayonv2</item>
+        <item>altcrayon</item>
+        <item>aran</item>
+        <item>bar</item>
+        <item>bat</item>
+        <item>bbm</item>
+        <item>blend</item>
+        <item>bot</item>
+        <item>bpg</item>
+        <item>circles</item>
+        <item>circle</item>
+        <item>coalfield</item>
+        <item>colorsimple</item>
+        <item>ctoon</item>
+        <item>eclipsis</item>
+        <item>face</item>
+        <item>feet</item>
+        <item>flatcircles</item>
+        <item>gifcon</item>
+        <item>googlev2</item>
+        <item>google</item>
+        <item>grw</item>
+        <item>hd</item>
+        <item>heart</item>
+        <item>hike</item>
+        <item>inbox</item>
+        <item>insect</item>
+        <item>ios</item>
+        <item>jalopy</item>
+        <item>jessy</item>
+        <item>joaquins</item>
+        <item>joker</item>
+        <item>letter</item>
+        <item>like</item>
+        <item>love</item>
+        <item>materialv2</item>
+        <item>material</item>
+        <item>messenger</item>
+        <item>mickeyhands</item>
+        <item>minions</item>
+        <item>newwaca</item>
+        <item>ney</item>
+        <item>nhsc</item>
+        <item>nh</item>
+        <item>nlmod2</item>
+        <item>oldwaca</item>
+        <item>pacman</item>
+        <item>pix</item>
+        <item>pokemon</item>
+        <item>quinn</item>
+        <item>sc</item>
+        <item>SDot</item>
+        <item>seasons</item>
+        <item>smail</item>
+        <item>star</item>
+        <item>switchMe</item>
+        <item>tb</item>
+        <item>traffic</item>
+        <item>treble</item>
+        <item>twitter</item>
+        <item>wbg</item>
+        <item>x</item>
+        <item>pointer</item>
+        <item>circle2</item>
+        <item>icecream</item>
+        <item>pony</item>
+        <item>kitty</item>
+        <item>flor</item>
+        <item>sticker</item>
+        <item>rcios11</item>
+        <item>bbm2</item>
+        <item>bwticks</item>
+        <item>circheck</item>
+        <item>circleprint</item>
+        <item>gabcircle</item>
+        <item>gabface</item>
+        <item>gabiflo</item>
+        <item>greentick</item>
+        <item>ios2</item>
+        <item>lettercircle</item>
+        <item>rcalo</item>
+        <item>rctick</item>
+        <item>triangle</item>
+        <item>vantcircle</item>
+    </string-array>
+    <string-array name="tick_style_valuesI">
+        <item>stockorg_message_got_read_receipt_from_target</item>
+        <item>allo_message_got_read_receipt_from_target</item>
+        <item>alien_message_got_read_receipt_from_target</item>
+        <item>altcrayonv2_message_got_read_receipt_from_target</item>
+        <item>altcrayon_message_got_read_receipt_from_target</item>
+        <item>aran_message_got_read_receipt_from_target</item>
+        <item>bar_message_got_read_receipt_from_target</item>
+        <item>bat_message_got_read_receipt_from_target</item>
+        <item>bbm_message_got_read_receipt_from_target</item>
+        <item>blend_message_got_read_receipt_from_target</item>
+        <item>bot_message_got_read_receipt_from_target</item>
+        <item>bpg_message_got_read_receipt_from_target</item>
+        <item>circles_message_got_read_receipt_from_target</item>
+        <item>circle_message_got_read_receipt_from_target</item>
+        <item>coalfield_message_got_read_receipt_from_target</item>
+        <item>colorsimple_message_got_read_receipt_from_target</item>
+        <item>ctoon_message_got_read_receipt_from_target</item>
+        <item>eclipsis_message_got_read_receipt_from_target</item>
+        <item>face_message_got_read_receipt_from_target</item>
+        <item>feet_message_got_read_receipt_from_target</item>
+        <item>flatcircles_message_got_read_receipt_from_target</item>
+        <item>gifcon_message_got_read_receipt_from_target</item>
+        <item>googlev2_message_got_read_receipt_from_target</item>
+        <item>google_message_got_read_receipt_from_target</item>
+        <item>grw_message_got_read_receipt_from_target</item>
+        <item>hd_message_got_read_receipt_from_target</item>
+        <item>heart_message_got_read_receipt_from_target</item>
+        <item>hike_message_got_read_receipt_from_target</item>
+        <item>inbox_message_got_read_receipt_from_target</item>
+        <item>insect_message_got_read_receipt_from_target</item>
+        <item>ios_message_got_read_receipt_from_target</item>
+        <item>jalopy_message_got_read_receipt_from_target</item>
+        <item>jessy_message_got_read_receipt_from_target</item>
+        <item>joaquins_message_got_read_receipt_from_target</item>
+        <item>joker_message_got_read_receipt_from_target</item>
+        <item>letter_message_got_read_receipt_from_target</item>
+        <item>like_message_got_read_receipt_from_target</item>
+        <item>love_message_got_read_receipt_from_target</item>
+        <item>materialv2_message_got_read_receipt_from_target</item>
+        <item>material_message_got_read_receipt_from_target</item>
+        <item>messenger_message_got_read_receipt_from_target</item>
+        <item>mickeyhands_message_got_read_receipt_from_target</item>
+        <item>minions_message_got_read_receipt_from_target</item>
+        <item>newwaca_message_got_read_receipt_from_target</item>
+        <item>ney_message_got_read_receipt_from_target</item>
+        <item>nhsc_message_got_read_receipt_from_target</item>
+        <item>nh_message_got_read_receipt_from_target</item>
+        <item>nlmod2_message_got_read_receipt_from_target</item>
+        <item>oldwaca_message_got_read_receipt_from_target</item>
+        <item>pacman_message_got_read_receipt_from_target</item>
+        <item>pix_message_got_read_receipt_from_target</item>
+        <item>pokemon_message_got_read_receipt_from_target</item>
+        <item>quinn_message_got_read_receipt_from_target</item>
+        <item>sc_message_got_read_receipt_from_target</item>
+        <item>SDot_message_got_read_receipt_from_target</item>
+        <item>seasons_message_got_read_receipt_from_target</item>
+        <item>smail_message_got_read_receipt_from_target</item>
+        <item>star_message_got_read_receipt_from_target</item>
+        <item>switchMe_message_got_read_receipt_from_target</item>
+        <item>tb_message_got_read_receipt_from_target</item>
+        <item>traffic_message_got_read_receipt_from_target</item>
+        <item>treble_message_got_read_receipt_from_target</item>
+        <item>twitter_message_got_read_receipt_from_target</item>
+        <item>wbg_message_got_read_receipt_from_target</item>
+        <item>x_message_got_read_receipt_from_target</item>
+        <item>pointer_message_got_read_receipt_from_target</item>
+        <item>circle2_message_got_read_receipt_from_target</item>
+        <item>icecream_message_got_read_receipt_from_target</item>
+        <item>pony_message_got_read_receipt_from_target</item>
+        <item>kitty_message_got_read_receipt_from_target</item>
+        <item>flor_message_got_read_receipt_from_target</item>
+        <item>sticker_message_got_read_receipt_from_target</item>
+        <item>rcios11_message_got_read_receipt_from_target</item>
+        <item>bbm2_message_got_read_receipt_from_target</item>
+        <item>bwticks_message_got_read_receipt_from_target</item>
+        <item>circheck_message_got_read_receipt_from_target</item>
+        <item>circleprint_message_got_read_receipt_from_target</item>
+        <item>gabcircle_message_got_read_receipt_from_target</item>
+        <item>gabface_message_got_read_receipt_from_target</item>
+        <item>gabiflo_message_got_read_receipt_from_target</item>
+        <item>greentick_message_got_read_receipt_from_target</item>
+        <item>ios2_message_got_read_receipt_from_target</item>
+        <item>lettercircle_message_got_read_receipt_from_target</item>
+        <item>rcalo_message_got_read_receipt_from_target</item>
+        <item>rctick_message_got_read_receipt_from_target</item>
+        <item>triangle_message_got_read_receipt_from_target</item>
+        <item>vantcircle_message_got_read_receipt_from_target</item>
+    </string-array>
+    <string-array name="yo_niconsv">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+    </string-array>
+    <string-array name="yo_niconsi">
+        <item>yo_notifybar_0</item>
+        <item>yo_notifybar_1</item>
+        <item>yo_notifybar_2</item>
+        <item>yo_notifybar_3</item>
+        <item>yo_notifybar_4</item>
+        <item>yo_notifybar_5</item>
+        <item>yo_notifybar_6</item>
+        <item>yo_notifybar_7</item>
+        <item>yo_notifybar_8</item>
+        <item>yo_notifybar_9</item>
+        <item>yo_notifybar_10</item>
+        <item>yo_notifybar_11</item>
+        <item>yo_notifybar_12</item>
+        <item>yo_notifybar_13</item>
+        <item>yo_notifybar_14</item>
+        <item>yo_notifybar_15</item>
+        <item>yo_notifybar_16</item>
+        <item>yo_notifybar_17</item>
+        <item>yo_notifybar_18</item>
+        <item>yo_notifybar_19</item>
+        <item>yo_notifybar_20</item>
+        <item>yo_notifybar_21</item>
+        <item>yo_notifybar_22</item>
+        <item>yo_notifybar_23</item>
+        <item>yo_notifybar_24</item>
+        <item>yo_notifybar_25</item>
+        <item>yo_notifybar_26</item>
+        <item>yo_notifybar_27</item>
+        <item>yo_notifybar_28</item>
+        <item>yo_notifybar_29</item>
+        <item>yo_notifybar_30</item>
+        <item>yo_notifybar_31</item>
+        <item>yo_notifybar_32</item>
+        <item>yo_notifybar_33</item>
+        <item>yo_notifybar_34</item>
+        <item>yo_notifybar_35</item>
+        <item>yo_notifybar_36</item>
+        <item>yo_notifybar_37</item>
+        <item>yo_notifybar_38</item>
+        <item>yo_notifybar_39</item>
+        <item>yo_notifybar_40</item>
+        <item>yo_notifybar_41</item>
+        <item>yo_notifybar_42</item>
+        <item>yo_notifybar_43</item>
+        <item>yo_notifybar_44</item>
+        <item>yo_notifybar_45</item>
+        <item>yo_notifybar_46</item>
+        <item>yo_notifybar_47</item>
+        <item>yo_notifybar_48</item>
+        <item>yo_notifybar_49</item>
+        <item>yo_notifybar_50</item>
+    </string-array>
+    <string-array name="hide_notify_array">
+        <item>@string/hide_no</item>
+        <item>@string/hide_notifybar_groups</item>
+        <item>@string/hide_notifybar_groups_mute</item>
+        <item>@string/hide_notifybar_contacts</item>
+        <item>@string/hide_notifybar_always</item>
+    </string-array>
+    <string-array name="hide_notify_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="conversation_style_toolbar">
+        <item>Stock</item>
+        <item>Stock centered</item>
+        <item>WAMOD</item>
+        <item>WAMOD centered</item>
+    </string-array>
+    <string-array name="conversation_style_toolbar_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="conversation_style_entry">
+        <item>1- YStyle</item>
+        <item>2- WAMOD</item>
+        <item>3- Hangouts</item>
+        <item>4- Simple</item>
+        <item>5- Aran V2</item>
+        <item>6- Mood</item>
+        <item>7- WANH</item>
+        <item>8- Stock (Original)</item>
+        <item>9- Hangouts V2</item>
+        <item>10- Dribble</item>
+        <item>11- Dribble V2</item>
+        <item>12- Allo</item>
+        <item>13- Rounded</item>
+        <item>14- Old Stock (2016)</item>
+        <item>15- RC-MSG Google</item>
+        <item>16- RC-Telegram X iOS</item>
+        <item>17- RC-IOS 11</item>
+        <item>18- RC-Line</item>
+        <item>19- Concept (NEW)</item>
+        <item>20- Instagram (NEW)</item>
+        <item>21- iOS 14 (NEW)</item>
+        <item>22- FB Messenger (NEW)</item>
+        <item>23- RC Mess (NEW)</item>
+    </string-array>
+    <string-array name="conversation_style_entry_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>20</item>
+        <item>22</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="home_theme">
+        <item>YOWA</item>
+        <item>Telegram</item>
+        <item>WAMOD</item>
+        <item>WACA</item>
+        <item>WANH</item>
+        <item>NL MODS</item>
+        <item>Old WAMD</item>
+        <item>Stock</item>
+    </string-array>
+    <string-array name="home_theme_values">
+        <item>yowa</item>
+        <item>telegram</item>
+        <item>wamod</item>
+        <item>waca</item>
+        <item>wanh</item>
+        <item>nlmods</item>
+        <item>wamd</item>
+        <item>yousef</item>
+    </string-array>
+    <string-array name="language_names">
+        <item>Default</item>
+        <item>Arabic</item>
+        <item>English</item>
+        <item>Espanol</item>
+        <item>Italian</item>
+        <item>Porteguese(Brazilian)</item>
+        <item>Hindi</item>
+        <item>German</item>
+        <item>Turkish</item>
+        <item>Russian</item>
+        <item>Indonesian</item>
+        <item>Bahasa Malaysia</item>
+        <item>Azerbaijani</item>
+    </string-array>
+    <string-array name="language_val">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>8</item>
+        <item>9</item>
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>17</item>
+    </string-array>
+    <string-array name="fonts_names">
+        <item>Default</item>
+        <item>Roboto-Light</item>
+        <item>Roboto-Medium</item>
+        <item>ProductSans</item>
+        <item>FrutigerLTStdRoman</item>
+        <item>Bariol</item>
+        <item>ComicSans</item>
+        <item>BebasNeue</item>
+        <item>Comfortaa</item>
+        <item>Transformers</item>
+        <item>HappyGiraffe</item>
+        <item>Passing_Notes</item>
+        <item>CaviarDreams</item>
+        <item>Raleway</item>
+        <item>BacktoBlack</item>
+        <item>Cheri</item>
+        <item>HaryPotter</item>
+        <item>Courgette</item>
+        <item>MavenPro</item>
+        <item>Pacifico</item>
+        <item>SourceSansPro</item>
+        <item>Satisfy</item>
+        <item>Smoolthan-Thin</item>
+        <item>Helvetica</item>
+        <item>Bryndan-Write</item>
+        <item>Norican-Regular</item>
+        <item>Oswald-Heavy</item>
+        <item>Slate_OnePlus</item>
+        <item>Bauhaus</item>
+        <item>BeStillKnowHB</item>
+        <item>BowBabyFlo</item>
+        <item>Capture_it</item>
+        <item>Donut</item>
+        <item>Fanlovexo</item>
+        <item>Cocon</item>
+        <item>MohanadBold(Arabic)</item>
+        <item>Mobily(Arabic)</item>
+        <item>SC_REHAN(Arabic)</item>
+        <item>ALMajd(Arabic)</item>
+        <item>Motken_noqta_ii(Arabic)</item>
+        <item>SC_HANI(Arabic)</item>
+        <item>SC_REHAN(Arabic)</item>
+        <item>Andalus(Arabic)</item>
+        <item>Motla_bold(Arabic)</item>
+        <item>Hacen_Liner_Screen(Arabic)</item>
+        <item>Kufi_moderate(Arabic)</item>
+        <item>Alarabiya(Arabic)</item>
+        <item>Aljazeera(Arabic)</item>
+        <item>Iphone(Arabic)</item>
+        <item>Zaman(Arabic)</item>
+        <item>Hacen_Liner_Screen(Arabic)</item>
+        <item>Kufi_moderate(Arabic)</item>
+        <item>DroidKufi(Arabic)</item>
+        <item>Nekar(Arabic)</item>
+        <item>Mohanad(Arabic)</item>
+        <item>Nekar(Arabic)</item>
+        <item>Rekaa(Arabic)</item>
+        <item>Dubai(Arabic)</item>
+    </string-array>
+    <string-array name="pic_location">
+        <item>@string/first_message</item>
+        <item>@string/last_message</item>
+        <item>@string/yo_all</item>
+    </string-array>
+    <string-array name="pic_location_values">
+        <item>1</item>
+        <item>3</item>
+        <item>99</item>
+    </string-array>
+    <string-array name="ui_home_style">
+        <item>ONE UI</item>
+        <item>WhatsApp UI Stock</item>
+        <item>IOS STYLE</item>
+        <item>BUBBLES TAB STYLE</item>
+        <item>BASIC TAB STYLE</item>
+    </string-array>
+    <string-array name="ui_home_styleV">
+        <item>one</item>
+        <item>stock</item>
+        <item>ios</item>
+        <item>bubble</item>
+        <item>basic</item>
+    </string-array>
+    <string-array name="stories_entry">
+        <item>STOCK</item>
+        <item>RC NOTIFY</item>
+        <item>RC FACEBOOK</item>
+        <item>RC CONCEPT V2</item>
+        <item>RC CONCEPT</item>
+    </string-array>
+    <string-array name="stories_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="online_toast_location">
+        <item>Top</item>
+        <item>Center</item>
+        <item>Bottom</item>
+    </string-array>
+    <string-array name="repetition_alert">
+        <item>repetition_1</item>
+        <item>repetition_2</item>
+        <item>repetition_3</item>
+        <item>repetition_4</item>
+        <item>repetition_5</item>
+    </string-array>
+    <string-array name="translation_preference">
+        <item>@string/translate_serverone</item>
+        <item>@string/translate_gapp</item>
+    </string-array>
+    <string-array name="translation_preferenceVals">
+        <item>in-y</item>
+        <item>gapp</item>
+    </string-array>
+</resources>

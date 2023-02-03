@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="24.0dip">
+        <com.gbwhatsapp.WaTextView android:textColor="@color/primary_text" android:id="@id/title_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/upi_enter_vpa_title" android:layout_weight="1.0" style="@style/Base.TextAppearance.AppCompat.Title" />
+        <com.gbwhatsapp.WaImageView style="@style/PoweredByUpiLogo" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="22.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="22.0dip">
+        <com.gbwhatsapp.WaEditText android:textSize="16.0sp" android:id="@id/account_id_handle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:lines="1" android:singleLine="true" android:maxLength="255" android:layout_weight="17.0" />
+        <ProgressBar android:id="@id/progress" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="32.0dip" android:layout_weight="3.0" style="?android:progressBarStyleInverse" />
+    </LinearLayout>
+    <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="@color/red_button_text" android:id="@id/error_text" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:minHeight="28.0dip" android:text="@string/payment_invalid_vpa_error_text" />
+    <LinearLayout android:gravity="right" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:layout_marginBottom="8.0dip">
+        <com.gbwhatsapp.components.Button android:layout_gravity="start" android:id="@id/close_dialog_button" android:text="@string/cancel" app:fontFamily="sans-serif-medium" style="@style/WA.Button.Borderless" />
+        <com.gbwhatsapp.components.Button android:layout_gravity="end" android:id="@id/primary_payment_button" android:text="@string/payment_vpa_verify" style="@style/WA.Button.Borderless" />
+    </LinearLayout>
+</LinearLayout>

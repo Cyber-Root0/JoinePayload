@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.youbasha.ui.views.YoBubbleNavigationLinearView android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/bottom_navigation_view_linear" android:background="@android:color/white" android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="56.0dip" android:weightSum="5.0" android:elevation="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.youbasha.ui.views.YoBubbleToggleView android:id="@id/b_camera" android:tag="b_camera" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <com.gbwhatsapp.youbasha.ui.views.YoBubbleToggleView android:id="@id/b_chats" android:tag="b_chats" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <com.gbwhatsapp.youbasha.ui.views.YoBubbleToggleView android:id="@id/b_groups" android:tag="b_groups" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <com.gbwhatsapp.youbasha.ui.views.YoBubbleToggleView android:id="@id/b_status" android:tag="b_status" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <com.gbwhatsapp.youbasha.ui.views.YoBubbleToggleView android:id="@id/b_calls" android:tag="b_calls" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0" />
+</com.gbwhatsapp.youbasha.ui.views.YoBubbleNavigationLinearView>

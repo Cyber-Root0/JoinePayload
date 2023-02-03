@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="296.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaTextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/settings_item_title_text" android:ellipsize="end" android:layout_gravity="center_horizontal" android:id="@id/backup_export_dialog_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="24.0dip" android:text="@string/export_backup_dialog_title" android:lines="1" android:fontFamily="Roboto" />
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="16.0dip">
+        <ProgressBar android:layout_gravity="center_vertical" android:id="@id/backup_export_progress" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:layout_weight="1.0" android:layout_marginEnd="4.0dip" style="?android:progressBarStyleHorizontal" />
+        <com.gbwhatsapp.WaImageView android:id="@id/cancel_backup_export" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="4.0dip" android:src="@drawable/ic_backup_cancel" android:layout_marginStart="4.0dip" />
+    </LinearLayout>
+    <com.gbwhatsapp.WaTextView android:textColor="@color/text_field" android:id="@id/backup_export_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="20.0dip" style="?settingsSectionSubtitleText" />
+</LinearLayout>

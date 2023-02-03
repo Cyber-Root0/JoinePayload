@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidy.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <include whatsapp:layout_constraintBottom_toTopOf="@id/send_to_upi_container" whatsapp:layout_constraintEnd_toEndOf="parent" whatsapp:layout_constraintStart_toStartOf="parent" whatsapp:layout_constraintTop_toTopOf="parent" layout="@layout/toolbar" />
+    <include android:id="@id/send_to_upi_container" android:layout_width="fill_parent" android:layout_height="wrap_content" whatsapp:layout_constraintEnd_toEndOf="parent" whatsapp:layout_constraintStart_toStartOf="parent" whatsapp:layout_constraintTop_toBottomOf="@id/toolbar" layout="@layout/contact_picker_row_small" />
+</androidy.constraintlayout.widget.ConstraintLayout>

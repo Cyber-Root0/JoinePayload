@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.youbasha.ui.views.YoFABView android:layout_gravity="end|bottom|center" android:orientation="vertical" android:id="@id/fab_yo" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fab="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.youbasha.ui.views.FloatingActionsMenu android:layout_gravity="end|bottom|center" android:id="@id/multiple_actions" android:layout_width="@dimen/fab_button_size" android:layout_height="@dimen/fab_button_size" android:layout_margin="8.0dip">
+        <com.gbwhatsapp.youbasha.ui.views.FloatingActionButton android:id="@id/action_m" android:layout_width="@dimen/fab_button_size" android:layout_height="@dimen/fab_button_size" android:src="@drawable/ic_action_compose" fab:fab_title="Message Number" />
+        <com.gbwhatsapp.youbasha.ui.views.FloatingActionButton android:id="@id/action_b" android:layout_width="@dimen/fab_button_size" android:layout_height="@dimen/fab_button_size" android:src="@drawable/lastoff" fab:fab_title="Last Seen" />
+        <com.gbwhatsapp.youbasha.ui.views.FloatingActionButton android:id="@id/action_l" android:layout_width="@dimen/fab_button_size" android:layout_height="@dimen/fab_button_size" android:src="@drawable/rlog" fab:fab_title="Read Log" />
+        <com.gbwhatsapp.youbasha.ui.views.FloatingActionButton android:id="@id/action_a" android:layout_width="@dimen/fab_button_size" android:layout_height="@dimen/fab_button_size" android:src="@drawable/acj_fab" fab:fab_title="AlexMods" />
+    </com.gbwhatsapp.youbasha.ui.views.FloatingActionsMenu>
+</com.gbwhatsapp.youbasha.ui.views.YoFABView>

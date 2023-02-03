@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/transaction_info_root" android:background="@drawable/transaction_details_root_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ScrollView android:id="@id/transaction_details_scroller" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="3.0">
+            <LinearLayout android:orientation="vertical" android:id="@id/transaction_details_root" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="36.0dip" />
+        </ScrollView>
+        <View android:id="@id/transaction_details_expanded_space" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/transaction_bar_root" android:background="#ff1b3281" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="36.0dip" android:foreground="?selectableItemBackground">
+        <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="@color/npci_text_primary_light" android:gravity="center" android:id="@id/transaction_bar_title" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        <Space android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="@color/npci_text_primary_light" android:gravity="center" android:id="@id/transaction_bar_info" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="" />
+        <com.gbwhatsapp.WaImageView android:id="@id/transaction_bar_arrow" android:padding="6.0dip" android:layout_width="36.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_keyboard_arrow_down" app:tint="@color/npci_text_primary_light" />
+    </LinearLayout>
+    <View android:background="#ffd7d7d7" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="36.0dip" android:alpha="0.9" />
+</FrameLayout>

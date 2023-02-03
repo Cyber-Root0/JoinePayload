@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/novi_payment_card_details_alert_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginRight="24.0dip" android:src="@drawable/ic_fbpay_error" android:scaleType="fitXY" />
+    <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="@color/settings_item_subtitle_text" android:layout_gravity="center" android:id="@id/novi_payment_card_details_alert_message" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">%d సెకన్లు వేగంగా ఫార్వర్డ్ చేయండి</item>
+        <item quantity="one">%d సెకండ్ వేగంగా ఫార్వర్డ్ చేయండి</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">%d సెకన్లు రివైండ్ చేయండి</item>
+        <item quantity="one">%d సెకండ్ రివైండ్ చేయండి</item>
+    </plurals>
+    <plurals name="export_backup_not_enough_space_message">
+        <item quantity="other">చాట్స్‌ను ఎగుమతి చేయడానికి %s స్టోరేజ్ కావాలి. ఎగుమతి చేయడానికి ముందు దయచేసి స్టోరేజ్ స్పేస్‌ను ఖాళీ చేయండి.</item>
+    </plurals>
+    <plurals name="import_backup_not_enough_space_message">
+        <item quantity="other">దిగుమతి చేయడానికి %s స్టోరేజ్ కావాలి. దిగుమతి చేయడానికి ముందు దయచేసి స్టోరేజ్ స్పేస్‌ను ఖాళీ చేయండి.</item>
+    </plurals>
+    <plurals name="move_chats_insufficient_space_dialog">
+        <item quantity="other">ట్రాన్స్‌ఫర్ చేయడం కోసం ఈ డివైజ్‌లో %1$s అవసరం. WhatsApp స్టోరేజ్ మేనేజ్‌మెంట్ టూల్ ఉపయోగించి దయచేసి స్పేస్‌ను ఖాళీ చేయండి.</item>
+    </plurals>
+    <plurals name="settings_gdrive_video_size_to_be_uploaded_plural">
+        <item quantity="other">‎%s అప్‌లోడ్ అవ్వాలి ఇంకా</item>
+    </plurals>
+</resources>

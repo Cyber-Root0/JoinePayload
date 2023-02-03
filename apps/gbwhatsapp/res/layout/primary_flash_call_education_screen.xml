@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.BidiToolbar android:id="@id/verify_flash_call_title_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:theme="@style/Widget.Styled.ActionBar.Registration.White">
+        <com.gbwhatsapp.WaTextView android:layout_gravity="center" android:id="@id/verify_flash_call_title_toolbar_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/verify_phone_number" style="@style/RegistrationTitle" />
+    </com.gbwhatsapp.BidiToolbar>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/flash_call_linear_layout_margin" android:layout_marginRight="@dimen/flash_call_linear_layout_margin">
+            <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:background="@drawable/missed_call_circle_background" android:padding="@dimen/flash_call_missed_call_icon_padding" android:layout_width="@dimen/flash_call_missed_call_layout_width" android:layout_height="@dimen/flash_call_missed_call_layout_height" android:layout_marginTop="@dimen/flash_call_missed_call_icon_margin_top" android:layout_marginBottom="@dimen/flash_call_layout_margin" android:src="@drawable/phone_missed" app:tint="@color/missed_call_icon_tint" />
+            <com.gbwhatsapp.WaTextView android:textSize="@dimen/flash_call_ask_for_permissions_text_size" android:textColor="@color/flash_call_medium_weight_text_color" android:gravity="center" android:id="@id/flash_call_education_screen_headline" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/flash_call_layout_margin" android:layout_marginRight="@dimen/flash_call_layout_margin" android:layout_marginBottom="@dimen/flash_call_ask_for_permissions_layout_margin_bottom" android:text="@string/flash_call_ask_permissions" />
+            <LinearLayout style="@style/FlashCallPermissionOuterLinearLayoutStyle">
+                <com.gbwhatsapp.WaImageView android:src="@drawable/call" style="@style/FlashCallPermissionIconStyle" />
+                <LinearLayout style="@style/FlashCallPermissionInnerLinearLayoutStyle">
+                    <com.gbwhatsapp.WaTextView android:id="@id/make_and_manage_calls" android:text="@string/manage_call_permission_explanation" style="@style/FlashCallPermissionExplanationStyle" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout style="@style/FlashCallPermissionOuterLinearLayoutStyle">
+                <com.gbwhatsapp.WaImageView android:src="@drawable/call_logs" style="@style/FlashCallPermissionIconStyle" />
+                <LinearLayout style="@style/FlashCallPermissionInnerLinearLayoutStyle">
+                    <com.gbwhatsapp.WaTextView android:id="@id/access_phone_call_logs" android:text="@string/access_call_log_permission_explanation" style="@style/FlashCallPermissionExplanationStyle" />
+                </LinearLayout>
+            </LinearLayout>
+            <com.gbwhatsapp.TextEmojiLabel android:textSize="@dimen/flash_call_learn_more_text_size" android:textColor="@color/secondary_text" android:textColorLink="@color/link_color" android:gravity="bottom|center" android:id="@id/flash_call_learn_more" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/flash_call_layout_margin" android:layout_marginRight="@dimen/flash_call_layout_margin" android:layout_marginBottom="@dimen/flash_call_layout_margin" android:text="@string/learn_more_about_verify_with_flash_call" android:lineSpacingMultiplier="1.25" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/flash_call_buttons_layout_margin_bottom">
+                <com.gbwhatsapp.components.Button android:layout_gravity="center_horizontal" android:id="@id/continue_button" android:layout_width="@dimen/page_button_width" android:layout_marginBottom="@dimen/flash_call_continue_button_margin_bottom" android:text="@string/verify_with_flash_call_continue" style="@style/WA.Button" />
+                <com.gbwhatsapp.components.Button android:textColor="@color/primaryButtonColor" android:layout_gravity="center_horizontal" android:id="@id/verify_with_sms_button" android:layout_width="@dimen/page_button_width" android:text="@string/verify_with_sms" style="@style/WA.Button.Secondary" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

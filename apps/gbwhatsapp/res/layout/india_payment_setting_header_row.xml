@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/profile_container" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.gbwhatsapp.WaImageView android:id="@id/profile_image" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_margin="16.0dip" android:src="@drawable/avatar_contact" android:scaleType="fitXY" android:contentDescription="@string/qr_settings_description" />
+            <LinearLayout android:orientation="vertical" android:id="@id/profile_info_container" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:ellipsize="end" android:id="@id/profile_payment_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/ListItemTitle" />
+                <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="@color/list_item_sub_title" android:id="@id/profile_payment_handler" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <com.gbwhatsapp.WaImageView android:id="@id/profile_details_icon" android:background="@drawable/selector_orange_gradient_round_bg" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginLeft="8.0dip" android:layout_marginRight="26.0dip" android:src="@drawable/chevron_right" android:contentDescription="@string/payment_profile_expand_more" />
+        </LinearLayout>
+        <View android:id="@id/divider_above_send_payment" android:background="@color/divider_gray" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/send_payment_container" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/payments_drawable_image_view" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="24.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="16.0dip" android:src="@drawable/ic_attachment_payment_inr" app:tint="@color/india_send_payment_entry_icon" />
+            <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:ellipsize="end" android:id="@id/send_payment" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:layout_marginBottom="18.0dip" android:text="@string/send_payment" android:singleLine="true" style="@style/ListItemTitle" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/scan_qr_container" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="24.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="16.0dip" android:src="@drawable/ic_scan_qr" app:tint="@color/india_send_payment_entry_icon" />
+            <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:id="@id/scan_qr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:layout_marginBottom="18.0dip" android:text="@string/scan_payment_qr_code" android:singleLine="false" style="@style/ListItemTitle" />
+        </LinearLayout>
+    </LinearLayout>
+</merge>

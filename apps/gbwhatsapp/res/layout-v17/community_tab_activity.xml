@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/add_participant_icon" android:layout_width="@dimen/contact_picker_avatar_size" android:layout_height="@dimen/contact_picker_avatar_size" android:layout_marginLeft="@dimen/xsmall_list_avatar_horizontal_padding" android:layout_marginTop="@dimen/xsmall_list_avatar_vertical_padding" android:layout_marginRight="@dimen/xsmall_list_avatar_horizontal_padding" android:layout_marginBottom="@dimen/xsmall_list_avatar_vertical_padding" whatsapp:srcCompat="@drawable/ic_community_activity" />
+    <com.gbwhatsapp.TextEmojiLabel android:layout_gravity="start|center" android:id="@id/community_activity_preview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:singleLine="false" android:layout_weight="1.0" android:textAlignment="viewStart" style="@style/ListItemSubtitle" />
+    <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/community_unread_indicator" android:visibility="visible" android:layout_width="10.0dip" android:layout_height="10.0dip" android:layout_marginLeft="@dimen/list_container_badge_left_padding" android:layout_marginRight="@dimen/list_container_padding_horizontal" android:src="@drawable/green_circle" whatsapp:tint="@color/unread_indicator" />
+</merge>

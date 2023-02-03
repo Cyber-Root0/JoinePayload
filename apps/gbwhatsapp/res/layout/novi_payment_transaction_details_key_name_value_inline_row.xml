@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root" android:paddingLeft="@dimen/payment_settings_default_margin" android:paddingRight="@dimen/payment_settings_default_margin" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaTextView android:textSize="@dimen/novi_payment_transaction_detail_label_text_size" android:textColor="@color/settings_item_title_text" android:id="@id/value_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:drawablePadding="4.0dip" android:layout_alignParentRight="true" app:fontFamily="sans-serif" style="@style/ListItemTitle" />
+    <com.gbwhatsapp.WaTextView android:textSize="@dimen/novi_payment_transaction_detail_label_text_size" android:textColor="@color/settings_item_subtitle_text" android:id="@id/key_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/payment_settings_default_margin" android:maxLines="1" android:layout_toLeftOf="@id/value_text" android:layout_alignParentLeft="true" app:fontFamily="sans-serif" style="@style/ListItemTitle" />
+</RelativeLayout>

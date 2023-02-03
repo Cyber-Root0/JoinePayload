@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/business_search_container_view" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidy.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/search_list" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.google.android.material.chip.Chip android:textColor="@color/white" android:id="@id/update_results_chip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dir_margin_48" android:text="@string/biz_dir_see_results_nearby" android:layout_centerHorizontal="true" app:chipBackgroundColor="@color/search_input_token" app:chipEndPadding="@dimen/dir_margin_10" app:chipIcon="@drawable/ic_action_refresh" app:chipStartPadding="@dimen/dir_margin_10" />
+</RelativeLayout>

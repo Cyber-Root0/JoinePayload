@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="32.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="@color/secondary_text" android:gravity="center" android:id="@id/error_message" android:paddingLeft="@dimen/product_margin_16dp" android:paddingRight="@dimen/product_margin_16dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/biz_dir_search_query_no_result" />
+    <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:gravity="center" android:id="@id/load_categories_btn" android:paddingTop="@dimen/dir_margin_12" android:paddingBottom="@dimen/dir_margin_12" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dir_margin_12" android:text="@string/biz_see_top_categories_button" app:textAllCaps="true" style="@style/CategorySeeMoreLabel" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/neutral_primary" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaTextView android:textSize="12.0sp" android:textColor="@color/secondary_text" android:gravity="center|left" android:id="@id/title" android:paddingLeft="@dimen/search_item_horizontal_margin" android:layout_width="fill_parent" android:layout_height="40.0dip" android:includeFontPadding="false" android:textAllCaps="true" app:fontFamily="sans-serif-medium" />
+    <FrameLayout android:id="@id/chips_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

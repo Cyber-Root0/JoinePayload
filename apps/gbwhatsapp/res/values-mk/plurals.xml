@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Премотајте напред %d секунди</item>
+        <item quantity="one">Премотајте напред %d секунда</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Премотајте %d секунди</item>
+        <item quantity="one">Премотајте %d секунда</item>
+    </plurals>
+    <plurals name="export_backup_not_enough_space_message">
+        <item quantity="other">Експортирањето разговори има потреба од %s простор. Молиме ослободи простор за склад пред да експортираш.</item>
+    </plurals>
+    <plurals name="import_backup_not_enough_space_message">
+        <item quantity="other">Импортирањето ќе има потреба од %s складот. Молиме ослободи простор во складот пред импортирање.</item>
+    </plurals>
+    <plurals name="move_chats_insufficient_space_dialog">
+        <item quantity="other">‎%1$s му се потребни на овој уред за пренос. Исчисти го просторот со користење на алатката за управување со склад на WhatsApp.</item>
+        <item quantity="one">‎%1$s му е потребен на овој уред за пренос. Исчисти го просторот со користење на алатката за управување со склад на WhatsApp.</item>
+    </plurals>
+    <plurals name="settings_gdrive_video_size_to_be_uploaded_plural">
+        <item quantity="other">‎%s за качување</item>
+    </plurals>
+</resources>

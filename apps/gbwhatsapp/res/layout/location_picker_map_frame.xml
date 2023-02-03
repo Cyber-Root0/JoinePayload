@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/map_frame" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/map_holder" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.gbwhatsapp.WaImageView android:layout_gravity="left" android:id="@id/full_screen" android:background="@drawable/map_button_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:src="@drawable/btn_map_fullscreen_on" android:scaleType="center" android:contentDescription="@string/hide_places_list" app:tint="@color/icon_secondary" />
+    <com.gbwhatsapp.WaImageView android:layout_gravity="right" android:id="@id/my_location" android:background="@drawable/map_button_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:src="@drawable/btn_myl" android:scaleType="center" android:contentDescription="@string/move_your_location" app:tint="@color/icon_secondary" />
+</FrameLayout>

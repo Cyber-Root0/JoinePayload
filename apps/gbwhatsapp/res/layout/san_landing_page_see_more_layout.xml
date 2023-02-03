@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center|right" android:layout_gravity="right" android:orientation="horizontal" android:id="@id/ll_total" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center|right" android:orientation="horizontal" android:id="@id/ll_see_more" android:background="@drawable/mads_see_more_bg" android:paddingLeft="@dimen/common_dimens_12dp" android:paddingRight="@dimen/common_dimens_12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/common_dimens_70dp">
+        <TextView android:textColor="@color/white" android:ellipsize="end" android:gravity="right" android:id="@id/tv_see_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/common_dimens_14dp" android:singleLine="true" />
+        <ImageView android:id="@id/iv_right_btn" android:layout_width="@dimen/common_dimens_12dp" android:layout_height="@dimen/common_dimens_12dp" android:layout_marginLeft="@dimen/common_dimens_5dp" android:src="@drawable/mads_landingpage_seemore_right_button" android:scaleType="fitXY" />
+    </LinearLayout>
+    <ImageView android:id="@id/iv_sound" android:layout_width="@dimen/common_dimens_28dp" android:layout_height="@dimen/common_dimens_28dp" android:layout_marginLeft="@dimen/common_dimens_10dp" android:src="@drawable/mads_see_more_sound_selector" android:scaleType="fitXY" />
+</LinearLayout>

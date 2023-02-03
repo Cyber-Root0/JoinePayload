@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/nux_cta_button_radius" />
+    <stroke android:width="1.0dip" android:color="@color/secondary_button_stroke_color_selector" />
+</shape>

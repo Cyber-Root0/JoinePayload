@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/payment_description_row_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/payment_method_divider_start_margin" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip">
+        <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="@color/secondary_text" android:ellipsize="end" android:id="@id/payment_description_hint" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/p2p_description_hint_without_description" android:singleLine="true" />
+        <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="@color/primary_text" android:ellipsize="end" android:id="@id/payment_description_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+</merge>

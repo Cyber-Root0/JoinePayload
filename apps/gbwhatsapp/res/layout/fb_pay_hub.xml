@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/round_rectangle" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.payments.ui.widget.PayToolbar android:id="@id/pay_service_toolbar" android:layout_width="fill_parent" android:layout_height="48.0dip" app:contentInsetLeft="0.0dip" app:contentInsetStartWithNavigation="0.0dip" />
+    <ScrollView android:orientation="vertical" android:id="@id/scroll_view_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/account_info_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="vertical" android:id="@id/business_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.gbwhatsapp.WaTextView android:id="@id/business_section_header" android:text="@string/payments_settings_seller_account" style="@style/FbPaySettingsSectionHeader" />
+                <include layout="@layout/payment_business_row" />
+                <include layout="@layout/divider" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/payment_methods_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.gbwhatsapp.WaTextView android:id="@id/banks_and_cards" android:text="@string/payments_settings_payment_methods" style="@style/FbPaySettingsSectionHeader" />
+                <ListView android:id="@id/methods_list" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@android:color/transparent" android:cacheColorHint="@color/transparent" android:divider="@null" android:choiceMode="none" android:headerDividersEnabled="false" android:footerDividersEnabled="false" />
+                <include layout="@layout/add_payment_method_row" />
+            </LinearLayout>
+            <include layout="@layout/payment_p2p_onboarding_nudge" />
+            <LinearLayout android:orientation="vertical" android:id="@id/pin_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include layout="@layout/divider" />
+                <LinearLayout android:orientation="vertical" android:id="@id/settings_section" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.gbwhatsapp.WaTextView android:id="@id/title_settings_section" android:text="@string/payments_settings_security" style="@style/FbPaySettingsSectionHeader" />
+                    <FrameLayout android:orientation="vertical" android:id="@id/country_specific_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/change_pin" android:background="?android:selectableItemBackground" android:paddingLeft="@dimen/settings_row_horizontal_padding" android:paddingTop="@dimen/settings_row_vertical_padding_small" android:paddingRight="@dimen/settings_row_horizontal_padding" android:paddingBottom="@dimen/settings_row_vertical_padding_small" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <com.gbwhatsapp.WaImageView android:id="@id/change_pin_icon" android:layout_width="@dimen/payment_settings_icon_size" android:layout_height="@dimen/payment_settings_icon_size" android:layout_marginRight="@dimen/settings_icon_margin_end" android:src="@drawable/ic_settings_privacy" />
+                        <com.gbwhatsapp.WaTextView android:textSize="@dimen/settings_title_text_size" android:textColor="@color/settings_item_title_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/payments_settings_change_pin" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/fingerprint_container" android:background="?android:selectableItemBackground" android:paddingLeft="@dimen/settings_row_horizontal_padding" android:paddingTop="@dimen/settings_row_vertical_padding_small" android:paddingRight="@dimen/settings_row_horizontal_padding" android:paddingBottom="@dimen/settings_row_vertical_padding_small" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <com.gbwhatsapp.WaImageView android:id="@id/fingerprint_setting_icon" android:layout_width="@dimen/payment_settings_icon_size" android:layout_height="@dimen/payment_settings_icon_size" android:layout_marginRight="@dimen/settings_icon_margin_end" android:src="@drawable/settings_fingerprint_icon" />
+                        <com.gbwhatsapp.WaTextView android:textSize="@dimen/settings_title_text_size" android:textColor="@color/settings_item_title_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/payments_settings_enable_fingerprint" android:layout_weight="1.0" />
+                        <androidy.appcompat.widget.SwitchCompat android:theme="@style/FbPaySwitchTheme" android:id="@id/toggle_fingerprint" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/account_actions_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include layout="@layout/divider" />
+                <LinearLayout android:orientation="vertical" android:id="@id/account_actions" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.gbwhatsapp.WaTextView android:id="@id/title_account_actions_section" android:text="@string/payments_settings_account" style="@style/FbPaySettingsSectionHeader" />
+                    <include layout="@layout/request_payment_info_row" />
+                    <include layout="@layout/remove_payment_account_row" />
+                </LinearLayout>
+            </LinearLayout>
+            <com.gbwhatsapp.WaTextView android:textSize="12.0sp" android:textColor="@color/fb_pay_hub_footer_text" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_row_vertical_padding" android:layout_marginBottom="24.0dip" android:text="@string/provided_by_facebook_pay" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:importantForAccessibility="no"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/secondary_text" android:id="@id/poll_question_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/poll_question" android:importantForAccessibility="yes" style="@style/Text" />
+    <com.gbwhatsapp.WaEditText android:textSize="16.0sp" android:textColorHint="@color/secondary_text" android:id="@id/poll_question_edit_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:hint="@string/poll_question_hint" android:inputType="textCapSentences|textMultiLine" android:imeOptions="actionNext" android:importantForAccessibility="yes" />
+</LinearLayout>

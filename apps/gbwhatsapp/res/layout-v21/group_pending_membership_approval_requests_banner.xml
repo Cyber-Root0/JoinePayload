@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/pending_requests_notification" android:background="@color/dimmed_background" android:paddingLeft="@dimen/space_loose" android:paddingTop="@dimen/space_base_halfStep" android:paddingRight="@dimen/space_loose" android:paddingBottom="@dimen/space_base_halfStep" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="1.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/space_base_halfStep" android:src="@drawable/ic_pending_participants" android:layout_marginEnd="@dimen/space_base_halfStep" app:tint="@color/changeNumberNotificationIconTint" />
+    <com.gbwhatsapp.WaTextView android:id="@id/pending_requests_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/space_base_halfStep" android:layout_weight="1.0" android:layout_marginEnd="@dimen/space_base_halfStep" />
+    <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/pending_participants_dismiss" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_close" app:tint="@color/changeNumberNotificationIconTint" />
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/faq_screen_content" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.material.appbar.AppBarLayout android:id="@id/toolbar_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.gbwhatsapp.BidiToolbar android:id="@id/toolbar" style="@style/Toolbar.Neutral" />
+        </com.google.android.material.appbar.AppBarLayout>
+        <WebView android:id="@id/faq_item_web_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/not_helpful_button_container" style="@style/SupportBottomBarButton">
+        <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="@color/white" android:id="@id/not_helpful_button" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/contact_us_faqs_not_helpful_button" app:fontFamily="sans-serif-medium" />
+    </LinearLayout>
+</FrameLayout>

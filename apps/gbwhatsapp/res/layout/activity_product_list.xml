@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/product_list_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <androidy.recyclerview.widget.RecyclerView android:id="@id/product_list" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layoutManager="androidy.recyclerview.widget.LinearLayoutManager" />
+        <include layout="@layout/catalog_no_internet" />
+        <View android:layout_gravity="bottom" android:id="@id/shadow_bottom" android:background="@drawable/list_upward_shadow" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+    </FrameLayout>
+    <com.gbwhatsapp.components.Button android:layout_gravity="center_horizontal" android:id="@id/view_cart" android:visibility="gone" android:layout_width="fill_parent" android:layout_marginLeft="@dimen/product_margin_8dp" android:layout_marginTop="10.0dip" android:layout_marginRight="@dimen/product_margin_8dp" android:layout_marginBottom="10.0dip" style="@style/WA.Button" />
+</LinearLayout>

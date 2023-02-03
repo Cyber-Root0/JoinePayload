@@ -1,0 +1,1924 @@
+{
+  "name": "Tier 4",
+  "center": {
+    "lat": -23.533773,
+    "lng": -46.625290
+  },
+  "search_radius": 2800,
+  "regions": [
+    {
+      "name": "Alumínio",
+      "center": {
+        "lng": -47.28125774058527,
+        "lat": -23.53274927011711
+      },
+      "search_radius": 9246.4013195619
+    },
+    {
+      "name": "Araçariguama",
+      "center": {
+        "lng": -47.07213479495599,
+        "lat": -23.4338922121568
+      },
+      "search_radius": 11900.408490413
+    },
+    {
+      "name": "Arujá",
+      "center": {
+        "lng": -46.31888170934281,
+        "lat": -23.385881140299855
+      },
+      "search_radius": 9290.2188419188
+    },
+    {
+      "name": "Atibaia",
+      "center": {
+        "lng": -46.586753175735026,
+        "lat": -23.12298427479072
+      },
+      "search_radius": 20639.021502852
+    },
+    {
+      "name": "Barueri",
+      "center": {
+        "lng": -46.853450047964756,
+        "lat": -23.4952949890027
+      },
+      "search_radius": 6394.6800460607,
+      "regions": [
+        {
+          "name": "Jardim Silveira",
+          "center": {
+            "lng": -46.887292346855226,
+            "lat": -23.531752643992746
+          },
+          "search_radius": 2125.1217938653
+        },
+        {
+          "name": "Aldeia",
+          "center": {
+            "lng": -46.871572816206644,
+            "lat": -23.528196138465116
+          },
+          "search_radius": 3266.8792254448
+        },
+        {
+          "name": "Jardim Belval",
+          "center": {
+            "lng": -46.9246971035856,
+            "lat": -23.502701299709596
+          },
+          "search_radius": 4608.3162307823
+        }
+      ]
+    },
+    {
+      "name": "Bertioga",
+      "center": {
+        "lng": -46.030196402750256,
+        "lat": -23.758900545096235
+      },
+      "search_radius": 26632.694583164
+    },
+    {
+      "name": "Biritiba-Mirim",
+      "center": {
+        "lng": -46.021229852165334,
+        "lat": -23.621867862416398
+      },
+      "search_radius": 16230.999150581
+    },
+    {
+      "name": "Biritiba-Ussu",
+      "center": {
+        "lng": -46.120965988860284,
+        "lat": -23.67025849387764
+      },
+      "search_radius": 7946.274311136
+    },
+    {
+      "name": "Bom Fim do Bom Jesus",
+      "center": {
+        "lng": -47.0209659830998,
+        "lat": -23.290796343238284
+      },
+      "search_radius": 7269.8097988046
+    },
+    {
+      "name": "Bom Jesus dos Perdões",
+      "center": {
+        "lng": -46.4786859724222,
+        "lat": -23.172226363052033
+      },
+      "search_radius": 9765.9827576142
+    },
+    {
+      "name": "Bragança Paulista",
+      "center": {
+        "lng": -46.55510579611494,
+        "lat": -22.93732915241669
+      },
+      "search_radius": 20784.89845948
+    },
+    {
+      "name": "Cabreúva",
+      "center": {
+        "lng": -47.094936905112185,
+        "lat": -23.32739422054833
+      },
+      "search_radius": 14144.757028499,
+      "regions": [
+        {
+          "name": "Jacaré",
+          "center": {
+            "lng": -47.092871175513785,
+            "lat": -23.259714342380136
+          },
+          "search_radius": 10062.501086183
+        }
+      ]
+    },
+    {
+      "name": "Caieiras",
+      "center": {
+        "lng": -46.745022868307366,
+        "lat": -23.376246984683522
+      },
+      "search_radius": 10262.825903565
+    },
+    {
+      "name": "Cajamar",
+      "center": {
+        "lng": -46.88413287867674,
+        "lat": -23.35636717195642
+      },
+      "search_radius": 8859.5650253962,
+      "regions": [
+        {
+          "name": "Jordanésia",
+          "center": {
+            "lng": -46.850570146692746,
+            "lat": -23.318315104793037
+          },
+          "search_radius": 5879.7914902307
+        },
+        {
+          "name": "Polvilho",
+          "center": {
+            "lng": -46.8461305058344,
+            "lat": -23.410469858127808
+          },
+          "search_radius": 3422.4171102492
+        }
+      ]
+    },
+    {
+      "name": "Campinas",
+      "center": {
+        "lng": -47.07280952790566,
+        "lat": -22.895478752450487
+      },
+      "search_radius": 25668.363966864,
+      "regions": [
+        {
+          "name": "Sousas",
+          "center": {
+            "lng": -46.93833796837011,
+            "lat": -22.849650634940613
+          },
+          "search_radius": 9039.8004763349
+        },
+        {
+          "name": "Joaquim Egídio",
+          "center": {
+            "lng": -46.89137954493109,
+            "lat": -22.88381912246503
+          },
+          "search_radius": 9923.8399454252
+        }
+      ]
+    },
+    {
+      "name": "Campo Limpo Paulista",
+      "center": {
+        "lng": -46.76470278131228,
+        "lat": -23.243935258472515
+      },
+      "search_radius": 2976.9702831401,
+      "regions": [
+        {
+          "name": "Botujuru",
+          "center": {
+            "lng": -46.76470278131228,
+            "lat": -23.243935258472515
+          },
+          "search_radius": 2976.9702831401
+        }
+      ]
+    },
+    {
+      "name": "Carapicuíba",
+      "center": {
+        "lng": -46.83858370768971,
+        "lat": -23.53052412643873
+      },
+      "search_radius": 3368.1591042571,
+      "regions": [
+        {
+          "name": "Aldeira de Carapicuíba",
+          "center": {
+            "lng": -46.83028992698241,
+            "lat": -23.572635054838845
+          },
+          "search_radius": 2625.8526595245
+        }
+      ]
+    },
+    {
+      "name": "Cardeal",
+      "center": {
+        "lng": -47.31188023531857,
+        "lat": -23.07204046104431
+      },
+      "search_radius": 6524.2300188256
+    },
+    {
+      "name": "Cotia",
+      "center": {
+        "lng": -46.91542349034168,
+        "lat": -23.63426022866552
+      },
+      "search_radius": 14154.82799165,
+      "regions": [
+        {
+          "name": "Caucaia do Alto",
+          "center": {
+            "lng": -47.00360691841248,
+            "lat": -23.715326624993807
+          },
+          "search_radius": 12512.007869449
+        }
+      ]
+    },
+    {
+      "name": "Cubatão",
+      "center": {
+        "lng": -46.40782771863629,
+        "lat": -23.865462049143698
+      },
+      "search_radius": 12723.736692712
+    },
+    {
+      "name": "Diadema",
+      "center": {
+        "lng": -46.61142818770191,
+        "lat": -23.697448642790928
+      },
+      "search_radius": 5921.7649937669
+    },
+    {
+      "name": "Embu das Artes",
+      "center": {
+        "lng": -46.850968452658435,
+        "lat": -23.65139912897611
+      },
+      "search_radius": 7754.0625564376
+    },
+    {
+      "name": "Embu-Guaçu",
+      "center": {
+        "lng": -46.83787258915909,
+        "lat": -23.85327978008407
+      },
+      "search_radius": 12152.80191777,
+      "regions": [
+        {
+          "name": "Cipó-Guaçu",
+          "center": {
+            "lng": -46.788713569820445,
+            "lat": -23.861680136471996
+          },
+          "search_radius": 4943.2355110323
+        }
+      ]
+    },
+    {
+      "name": "Ferraz de Vasconcelos",
+      "center": {
+        "lng": -46.37327122750446,
+        "lat": -23.56401225730926
+      },
+      "search_radius": 6117.2536161778
+    },
+    {
+      "name": "Francisco Morato",
+      "center": {
+        "lng": -46.723351672637754,
+        "lat": -23.273554570392648
+      },
+      "search_radius": 8026.8078148149
+    },
+    {
+      "name": "Franco da Rocha",
+      "center": {
+        "lng": -46.73629899891568,
+        "lat": -23.31442652886512
+      },
+      "search_radius": 12241.463576768
+    },
+    {
+      "name": "Guararema",
+      "center": {
+        "lng": -46.05781067501791,
+        "lat": -23.426254657592697
+      },
+      "search_radius": 16641.730725903
+    },
+    {
+      "name": "Guarujá",
+      "center": {
+        "lng": -46.21911023575262,
+        "lat": -23.953058310494175
+      },
+      "search_radius": 14681.484109628,
+      "regions": [
+        {
+          "name": "Vicente de Carvalho",
+          "center": {
+            "lng": -46.272783774824894,
+            "lat": -23.947501601043054
+          },
+          "search_radius": 5764.6971735052
+        }
+      ]
+    },
+    {
+      "name": "Guarulhos",
+      "center": {
+        "lng": -46.46594851447544,
+        "lat": -23.390540922584687
+      },
+      "search_radius": 17793.463516863,
+      "regions": [
+        {
+          "name": "Jardim Presidente Dutra",
+          "center": {
+            "lng": -46.42130721233626,
+            "lat": -23.439206633692045
+          },
+          "search_radius": 9095.8120563893
+        }
+      ]
+    },
+    {
+      "name": "Ibiúna",
+      "center": {
+        "lng": -47.20754837264667,
+        "lat": -23.810769191588047
+      },
+      "search_radius": 31382.772381218,
+      "regions": [
+        {
+          "name": "Paruru",
+          "center": {
+            "lng": -47.322450586853485,
+            "lat": -23.67952722765186
+          },
+          "search_radius": 8879.4206534094
+        }
+      ]
+    },
+    {
+      "name": "Igaratá",
+      "center": {
+        "lng": -46.15002454786267,
+        "lat": -23.13482181739066
+      },
+      "search_radius": 18095.586121729
+    },
+    {
+      "name": "Indaiatuba",
+      "center": {
+        "lng": -47.20234536290787,
+        "lat": -23.105888671199473
+      },
+      "search_radius": 17126.947117078
+    },
+    {
+      "name": "Itanhaém",
+      "center": {
+        "lng": -46.83459585142901,
+        "lat": -24.09213793631033
+      },
+      "search_radius": 24531.734986519
+    },
+    {
+      "name": "Itapecerica da Serra",
+      "center": {
+        "lng": -46.85858004430317,
+        "lat": -23.737314446657507
+      },
+      "search_radius": 11468.924158375
+    },
+    {
+      "name": "Itapevi",
+      "center": {
+        "lng": -46.96794962404578,
+        "lat": -23.551008570857476
+      },
+      "search_radius": 8629.1558692
+    },
+    {
+      "name": "Itaquaquecetuba",
+      "center": {
+        "lng": -46.33366306202696,
+        "lat": -23.461516473547633
+      },
+      "search_radius": 8278.8413812625
+    },
+    {
+      "name": "Itariri",
+      "center": {
+        "lng": -47.156305059793695,
+        "lat": -24.296059172785913
+      },
+      "search_radius": 13263.887549373,
+      "regions": [
+        {
+          "name": "Ana Dias",
+          "center": {
+            "lng": -47.069378109588655,
+            "lat": -24.28510958536641
+          },
+          "search_radius": 9762.0898678899
+        }
+      ]
+    },
+    {
+      "name": "Itatiba",
+      "center": {
+        "lng": -46.81405782494585,
+        "lat": -23.00613689148742
+      },
+      "search_radius": 16661.607765451
+    },
+    {
+      "name": "Itu",
+      "center": {
+        "lng": -47.28445593078521,
+        "lat": -23.306993360349637
+      },
+      "search_radius": 22914.380981837
+    },
+    {
+      "name": "Itupeva",
+      "center": {
+        "lng": -47.068245491256896,
+        "lat": -23.14651171469595
+      },
+      "search_radius": 13296.042685758
+    },
+    {
+      "name": "Jacareí",
+      "center": {
+        "lng": -45.985913008425634,
+        "lat": -23.28996711141989
+      },
+      "search_radius": 22187.410069604,
+      "regions": [
+        {
+          "name": "Parque Meia Lua",
+          "center": {
+            "lng": -45.96957405327141,
+            "lat": -23.25860436803407
+          },
+          "search_radius": 2956.1289936652
+        }
+      ]
+    },
+    {
+      "name": "Jandira",
+      "center": {
+        "lng": -46.89971765625542,
+        "lat": -23.544462368181524
+      },
+      "search_radius": 4737.0674654495
+    },
+    {
+      "name": "Jarinu",
+      "center": {
+        "lng": -46.72105027435783,
+        "lat": -23.111704467962713
+      },
+      "search_radius": 15402.676875961
+    },
+    {
+      "name": "Joanópolis",
+      "center": {
+        "lng": -46.209034302977074,
+        "lat": -22.938699990072582
+      },
+      "search_radius": 20250.551180624
+    },
+    {
+      "name": "Jundiaí",
+      "center": {
+        "lng": -46.91253527051662,
+        "lat": -23.19419023049152
+      },
+      "search_radius": 18654.277924582,
+      "regions": [
+        {
+          "name": "Várzea Paulista",
+          "center": {
+            "lng": -46.8251073863598,
+            "lat": -23.21932191161349
+          },
+          "search_radius": 5376.3577922433
+        },
+        {
+          "name": "Campo Limpo Paulista",
+          "center": {
+            "lng": -46.7594321088203,
+            "lat": -23.214210803655114
+          },
+          "search_radius": 8402.5307625641
+        }
+      ]
+    },
+    {
+      "name": "Juquitiba",
+      "center": {
+        "lng": -47.00124773972282,
+        "lat": -23.95212144788572
+      },
+      "search_radius": 21994.946386625,
+      "regions": [
+        {
+          "name": "Barnabés",
+          "center": {
+            "lng": -47.1429240339713,
+            "lat": -23.969955842845717
+          },
+          "search_radius": 8239.6559747021
+        }
+      ]
+    },
+    {
+      "name": "Louveira",
+      "center": {
+        "lng": -46.937499438836426,
+        "lat": -23.084104394286882
+      },
+      "search_radius": 8083.5197559267
+    },
+    {
+      "name": "Mairinque",
+      "center": {
+        "lng": -47.229271478688155,
+        "lat": -23.507596901853418
+      },
+      "search_radius": 14226.715683686
+    },
+    {
+      "name": "Mairiporã",
+      "center": {
+        "lng": -46.5586390764623,
+        "lat": -23.32716928509954
+      },
+      "search_radius": 16462.782135404,
+      "regions": [
+        {
+          "name": "Terra Preta",
+          "center": {
+            "lng": -46.5789055009212,
+            "lat": -23.25504741128621
+          },
+          "search_radius": 6798.7429092994
+        }
+      ]
+    },
+    {
+      "name": "Mauá",
+      "center": {
+        "lng": -46.44633656547613,
+        "lat": -23.666162371717036
+      },
+      "search_radius": 8380.9636458777,
+      "regions": [
+        {
+          "name": "Capuava",
+          "center": {
+            "lng": -46.501853700573214,
+            "lat": -23.64329643051816
+          },
+          "search_radius": 3117.2988255159
+        }
+      ]
+    },
+    {
+      "name": "Miracatu",
+      "center": {
+        "lng": -47.35924228524986,
+        "lat": -24.19807208597315
+      },
+      "search_radius": 17946.643236125,
+      "regions": [
+        {
+          "name": "Pedro Barros",
+          "center": {
+            "lng": -47.35924228524986,
+            "lat": -24.19807208597315
+          },
+          "search_radius": 15407.52209191
+        },
+        {
+          "name": "Santa Rita do Ribeira",
+          "center": {
+            "lng": -47.265326159522395,
+            "lat": -24.094500130801205
+          },
+          "search_radius": 17946.643236125
+        }
+      ]
+    },
+    {
+      "name": "Mogi das Cruzes",
+      "center": {
+        "lng": -46.191113454062446,
+        "lat": -23.493277633803196
+      },
+      "search_radius": 18945.827884908,
+      "regions": [
+        {
+          "name": "Jundiapeba",
+          "center": {
+            "lng": -46.24734203766979,
+            "lat": -23.586701134304306
+          },
+          "search_radius": 7315.3661235383
+        },
+        {
+          "name": "Cezar de Souza",
+          "center": {
+            "lng": -46.13677229063232,
+            "lat": -23.520332397011337
+          },
+          "search_radius": 5437.843611776
+        },
+        {
+          "name": "Taiaçupeba",
+          "center": {
+            "lng": -46.18577451210559,
+            "lat": -23.68238409799774
+          },
+          "search_radius": 9725.8782475936
+        },
+        {
+          "name": "Quatinga",
+          "center": {
+            "lng": -46.2554818875928,
+            "lat": -23.705596252324277
+          },
+          "search_radius": 9598.0435540209
+        }
+      ]
+    },
+    {
+      "name": "Brás Cubas",
+      "center": {
+        "lng": -46.211044508100905,
+        "lat": -23.573284477211654
+      },
+      "search_radius": 6962.1921028079
+    },
+    {
+      "name": "Mongaguá",
+      "center": {
+        "lng": -46.66742279034016,
+        "lat": -24.07096844823
+      },
+      "search_radius": 11472.756216328
+    },
+    {
+      "name": "Morungaba",
+      "center": {
+        "lng": -46.78259393184026,
+        "lat": -22.89347386522694
+      },
+      "search_radius": 12411.789904101
+    },
+    {
+      "name": "Nazaré Paulista",
+      "center": {
+        "lng": -46.36642641182394,
+        "lat": -23.19138747830276
+      },
+      "search_radius": 19748.48391176
+    },
+    {
+      "name": "Osasco",
+      "center": {
+        "lng": -46.7892550002523,
+        "lat": -23.52909737730643
+      },
+      "search_radius": 9055.1054053472
+    },
+    {
+      "name": "Paranapiacaba",
+      "center": {
+        "lng": -46.367653371909185,
+        "lat": -23.774734806948967
+      },
+      "search_radius": 10708.04203182
+    },
+    {
+      "name": "Pedra Bela",
+      "center": {
+        "lng": -46.440470155259554,
+        "lat": -22.773936318426237
+      },
+      "search_radius": 12552.525462695
+    },
+    {
+      "name": "Pedro de Toledo",
+      "center": {
+        "lng": -47.16324163630515,
+        "lat": -24.16329459304989
+      },
+      "search_radius": 28132.748866381
+    },
+    {
+      "name": "Peruíbe",
+      "center": {
+        "lng": -47.01275278314611,
+        "lat": -24.278704334396828
+      },
+      "search_radius": 21271.676658786
+    },
+    {
+      "name": "Piedade",
+      "center": {
+        "lng": -47.437791820845355,
+        "lat": -23.786512976823424
+      },
+      "search_radius": 27604.509511062
+    },
+    {
+      "name": "Pinhalzinho",
+      "center": {
+        "lng": -46.57295853343033,
+        "lat": -22.77835788863037
+      },
+      "search_radius": 11467.053814705
+    },
+    {
+      "name": "Piracaia",
+      "center": {
+        "lng": -46.28827076061996,
+        "lat": -23.040725588350842
+      },
+      "search_radius": 19707.815994323,
+      "regions": [
+        {
+          "name": "Batatuba",
+          "center": {
+            "lng": -46.41555604343133,
+            "lat": -23.096839726507294
+          },
+          "search_radius": 6826.1729387232
+        }
+      ]
+    },
+    {
+      "name": "Pirapora do Bom Jesus",
+      "center": {
+        "lng": -46.984595500319266,
+        "lat": -23.378013459771942
+      },
+      "search_radius": 9621.7846646995
+    },
+    {
+      "name": "Poá",
+      "center": {
+        "lng": -46.34684565859433,
+        "lat": -23.530426116646463
+      },
+      "search_radius": 4417.8195781923
+    },
+    {
+      "name": "Praia Grande",
+      "center": {
+        "lng": -46.45458653281295,
+        "lat": -24.00957408258602
+      },
+      "search_radius": 8402.1696687342,
+      "regions": [
+        {
+          "name": "Solemar",
+          "center": {
+            "lng": -46.557093595705865,
+            "lat": -24.020668006871396
+          },
+          "search_radius": 9964.7774986033
+        }
+      ]
+    },
+    {
+      "name": "Ribeirão Pires",
+      "center": {
+        "lng": -46.4305406546973,
+        "lat": -23.723455558579392
+      },
+      "search_radius": 7411.7479378481
+    },
+    {
+      "name": "Rio Grande da Serra",
+      "center": {
+        "lng": -46.37931636920093,
+        "lat": -23.737943686757852
+      },
+      "search_radius": 6676.6908479658
+    },
+    {
+      "name": "Salesópolis",
+      "center": {
+        "lng": -45.82588774644801,
+        "lat": -23.587311194703776
+      },
+      "search_radius": 17910.752815824,
+      "regions": [
+        {
+          "name": "Nossa Senhora do Remédio",
+          "center": {
+            "lng": -45.94176530428617,
+            "lat": -23.53646102744608
+          },
+          "search_radius": 6801.1348848148
+        }
+      ]
+    },
+    {
+      "name": "Salto",
+      "center": {
+        "lng": -47.302737742862575,
+        "lat": -23.180416252106923
+      },
+      "search_radius": 12201.214441361
+    },
+    {
+      "name": "Santa Branca",
+      "center": {
+        "lng": -45.862477835144695,
+        "lat": -23.42600261439964
+      },
+      "search_radius": 15366.057457079
+    },
+    {
+      "name": "Santa Isabel",
+      "center": {
+        "lng": -46.24208713395044,
+        "lat": -23.288661259652024
+      },
+      "search_radius": 18285.725500849
+    },
+    {
+      "name": "Santana de Parnaíba",
+      "center": {
+        "lng": -46.91680548668364,
+        "lat": -23.449446234489937
+      },
+      "search_radius": 13913.665499074
+    },
+    {
+      "name": "Santo André",
+      "center": {
+        "lng": -46.51101609548595,
+        "lat": -23.69001564630175
+      },
+      "search_radius": 11254.948673,
+      "regions": [
+        {
+          "name": "Santa Margarida Paulista",
+          "center": {
+            "lng": -46.371548745341805,
+            "lat": -23.520874375009814
+          },
+          "search_radius": 1331.7507211663
+        }
+      ]
+    },
+    {
+      "name": "Santo Antônio Paulista",
+      "center": {
+        "lng": -46.38601704611761,
+        "lat": -23.54953024688919
+      },
+      "search_radius": 1195.6083501452
+    },
+    {
+      "name": "Santos",
+      "center": {
+        "lng": -46.29159418898849,
+        "lat": -23.869350042683813
+      },
+      "search_radius": 18351.646616621
+    },
+    {
+      "name": "São Bernardo do Campo",
+      "center": {
+        "lng": -46.57231335013594,
+        "lat": -23.732448618696967
+      },
+      "search_radius": 11955.324699503,
+      "regions": [
+        {
+          "name": "Riacho Grande",
+          "center": {
+            "lng": -46.54048799605151,
+            "lat": -23.849477589095294
+          },
+          "search_radius": 16277.534197177
+        }
+      ]
+    },
+    {
+      "name": "São Caetano do Sul",
+      "center": {
+        "lng": -46.56611312387297,
+        "lat": -23.626134338164068
+      },
+      "search_radius": 3503.6919039629
+    },
+    {
+      "name": "São José dos Campos",
+      "center": {
+        "lng": -45.93102282884644,
+        "lat": -23.145469998005517
+      },
+      "search_radius": 24661.216737407,
+      "regions": [
+        {
+          "name": "Jardim Santa Luzia",
+          "center": {
+            "lng": -46.384570716336256,
+            "lat": -23.663643758897035
+          },
+          "search_radius": 5666.6167618226
+        }
+      ]
+    },
+    {
+      "name": "São Lourenço da Serra",
+      "center": {
+        "lng": -46.935813931971964,
+        "lat": -23.852908831348856
+      },
+      "search_radius": 12851.226034642
+    },
+    {
+      "name": "São Roque",
+      "center": {
+        "lng": -47.13782668160947,
+        "lat": -23.503070230000535
+      },
+      "search_radius": 11416.749117814,
+      "regions": [
+        {
+          "name": "São João Novo",
+          "center": {
+            "lng": -47.046937949047326,
+            "lat": -23.533157248392715
+          },
+          "search_radius": 8551.6391215966
+        },
+        {
+          "name": "Canguera",
+          "center": {
+            "lng": -47.12956137172372,
+            "lat": -23.614090231208486
+          },
+          "search_radius": 9002.8476852707
+        },
+        {
+          "name": "Mailasqui",
+          "center": {
+            "lng": -47.07296987898992,
+            "lat": -23.580141687939005
+          },
+          "search_radius": 6108.7086962503
+        }
+      ]
+    },
+    {
+      "name": "São Paulo",
+      "center": {
+        "lat": -23.533773,
+        "lng": -46.625290
+      },
+      "search_radius": 2800,
+      "regions": [
+        {
+          "name": "Alto de Pinheiros",
+          "center": {
+            "lng": -46.711909571631836,
+            "lat": -23.54759518552753
+          },
+          "search_radius": 2665.9031989196
+        },
+        {
+          "name": "Água Rasa",
+          "center": {
+            "lng": -46.57185087907531,
+            "lat": -23.566880872351366
+          },
+          "search_radius": 2541.3137373484
+        },
+        {
+          "name": "Barra Funda",
+          "center": {
+            "lng": -46.67392114656923,
+            "lat": -23.521260031091387
+          },
+          "search_radius": 2581.0377463838
+        },
+        {
+          "name": "Bela Vista",
+          "center": {
+            "lng": -46.64733360569109,
+            "lat": -23.560814999395
+          },
+          "search_radius": 1659.8628275871
+        },
+        {
+          "name": "Bom Retiro",
+          "center": {
+            "lng": -46.63683304689925,
+            "lat": -23.526006385268786
+          },
+          "search_radius": 1878.8745076856
+        },
+        {
+          "name": "Brás",
+          "center": {
+            "lng": -46.61749349436305,
+            "lat": -23.54368510010738
+          },
+          "search_radius": 1707.51481652
+        },
+        {
+          "name": "Cambuci",
+          "center": {
+            "lng": -46.616897855256,
+            "lat": -23.56433713669327
+          },
+          "search_radius": 1847.2722643938
+        },
+        {
+          "name": "Campo Limpo",
+          "center": {
+            "lng": -46.763491646229944,
+            "lat": -23.635842053557123
+          },
+          "search_radius": 3728.2312805709
+        },
+        {
+          "name": "Consolação",
+          "center": {
+            "lng": -46.6600747071678,
+            "lat": -23.548625430261
+          },
+          "search_radius": 1944.6444466915
+        },
+        {
+          "name": "Ipiranga",
+          "center": {
+            "lng": -46.60288399929131,
+            "lat": -23.591711096512622
+          },
+          "search_radius": 3273.6300739746
+        },
+        {
+          "name": "Itaim Bibi",
+          "center": {
+            "lng": -46.685418666808644,
+            "lat": -23.602060006547344
+          },
+          "search_radius": 3178.5601928119
+        },
+        {
+          "name": "Jardim Paulista",
+          "center": {
+            "lng": -46.66677702923777,
+            "lat": -23.56636580573794
+          },
+          "search_radius": 2521.324272869
+        },
+        {
+          "name": "Lapa",
+          "center": {
+            "lng": -46.705889150113414,
+            "lat": -23.522583562449853
+          },
+          "search_radius": 2782.5089772256
+        },
+        {
+          "name": "Liberdade",
+          "center": {
+            "lng": -46.631788802850906,
+            "lat": -23.566928303436665
+          },
+          "search_radius": 1642.4786254672
+        },
+        {
+          "name": "Moema",
+          "center": {
+            "lng": -46.66147861203957,
+            "lat": -23.59603082517506
+          },
+          "search_radius": 2921.0034078124
+        },
+        {
+          "name": "Mooca",
+          "center": {
+            "lng": -46.59632085279201,
+            "lat": -23.561455474708463
+          },
+          "search_radius": 2737.8562087617
+        },
+        {
+          "name": "Morumbi",
+          "center": {
+            "lng": -46.7079637726963,
+            "lat": -23.59625058691694
+          },
+          "search_radius": 3236.7899163942
+        },
+        {
+          "name": "Pari",
+          "center": {
+            "lng": -46.61741128123875,
+            "lat": -23.527201535453017
+          },
+          "search_radius": 1377.8397010515
+        },
+        {
+          "name": "Perdizes",
+          "center": {
+            "lng": -46.68085603734869,
+            "lat": -23.538701612265463
+          },
+          "search_radius": 2362.0376258255
+        },
+        {
+          "name": "Pinheiros",
+          "center": {
+            "lng": -46.68867303945228,
+            "lat": -23.56640823055808
+          },
+          "search_radius": 2897.0124534212
+        },
+        {
+          "name": "República",
+          "center": {
+            "lng": -46.64091745215217,
+            "lat": -23.5449223120055
+          },
+          "search_radius": 1413.3068559626
+        },
+        {
+          "name": "Sacomã",
+          "center": {
+            "lng": -46.59817656793727,
+            "lat": -23.630682088437354
+          },
+          "search_radius": 3749.2192304239
+        },
+        {
+          "name": "Santa Cecília",
+          "center": {
+            "lng": -46.652686905963535,
+            "lat": -23.531978201606755
+          },
+          "search_radius": 1787.9728311584
+        },
+        {
+          "name": "Santo Amaro",
+          "center": {
+            "lng": -46.701265129387664,
+            "lat": -23.642343614760517
+          },
+          "search_radius": 3718.8624210905
+        },
+        {
+          "name": "Sé",
+          "center": {
+            "lng": -46.631452847887196,
+            "lat": -23.547553981161354
+          },
+          "search_radius": 1358.0149250912
+        },
+        {
+          "name": "Tatuapé",
+          "center": {
+            "lng": -46.56734816195419,
+            "lat": -23.538619806087137
+          },
+          "search_radius": 2628.7548003189
+        },
+        {
+          "name": "Vila Andrade",
+          "center": {
+            "lng": -46.7283253718966,
+            "lat": -23.626238353888343
+          },
+          "search_radius": 3087.4591572812
+        },
+        {
+          "name": "Vila Mariana",
+          "center": {
+            "lng": -46.63592043893255,
+            "lat": -23.586436513842898
+          },
+          "search_radius": 2686.3981935677
+        },
+        {
+          "name": "Aricanduva",
+          "center": {
+            "lng": -46.515686651508176,
+            "lat": -23.573910370136858
+          },
+          "search_radius": 2508.4777424947
+        },
+        {
+          "name": "Artur Alvim",
+          "center": {
+            "lng": -46.485831574755565,
+            "lat": -23.540211924913173
+          },
+          "search_radius": 2270.5177163944
+        },
+        {
+          "name": "Butantã",
+          "center": {
+            "lng": -46.726201636957505,
+            "lat": -23.570173403240865
+          },
+          "search_radius": 3676.595618327
+        },
+        {
+          "name": "Campo Grande",
+          "center": {
+            "lng": -46.68751470054048,
+            "lat": -23.67452685460121
+          },
+          "search_radius": 3452.9791436911
+        },
+        {
+          "name": "Capão Redondo",
+          "center": {
+            "lng": -46.780502974960896,
+            "lat": -23.668758212377913
+          },
+          "search_radius": 3713.9797103844
+        },
+        {
+          "name": "Carrão",
+          "center": {
+            "lng": -46.538369178604235,
+            "lat": -23.551175445908854
+          },
+          "search_radius": 2879.4350768734
+        },
+        {
+          "name": "Casa Verde",
+          "center": {
+            "lng": -46.65735126400844,
+            "lat": -23.50100146992184
+          },
+          "search_radius": 2470.922573187
+        },
+        {
+          "name": "Freguesia do Ó",
+          "center": {
+            "lng": -46.69726937032768,
+            "lat": -23.486277787026324
+          },
+          "search_radius": 3493.8879377494
+        },
+        {
+          "name": "Itaquera",
+          "center": {
+            "lng": -46.45584615584532,
+            "lat": -23.533898667046834
+          },
+          "search_radius": 3445.4296790696
+        },
+        {
+          "name": "Jaguara",
+          "center": {
+            "lng": -46.74712722526721,
+            "lat": -23.511085166638853
+          },
+          "search_radius": 2432.7917114109
+        },
+        {
+          "name": "Limão",
+          "center": {
+            "lng": -46.67585472776287,
+            "lat": -23.49762798344247
+          },
+          "search_radius": 2378.3661475669
+        },
+        {
+          "name": "Santana",
+          "center": {
+            "lng": -46.630330753539,
+            "lat": -23.499904952107663
+          },
+          "search_radius": 3189.0008854107
+        },
+        {
+          "name": "Sapopemba",
+          "center": {
+            "lng": -46.509533685451174,
+            "lat": -23.605581808883613
+          },
+          "search_radius": 3589.7599930586
+        },
+        {
+          "name": "Saúde",
+          "center": {
+            "lng": -46.64125531805954,
+            "lat": -23.614490137281408
+          },
+          "search_radius": 2673.5915067721
+        },
+        {
+          "name": "São Mateus",
+          "center": {
+            "lng": -46.48122794208125,
+            "lat": -23.60017991239393
+          },
+          "search_radius": 3780.1871779643
+        },
+        {
+          "name": "Tucuruvi",
+          "center": {
+            "lng": -46.60600313052857,
+            "lat": -23.475673692793798
+          },
+          "search_radius": 2973.6612338156
+        },
+        {
+          "name": "Vila Formosa",
+          "center": {
+            "lng": -46.54599718939733,
+            "lat": -23.567782435116154
+          },
+          "search_radius": 2886.2540964427
+        },
+        {
+          "name": "Vila Guilherme",
+          "center": {
+            "lng": -46.60569771860367,
+            "lat": -23.509253074302123
+          },
+          "search_radius": 2454.9726704805
+        },
+        {
+          "name": "Vila Matilde",
+          "center": {
+            "lng": -46.51818253704399,
+            "lat": -23.539481643557725
+          },
+          "search_radius": 3200.1088612937
+        },
+        {
+          "name": "Vila Medeiros",
+          "center": {
+            "lng": -46.57753913173843,
+            "lat": -23.488726842258888
+          },
+          "search_radius": 2667.6949894314
+        },
+        {
+          "name": "Anhanguera",
+          "center": {
+            "lng": -46.79296333545665,
+            "lat": -23.43046902568601
+          },
+          "search_radius": 5404.9522392372
+        },
+        {
+          "name": "Belém",
+          "center": {
+            "lng": -46.59470824229872,
+            "lat": -23.53763587649229
+          },
+          "search_radius": 2445.3394298642
+        },
+        {
+          "name": "Brasilândia",
+          "center": {
+            "lng": -46.688337355658305,
+            "lat": -23.448674177973277
+          },
+          "search_radius": 4539.0386863291
+        },
+        {
+          "name": "Cachoeirinha",
+          "center": {
+            "lng": -46.662045095884,
+            "lat": -23.454351007817984
+          },
+          "search_radius": 4147.7140309019
+        },
+        {
+          "name": "Campo Belo",
+          "center": {
+            "lng": -46.6680007108193,
+            "lat": -23.628085158031208
+          },
+          "search_radius": 2866.7900516419
+        },
+        {
+          "name": "Cangaíba",
+          "center": {
+            "lng": -46.51847539879749,
+            "lat": -23.499048318096634
+          },
+          "search_radius": 3597.4054833438
+        },
+        {
+          "name": "Cidade Ademar",
+          "center": {
+            "lng": -46.65672108225407,
+            "lat": -23.673824037835786
+          },
+          "search_radius": 3851.4092391407
+        },
+        {
+          "name": "Cidade Dutra",
+          "center": {
+            "lng": -46.702029540690305,
+            "lat": -23.72581226377203
+          },
+          "search_radius": 5625.3769462774
+        },
+        {
+          "name": "Cidade Líder",
+          "center": {
+            "lng": -46.491218845427696,
+            "lat": -23.56205741081374
+          },
+          "search_radius": 3341.7147223191
+        },
+        {
+          "name": "Cidade Tiradentes",
+          "center": {
+            "lng": -46.40046974798706,
+            "lat": -23.584852951404248
+          },
+          "search_radius": 3823.1583313308
+        },
+        {
+          "name": "Cursino",
+          "center": {
+            "lng": -46.62069542980442,
+            "lat": -23.63106880048813
+          },
+          "search_radius": 4601.9391448449
+        },
+        {
+          "name": "Ermelino Matarazzo",
+          "center": {
+            "lng": -46.48446710082941,
+            "lat": -23.4913102156278
+          },
+          "search_radius": 2615.6675492934
+        },
+        {
+          "name": "Grajaú",
+          "center": {
+            "lng": -46.66847799224378,
+            "lat": -23.789409554882667
+          },
+          "search_radius": 8779.1614461555
+        },
+        {
+          "name": "Guaianases",
+          "center": {
+            "lng": -46.40668889140685,
+            "lat": -23.55641895887752
+          },
+          "search_radius": 3016.8167711343
+        },
+        {
+          "name": "Iguatemi",
+          "center": {
+            "lng": -46.42683326993995,
+            "lat": -23.612554567951772
+          },
+          "search_radius": 4442.9466144014
+        },
+        {
+          "name": "Itaim Paulista",
+          "center": {
+            "lng": -46.38638904202554,
+            "lat": -23.503315187663137
+          },
+          "search_radius": 3248.7855727847
+        },
+        {
+          "name": "Jabaquara",
+          "center": {
+            "lng": -46.64583528054156,
+            "lat": -23.6505458304867
+          },
+          "search_radius": 3512.8614063838
+        },
+        {
+          "name": "Jaguaré",
+          "center": {
+            "lng": -46.74856374578883,
+            "lat": -23.54390952095118
+          },
+          "search_radius": 2389.7627957371
+        },
+        {
+          "name": "Jaraguá",
+          "center": {
+            "lng": -46.7399467072425,
+            "lat": -23.44600382201752
+          },
+          "search_radius": 5222.6991608182
+        },
+        {
+          "name": "Jardim Helena",
+          "center": {
+            "lng": -46.41290568817754,
+            "lat": -23.48361603842407
+          },
+          "search_radius": 3451.7637461081
+        },
+        {
+          "name": "Jardim São Luís",
+          "center": {
+            "lng": -46.73941387288591,
+            "lat": -23.680793460041105
+          },
+          "search_radius": 5251.3492429615
+        },
+        {
+          "name": "Jardim Ângela",
+          "center": {
+            "lng": -46.767620300307826,
+            "lat": -23.71611270990702
+          },
+          "search_radius": 6018.872344864
+        },
+        {
+          "name": "Jaçanã",
+          "center": {
+            "lng": -46.574890459552144,
+            "lat": -23.46216134765057
+          },
+          "search_radius": 3720.6743957248
+        },
+        {
+          "name": "José Bonifácio",
+          "center": {
+            "lng": -46.432538685123326,
+            "lat": -23.567434483547736
+          },
+          "search_radius": 3788.7750301282
+        },
+        {
+          "name": "Lajeado",
+          "center": {
+            "lng": -46.40864629117567,
+            "lat": -23.533691555707783
+          },
+          "search_radius": 3062.3997151202
+        },
+        {
+          "name": "Marsilac",
+          "center": {
+            "lng": -46.70808531591313,
+            "lat": -23.9353490540877
+          },
+          "search_radius": 13094.00534124
+        },
+        {
+          "name": "Mandaqui",
+          "center": {
+            "lng": -46.64077332586649,
+            "lat": -23.45933919873972
+          },
+          "search_radius": 3900.2492666336
+        },
+        {
+          "name": "Parelheiros",
+          "center": {
+            "lng": -46.716391671668845,
+            "lat": -23.83016444053647
+          },
+          "search_radius": 13757.12422877
+        },
+        {
+          "name": "Parque do Carmo",
+          "center": {
+            "lng": -46.4629206495726,
+            "lat": -23.57604741457615
+          },
+          "search_radius": 3630.5760745036
+        },
+        {
+          "name": "Pedreira",
+          "center": {
+            "lng": -46.65018854356156,
+            "lat": -23.7068666865719
+          },
+          "search_radius": 4346.6779130616
+        },
+        {
+          "name": "Penha",
+          "center": {
+            "lng": -46.528774101659714,
+            "lat": -23.523192282262173
+          },
+          "search_radius": 3883.8802033803
+        },
+        {
+          "name": "Perus",
+          "center": {
+            "lng": -46.74600294915019,
+            "lat": -23.40796888489772
+          },
+          "search_radius": 4679.3368050615
+        },
+        {
+          "name": "Pirituba",
+          "center": {
+            "lng": -46.72612250434876,
+            "lat": -23.4808432358364
+          },
+          "search_radius": 4136.8387544768
+        },
+        {
+          "name": "Ponte Rasa",
+          "center": {
+            "lng": -46.493225811943866,
+            "lat": -23.515852442406818
+          },
+          "search_radius": 2624.8112932014
+        },
+        {
+          "name": "Raposo Tavares",
+          "center": {
+            "lng": -46.78563982663354,
+            "lat": -23.59245967419925
+          },
+          "search_radius": 3430.9528510922
+        },
+        {
+          "name": "Rio Pequeno",
+          "center": {
+            "lng": -46.75888613115239,
+            "lat": -23.571287693189266
+          },
+          "search_radius": 3113.0943605651
+        },
+        {
+          "name": "Socorro",
+          "center": {
+            "lng": -46.713836258302095,
+            "lat": -23.68561499472816
+          },
+          "search_radius": 3435.1915868455
+        },
+        {
+          "name": "São Domingos",
+          "center": {
+            "lng": -46.74723460130778,
+            "lat": -23.493394580730154
+          },
+          "search_radius": 3493.828799497
+        },
+        {
+          "name": "São Lucas",
+          "center": {
+            "lng": -46.54356037823868,
+            "lat": -23.594620713714725
+          },
+          "search_radius": 3129.8004146453
+        },
+        {
+          "name": "São Miguel Paulista",
+          "center": {
+            "lng": -46.440758722933964,
+            "lat": -23.501128346875408
+          },
+          "search_radius": 3024.9461206626
+        },
+        {
+          "name": "São Rafael",
+          "center": {
+            "lng": -46.45398316465995,
+            "lat": -23.628210045460982
+          },
+          "search_radius": 3272.6220083804
+        },
+        {
+          "name": "Tremembé",
+          "center": {
+            "lng": -46.58933552003128,
+            "lat": -23.417651687026357
+          },
+          "search_radius": 7967.5194695539
+        },
+        {
+          "name": "Vila Curuçá",
+          "center": {
+            "lng": -46.41566979811909,
+            "lat": -23.509924066162394
+          },
+          "search_radius": 2890.1935033289
+        },
+        {
+          "name": "Vila Jacuí",
+          "center": {
+            "lng": -46.46152524444303,
+            "lat": -23.502565837143777
+          },
+          "search_radius": 2765.7339147592
+        },
+        {
+          "name": "Vila Leopoldina",
+          "center": {
+            "lng": -46.734366241063924,
+            "lat": -23.529213507921405
+          },
+          "search_radius": 2401.6429425104
+        },
+        {
+          "name": "Vila Maria",
+          "center": {
+            "lng": -46.577725137564755,
+            "lat": -23.513008400177426
+          },
+          "search_radius": 2876.4918888366
+        },
+        {
+          "name": "Vila Prudente",
+          "center": {
+            "lng": -46.5726584970274,
+            "lat": -23.592593385799294
+          },
+          "search_radius": 3216.7970908172
+        },
+        {
+          "name": "Vila Sônia",
+          "center": {
+            "lng": -46.739193072964646,
+            "lat": -23.59936029339648
+          },
+          "search_radius": 2826.5612093641
+        }
+      ]
+    },
+    {
+      "name": "São Silvestre de Jacareí",
+      "center": {
+        "lng": -46.01945814776902,
+        "lat": -23.361223048139543
+      },
+      "search_radius": 8079.3828837005
+    },
+    {
+      "name": "São Vicente",
+      "center": {
+        "lng": -46.488161190046206,
+        "lat": -23.95946864372643
+      },
+      "search_radius": 16228.104588625
+    },
+    {
+      "name": "Sorocaba",
+      "center": {
+        "lng": -47.44672359309135,
+        "lat": -23.46424408702144
+      },
+      "search_radius": 19008.642905499,
+      "regions": [
+        {
+          "name": "Votorantim",
+          "center": {
+            "lng": -47.406051175413175,
+            "lat": -23.579674881209854
+          },
+          "search_radius": 13449.212007703
+        }
+      ]
+    },
+    {
+      "name": "Suzano",
+      "center": {
+        "lng": -46.32594392456452,
+        "lat": -23.586192114751455
+      },
+      "search_radius": 10777.823516268,
+      "regions": [
+        {
+          "name": "Palmeiras de São Paulo",
+          "center": {
+            "lng": -46.297326682654294,
+            "lat": -23.659211841301293
+          },
+          "search_radius": 11059.255787573
+        },
+        {
+          "name": "Boa Vista Paulista",
+          "center": {
+            "lng": -46.29324018626296,
+            "lat": -23.506411846001924
+          },
+          "search_radius": 4574.9139013178
+        },
+        {
+          "name": "Ouro Fino Paulista",
+          "center": {
+            "lng": -46.35630740469477,
+            "lat": -23.690362661173197
+          },
+          "search_radius": 4195.8146964049
+        }
+      ]
+    },
+    {
+      "name": "Taboão da Serra",
+      "center": {
+        "lng": -46.78625330879861,
+        "lat": -23.62046978525825
+      },
+      "search_radius": 4668.9949906416
+    },
+    {
+      "name": "Tuiuti",
+      "center": {
+        "lng": -46.68723873764651,
+        "lat": -22.830304743781145
+      },
+      "search_radius": 10068.632804197
+    },
+    {
+      "name": "Valinhos",
+      "center": {
+        "lng": -46.981241964160105,
+        "lat": -22.974974008203834
+      },
+      "search_radius": 13353.077483341
+    },
+    {
+      "name": "Vargem Grande Paulista",
+      "center": {
+        "lng": -47.01471868468208,
+        "lat": -23.62115726015773
+      },
+      "search_radius": 6421.834064589
+    },
+    {
+      "name": "Vinhedo",
+      "center": {
+        "lng": -46.97895500599319,
+        "lat": -23.04613427186012
+      },
+      "search_radius": 9326.8247935095
+    },
+    {
+      "name": "Vila Dirce",
+      "center": {
+        "lng": -46.85050780187387,
+        "lat": -23.561247648042148
+      },
+      "search_radius": 3547.8743284535
+    },
+    {
+      "name": "Sabaúna",
+      "center": {
+        "lng": -46.11649500588833,
+        "lat": -23.46932756220018
+      },
+      "search_radius": 9282.8309196198
+    },
+    {
+      "name": "Vargem",
+      "center": {
+        "lng": -46.41494792509528,
+        "lat": -22.889498005500855
+      },
+      "search_radius": 12075.842076381
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/header_placeholder" android:layout_width="fill_parent" android:layout_height="@dimen/info_screen_header" />
+    <include layout="@layout/smb_label_scroller_stub" />
+    <com.gbwhatsapp.group.view.custom.GroupDetailsCard android:id="@id/group_details_card" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include layout="@layout/link_to_community_home_card" />
+    <include layout="@layout/description_card_v2" />
+    <include layout="@layout/privacy_card_v2" />
+    <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="@color/primary_text" android:gravity="center" android:id="@id/no_participant" android:paddingLeft="@dimen/card_h_padding" android:paddingTop="@dimen/card_v_padding" android:paddingRight="@dimen/card_h_padding" android:paddingBottom="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/not_a_group_participant" />
+    <include layout="@layout/live_location_card" />
+    <com.gbwhatsapp.chatinfo.view.custom.ChatInfoMediaCardV2 android:id="@id/media_card_view" android:layout_width="fill_parent" android:layout_height="wrap_content" app:icContentColor="@color/primary_surface" app:mcTitle="@string/view_conversation_media" style="@style/InfoCard" />
+    <include layout="@layout/actions_card_v2" />
+    <include layout="@layout/contact_info_security_card_v2" />
+    <com.gbwhatsapp.InfoCard android:orientation="vertical" android:id="@id/invites_card" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/InfoCard">
+        <FrameLayout android:background="@color/primary_surface" android:paddingLeft="@dimen/info_screen_padding" style="@style/FlatCardHeader">
+            <com.gbwhatsapp.WaTextView android:ellipsize="end" android:paddingRight="@dimen/group_info_subtitle_right_padding" android:text="@string/invites_title" android:singleLine="true" style="@style/FlatCardTitle" />
+            <com.gbwhatsapp.WaTextView android:id="@id/invites_info" style="@style/FlatCardInfo" />
+        </FrameLayout>
+        <androidy.recyclerview.widget.RecyclerView android:id="@id/invites_recycler_view" android:background="@color/primary_surface" android:paddingTop="@dimen/group_info_list_top_padding" android:paddingBottom="@dimen/group_info_list_bottom_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </com.gbwhatsapp.InfoCard>
+    <include layout="@layout/group_info_add_group_to_community" />
+    <LinearLayout android:orientation="vertical" android:id="@id/participants_card" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View style="@style/ListTopShadow" />
+        <LinearLayout android:orientation="horizontal" android:background="@color/primary_surface" android:paddingLeft="@dimen/info_screen_padding" android:paddingTop="0.0dip" style="@style/FlatCardHeader">
+            <com.gbwhatsapp.WaTextView android:id="@id/participants_title" android:paddingTop="@dimen/space_loose" android:paddingBottom="@dimen/space_base_halfStep" android:layout_width="0.0dip" android:layout_weight="1.0" style="@style/FlatCardTitle.V2" />
+            <com.gbwhatsapp.WaTextView android:id="@id/participants_info" android:paddingTop="12.0dip" style="@style/FlatCardInfo" />
+            <com.gbwhatsapp.WaImageView android:id="@id/participants_search" android:background="?actionBarItemBackground" android:paddingRight="12.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginBottom="-12.0dip" android:src="@drawable/ic_action_search" android:contentDescription="@string/search_group_participants" app:tint="@color/icon_secondary" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/add_participant_layout" android:background="@color/primary_surface" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:gravity="center_vertical" android:id="@id/add_participant_button" android:background="@drawable/selector_orange_gradient" android:layout_width="fill_parent" android:layout_height="@dimen/small_list_row_height">
+            <com.gbwhatsapp.WaImageView android:id="@id/add_participant_icon" android:background="@drawable/primary_light_circle_background" android:src="@drawable/ic_action_add_person" style="@style/ListItemIcon" />
+            <com.gbwhatsapp.WaTextView android:id="@id/add_participant_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add_paticipants" android:layout_toRightOf="@id/add_participant_icon" android:layout_centerVertical="true" style="@style/ListItemTitle" />
+        </RelativeLayout>
+        <include layout="@layout/invite_via_link_button" />
+        <com.gbwhatsapp.ListItemWithLeftIcon android:id="@id/pending_participants_list_item" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:listItemWithIconIcon="@drawable/ic_pending_participants" app:listItemWithIconTitle="@string/group_info_pending_participants" />
+    </LinearLayout>
+</LinearLayout>

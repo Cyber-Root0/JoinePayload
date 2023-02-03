@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ban_info" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.gbwhatsapp.TextEmojiLabel android:textSize="16.0sp" android:textColor="@color/primary_text" android:id="@id/heading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_xLoose" android:layout_marginTop="@dimen/space_xLoose" android:layout_marginRight="@dimen/space_xLoose" android:text="@string/ban_appeal_form_message" android:lineSpacingExtra="4.0sp" />
+        <com.gbwhatsapp.WaEditText android:textSize="14.0sp" android:textColor="@color/secondary_text" android:gravity="start|center|top" android:id="@id/form_appeal_reason" android:background="@drawable/description_field_background_state_list" android:paddingLeft="@dimen/space_loose" android:paddingTop="@dimen/space_base" android:paddingRight="@dimen/space_loose" android:paddingBottom="@dimen/space_base" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_xLoose" android:layout_marginTop="@dimen/space_xLoose" android:layout_marginRight="@dimen/space_xLoose" android:hint="@string/ban_appeal_form_input_hint" android:lines="4" android:maxLength="5000" android:lineSpacingExtra="4.0sp" />
+        <com.gbwhatsapp.components.Button android:id="@id/submit_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginTop="@dimen/space_loose" android:layout_marginRight="18.0dip" android:text="@string/ban_appeal_form_submit_button" style="@style/WA.Button" />
+    </LinearLayout>
+</ScrollView>

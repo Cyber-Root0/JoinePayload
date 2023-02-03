@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:enabled="false" android:orientation="horizontal" android:id="@id/back" android:paddingLeft="@dimen/conversation_navigation_up_padding" android:paddingRight="0.0dip" android:layout_width="@dimen/conversation_back_button_container_width" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@string/abc_action_bar_up_description" android:paddingStart="@dimen/conversation_navigation_up_padding" android:paddingEnd="0.0dip" style="@style/ActionBarButtonStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaImageView android:layout_gravity="center|left" android:id="@id/whatsapp_toolbar_home" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" app:srcCompat="?homeAsUpIndicator" />
+    <FrameLayout android:layout_gravity="center|left" android:id="@id/conversation_contact_photo_frame" android:layout_width="@dimen/conversation_toolbar_contact_container_width" android:layout_height="@dimen/conversation_toolbar_contact_container_height" android:layout_marginRight="0.0dip">
+        <com.gbwhatsapp.WaImageView android:id="@id/conversation_contact_photo" android:scaleType="fitCenter" style="@style/ConversationToolbarContactPhotoView" />
+        <com.gbwhatsapp.community.SubgroupPileView android:layout_gravity="center" android:id="@id/subgroup_facepile_toolbar_photo" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:subgroupPileView_pileSize="@dimen/space_xxxLoose" />
+        <View android:id="@id/transition_start" style="@style/ConversationToolbarContactPhotoView" />
+        <ViewStub android:id="@id/change_photo_progress_stub" android:layout="@layout/conversation_actionbar_progress" style="@style/ConversationToolbarContactPhotoView" />
+        <com.gbwhatsapp.WaImageView android:layout_gravity="bottom|center|right" android:id="@id/ephemeral_status" android:background="@drawable/primary_color_circle" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_ephemeral" app:backgroundTint="@color/primary" app:tint="@color/screen_title_text" />
+    </FrameLayout>
+</LinearLayout>

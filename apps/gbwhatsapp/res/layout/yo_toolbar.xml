@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidy.appcompat.widget.Toolbar android:id="@id/acjtoolbar" android:background="@color/yosettings_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?actionBarSize" app:navigationContentDescription="@string/abc_action_bar_up_description" app:navigationIcon="?homeAsUpIndicator" app:theme="@style/Toolbar" app:title="@string/action_settings" app:titleTextColor="@color/primary_text"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="16.0dip" android:paddingTop="16.0dip" android:paddingRight="16.0dip" android:paddingBottom="16.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaTextView android:textColor="@color/primary_text" android:id="@id/title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/payment_qr_title" android:layout_weight="1.0" style="@style/Base.TextAppearance.AppCompat.Title" />
+        <com.gbwhatsapp.WaImageView style="@style/PoweredByUpiLogo" />
+    </LinearLayout>
+    <ProgressBar android:id="@id/progress" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="64.0dip" style="?android:progressBarStyleInverse" />
+    <LinearLayout android:gravity="center_vertical" android:id="@id/details_row" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:minHeight="72.0dip">
+        <com.gbwhatsapp.components.button.ThumbnailButton android:enabled="false" android:id="@id/profile_picture" android:layout_width="@dimen/small_avatar_size" android:layout_height="@dimen/small_avatar_size" android:layout_marginRight="22.0dip" android:src="@drawable/avatar_contact" android:scaleType="fitCenter" whatsapp:tbtnForegroundOnly="false" whatsapp:tbtnRadius="@dimen/small_avatar_radius" />
+        <LinearLayout android:orientation="vertical" android:id="@id/contact_info_container" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="@color/list_item_title" android:id="@id/contact_info_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.gbwhatsapp.TextEmojiLabel android:textSize="16.0sp" android:textColor="@color/list_item_sub_title_v2" android:id="@id/contact_info_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/prefill_amount" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="12.0dip">
+        <View android:background="@drawable/payments_divider_gray" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+            <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="@color/secondary_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/payment_qr_amount_requested" android:layout_weight="1.0" whatsapp:fontFamily="sans-serif" />
+            <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="@color/secondary_text" android:id="@id/payment_amount_field" android:layout_width="wrap_content" android:layout_height="wrap_content" whatsapp:fontFamily="sans-serif" />
+        </LinearLayout>
+        <View android:background="@drawable/payments_divider_gray" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="16.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/qr_code_secure_info_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip">
+        <View android:id="@id/qr_code_secure_info_container_divider" android:background="@drawable/payments_divider_gray" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" />
+        <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="@color/secondary_text" android:gravity="center_vertical" android:id="@id/warning_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/payments_qr_dialog_unsafe_code_warning" android:drawableLeft="@drawable/ic_settings_warning" android:drawablePadding="8.0dip" whatsapp:fontFamily="sans-serif" />
+    </LinearLayout>
+    <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="@color/list_item_title" android:id="@id/error_desc" android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <com.gbwhatsapp.components.Button android:id="@id/positive_button" android:layout_width="fill_parent" android:text="@string/payment_qr_new_payment_cta" style="@style/WA.Button" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/button_progress_bar" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" />
+    </FrameLayout>
+</LinearLayout>

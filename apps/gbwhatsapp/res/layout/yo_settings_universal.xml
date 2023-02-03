@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:background="@color/yosettings_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:title="settings_general"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/yo_toolbar" />
+        <LinearLayout android:orientation="vertical" android:id="@id/participants_card" android:background="@drawable/rounded_card" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_divider_text_margin_top">
+            <LinearLayout android:orientation="horizontal" android:id="@id/yoColors" android:background="?android:selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.gbwhatsapp.yo.tf android:text="@string/yoColors" android:drawableLeft="@drawable/universal_colors" android:drawablePadding="@dimen/settings_row_horizontal_padding" android:drawableStart="@drawable/universal_colors" android:drawableTint="@null" style="@style/YoSettings_row_more" />
+            </LinearLayout>
+            <View android:layout_marginLeft="@dimen/settings_row_horizontal_padding" android:layout_marginRight="@dimen/settings_row_horizontal_padding" android:layout_marginStart="@dimen/settings_row_horizontal_padding" android:layout_marginEnd="@dimen/settings_row_horizontal_padding" style="@style/FlatCardSeparator" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/yoStyling" android:background="?android:selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.gbwhatsapp.yo.tf android:text="@string/yoStyling" android:drawableLeft="@drawable/universal_styles" android:drawablePadding="@dimen/settings_row_horizontal_padding" android:drawableStart="@drawable/universal_styles" android:drawableTint="@null" style="@style/YoSettings_row_more" />
+            </LinearLayout>
+            <View android:layout_marginLeft="@dimen/settings_row_horizontal_padding" android:layout_marginRight="@dimen/settings_row_horizontal_padding" android:layout_marginStart="@dimen/settings_row_horizontal_padding" android:layout_marginEnd="@dimen/settings_row_horizontal_padding" style="@style/FlatCardSeparator" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/media_visibility_layout" android:background="?android:selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.gbwhatsapp.yo.tf android:text="@string/yo_hidemedia" android:drawableLeft="@drawable/universal_hide_media" android:drawablePadding="@dimen/settings_row_horizontal_padding" android:drawableStart="@drawable/universal_hide_media" android:drawableTint="@null" style="@style/YoSettings_row_more" />
+            </LinearLayout>
+            <View android:layout_marginLeft="@dimen/settings_row_horizontal_padding" android:layout_marginRight="@dimen/settings_row_horizontal_padding" android:layout_marginStart="@dimen/settings_row_horizontal_padding" android:layout_marginEnd="@dimen/settings_row_horizontal_padding" style="@style/FlatCardSeparator" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/chat_backup_preference" android:background="?android:selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.gbwhatsapp.yo.tf android:text="@string/yoBackupRestore" android:drawableLeft="@drawable/universal_backup" android:drawablePadding="@dimen/settings_row_horizontal_padding" android:drawableStart="@drawable/universal_backup" android:drawableTint="@null" style="@style/YoSettings_row_more" />
+            </LinearLayout>
+            <View android:layout_marginLeft="@dimen/settings_row_horizontal_padding" android:layout_marginRight="@dimen/settings_row_horizontal_padding" android:layout_marginStart="@dimen/settings_row_horizontal_padding" android:layout_marginEnd="@dimen/settings_row_horizontal_padding" style="@style/FlatCardSeparator" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/menuitem_settings" android:background="?android:selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.gbwhatsapp.yo.tf android:text="@string/action_settings" android:drawableLeft="@drawable/universal_settings" android:drawablePadding="@dimen/settings_row_horizontal_padding" android:drawableStart="@drawable/universal_settings" android:drawableTint="@null" style="@style/YoSettings_row_more" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/select_list_layout" android:background="@drawable/rounded_bottom_sheet_dialog" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_gravity="top" android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaImageButton android:layout_gravity="start|center|top" android:id="@id/close" android:background="@null" android:padding="@dimen/inline_controls_padding" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_close" android:contentDescription="@string/close" />
+        <com.gbwhatsapp.WaTextView android:textSize="@dimen/order_details_text_size_16sp" android:textColor="@color/primary_text" android:gravity="center" android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/order_details_layout_margin_56dp" android:layout_marginTop="@dimen/order_details_layout_margin_16dp" android:layout_marginRight="@dimen/order_details_layout_margin_56dp" android:layout_marginBottom="@dimen/order_details_layout_margin_16dp" android:text="@string/order_details_choose_payment_option_title" android:layout_centerInParent="true" android:lineSpacingMultiplier="1.28" app:fontFamily="sans-serif-medium" />
+    </RelativeLayout>
+    <androidy.recyclerview.widget.RecyclerView android:id="@id/payment_option_recycler_view" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layoutManager="androidy.recyclerview.widget.LinearLayoutManager" />
+    <LinearLayout android:id="@id/buttons" android:background="?android:selectableItemBackground" android:padding="@dimen/order_details_layout_margin_16dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/order_details_layout_margin_8dp">
+        <com.gbwhatsapp.components.Button android:textColor="@color/white" android:id="@id/continue_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/btn_continue" android:letterSpacing="0.125" app:layout_constraintStart_toStartOf="parent" style="@style/WA.Button" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/notification_big_icon" android:padding="17.0dip" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_marginLeft="3.0dip" android:layout_marginRight="3.0dip" android:src="@drawable/cpi_notification_xz_success" android:scaleType="centerCrop" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="24.0dip" android:layout_marginEnd="24.0dip">
+        <TextView android:textSize="16.0sp" android:textColor="#ff191919" android:ellipsize="end" android:gravity="start|center" android:layout_gravity="start|center" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="6.0dip" android:lines="1" />
+        <TextView android:textSize="12.0sp" android:textColor="#ff757575" android:ellipsize="end" android:gravity="start" android:layout_gravity="start|center" android:id="@id/msg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="1" />
+    </LinearLayout>
+</LinearLayout>

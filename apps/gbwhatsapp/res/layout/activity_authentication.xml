@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/app_auth_layout_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaImageView android:layout_width="@dimen/app_auth_lock_icon_size" android:layout_height="@dimen/app_auth_lock_icon_size" android:layout_marginTop="@dimen/app_auth_lock_icon_margin_top" android:src="@drawable/ic_wa_locked" app:tint="@color/app_auth_lock_icon" />
+    <com.gbwhatsapp.WaTextView android:textSize="@dimen/app_auth_title_text_size" android:textColor="@color/settings_item_title_text" android:id="@id/auth_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/app_auth_title_margin_top" />
+    <View android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="0.5" />
+    <com.gbwhatsapp.authentication.FingerprintView android:id="@id/fingerprint_view" android:padding="@dimen/fingerprint_view_vertical_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:id="@id/app_unlock" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/unlock_app" android:textAllCaps="true" app:fontFamily="sans-serif-medium" style="@style/WA.Button.Borderless" />
+    <View android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

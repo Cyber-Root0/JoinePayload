@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?actionBarSize"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaImageView android:layout_gravity="start|center" android:id="@id/send_money_review_details_header_back" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:src="@drawable/ic_back" app:tint="@color/fb_pay_hub_icon_tint" app:wivMirrorForRtl="true" />
+    <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="@color/primary_text" android:layout_gravity="center" android:id="@id/send_money_review_details_header_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif-medium" />
+    <com.gbwhatsapp.WaImageView android:layout_gravity="end|center" android:id="@id/send_money_review_details_header_close" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:src="@drawable/ic_close" app:tint="@color/fb_pay_hub_icon_tint" style="?actionButtonStyle" />
+    <View android:layout_gravity="bottom" android:background="@drawable/payments_divider_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+</FrameLayout>

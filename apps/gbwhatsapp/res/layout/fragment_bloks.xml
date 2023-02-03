@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:layout_gravity="center" android:id="@id/bloks_dialogfragment_progressbar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <FrameLayout android:id="@id/bloks_dialogfragment" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.facebook.rendercore.RootHostView android:id="@id/bloks_container" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+</FrameLayout>

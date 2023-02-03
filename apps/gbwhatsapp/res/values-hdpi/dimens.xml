@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="date_balloon_alt_padding_bottom">6.0px</dimen>
+    <dimen name="date_balloon_alt_padding_horizontal">4.0px</dimen>
+    <dimen name="date_balloon_alt_padding_top">3.0px</dimen>
+</resources>

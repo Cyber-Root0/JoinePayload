@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/primary_surface" android:paddingLeft="@dimen/payment_settings_default_margin" android:paddingTop="5.0dip" android:paddingRight="@dimen/payment_settings_default_margin" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/view_more_row" android:background="@color/primary_surface" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.gbwhatsapp.WaImageView android:id="@id/chevron" android:layout_width="@dimen/small_list_avatar_size" android:layout_height="@dimen/small_list_avatar_size" android:layout_marginRight="@dimen/small_list_avatar_padding" android:src="@drawable/ic_chevron_down" android:scaleType="fitCenter" android:contentDescription="@string/contact_profile_photo" />
+        <com.gbwhatsapp.WaTextView android:textColor="@color/list_item_sub_title" android:layout_gravity="center" android:id="@id/view_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/view_more_details" style="@style/ListItemTitle" />
+    </LinearLayout>
+    <com.gbwhatsapp.payments.ui.viewholder.PaymentTransactionStatusTimelineView android:id="@id/timeline_list_view" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@null" />
+</LinearLayout>

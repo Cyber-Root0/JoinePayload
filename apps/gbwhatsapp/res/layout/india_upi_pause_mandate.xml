@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidy.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include app:layout_constraintBottom_toTopOf="@id/content" app:layout_constraintEnd_toStartOf="@id/content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/toolbar" />
+    <androidy.core.widget.NestedScrollView android:id="@id/scroll_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" app:layout_constraintBottom_toTopOf="@id/bottom_barrier" app:layout_constraintEnd_toEndOf="@id/bottom_barrier" app:layout_constraintStart_toEndOf="@id/toolbar" app:layout_constraintTop_toBottomOf="@id/toolbar">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip">
+            <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/hero_img" android:layout_width="64.0dip" android:layout_height="64.0dip" android:src="@drawable/ic_pick_date" android:contentDescription="@string/payment_logo" />
+            <com.gbwhatsapp.WaTextView android:textSize="20.0sp" android:textColor="@color/primary_text" android:gravity="center" android:id="@id/bank_account_picker_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/upi_pause_mandate_title" />
+            <com.gbwhatsapp.TextEmojiLabel android:textColor="@color/primary_text" android:gravity="center" android:id="@id/pause_mandate_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/upi_pause_mandate_subtitle" />
+            <com.google.android.material.textfield.TextInputLayout android:textColorHint="@color/hint_text" android:id="@id/start_date" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" app:errorTextAppearance="@style/ErrorText">
+                <com.gbwhatsapp.WaEditText android:focusable="false" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/upi_start_date_picker_hint" android:drawableRight="@drawable/payment_dropdown_icon" android:drawablePadding="8.0dip" android:inputType="none" app:backgroundTint="@color/hint_text" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout android:textColorHint="@color/hint_text" android:id="@id/end_date" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" app:errorTextAppearance="@style/ErrorText">
+                <com.gbwhatsapp.WaEditText android:focusable="false" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/upi_end_date_picker_hint" android:drawableRight="@drawable/payment_dropdown_icon" android:drawablePadding="8.0dip" android:inputType="none" app:backgroundTint="@color/hint_text" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+    </androidy.core.widget.NestedScrollView>
+    <androidy.constraintlayout.widget.Barrier android:id="@id/bottom_barrier" android:layout_width="wrap_content" android:layout_height="wrap_content" app:barrierDirection="top" />
+    <LinearLayout android:orientation="vertical" android:id="@id/footer" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/scroll_view" app:layout_constraintTop_toBottomOf="@id/scroll_view">
+        <View android:background="@drawable/payments_divider_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <com.gbwhatsapp.WaTextView android:textColor="@color/list_item_sub_title" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/upi_pause_mandate_footer" />
+        <com.gbwhatsapp.components.Button android:gravity="center" android:id="@id/continue_button" android:layout_marginLeft="8.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="16.0dip" android:text="@string/btn_continue" android:maxLines="1" style="@style/WA.Button.FullWidth" />
+    </LinearLayout>
+</androidy.constraintlayout.widget.ConstraintLayout>

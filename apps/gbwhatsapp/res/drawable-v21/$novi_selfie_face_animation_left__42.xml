@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator android:interpolator="@drawable/$novi_selfie_face_animation_left__43" android:duration="1000" android:startOffset="0" android:valueFrom="1" android:valueTo="1" android:valueType="floatType" android:propertyName="scaleX" />
+    <objectAnimator android:interpolator="@drawable/$novi_selfie_face_animation_left__44" android:duration="1000" android:startOffset="0" android:valueFrom="1" android:valueTo="1" android:valueType="floatType" android:propertyName="scaleY" />
+    <objectAnimator android:interpolator="@drawable/$novi_selfie_face_animation_left__45" android:duration="1000" android:startOffset="1000" android:valueFrom="1" android:valueTo="1.01" android:valueType="floatType" android:propertyName="scaleX" />
+    <objectAnimator android:interpolator="@drawable/$novi_selfie_face_animation_left__46" android:duration="1000" android:startOffset="1000" android:valueFrom="1" android:valueTo="1.01" android:valueType="floatType" android:propertyName="scaleY" />
+    <objectAnimator android:interpolator="@drawable/$novi_selfie_face_animation_left__47" android:duration="1000" android:startOffset="2000" android:valueFrom="1.01" android:valueTo="1.01" android:valueType="floatType" android:propertyName="scaleX" />
+    <objectAnimator android:interpolator="@drawable/$novi_selfie_face_animation_left__48" android:duration="1000" android:startOffset="2000" android:valueFrom="1.01" android:valueTo="1.01" android:valueType="floatType" android:propertyName="scaleY" />
+    <objectAnimator android:interpolator="@drawable/$novi_selfie_face_animation_left__49" android:duration="1000" android:startOffset="3000" android:valueFrom="1.01" android:valueTo="1" android:valueType="floatType" android:propertyName="scaleX" />
+    <objectAnimator android:interpolator="@drawable/$novi_selfie_face_animation_left__50" android:duration="1000" android:startOffset="3000" android:valueFrom="1.01" android:valueTo="1" android:valueType="floatType" android:propertyName="scaleY" />
+</set>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/mainLayout" android:background="@color/yosettings_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidy.appcompat.widget.Toolbar android:id="@id/acjtoolbar" android:background="@color/yosettings_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?actionBarSize" app:navigationContentDescription="@string/abc_action_bar_up_description" app:navigationIcon="?homeAsUpIndicator" app:theme="@style/Toolbar" app:title="@string/action_settings" app:titleTextColor="@color/primary_text" />
+    <androidy.recyclerview.widget.RecyclerView android:id="@id/list_view" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:divider="@null" android:layout_below="@id/acjtoolbar" />
+    <ImageView android:layout_gravity="end|bottom|center" android:id="@id/add_msg" android:background="@drawable/input_circle_green" android:layout_width="56.0dip" android:layout_height="56.0dip" android:layout_margin="16.0dip" android:src="@drawable/ic_action_add" android:scaleType="center" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" />
+</RelativeLayout>

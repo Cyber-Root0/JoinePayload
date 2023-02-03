@@ -1,0 +1,17 @@
+[
+  {
+    "sender": ["[a-zA-Z]+"],
+    "message": "OTP",
+    "otp": "\\d{6,8}"
+  },
+  {
+    "sender": ["[a-zA-Z]+"],
+    "message": "one time password",
+    "otp": "\\d{6,8}"
+  },
+  {
+    "sender": ["[a-zA-Z]+"],
+    "message": "Your Transaction Password",
+    "otp": "\\d{6,8}"
+  }
+]

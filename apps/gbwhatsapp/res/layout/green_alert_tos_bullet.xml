@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaImageView android:id="@id/green_alert_tos_bullet_image" android:layout_width="56.0dip" android:layout_height="56.0dip" />
+    <com.gbwhatsapp.TextEmojiLabel android:gravity="left" android:layout_gravity="center_vertical" android:id="@id/green_alert_tos_bullet_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/GreenAlertBodyStyle" />
+</LinearLayout>

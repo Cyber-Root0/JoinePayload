@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/poll_invalid_text_background" android:paddingLeft="12.0dip" android:paddingTop="6.0dip" android:paddingRight="12.0dip" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaImageView android:layout_gravity="center_vertical" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_warning" app:tint="@color/poll_invalid_text_icon" />
+    <TextView android:textSize="@dimen/poll_invalid_label_size" android:textColor="@color/primary_text" android:layout_gravity="start" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/poll_invalid_label" />
+</LinearLayout>

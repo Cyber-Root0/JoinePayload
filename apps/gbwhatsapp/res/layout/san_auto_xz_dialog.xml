@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/common_text_size_16sp" android:textColor="@color/black" android:gravity="center" android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/common_dimens_25dp" android:layout_marginTop="@dimen/common_dimens_20dp" android:layout_marginRight="@dimen/common_dimens_25dp" android:layout_marginBottom="@dimen/common_dimens_20dp" />
+    <ImageView android:background="@color/san_black_transparent_10" android:layout_width="fill_parent" android:layout_height="@dimen/common_dimens_0.5dp" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:paddingTop="@dimen/common_dimens_15dp" android:paddingBottom="@dimen/common_dimens_15dp" android:layout_width="@dimen/common_dimens_0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/common_text_size_14sp" android:textStyle="bold" android:textColor="@color/color_009868" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_yes" android:background="@drawable/san_auto_xz_button_bg" android:layout_width="@dimen/common_dimens_150dp" android:layout_height="@dimen/common_dimens_36dp" android:text="@string/common_desc_yes" />
+        </FrameLayout>
+        <FrameLayout android:paddingTop="@dimen/common_dimens_15dp" android:paddingBottom="@dimen/common_dimens_15dp" android:layout_width="@dimen/common_dimens_0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/common_text_size_14sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_no" android:background="@drawable/san_button_filled_blue" android:layout_width="@dimen/common_dimens_150dp" android:layout_height="@dimen/common_dimens_36dp" android:text="@string/common_desc_no" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

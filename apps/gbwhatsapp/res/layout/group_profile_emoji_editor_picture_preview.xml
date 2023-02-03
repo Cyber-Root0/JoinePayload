@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/picturePreview" android:background="@drawable/circular_avatar_background" android:layout_width="@dimen/group_photo_editor_preview_size" android:layout_height="@dimen/group_photo_editor_preview_size" android:layout_marginTop="@dimen/group_photo_editor_preview_margin" android:layout_marginBottom="@dimen/group_photo_editor_preview_margin" android:scaleType="fitCenter" />
+</FrameLayout>

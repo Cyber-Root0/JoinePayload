@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/rounded_bottom_sheet_dialog" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.BidiToolbar android:id="@id/toolbar" android:paddingRight="@dimen/space_loose" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginTop="@dimen/space_base" app:contentInsetEnd="0.0dip" app:contentInsetLeft="0.0dip" app:contentInsetRight="0.0dip" app:contentInsetStart="0.0dip">
+        <com.gbwhatsapp.WaTextView android:textAppearance="@style/TextAppearance.General.Headline6" android:layout_gravity="center_vertical" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_xLoose" />
+    </com.gbwhatsapp.BidiToolbar>
+    <androidy.recyclerview.widget.RecyclerView android:layout_gravity="center_horizontal" android:id="@id/intent_recycler" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_loose" android:layout_marginBottom="@dimen/space_loose" />
+</LinearLayout>

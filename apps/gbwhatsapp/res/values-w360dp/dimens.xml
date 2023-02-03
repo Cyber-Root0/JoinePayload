@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="companion_registration_linking_padding">32.0dip</dimen>
+    <dimen name="companion_registration_loading_spinner_bottom_padding">164.0dip</dimen>
+    <dimen name="companion_registration_loading_spinner_top_padding">96.0dip</dimen>
+    <dimen name="companion_registration_qr_size">260.0dip</dimen>
+    <dimen name="companion_registration_qr_spinner_padding">108.0dip</dimen>
+</resources>

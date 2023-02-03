@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.yo.ColorPref android:title="@string/yo_universal" android:key="ModConPickColor" android:summary="@string/yo_universal_sum" />
+    <com.gbwhatsapp.yo.ColorPref android:title="@string/yo_uaction" android:key="HomeBarText" android:summary="@string/yo_uactionS" />
+    <com.gbwhatsapp.yo.ColorPref android:title="@string/acj_bg" android:key="ModConBackColor" android:summary="@string/acj_uni_bg_sum" />
+    <com.gbwhatsapp.yo.ColorPref android:title="@string/listBackground" android:key="list_bg_color" android:summary="@string/listBackgroundSum" />
+    <com.gbwhatsapp.yo.ColorPref android:title="@string/acj_statbar" android:key="ModDarkConPickColor" android:summary="@string/acj_uni_stat_sum" />
+    <com.gbwhatsapp.yo.ColorPref android:title="@string/acj_navbar" android:key="ModDarkConPickColorNav" android:summary="@string/acj_uni_nav_sum" />
+</PreferenceScreen>

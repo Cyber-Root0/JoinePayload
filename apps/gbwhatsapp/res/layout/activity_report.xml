@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/report_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/report_header" layout="@layout/report_header" />
+        <View android:id="@id/report_header_divider" android:background="?settingsDividerColor" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" />
+        <include android:id="@id/request_gdpr_report_container" layout="@layout/request_report_item" />
+        <View android:id="@id/reports_divider" android:background="?settingsDividerColor" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" />
+        <include android:id="@id/request_p2b_report_container" layout="@layout/request_report_item" />
+    </LinearLayout>
+</ScrollView>

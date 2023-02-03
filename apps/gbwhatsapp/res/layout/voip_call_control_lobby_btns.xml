@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/list_row_padding" android:paddingTop="18.0dip" android:paddingRight="@dimen/list_row_padding" android:paddingBottom="18.0dip" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/call_control_bottom_sheet_btn_stub_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.button.MaterialButton android:theme="@style/VoipCallLobbyNegativeButton" android:id="@id/negative_button" style="@style/VoipLobbyActionButton" />
+    <com.google.android.material.button.MaterialButton android:theme="@style/VoipCallLobbyPositiveButton" android:id="@id/positive_button" style="@style/VoipLobbyActionButton" />
+</LinearLayout>

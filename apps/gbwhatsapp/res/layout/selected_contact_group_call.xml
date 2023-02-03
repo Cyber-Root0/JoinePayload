@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="@dimen/selected_contact_group_call_right_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center" android:id="@id/contact_selector" android:layout_width="@dimen/selected_contacts_item_max_width" android:layout_height="@dimen/selected_contacts_item_height">
+        <com.gbwhatsapp.components.button.ThumbnailButton android:enabled="false" android:layout_gravity="center_horizontal" android:id="@id/contact_row_photo" android:layout_width="@dimen/selected_contact_avatar_size" android:layout_height="@dimen/selected_contact_avatar_size" android:scaleType="fitCenter" whatsapp:tbtnForegroundOnly="false" whatsapp:tbtnRadius="@dimen/small_avatar_radius" />
+        <FrameLayout android:layout_gravity="bottom|center|right" android:id="@id/close" android:layout_width="21.0dip" android:layout_height="21.0dip">
+            <com.gbwhatsapp.WaImageView android:background="@drawable/primary_color_circle" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:background="@drawable/grey_circle" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/ic_profile_x" android:scaleType="center" android:contentDescription="@string/remove" whatsapp:tint="@color/selection_check" />
+        </FrameLayout>
+    </FrameLayout>
+    <com.gbwhatsapp.WaTextView android:textSize="12.0sp" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/contact_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:maxWidth="@dimen/selected_contacts_item_max_width" android:singleLine="true" />
+</LinearLayout>

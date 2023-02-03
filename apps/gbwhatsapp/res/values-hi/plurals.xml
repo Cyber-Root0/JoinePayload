@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">वीडियो को %d सेकंड आगे बढ़ाएं</item>
+        <item quantity="one">वीडियो को %d सेकंड आगे बढ़ाएं</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">वीडियो को %d सेकंड पीछे ले जाएं</item>
+        <item quantity="one">वीडियो को %d सेकंड पीछे ले जाएं</item>
+    </plurals>
+    <plurals name="export_backup_not_enough_space_message">
+        <item quantity="other">चैट्स एक्सपोर्ट करने के लिए %s स्टोरेज की ज़रूरत होगी. एक्सपोर्ट करने से पहले स्टोरेज के लिए जगह खाली करें.</item>
+    </plurals>
+    <plurals name="import_backup_not_enough_space_message">
+        <item quantity="other">इंपोर्ट करने के लिए %s स्टोरेज की ज़रूरत होगी. इंपोर्ट करने से पहले स्टोरेज के लिए जगह खाली करें.</item>
+    </plurals>
+    <plurals name="move_chats_insufficient_space_dialog">
+        <item quantity="other">ट्रांसफ़र करने के लिए इस डिवाइस पर %1$s की ज़रूरत है. WhatsApp के स्टोरेज मैनेजमेंट टूल का इस्तेमाल करके डिवाइस पर जगह खाली करें.</item>
+    </plurals>
+    <plurals name="settings_gdrive_video_size_to_be_uploaded_plural">
+        <item quantity="other">‎%s अपलोड होना बाकी है</item>
+    </plurals>
+</resources>

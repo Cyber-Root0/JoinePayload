@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/shops_navbar_cart_button" android:visible="false" android:orderInCategory="100" android:title="@string/cart" android:actionLayout="@layout/toolbar" app:showAsAction="ifRoom" />
+    <item android:id="@id/shops_nav_bar_more_options" android:visible="false" android:orderInCategory="100" android:title="@string/more" android:actionLayout="@layout/toolbar" app:showAsAction="ifRoom" />
+</menu>

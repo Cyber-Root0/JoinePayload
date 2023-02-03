@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidy.constraintlayout.widget.ConstraintLayout android:background="?selectableItemBackground" android:paddingLeft="27.0dip" android:paddingTop="@dimen/dir_margin_12" android:paddingRight="32.0dip" android:paddingBottom="@dimen/dir_margin_12" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaImageView android:id="@id/search_icon" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/ic_action_search" android:contentDescription="@string/search" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:tint="@color/wds_cool_gray_400" />
+    <com.gbwhatsapp.TextEmojiLabel android:textSize="16.0sp" android:id="@id/category_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="27.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/search_icon" app:layout_constraintTop_toTopOf="parent" style="@style/CategorySearchTextStyle" />
+</androidy.constraintlayout.widget.ConstraintLayout>

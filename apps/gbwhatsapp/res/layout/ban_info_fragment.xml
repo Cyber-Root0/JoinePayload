@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ban_info" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <com.gbwhatsapp.WaImageView android:id="@id/ban_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.gbwhatsapp.WaTextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/primary_text" android:gravity="center" android:id="@id/heading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_xxLoose" android:layout_marginTop="36.0dip" android:layout_marginRight="@dimen/space_xxLoose" android:lineSpacingExtra="1.0sp" />
+            <com.gbwhatsapp.TextEmojiLabel android:textSize="14.0sp" android:textColor="@color/primary_text" android:gravity="center" android:id="@id/sub_heading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_xxLoose" android:layout_marginTop="@dimen/space_base" android:layout_marginRight="@dimen/space_xxLoose" android:lineSpacingExtra="4.0sp" />
+            <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="@color/primary_text" android:gravity="center" android:id="@id/sub_heading_2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_xxLoose" android:layout_marginTop="@dimen/space_xLoose" android:layout_marginRight="@dimen/space_xxLoose" android:lineSpacingExtra="4.0sp" />
+        </LinearLayout>
+        <com.gbwhatsapp.components.Button android:gravity="center" android:id="@id/action_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/space_loose" style="@style/WA.Button.Secondary" />
+        <com.gbwhatsapp.components.Button android:gravity="center" android:id="@id/action_button_2" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/space_loose" style="@style/WA.Button" />
+    </LinearLayout>
+</ScrollView>

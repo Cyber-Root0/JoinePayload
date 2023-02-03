@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidy.recyclerview.widget.RecyclerView android:id="@id/search_history_recycler_view" android:paddingLeft="@dimen/product_margin_24dp" android:paddingTop="10.0dip" android:paddingRight="@dimen/product_margin_8dp" android:paddingBottom="10.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

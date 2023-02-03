@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center|left" android:orientation="vertical" android:id="@id/request_phone_number_main_layout" android:paddingLeft="@dimen/space_tight" android:paddingTop="@dimen/space_tight" android:paddingRight="@dimen/space_tight" android:layout_width="@dimen/share_phone_number_width" android:layout_height="wrap_content" android:layout_marginRight="@dimen/conversation_row_margin_large" android:minHeight="30.0dip">
+        <LinearLayout android:orientation="horizontal" android:background="@drawable/pnh_message_background" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.gbwhatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@id/request_ph_icon" android:background="@drawable/pnh_share_phone_number_icon_bg" android:padding="@dimen/space_base" android:paddingBottom="1.0dip" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="@dimen/space_base" app:srcCompat="@drawable/ic_pn_sharing_on_24" app:tint="@color/accent_highlight_text" />
+            <view android:id="@id/conversation_text_row" android:paddingLeft="@dimen/space_xTight" android:paddingRight="@dimen/space_tight" android:paddingBottom="@dimen/space_xTight" android:layout_width="fill_parent" android:layout_height="wrap_content" class="com.gbwhatsapp.components.TextAndDateLayout">
+                <com.gbwhatsapp.TextEmojiLabel android:textSize="@dimen/share_phone_number_text_size" android:textColor="@color/primary_text" android:layout_gravity="left" android:id="@id/message_text" android:paddingLeft="@dimen/conversation_row_inner_item_padding" android:paddingTop="2.0dip" android:paddingRight="@dimen/conversation_row_inner_item_padding" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom|center|right" android:orientation="horizontal" android:id="@id/date_wrapper" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.gbwhatsapp.WaTextView android:id="@id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/WA.TextAppearance.ConversationRowDateRight" />
+                    <com.gbwhatsapp.WaImageView android:id="@id/status" android:paddingLeft="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </LinearLayout>
+            </view>
+        </LinearLayout>
+        <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="@color/pnh_share_phone_number_cta" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/request_phone_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/space_base" android:text="@string/pn_share_phone_number" android:fontFamily="sans-serif-medium" />
+    </LinearLayout>
+</merge>

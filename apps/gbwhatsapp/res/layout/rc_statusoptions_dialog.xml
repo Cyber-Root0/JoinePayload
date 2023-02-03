@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/mHolder" android:background="@drawable/rc_dialog_bg" android:paddingLeft="16.0dip" android:paddingTop="12.0dip" android:paddingRight="16.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:backgroundTint="@color/primarySurface_3dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="8.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/bar_image" android:layout_width="70.0dip" android:layout_height="fill_parent" android:src="@drawable/rc_dotline_dialog" android:tintMode="src_atop" app:tint="@color/list_item_title" />
+    </LinearLayout>
+    <com.gbwhatsapp.yo.tf android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/list_item_title" android:layout_gravity="center|left" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginTop="3.0dip" android:layout_marginBottom="3.0dip" android:text="@string/my_status_more_options_content_description" />
+    <View android:background="@color/divider_gray" android:layout_width="fill_parent" android:layout_height="0.9dip" android:layout_marginBottom="10.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:tag="status_copyLL" android:padding="10.0dip" android:paddingTop="10.0dip" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="1.5dip" android:layout_marginRight="1.5dip" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_action_copy_select" app:tint="@color/list_item_title" />
+            <com.gbwhatsapp.yo.tf android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/list_item_title" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/copy_caption" android:maxLines="2" />
+        </LinearLayout>
+        <LinearLayout android:gravity="top" android:orientation="vertical" android:tag="status_saveLL" android:padding="10.0dip" android:paddingTop="10.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="1.5dip" android:layout_marginRight="1.5dip" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_downloadstatus" app:tint="@color/list_item_title" />
+            <com.gbwhatsapp.yo.tf android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/list_item_title" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/save" android:singleLine="true" />
+        </LinearLayout>
+        <LinearLayout android:gravity="top" android:layout_gravity="center" android:orientation="vertical" android:tag="status_shareLL" android:padding="10.0dip" android:paddingTop="10.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="1.5dip" android:layout_marginRight="1.5dip" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_action_share" app:tint="@color/list_item_title" />
+            <com.gbwhatsapp.yo.tf android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/list_item_title" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/share" android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

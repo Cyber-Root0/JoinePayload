@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/pen_mode_view_gradient_background" android:layout_width="fill_parent" android:layout_height="@dimen/doodle_wave2_gradient_background_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <com.gbwhatsapp.WaImageView android:layout_gravity="bottom" android:id="@id/pen_mode_thin" android:padding="@dimen/pen_mode_icon_padding" android:layout_width="@dimen/pen_mode_icon_size" android:layout_height="@dimen/pen_mode_icon_size" android:src="@drawable/pen_mode_thin" />
+    <Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <com.gbwhatsapp.WaImageView android:layout_gravity="bottom" android:id="@id/pen_mode_medium" android:background="@drawable/pen_mode_selected_background" android:padding="@dimen/pen_mode_icon_padding" android:layout_width="@dimen/pen_mode_icon_size" android:layout_height="@dimen/pen_mode_icon_size" android:src="@drawable/pen_mode_medium" />
+    <Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <com.gbwhatsapp.WaImageView android:layout_gravity="bottom" android:id="@id/pen_mode_thick" android:padding="@dimen/pen_mode_icon_padding" android:layout_width="@dimen/pen_mode_icon_size" android:layout_height="@dimen/pen_mode_icon_size" android:src="@drawable/pen_mode_thick" />
+    <Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <com.gbwhatsapp.WaImageView android:layout_gravity="bottom" android:id="@id/pen_mode_blur" android:padding="@dimen/blur_mode_icon_padding" android:layout_width="@dimen/pen_mode_icon_size" android:layout_height="@dimen/pen_mode_icon_size" android:src="@drawable/pen_mode_blur" />
+    <Space android:id="@id/pen_mode_blur_space" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

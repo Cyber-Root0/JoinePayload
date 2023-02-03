@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:elevation="3.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.yo.tf android:textSize="21.0sp" android:textStyle="bold" android:textColor="@android:color/black" android:gravity="center" android:paddingTop="24.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fingerprint_bottom_sheet_title" android:paddingStart="24.0dip" android:paddingEnd="24.0dip" />
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <include layout="@layout/fingerprint_dialog_content" />
+    </FrameLayout>
+    <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@id/buttonPanel" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" style="?android:buttonBarStyle">
+        <Space android:id="@id/spacer" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <Button android:id="@id/cancel_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@android:string/cancel" style="?android:buttonBarNegativeButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

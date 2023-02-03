@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <paths>
+        <external-path name="mq_DCIM" path="DCIM/camerademo" />
+        <external-path name="mq_Pictures" path="Pictures/camerademo" />
+        <files-path name="mq_private_files" path="images" />
+        <cache-path name="mq_private_cache" path="images" />
+        <external-files-path name="mq_external_files" path="Pictures" />
+        <external-cache-path name="mq_external_cache" path="" />
+        <root-path name="mq_external_cache" path="" />
+    </paths>
+</resources>

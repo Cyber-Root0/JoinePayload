@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/reaction_bubble_bg_radius" />
+    <stroke android:width="1.0dip" android:color="@color/reactions_bubble_border" />
+    <solid android:color="@color/reactions_bubble_background" />
+</shape>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/name_in_group" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ConversationRowGroupNameContainer"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.TextEmojiLabel android:id="@id/name_in_group_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ConversationRowParticipantName" />
+    <com.gbwhatsapp.WaImageView android:gravity="center" android:layout_gravity="center" android:id="@id/div2" android:visibility="invisible" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/admin_shield" />
+    <com.gbwhatsapp.TextEmojiLabel android:id="@id/pushname_in_group_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ConversationRowPushName" />
+</LinearLayout>

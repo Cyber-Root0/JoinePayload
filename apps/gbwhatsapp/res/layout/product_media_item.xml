@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingLeft="12.0dip" android:paddingTop="6.0dip" android:paddingRight="12.0dip" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaFrameLayout android:background="@color/primary_surface" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="@drawable/balloon_incoming_frame" app:waflForegroundTint="@color/bubble_color_incoming">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/link_preview_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:minWidth="280.0dip">
+            <FrameLayout android:id="@id/thumb_frame" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.gbwhatsapp.components.button.ThumbnailButton android:id="@id/thumb" android:layout_width="@dimen/product_catalog_list_thumb_size" android:layout_height="@dimen/product_catalog_list_thumb_size" android:scaleType="centerCrop" />
+                <com.gbwhatsapp.CircularProgressBar android:layout_gravity="center" android:id="@id/progress" android:padding="16.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:indeterminateOnly="true" app:cpbBackground="@color/transparent" app:cpbColor="@color/neutral_progress_bar" app:cpbFill="@color/transparent" app:cpbOutlineColor="@color/neutral_progress_bar_outline" app:cpbOutlineWidth="1.0dip" app:cpbStrokeWidthFactor="10.0" />
+            </FrameLayout>
+            <LinearLayout android:orientation="vertical" android:paddingLeft="8.0dip" android:paddingTop="4.0dip" android:paddingRight="4.0dip" android:paddingBottom="4.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <com.gbwhatsapp.WaTextView android:textSize="@dimen/product_catalog_detail_text_size" android:textColor="@color/primary_text" android:ellipsize="end" android:gravity="left" android:layout_gravity="left" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="3" android:lineSpacingMultiplier="1.08" />
+            </LinearLayout>
+        </LinearLayout>
+        <com.gbwhatsapp.WaImageView android:id="@id/starred_status" android:paddingLeft="60.0dip" android:paddingTop="60.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/message_star_media_gallery" />
+    </com.gbwhatsapp.WaFrameLayout>
+</FrameLayout>

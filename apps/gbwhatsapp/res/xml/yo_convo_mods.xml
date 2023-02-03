@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:robobunny="http://robobunny.com">
+    <SwitchPreference android:title="@string/convo_emoji_title" android:key="emoji" android:summary="@string/convo_emoji" android:defaultValue="true" />
+    <ListPreference android:entries="@array/translation_preference" android:title="@string/inconvo_trans_option" android:key="inconvo_trans_option" android:summary="@string/inconvo_trans_option_explainer" android:defaultValue="in-y" android:entryValues="@array/translation_preferenceVals" />
+    <SwitchPreference android:title="@string/convo_confirm_before_sendingStkr" android:key="stkr_wantsendconfirmation" android:summary="@string/convo_confirm_before_sendingStkr" android:defaultValue="false" />
+    <SwitchPreference android:title="@string/new_convoattachment_design" android:key="newAttach_BottomDesign" android:defaultValue="false" />
+    <SwitchPreference android:title="@string/customwall" android:key="custom_wall" android:summary="@string/customwallS" android:defaultValue="false" />
+    <SwitchPreference android:title="@string/custom_wall_profilepic" android:key="custom_wall_profilepic" android:summary="@string/custom_wall_profilepicS" android:dependency="custom_wall" android:defaultValue="false" />
+    <SwitchPreference android:title="@string/yoHideInfo" android:key="yo_hideinfo" android:summary="@string/yoHideInfoSum" android:defaultValue="true" />
+    <PreferenceCategory android:title="@string/yoAudio">
+        <SwitchPreference android:title="@string/yoAudioSensor" android:key="Audio_sensor" android:summary="@string/yoAudioSensorSum" android:defaultValue="true" />
+        <SwitchPreference android:title="@string/yoAudioEars" android:key="Audio_ears" android:summary="@string/yoAudioEarsSum" android:dependency="Audio_sensor" android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

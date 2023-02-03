@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="@dimen/list_contact_selector_width" android:layout_height="fill_parent">
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/backup_quota_banner_icon" android:background="@drawable/banner_info_circle" android:padding="@dimen/banner_icon_padding" android:layout_width="@dimen/banner_icon_diameter" android:layout_height="@dimen/banner_icon_diameter" android:src="@drawable/ic_backup_small" app:tint="@color/banner_info_icon_tint" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:layout_marginBottom="18.0dip" android:layout_weight="1.0">
+        <com.gbwhatsapp.WaTextView android:textSize="@dimen/banner_title_text_size" android:textColor="@color/primary_text" android:id="@id/backup_quota_banner_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gdrive_backup_quota_approaching_title" android:includeFontPadding="false" android:fontFamily="sans-serif-medium" />
+        <com.gbwhatsapp.TextEmojiLabel android:textSize="@dimen/banner_description_text_size" android:textColor="@color/secondary_text" android:id="@id/backup_quota_banner_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/gdrive_backup_quota_approaching_message" android:includeFontPadding="false" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/dismiss_backup_quota_banner_container" android:background="?android:selectableItemBackground" android:layout_width="@dimen/banner_dismiss_button_side_length" android:layout_height="@dimen/banner_dismiss_button_side_length" android:layout_marginLeft="@dimen/banner_dismiss_button_left_margin" android:layout_marginRight="@dimen/banner_dismiss_button_right_margin">
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_close" app:tint="@color/secondary_text" />
+    </FrameLayout>
+</LinearLayout>

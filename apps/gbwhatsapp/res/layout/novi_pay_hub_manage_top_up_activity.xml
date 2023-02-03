@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidy.constraintlayout.widget.ConstraintLayout android:background="@drawable/round_rectangle" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.payments.ui.widget.PayToolbar android:id="@id/pay_service_toolbar" android:layout_width="fill_parent" android:layout_height="48.0dip" app:contentInsetLeft="0.0dip" app:contentInsetStartWithNavigation="0.0dip" app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/pay_service_toolbar">
+        <View android:id="@id/toolbar_bottom_divider" android:background="@color/payments_divider_gray" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <androidy.recyclerview.widget.RecyclerView android:id="@id/payment_component_list" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <com.gbwhatsapp.components.Button android:enabled="false" android:id="@id/novi_pay_hub_manage_top_up_save" android:layout_width="fill_parent" android:layout_height="@dimen/novi_pay_common_button_height" android:layout_margin="@dimen/payment_settings_default_margin" android:text="@string/save" app:layout_constraintBottom_toBottomOf="parent" style="@style/NoviPayPrimaryButton" />
+</androidy.constraintlayout.widget.ConstraintLayout>

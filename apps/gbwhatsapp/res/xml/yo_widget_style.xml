@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:robobunny="http://robobunny.com">
+    <com.gbwhatsapp.yo.ColorPref android:title="@string/acj_bg" android:key="ModWdgBKColor" />
+    <com.gbwhatsapp.yo.ColorPref android:title="@string/yoContactNameC" android:key="ModWdgTitleColor" />
+    <com.gbwhatsapp.yo.ColorPref android:title="@string/contactstatusTC" android:key="ModWdgStatusColor" />
+</PreferenceScreen>

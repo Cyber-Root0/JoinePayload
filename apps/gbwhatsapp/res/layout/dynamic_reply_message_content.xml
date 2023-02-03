@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.TextEmojiLabel android:textSize="@dimen/conversation_text_row_tv" android:textColor="@color/conversation_template_top_message_text_color" android:id="@id/top_message" android:paddingLeft="@dimen/conversation_row_inner_item_padding" android:paddingTop="2.0dip" android:paddingRight="@dimen/conversation_row_inner_item_padding" android:paddingBottom="4.0dip" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.gbwhatsapp.components.TextAndDateLayout android:id="@id/text_and_date" android:layout_width="fill_parent" android:layout_height="wrap_content" app:adjustTextGravity="true">
+        <com.gbwhatsapp.TextEmojiLabel android:textSize="@dimen/conversation_text_row_tv_small" android:textColor="@color/conversation_row_date" android:layout_gravity="left" android:id="@id/bottom_message" android:paddingLeft="@dimen/conversation_row_inner_item_padding" android:paddingTop="2.0dip" android:paddingRight="@dimen/conversation_row_inner_item_padding" android:paddingBottom="@dimen/conversation_template_row_footer_margin_bottom" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom|center|right" android:orientation="horizontal" android:id="@id/date_wrapper" android:paddingLeft="6.0dip" android:paddingRight="6.0dip" android:paddingBottom="@dimen/conversation_image_date_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.gbwhatsapp.WaTextView android:id="@id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/WA.TextAppearance.ConversationRowDate" />
+        </LinearLayout>
+    </com.gbwhatsapp.components.TextAndDateLayout>
+</merge>

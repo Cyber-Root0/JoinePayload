@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/black_alpha_05" />
+            <corners android:radius="@dimen/call_grid_border_radius" />
+            <stroke android:width="@dimen/call_grid_border_width_for_speaker" android:color="@color/black_alpha_05" />
+        </shape>
+    </item>
+    <item android:id="@id/background_shape" android:left="0.0dip" android:top="0.0dip" android:right="0.0dip" android:bottom="@dimen/voice_call_grid_elevation">
+        <shape>
+            <solid android:color="@color/voice_call_grid_fill_color" />
+            <corners android:radius="@dimen/call_grid_border_radius" />
+            <stroke android:width="@dimen/call_grid_border_width_for_speaker" android:color="@color/voice_call_grid_fill_color" />
+        </shape>
+    </item>
+</layer-list>

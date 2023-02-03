@@ -1,0 +1,1635 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_poll_option_selected">
+        <item quantity="other">%1$s, checkbox checked, %2$s votes, you voted</item>
+        <item quantity="one">%1$s, checkbox checked, %2$s vote, you voted</item>
+    </plurals>
+    <plurals name="accessibility_poll_option_unselected">
+        <item quantity="other">%1$s, checkbox not checked, %2$s votes</item>
+        <item quantity="one">%1$s, checkbox not checked, %2$s vote</item>
+    </plurals>
+    <plurals name="accessibility_video_timeline_announce_video_edited">
+        <item quantity="other">Trim from %1$d to %2$d seconds</item>
+        <item quantity="one">Trim from %1$d to %2$d seconds</item>
+    </plurals>
+    <plurals name="app_auth_enabled_values">
+        <item quantity="other">Enabled after %d minutes</item>
+        <item quantity="one">Enabled after %d minute</item>
+    </plurals>
+    <plurals name="app_auth_timeout_values">
+        <item quantity="other">After %d minutes</item>
+        <item quantity="one">After %d minute</item>
+    </plurals>
+    <plurals name="biz_dir_facebook_likes">
+        <item quantity="other">%1$s likes</item>
+        <item quantity="one">%1$s like</item>
+    </plurals>
+    <plurals name="biz_dir_instagram_followers">
+        <item quantity="other">%1$s followers</item>
+        <item quantity="one">%1$s follower</item>
+    </plurals>
+    <plurals name="broadcast_list_subtitle">
+        <item quantity="other">Broadcast List · %d recipients</item>
+        <item quantity="one">Broadcast List · %d recipient</item>
+    </plurals>
+    <plurals name="broadcast_n_recipients">
+        <item quantity="other">%d recipients</item>
+        <item quantity="one">%d recipient</item>
+    </plurals>
+    <plurals name="broadcast_reach_limit">
+        <item quantity="other">Broadcast to a maximum of %1$d people at a time.</item>
+        <item quantity="one">Broadcast to a maximum of %1$d person at a time.</item>
+    </plurals>
+    <plurals name="bulk_archive">
+        <item quantity="other">Archive chats</item>
+        <item quantity="one">Archive chat</item>
+    </plurals>
+    <plurals name="bulk_conversations_archived_confirmation">
+        <item quantity="other">%d chats archived</item>
+        <item quantity="one">%d chat archived</item>
+    </plurals>
+    <plurals name="bulk_delete">
+        <item quantity="other">Delete chats</item>
+        <item quantity="one">Delete chat</item>
+    </plurals>
+    <plurals name="bulk_delete_conversations">
+        <item quantity="other">Delete %1$d selected chats?</item>
+        <item quantity="one">Delete %1$d selected chat?</item>
+    </plurals>
+    <plurals name="bulk_exit">
+        <item quantity="other">Exit groups</item>
+        <item quantity="one">Exit group</item>
+    </plurals>
+    <plurals name="bulk_leave_conversations">
+        <item quantity="other">Exit %1$d selected groups?</item>
+        <item quantity="one">Exit %1$d selected group?</item>
+    </plurals>
+    <plurals name="bulk_pin">
+        <item quantity="other">Pin chats</item>
+        <item quantity="one">Pin chat</item>
+    </plurals>
+    <plurals name="bulk_unarchive">
+        <item quantity="other">Unarchive chats</item>
+        <item quantity="one">Unarchive chat</item>
+    </plurals>
+    <plurals name="bulk_unpin">
+        <item quantity="other">Unpin chats</item>
+        <item quantity="one">Unpin chat</item>
+    </plurals>
+    <plurals name="cannot_pin">
+        <item quantity="other">You can only pin up to %1$d chats</item>
+        <item quantity="one">You can only pin up to %1$d chat</item>
+    </plurals>
+    <plurals name="catalog_send_product_message">
+        <item quantity="other">Loading %1$d of %2$d messages…</item>
+        <item quantity="one">Loading %1$d of %2$d message…</item>
+    </plurals>
+    <plurals name="change_number_n_contacts">
+        <item quantity="other">Your groups and &lt;a href=\"contacts-link\">%d contacts&lt;/a> will be notified about your new number.</item>
+        <item quantity="one">Your groups and &lt;a href=\"contacts-link\">%d contact&lt;/a> will be notified about your new number.</item>
+    </plurals>
+    <plurals name="community_activity_three_or_more_add">
+        <item quantity="other">New groups \"%1$s,\" \"%2$s\" and %3$d more added</item>
+        <item quantity="one">New groups \"%1$s,\" \"%2$s\" and %3$d more added</item>
+    </plurals>
+    <plurals name="community_activity_unknown_add">
+        <item quantity="other">%d new groups added</item>
+        <item quantity="one">New group added</item>
+    </plurals>
+    <plurals name="community_participant_demoted_names">
+        <item quantity="other">%s are no longer community admins</item>
+        <item quantity="one">%s is no longer a community admin</item>
+    </plurals>
+    <plurals name="community_participant_demoted_you_and_names">
+        <item quantity="other">You, %s are no longer community admins</item>
+        <item quantity="one">You and %s are no longer community admins</item>
+    </plurals>
+    <plurals name="community_participant_promoted_names">
+        <item quantity="other">%s are now community admins</item>
+        <item quantity="one">%s is now a community admin</item>
+    </plurals>
+    <plurals name="community_participant_promoted_you_and_names">
+        <item quantity="other">You, %s are now community admins</item>
+        <item quantity="one">You and %s are now community admins</item>
+    </plurals>
+    <plurals name="confirm_send_audios">
+        <item quantity="other">Send %1$d audio messages to %2$s?</item>
+        <item quantity="one">Send %1$d audio message to %2$s?</item>
+    </plurals>
+    <plurals name="confirm_send_document_message_without_wifi_warning">
+        <item quantity="other">These large documents (%1$s) will send more quickly and reliably if you connect to Wi-Fi.</item>
+        <item quantity="one">This large document (%1$s) will send more quickly and reliably if you connect to Wi-Fi.</item>
+    </plurals>
+    <plurals name="confirm_send_documents_mobile_data_title">
+        <item quantity="other">Send %1$d documents to %2$s using mobile data?</item>
+        <item quantity="one">Send %1$d document to %2$s using mobile data?</item>
+    </plurals>
+    <plurals name="confirm_send_documents_title">
+        <item quantity="other">Send %1$d documents to %2$s?</item>
+        <item quantity="one">Send %1$d document to %2$s?</item>
+    </plurals>
+    <plurals name="confirm_send_documents_warning">
+        <item quantity="other">These documents are %1$s in size.</item>
+        <item quantity="one">This document is %1$s in size.</item>
+    </plurals>
+    <plurals name="confirm_sharing_multiple_title">
+        <item quantity="other">Share %1$d items with %2$s?</item>
+        <item quantity="one">Share %1$d item with %2$s?</item>
+    </plurals>
+    <plurals name="contact_array_message_reach_limit">
+        <item quantity="other">"You can't select more than %1$d contacts."</item>
+        <item quantity="one">"You can't select more than %1$d contact."</item>
+    </plurals>
+    <plurals name="contact_info_live_location_description">
+        <item quantity="other">%d participants are sharing</item>
+        <item quantity="one">%d participant is sharing</item>
+    </plurals>
+    <plurals name="contact_info_live_location_description_you_and_other_people_are_sharing">
+        <item quantity="other">You and %d others are sharing</item>
+        <item quantity="one">You and %d other are sharing</item>
+    </plurals>
+    <plurals name="contact_name_and_number_of_messages">
+        <item quantity="other">%1$s (%2$d messages)</item>
+        <item quantity="one">%1$s (%2$d message)</item>
+    </plurals>
+    <plurals name="contact_too_large">
+        <item quantity="other">"Can't send these contacts because they're too large."</item>
+        <item quantity="one">"Can't send this contact because it's too large."</item>
+    </plurals>
+    <plurals name="contacts_array_title">
+        <item quantity="other">%1$s and %2$d other contacts</item>
+        <item quantity="one">%1$s and %2$d other contact</item>
+    </plurals>
+    <plurals name="conversations_unarchived_confirmation">
+        <item quantity="other">%d chats unarchived</item>
+        <item quantity="one">%d chat unarchived</item>
+    </plurals>
+    <plurals name="delete_chats_title">
+        <item quantity="other">Delete %s chats?</item>
+        <item quantity="one">Delete this chat?</item>
+    </plurals>
+    <plurals name="delete_community_button">
+        <item quantity="other">Delete %d communities</item>
+        <item quantity="one">Delete community</item>
+    </plurals>
+    <plurals name="delete_community_dialog_message_md_enabled">
+        <item quantity="other">Communities will only be removed from this device and your devices on the newer versions of WhatsApp.</item>
+        <item quantity="one">Community will only be removed from this device and your devices on the newer versions of WhatsApp.</item>
+    </plurals>
+    <plurals name="delete_community_dialog_title">
+        <item quantity="other">Delete %d communities?</item>
+        <item quantity="one">Delete this community?</item>
+    </plurals>
+    <plurals name="delete_confirmation_multiple">
+        <item quantity="other">Delete %d messages?</item>
+        <item quantity="one">Delete %d message?</item>
+    </plurals>
+    <plurals name="delete_contact_with_unsent_dialog_title">
+        <item quantity="other">"Delete chat with \"%1$s\"?
+You have %2$d unsent messages in this chat."</item>
+        <item quantity="one">"Delete chat with \"%1$s\"?
+You have %2$d unsent message in this chat."</item>
+    </plurals>
+    <plurals name="delete_medias">
+        <item quantity="other">Delete media in these chats</item>
+        <item quantity="one">Delete media in this chat</item>
+    </plurals>
+    <plurals name="delete_medias_phone_gallery">
+        <item quantity="other">Also delete media received in these chats from the device gallery</item>
+        <item quantity="one">Also delete media received in this chat from the device gallery</item>
+    </plurals>
+    <plurals name="delete_status_confirmation">
+        <item quantity="other">Delete %d status updates?</item>
+        <item quantity="one">Delete %d status update?</item>
+    </plurals>
+    <plurals name="deleting_statuses">
+        <item quantity="other">Deleting %d</item>
+        <item quantity="one">Deleting</item>
+    </plurals>
+    <plurals name="description_reach_limit">
+        <item quantity="other">"The description you entered is too long. Enter a description that's %d characters or less and try again."</item>
+        <item quantity="one">"The description you entered is too long. Enter a description that's %d character or less and try again."</item>
+    </plurals>
+    <plurals name="dm_multi_select_ddm_confirmation_toast_message">
+        <item quantity="other">You applied a %1$s message timer to %2$d of your existing chats.</item>
+        <item quantity="one">You applied a %1$s message timer to %2$d of your existing chats.</item>
+    </plurals>
+    <plurals name="dm_system_message_bubble_days_other">
+        <item quantity="other">"%1$s uses a default timer for disappearing messages in new chats. All new messages will disappear from this chat %2$d days after they're sent. Tap to set your own default timer."</item>
+        <item quantity="one">"%1$s uses a default timer for disappearing messages in new chats. All new messages will disappear from this chat %2$d day after they're sent. Tap to set your own default timer."</item>
+    </plurals>
+    <plurals name="dm_system_message_bubble_days_other_cant_change">
+        <item quantity="other">"%1$s uses a default timer for disappearing messages in new chats. All new messages will disappear from this chat %2$d days after they're sent."</item>
+        <item quantity="one">"%1$s uses a default timer for disappearing messages in new chats. All new messages will disappear from this chat %2$d day after they're sent."</item>
+    </plurals>
+    <plurals name="dm_system_message_bubble_days_you">
+        <item quantity="other">"You use a default timer for disappearing messages in new chats. All new messages will disappear from this chat %d days after they're sent. Tap to update your own default timer."</item>
+        <item quantity="one">"You use a default timer for disappearing messages in new chats. All new messages will disappear from this chat %d day after they're sent. Tap to update your own default timer."</item>
+    </plurals>
+    <plurals name="dm_system_message_bubble_days_you_cant_change">
+        <item quantity="other">"You use a default timer for disappearing messages in new chats. All new messages will disappear from this chat %d days after they're sent."</item>
+        <item quantity="one">"You use a default timer for disappearing messages in new chats. All new messages will disappear from this chat %d day after they're sent."</item>
+    </plurals>
+    <plurals name="dm_system_message_bubble_hours_other">
+        <item quantity="other">"%1$s uses a default timer for disappearing messages in new chats. All new messages will disappear from this chat %2$d hours after they're sent. Tap to set your own default timer."</item>
+        <item quantity="one">"%1$s uses a default timer for disappearing messages in new chats. All new messages will disappear from this chat %2$d hour after they're sent. Tap to set your own default timer."</item>
+    </plurals>
+    <plurals name="dm_system_message_bubble_hours_other_cant_change">
+        <item quantity="other">"%1$s uses a default timer for disappearing messages in new chats. All new messages will disappear from this chat %2$d hours after they're sent."</item>
+        <item quantity="one">"%1$s uses a default timer for disappearing messages in new chats. All new messages will disappear from this chat %2$d hour after they're sent."</item>
+    </plurals>
+    <plurals name="dm_system_message_bubble_hours_you">
+        <item quantity="other">"You use a default timer for disappearing messages in new chats. All new messages will disappear from this chat %d hours after they're sent. Tap to update your own default timer."</item>
+        <item quantity="one">"You use a default timer for disappearing messages in new chats. All new messages will disappear from this chat %d hour after they're sent. Tap to update your own default timer."</item>
+    </plurals>
+    <plurals name="dm_system_message_bubble_hours_you_cant_change">
+        <item quantity="other">"You use a default timer for disappearing messages in new chats. All new messages will disappear from this chat %d hours after they're sent."</item>
+        <item quantity="one">"You use a default timer for disappearing messages in new chats. All new messages will disappear from this chat %d hour after they're sent."</item>
+    </plurals>
+    <plurals name="downloading_document">
+        <item quantity="other">Downloading %d documents</item>
+        <item quantity="one">Downloading document</item>
+    </plurals>
+    <plurals name="downloading_file">
+        <item quantity="other">Downloading %d files</item>
+        <item quantity="one">Downloading file</item>
+    </plurals>
+    <plurals name="downloading_video">
+        <item quantity="other">Downloading %d videos</item>
+        <item quantity="one">Downloading video</item>
+    </plurals>
+    <plurals name="encrypted_backup_encryption_key_confirm_button_confirm">
+        <item quantity="other">I Saved My %d-digit Key</item>
+        <item quantity="one">I Saved My %d-digit Key</item>
+    </plurals>
+    <plurals name="encrypted_backup_encryption_key_confirm_title">
+        <item quantity="other">Did you save your full %d-digit encryption key?</item>
+        <item quantity="one">Did you save your full %d-digit encryption key?</item>
+    </plurals>
+    <plurals name="encrypted_backup_encryption_key_info_button_show">
+        <item quantity="other">Generate your %d-digit key</item>
+        <item quantity="one">Generate your %d-digit key</item>
+    </plurals>
+    <plurals name="encrypted_backup_password_input_requirement">
+        <item quantity="other">Must contain at least %1$d characters and 1 letter</item>
+        <item quantity="one">Must contain at least %1$d character and 1 letter</item>
+    </plurals>
+    <plurals name="encrypted_backup_password_input_requirement_warning_too_few_letters">
+        <item quantity="other">Must contain at least %1$d letters</item>
+        <item quantity="one">Must contain at least %1$d letter</item>
+    </plurals>
+    <plurals name="encrypted_backup_password_input_requirement_warning_too_short">
+        <item quantity="other">Must contain at least %1$d characters</item>
+        <item quantity="one">Must contain at least %1$d character</item>
+    </plurals>
+    <plurals name="encrypted_backup_restore_account_not_password_protected">
+        <item quantity="other">Your account is not associated with a password. Please enter your %d-digit encryption key instead.</item>
+        <item quantity="one">Your account is not associated with a password. Please enter your %d-digit encryption key instead.</item>
+    </plurals>
+    <plurals name="encrypted_backup_restore_encryption_key_instruction">
+        <item quantity="other">To restore your end-to-end encrypted backup, enter your %d-digit encryption key.</item>
+        <item quantity="one">To restore your end-to-end encrypted backup, enter your %d-digit encryption key.</item>
+    </plurals>
+    <plurals name="encrypted_backup_restore_notice_encryption_key">
+        <item quantity="other">You chose to protect your backup with a %d-digit encryption key. If you would rather protect it with a password, you can create one.</item>
+        <item quantity="one">You chose to protect your backup with a %d-digit encryption key. If you would rather protect it with a password, you can create one.</item>
+    </plurals>
+    <plurals name="encrypted_backup_use_encryption_key_button">
+        <item quantity="other">Use %d-digit encryption key instead</item>
+        <item quantity="one">Use %d-digit encryption key instead</item>
+    </plurals>
+    <plurals name="encrypted_backup_verify_password_add_password_instruction">
+        <item quantity="other">To begin, enter your %d-digit encryption key.</item>
+        <item quantity="one">To begin, enter your %d-digit encryption key.</item>
+    </plurals>
+    <plurals name="encrypted_backup_verify_password_disable_from_key_instruction">
+        <item quantity="other">To turn off end-to-end encryption for your backup, enter your %d-digit encryption key.</item>
+        <item quantity="one">To turn off end-to-end encryption for your backup, enter your %d-digit encryption key.</item>
+    </plurals>
+    <plurals name="ephemeral_kic_day">
+        <item quantity="other">%1$d days</item>
+        <item quantity="one">%1$d day</item>
+    </plurals>
+    <plurals name="ephemeral_kic_hour">
+        <item quantity="other">%1$d hours</item>
+        <item quantity="one">%1$d hour</item>
+    </plurals>
+    <plurals name="ephemeral_kic_minute">
+        <item quantity="other">%1$d minutes</item>
+        <item quantity="one">%1$d minute</item>
+    </plurals>
+    <plurals name="ephemeral_kic_second">
+        <item quantity="other">%1$d seconds</item>
+        <item quantity="one">%1$d second</item>
+    </plurals>
+    <plurals name="ephemeral_more_info_content_in_days">
+        <item quantity="other">This message will disappear from the chat after %d days.</item>
+        <item quantity="one">This message will disappear from the chat after %d day.</item>
+    </plurals>
+    <plurals name="ephemeral_more_info_content_in_hours">
+        <item quantity="other">This message will disappear from the chat after %d hours.</item>
+        <item quantity="one">This message will disappear from the chat after %d hour.</item>
+    </plurals>
+    <plurals name="ephemeral_more_info_content_in_minutes">
+        <item quantity="other">This message will disappear from the chat after %d minutes.</item>
+        <item quantity="one">This message will disappear from the chat after %d minute.</item>
+    </plurals>
+    <plurals name="ephemeral_more_info_content_in_seconds">
+        <item quantity="other">This message will disappear from the chat after %d seconds.</item>
+        <item quantity="one">This message will disappear from the chat after %d second.</item>
+    </plurals>
+    <plurals name="ephemeral_setting_enabled_by_name_in_days">
+        <item quantity="other">"%1$s turned on disappearing messages. All new messages will disappear from this chat %2$d days after they're sent."</item>
+        <item quantity="one">"%1$s turned on disappearing messages. All new messages will disappear from this chat %2$d day after they're sent."</item>
+    </plurals>
+    <plurals name="ephemeral_setting_enabled_by_name_in_days_dm_update_enabled">
+        <item quantity="other">"%1$s updated the message timer. New messages will disappear from this chat %2$d days after they're sent."</item>
+        <item quantity="one">"%1$s updated the message timer. New messages will disappear from this chat %2$d day after they're sent."</item>
+    </plurals>
+    <plurals name="ephemeral_setting_enabled_by_name_in_days_tap_to_change">
+        <item quantity="other">"%1$s turned on disappearing messages. All new messages will disappear from this chat %2$d days after they're sent. Tap to change."</item>
+        <item quantity="one">"%1$s turned on disappearing messages. All new messages will disappear from this chat %2$d day after they're sent. Tap to change."</item>
+    </plurals>
+    <plurals name="ephemeral_setting_enabled_by_name_in_days_tap_to_change_dm_update_enabled">
+        <item quantity="other">"%1$s updated the message timer. New messages will disappear from this chat %2$d days after they're sent. Tap to change."</item>
+        <item quantity="one">"%1$s updated the message timer. New messages will disappear from this chat %2$d day after they're sent. Tap to change."</item>
+    </plurals>
+    <plurals name="ephemeral_setting_enabled_by_name_in_hours">
+        <item quantity="other">"%1$s turned on disappearing messages. All new messages will disappear from this chat %2$d hours after they're sent."</item>
+        <item quantity="one">"%1$s turned on disappearing messages. All new messages will disappear from this chat %2$d hour after they're sent."</item>
+    </plurals>
+    <plurals name="ephemeral_setting_enabled_by_name_in_hours_dm_update_enabled">
+        <item quantity="other">"%1$s updated the message timer. New messages will disappear from this chat %2$d hours after they're sent."</item>
+        <item quantity="one">"%1$s updated the message timer. New messages will disappear from this chat %2$d hour after they're sent."</item>
+    </plurals>
+    <plurals name="ephemeral_setting_enabled_by_name_in_hours_tap_to_change">
+        <item quantity="other">"%1$s turned on disappearing messages. All new messages will disappear from this chat %2$d hours after they're sent. Tap to change."</item>
+        <item quantity="one">"%1$s turned on disappearing messages. All new messages will disappear from this chat %2$d hour after they're sent. Tap to change."</item>
+    </plurals>
+    <plurals name="ephemeral_setting_enabled_by_name_in_hours_tap_to_change_dm_update_enabled">
+        <item quantity="other">"%1$s updated the message timer. New messages will disappear from this chat %2$d hours after they're sent. Tap to change."</item>
+        <item quantity="one">"%1$s updated the message timer. New messages will disappear from this chat %2$d hour after they're sent. Tap to change."</item>
+    </plurals>
+    <plurals name="ephemeral_setting_enabled_by_name_in_minutes">
+        <item quantity="other">"%1$s turned on disappearing messages. All new messages will disappear from this chat %2$d minutes after they're sent."</item>
+        <item quantity="one">"%1$s turned on disappearing messages. All new messages will disappear from this chat %2$d minute after they're sent."</item>
+    </plurals>
+    <plurals name="ephemeral_setting_enabled_by_name_in_minutes_dm_update_enabled">
+        <item quantity="other">"%1$s updated the message timer. New messages will disappear from this chat %2$d minutes after they're sent."</item>
+        <item quantity="one">"%1$s updated the message timer. New messages will disappear from this chat %2$d minute after they're sent."</item>
+    </plurals>
+    <plurals name="ephemeral_setting_enabled_by_name_in_minutes_tap_to_change">
+        <item quantity="other">"%1$s turned on disappearing messages. All new messages will disappear from this chat %2$d minutes after they're sent. Tap to change."</item>
+        <item quantity="one">"%1$s turned on disappearing messages. All new messages will disappear from this chat %2$d minute after they're sent. Tap to change."</item>
+    </plurals>
+    <plurals name="ephemeral_setting_enabled_by_name_in_minutes_tap_to_change_dm_update_enabled">
+        <item quantity="other">"%1$s updated the message timer. New messages will disappear from this chat %2$d minutes after they're sent. Tap to change."</item>
+        <item quantity="one">"%1$s updated the message timer. New messages will disappear from this chat %2$d minute after they're sent. Tap to change."</item>
+    </plurals>
+    <plurals name="ephemeral_setting_enabled_by_name_in_seconds">
+        <item quantity="other">"%1$s turned on disappearing messages. All new messages will disappear from this chat %2$d seconds after they're sent."</item>
+        <item quantity="one">"%1$s turned on disappearing messages. All new messages will disappear from this chat %2$d second after they're sent."</item>
+    </plurals>
+    <plurals name="ephemeral_setting_enabled_by_name_in_seconds_dm_update_enabled">
+        <item quantity="other">"%1$s updated the message timer. New messages will disappear from this chat %2$d seconds after they're sent."</item>
+        <item quantity="one">"%1$s updated the message timer. New messages will disappear from this chat %2$d second after they're sent."</item>
+    </plurals>
+    <plurals name="ephemeral_setting_enabled_by_name_in_seconds_tap_to_change">
+        <item quantity="other">"%1$s turned on disappearing messages. All new messages will disappear from this chat %2$d seconds after they're sent. Tap to change."</item>
+        <item quantity="one">"%1$s turned on disappearing messages. All new messages will disappear from this chat %2$d second after they're sent. Tap to change."</item>
+    </plurals>
+    <plurals name="ephemeral_setting_enabled_by_name_in_seconds_tap_to_change_dm_update_enabled">
+        <item quantity="other">"%1$s updated the message timer. New messages will disappear from this chat %2$d seconds after they're sent. Tap to change."</item>
+        <item quantity="one">"%1$s updated the message timer. New messages will disappear from this chat %2$d second after they're sent. Tap to change."</item>
+    </plurals>
+    <plurals name="ephemeral_setting_enabled_by_you_in_days">
+        <item quantity="other">"You turned on disappearing messages. All new messages will disappear from this chat %d days after they're sent."</item>
+        <item quantity="one">"You turned on disappearing messages. All new messages will disappear from this chat %d day after they're sent."</item>
+    </plurals>
+    <plurals name="ephemeral_setting_enabled_by_you_in_days_dm_update_enabled">
+        <item quantity="other">"You updated the message timer. New messages will disappear from this chat %d days after they're sent."</item>
+        <item quantity="one">"You updated the message timer. New messages will disappear from this chat %d day after they're sent."</item>
+    </plurals>
+    <plurals name="ephemeral_setting_enabled_by_you_in_days_tap_to_change">
+        <item quantity="other">"You turned on disappearing messages. All new messages will disappear from this chat %d days after they're sent. Tap to change."</item>
+        <item quantity="one">"You turned on disappearing messages. All new messages will disappear from this chat %d day after they're sent. Tap to change."</item>
+    </plurals>
+    <plurals name="ephemeral_setting_enabled_by_you_in_days_tap_to_change_dm_update_enabled">
+        <item quantity="other">"You updated the message timer. New messages will disappear from this chat %d days after they're sent. Tap to change."</item>
+        <item quantity="one">"You updated the message timer. New messages will disappear from this chat %d day after they're sent. Tap to change."</item>
+    </plurals>
+    <plurals name="ephemeral_setting_enabled_by_you_in_hours">
+        <item quantity="other">"You turned on disappearing messages. All new messages will disappear from this chat %d hours after they're sent."</item>
+        <item quantity="one">"You turned on disappearing messages. All new messages will disappear from this chat %d hour after they're sent."</item>
+    </plurals>
+    <plurals name="ephemeral_setting_enabled_by_you_in_hours_dm_update_enabled">
+        <item quantity="other">"You updated the message timer. New messages will disappear from this chat %d hours after they're sent."</item>
+        <item quantity="one">"You updated the message timer. New messages will disappear from this chat %d hour after they're sent."</item>
+    </plurals>
+    <plurals name="ephemeral_setting_enabled_by_you_in_hours_tap_to_change">
+        <item quantity="other">"You turned on disappearing messages. All new messages will disappear from this chat %d hours after they're sent. Tap to change."</item>
+        <item quantity="one">"You turned on disappearing messages. All new messages will disappear from this chat %d hour after they're sent. Tap to change."</item>
+    </plurals>
+    <plurals name="ephemeral_setting_enabled_by_you_in_hours_tap_to_change_dm_update_enabled">
+        <item quantity="other">"You updated the message timer. New messages will disappear from this chat %d hours after they're sent. Tap to change."</item>
+        <item quantity="one">"You updated the message timer. New messages will disappear from this chat %d hour after they're sent. Tap to change."</item>
+    </plurals>
+    <plurals name="ephemeral_setting_enabled_by_you_in_minutes">
+        <item quantity="other">"You turned on disappearing messages. All new messages will disappear from this chat %d minutes after they're sent."</item>
+        <item quantity="one">"You turned on disappearing messages. All new messages will disappear from this chat %d minute after they're sent."</item>
+    </plurals>
+    <plurals name="ephemeral_setting_enabled_by_you_in_minutes_dm_update_enabled">
+        <item quantity="other">"You updated the message timer. New messages will disappear from this chat %d minutes after they're sent."</item>
+        <item quantity="one">"You updated the message timer. New messages will disappear from this chat %d minute after they're sent."</item>
+    </plurals>
+    <plurals name="ephemeral_setting_enabled_by_you_in_minutes_tap_to_change">
+        <item quantity="other">"You turned on disappearing messages. All new messages will disappear from this chat %d minutes after they're sent. Tap to change."</item>
+        <item quantity="one">"You turned on disappearing messages. All new messages will disappear from this chat %d minute after they're sent. Tap to change."</item>
+    </plurals>
+    <plurals name="ephemeral_setting_enabled_by_you_in_minutes_tap_to_change_dm_update_enabled">
+        <item quantity="other">"You updated the message timer. New messages will disappear from this chat %d minutes after they're sent. Tap to change."</item>
+        <item quantity="one">"You updated the message timer. New messages will disappear from this chat %d minute after they're sent. Tap to change."</item>
+    </plurals>
+    <plurals name="ephemeral_setting_enabled_by_you_in_seconds">
+        <item quantity="other">"You turned on disappearing messages. All new messages will disappear from this chat %d seconds after they're sent."</item>
+        <item quantity="one">"You turned on disappearing messages. All new messages will disappear from this chat %d second after they're sent."</item>
+    </plurals>
+    <plurals name="ephemeral_setting_enabled_by_you_in_seconds_dm_update_enabled">
+        <item quantity="other">"You updated the message timer. New messages will disappear from this chat %d seconds after they're sent."</item>
+        <item quantity="one">"You updated the message timer. New messages will disappear from this chat %d second after they're sent."</item>
+    </plurals>
+    <plurals name="ephemeral_setting_enabled_by_you_in_seconds_tap_to_change">
+        <item quantity="other">"You turned on disappearing messages. All new messages will disappear from this chat %d seconds after they're sent. Tap to change."</item>
+        <item quantity="one">"You turned on disappearing messages. All new messages will disappear from this chat %d second after they're sent. Tap to change."</item>
+    </plurals>
+    <plurals name="ephemeral_setting_enabled_by_you_in_seconds_tap_to_change_dm_update_enabled">
+        <item quantity="other">"You updated the message timer. New messages will disappear from this chat %d seconds after they're sent. Tap to change."</item>
+        <item quantity="one">"You updated the message timer. New messages will disappear from this chat %d second after they're sent. Tap to change."</item>
+    </plurals>
+    <plurals name="ephemeral_setting_enabled_in_days">
+        <item quantity="other">"Disappearing messages were turned on. All new messages will disappear from this chat %d days after they're sent."</item>
+        <item quantity="one">"Disappearing messages were turned on. All new messages will disappear from this chat %d day after they're sent."</item>
+    </plurals>
+    <plurals name="ephemeral_setting_enabled_in_days_dm_update_enabled">
+        <item quantity="other">"The message timer was updated. New messages will disappear from this chat %d days after they're sent."</item>
+        <item quantity="one">"The message timer was updated. New messages will disappear from this chat %d day after they're sent."</item>
+    </plurals>
+    <plurals name="ephemeral_setting_enabled_in_days_tap_to_change">
+        <item quantity="other">"Disappearing messages were turned on. All new messages will disappear from this chat %d days after they're sent. Tap to change."</item>
+        <item quantity="one">"Disappearing messages were turned on. All new messages will disappear from this chat %d day after they're sent. Tap to change."</item>
+    </plurals>
+    <plurals name="ephemeral_setting_enabled_in_days_tap_to_change_dm_update_enabled">
+        <item quantity="other">"The message timer was updated. New messages will disappear from this chat %d days after they're sent. Tap to change."</item>
+        <item quantity="one">"The message timer was updated. New messages will disappear from this chat %d day after they're sent. Tap to change."</item>
+    </plurals>
+    <plurals name="ephemeral_setting_enabled_in_hours">
+        <item quantity="other">"Disappearing messages were turned on. All new messages will disappear from this chat %d hours after they're sent."</item>
+        <item quantity="one">"Disappearing messages were turned on. All new messages will disappear from this chat %d hour after they're sent."</item>
+    </plurals>
+    <plurals name="ephemeral_setting_enabled_in_hours_dm_update_enabled">
+        <item quantity="other">"The message timer was updated. New messages will disappear from this chat %d hours after they're sent."</item>
+        <item quantity="one">"The message timer was updated. New messages will disappear from this chat %d hour after they're sent."</item>
+    </plurals>
+    <plurals name="ephemeral_setting_enabled_in_hours_tap_to_change">
+        <item quantity="other">"Disappearing messages were turned on. All new messages will disappear from this chat %d hours after they're sent. Tap to change."</item>
+        <item quantity="one">"Disappearing messages were turned on. All new messages will disappear from this chat %d hour after they're sent. Tap to change."</item>
+    </plurals>
+    <plurals name="ephemeral_setting_enabled_in_hours_tap_to_change_dm_update_enabled">
+        <item quantity="other">"The message timer was updated. New messages will disappear from this chat %d hours after they're sent. Tap to change."</item>
+        <item quantity="one">"The message timer was updated. New messages will disappear from this chat %d hour after they're sent. Tap to change."</item>
+    </plurals>
+    <plurals name="ephemeral_setting_enabled_in_minutes">
+        <item quantity="other">"Disappearing messages were turned on. All new messages will disappear from this chat %d minutes after they're sent."</item>
+        <item quantity="one">"Disappearing messages were turned on. All new messages will disappear from this chat %d minute after they're sent."</item>
+    </plurals>
+    <plurals name="ephemeral_setting_enabled_in_minutes_dm_update_enabled">
+        <item quantity="other">"The message timer was updated. New messages will disappear from this chat %d minutes after they're sent."</item>
+        <item quantity="one">"The message timer was updated. New messages will disappear from this chat %d minute after they're sent."</item>
+    </plurals>
+    <plurals name="ephemeral_setting_enabled_in_minutes_tap_to_change">
+        <item quantity="other">"Disappearing messages were turned on. All new messages will disappear from this chat %d minutes after they're sent. Tap to change."</item>
+        <item quantity="one">"Disappearing messages were turned on. All new messages will disappear from this chat %d minute after they're sent. Tap to change."</item>
+    </plurals>
+    <plurals name="ephemeral_setting_enabled_in_minutes_tap_to_change_dm_update_enabled">
+        <item quantity="other">"The message timer was updated. New messages will disappear from this chat %d minutes after they're sent. Tap to change."</item>
+        <item quantity="one">"The message timer was updated. New messages will disappear from this chat %d minute after they're sent. Tap to change."</item>
+    </plurals>
+    <plurals name="ephemeral_setting_enabled_in_seconds">
+        <item quantity="other">"Disappearing messages were turned on. All new messages will disappear from this chat %d seconds after they're sent."</item>
+        <item quantity="one">"Disappearing messages were turned on. All new messages will disappear from this chat %d second after they're sent."</item>
+    </plurals>
+    <plurals name="ephemeral_setting_enabled_in_seconds_dm_update_enabled">
+        <item quantity="other">"The message timer was updated. New messages will disappear from this chat %d seconds after they're sent."</item>
+        <item quantity="one">"The message timer was updated. New messages will disappear from this chat %d second after they're sent."</item>
+    </plurals>
+    <plurals name="ephemeral_setting_enabled_in_seconds_tap_to_change">
+        <item quantity="other">"Disappearing messages were turned on. All new messages will disappear from this chat %d seconds after they're sent. Tap to change."</item>
+        <item quantity="one">"Disappearing messages were turned on. All new messages will disappear from this chat %d second after they're sent. Tap to change."</item>
+    </plurals>
+    <plurals name="ephemeral_setting_enabled_in_seconds_tap_to_change_dm_update_enabled">
+        <item quantity="other">"The message timer was updated. New messages will disappear from this chat %d seconds after they're sent. Tap to change."</item>
+        <item quantity="one">"The message timer was updated. New messages will disappear from this chat %d second after they're sent. Tap to change."</item>
+    </plurals>
+    <plurals name="ephemeral_setting_in_days">
+        <item quantity="other">%d days</item>
+        <item quantity="one">%d day</item>
+    </plurals>
+    <plurals name="ephemeral_setting_in_hours">
+        <item quantity="other">%d hours</item>
+        <item quantity="one">%d hour</item>
+    </plurals>
+    <plurals name="ephemeral_setting_in_minutes">
+        <item quantity="other">%d minutes</item>
+        <item quantity="one">%d minute</item>
+    </plurals>
+    <plurals name="ephemeral_setting_in_seconds">
+        <item quantity="other">%d seconds</item>
+        <item quantity="one">%d second</item>
+    </plurals>
+    <plurals name="error_adding_participant_408_multi">
+        <item quantity="other">"You couldn't add %d participants because they left the group recently. Try again later."</item>
+        <item quantity="one">"You couldn't add %d participant because they left the group recently. Try again later."</item>
+    </plurals>
+    <plurals name="error_image_dimensions_too_small">
+        <item quantity="other">This photo is too small. Please select a photo with height and width of at least %d pixels.</item>
+        <item quantity="one">This photo is too small. Please select a photo with height and width of at least %d pixel.</item>
+    </plurals>
+    <plurals name="exit_community_title">
+        <item quantity="other">Exit community and %d groups?</item>
+        <item quantity="one">Exit community and %d group?</item>
+    </plurals>
+    <plurals name="exit_group_and_community_with_unsent_dialog_title">
+        <item quantity="other">"Exit group and community?
+You have %1$d unsent messages in this chat."</item>
+        <item quantity="one">"Exit group and community?
+You have %1$d unsent message in this chat."</item>
+    </plurals>
+    <plurals name="exit_group_with_unsent_dialog_title">
+        <item quantity="other">"Exit \"%1$s\" group?
+You have %2$d unsent messages in this chat."</item>
+        <item quantity="one">"Exit \"%1$s\" group?
+You have %2$d unsent message in this chat."</item>
+    </plurals>
+    <plurals name="facebook_trust_signal_description">
+        <item quantity="other">Facebook • %1$s Likes</item>
+        <item quantity="one">Facebook • %1$s Like</item>
+    </plurals>
+    <plurals name="failed_add_participant_community_full">
+        <item quantity="other">%d participants cannot be added because the community is full.</item>
+        <item quantity="one">Participant cannot be added because the community is full.</item>
+    </plurals>
+    <plurals name="failed_community_add_admin_limit_reached">
+        <item quantity="other">You reached the maximum of %1$d admins for this community</item>
+        <item quantity="one">You reached the maximum of %1$d admin for this community</item>
+    </plurals>
+    <plurals name="failed_linked_groups_community_full">
+        <item quantity="other">%1$d groups cannot be added because the community is full</item>
+        <item quantity="one">%1$d group cannot be added because the community is full</item>
+    </plurals>
+    <plurals name="failed_statuses">
+        <item quantity="other">"Couldn't send %d"</item>
+        <item quantity="one">"Couldn't send"</item>
+    </plurals>
+    <plurals name="fanout_group_voip_call_subtitle_invited">
+        <item quantity="other">%d more invited</item>
+        <item quantity="one">%d more invited</item>
+    </plurals>
+    <plurals name="fanout_group_voip_call_subtitle_joined">
+        <item quantity="other">%d people connected</item>
+        <item quantity="one">%d person connected</item>
+    </plurals>
+    <plurals name="feedback_rating_value">
+        <item quantity="other">%1$d stars</item>
+        <item quantity="one">%1$d star</item>
+    </plurals>
+    <plurals name="file_was_removed">
+        <item quantity="other">%d files deleted from your device</item>
+        <item quantity="one">%d file deleted from your device</item>
+    </plurals>
+    <plurals name="first_status_excluded_contacts">
+        <item quantity="other">This status update will be sent to your contacts excluding %d.</item>
+        <item quantity="one">This status update will be sent to your contacts excluding %d.</item>
+    </plurals>
+    <plurals name="first_status_selected_contacts">
+        <item quantity="other">This status update will be sent to %d contacts.</item>
+        <item quantity="one">This status update will be sent to %d contact.</item>
+    </plurals>
+    <plurals name="gdpr_report_footer">
+        <item quantity="other">"Your report will be ready in about %d days. You'll have a few weeks to download your report after it's available.
+
+Your request will be canceled if you make changes to your account such as changing your number or deleting your account."</item>
+        <item quantity="one">"Your report will be ready in about %d day. You'll have a few weeks to download your report after it's available.
+
+Your request will be canceled if you make changes to your account such as changing your number or deleting your account."</item>
+    </plurals>
+    <plurals name="gdrive_backup_quota_reached_title">
+        <item quantity="other">Backup reduction in %d days</item>
+        <item quantity="one">Backup reduction in %d day</item>
+    </plurals>
+    <plurals name="gdrive_messages_restored_with_media_to_restore">
+        <item quantity="other">%,d messages restored. Your media will restore in the background.</item>
+        <item quantity="one">%,d message restored. Your media will restore in the background.</item>
+    </plurals>
+    <plurals name="gdrive_messages_restored_with_no_media_to_restore">
+        <item quantity="other">%,d messages restored</item>
+        <item quantity="one">%,d message restored</item>
+    </plurals>
+    <plurals name="group_add_blacklist_contacts_excluded">
+        <item quantity="other">%d contacts excluded</item>
+        <item quantity="one">%d contact excluded</item>
+    </plurals>
+    <plurals name="group_add_privacy_failure_prompt_invite">
+        <item quantity="other">"Couldn't add %s. You can invite them privately to join this group."</item>
+        <item quantity="one">"Couldn't add %s. You can invite them privately to join this group."</item>
+    </plurals>
+    <plurals name="group_announcement_info_second_subtitle">
+        <item quantity="other">%d participants</item>
+        <item quantity="one">%d participant</item>
+    </plurals>
+    <plurals name="group_announcement_info_subtitle">
+        <item quantity="other">Announcements · %1d participants</item>
+        <item quantity="one">Announcements · %1d participant</item>
+    </plurals>
+    <plurals name="group_call_participant_picker_sheet_title">
+        <item quantity="other">Select contacts to call</item>
+        <item quantity="one">Select contact to call</item>
+    </plurals>
+    <plurals name="group_confirm_send_audios">
+        <item quantity="other">Send %1$d audio messages to \"%2$s\"?</item>
+        <item quantity="one">Send %1$d audio message to \"%2$s\"?</item>
+    </plurals>
+    <plurals name="group_confirm_send_documents_mobile_data_title">
+        <item quantity="other">Send %1$d documents to \"%2$s\" using mobile data?</item>
+        <item quantity="one">Send %1$d document to \"%2$s\" using mobile data?</item>
+    </plurals>
+    <plurals name="group_confirm_send_documents_title">
+        <item quantity="other">Send %1$d documents to \"%2$s\"?</item>
+        <item quantity="one">Send %1$d document to \"%2$s\"?</item>
+    </plurals>
+    <plurals name="group_confirm_sharing_multiple_title">
+        <item quantity="other">Share %1$d items with \"%2$s\"?</item>
+        <item quantity="one">Share %1$d item with \"%2$s\"?</item>
+    </plurals>
+    <plurals name="group_info_subtitle">
+        <item quantity="other">Group · %1d participants</item>
+        <item quantity="one">Group · %1d participant</item>
+    </plurals>
+    <plurals name="group_invites_sent">
+        <item quantity="other">%d invites sent</item>
+        <item quantity="one">%d invite sent</item>
+    </plurals>
+    <plurals name="group_join_auto_add_unknown_added_plural">
+        <item quantity="other">%s were added this group</item>
+        <item quantity="one">%s was added this group</item>
+    </plurals>
+    <plurals name="group_members_not_shown_message">
+        <item quantity="other">"%d participants not shown because they aren't in your contacts"</item>
+        <item quantity="one">"%d participant not shown because they aren't in your contacts"</item>
+    </plurals>
+    <plurals name="group_participant_added_name">
+        <item quantity="other">%s were added</item>
+        <item quantity="one">%s was added</item>
+    </plurals>
+    <plurals name="group_participant_demoted_names">
+        <item quantity="other">%s are no longer admins</item>
+        <item quantity="one">%s is no longer an admin</item>
+    </plurals>
+    <plurals name="group_participant_demoted_you_and_names">
+        <item quantity="other">You, %s are no longer admins</item>
+        <item quantity="one">You and %s are no longer admins</item>
+    </plurals>
+    <plurals name="group_participant_promoted_names">
+        <item quantity="other">%s are now admins</item>
+        <item quantity="one">%s is now an admin</item>
+    </plurals>
+    <plurals name="group_participant_promoted_you_and_names">
+        <item quantity="other">You, %s are now admins</item>
+        <item quantity="one">You and %s are now admins</item>
+    </plurals>
+    <plurals name="group_participant_removed_name">
+        <item quantity="other">%s were removed</item>
+        <item quantity="one">%s was removed</item>
+    </plurals>
+    <plurals name="group_participants_you_invited_names">
+        <item quantity="other">You invited %s</item>
+        <item quantity="one">You invited %s</item>
+    </plurals>
+    <plurals name="group_pending_approval_requests_banner">
+        <item quantity="other">Review %d requests to join</item>
+        <item quantity="one">Review %d request to join</item>
+    </plurals>
+    <plurals name="group_pending_participants_count_content_description">
+        <item quantity="other">%d pending participants</item>
+        <item quantity="one">%d pending participant</item>
+    </plurals>
+    <plurals name="group_voip_call_participants_label">
+        <item quantity="other">%1$s &amp; %2$d others</item>
+        <item quantity="one">%1$s &amp; %2$d other</item>
+    </plurals>
+    <plurals name="groupcall_reach_limit">
+        <item quantity="other">You can only select %1$d participants</item>
+        <item quantity="one">You can only select %1$d participant</item>
+    </plurals>
+    <plurals name="groupchat_reach_limit">
+        <item quantity="other">"You can't select more than %1$d participants."</item>
+        <item quantity="one">"You can't select more than %1$d participant."</item>
+    </plurals>
+    <plurals name="groups_in_common_v2">
+        <item quantity="other">%d Groups in common</item>
+        <item quantity="one">%d Group in common</item>
+    </plurals>
+    <plurals name="have_vcard_for_sender">
+        <item quantity="other">Found %1$d contact cards for this number. Add to your contacts?</item>
+        <item quantity="one">Found %1$d contact card for this number. Add to your contacts?</item>
+    </plurals>
+    <plurals name="instagram_trust_signal_description">
+        <item quantity="other">Instagram • %1$s Followers</item>
+        <item quantity="one">Instagram • %1$s Follower</item>
+    </plurals>
+    <plurals name="invite_expires_days">
+        <item quantity="other">Expires in %d days</item>
+        <item quantity="one">Expires in %d day</item>
+    </plurals>
+    <plurals name="invite_used_from_admin_user_plural">
+        <item quantity="other">%1$s joined using an invite from %2$s</item>
+        <item quantity="one">%1$s joined using an invite from %2$s</item>
+    </plurals>
+    <plurals name="link_group_max_limit">
+        <item quantity="other">"You can't add more than %1$d groups."</item>
+        <item quantity="one">"You can't add more than %1$d group."</item>
+    </plurals>
+    <plurals name="link_group_max_limit_at_creation">
+        <item quantity="other">You can only add %1$d groups when creating a community. You can add more after this community is created.</item>
+        <item quantity="one">You can only add %1$d group when creating a community. You can add more after this community is created.</item>
+    </plurals>
+    <plurals name="link_to_community_description">
+        <item quantity="other">Community • %1$d groups</item>
+        <item quantity="one">Community • %1$d group</item>
+    </plurals>
+    <plurals name="linked_group_call_connected_participant_count">
+        <item quantity="other">%d Connected</item>
+        <item quantity="one">%d Connected</item>
+    </plurals>
+    <plurals name="linked_group_call_participant_count">
+        <item quantity="other">%d people</item>
+        <item quantity="one">%d person</item>
+    </plurals>
+    <plurals name="list_recipients_added">
+        <item quantity="other">%s were added to the list</item>
+        <item quantity="one">%s was added to the list</item>
+    </plurals>
+    <plurals name="list_recipients_removed">
+        <item quantity="other">%s were removed from the list</item>
+        <item quantity="one">%s was removed from the list</item>
+    </plurals>
+    <plurals name="live_location_currently_sharing">
+        <item quantity="other">Sharing in %d chats</item>
+        <item quantity="one">Sharing in %d chat</item>
+    </plurals>
+    <plurals name="live_location_marker_content_description">
+        <item quantity="other">Location marker for %s</item>
+        <item quantity="one">Location marker for %s</item>
+    </plurals>
+    <plurals name="live_location_marker_title">
+        <item quantity="other">%d people</item>
+        <item quantity="one">%d person</item>
+    </plurals>
+    <plurals name="live_location_stopped_sharing_count">
+        <item quantity="other">%d people stopped sharing</item>
+        <item quantity="one">%d person stopped sharing</item>
+    </plurals>
+    <plurals name="location_accuracy">
+        <item quantity="other">Accurate to %d meters</item>
+        <item quantity="one">Accurate to %d meter</item>
+    </plurals>
+    <plurals name="max_files_to_send_error_message">
+        <item quantity="other">"Can't send more than %d audio messages at a time"</item>
+        <item quantity="one">"Can't send more than %d audio message at a time"</item>
+    </plurals>
+    <plurals name="message_forward_count">
+        <item quantity="other">Forwarded %d times</item>
+        <item quantity="one">Forwarded %d time</item>
+    </plurals>
+    <plurals name="messages_copied">
+        <item quantity="other">%d messages copied</item>
+        <item quantity="one">%d message copied</item>
+    </plurals>
+    <plurals name="messages_deleted">
+        <item quantity="other">%d messages deleted</item>
+        <item quantity="one">%d message deleted</item>
+    </plurals>
+    <plurals name="messages_deleted_for_me">
+        <item quantity="other">%d messages deleted for me</item>
+        <item quantity="one">Message deleted for me</item>
+    </plurals>
+    <plurals name="missed_calls">
+        <item quantity="other">%d Missed Calls</item>
+        <item quantity="one">%d Missed Call</item>
+    </plurals>
+    <plurals name="missed_voice_calls">
+        <item quantity="other">%d missed voice calls</item>
+        <item quantity="one">%d missed voice call</item>
+    </plurals>
+    <plurals name="multicast_reach_limit">
+        <item quantity="other">You can only share with up to %1$d chats</item>
+        <item quantity="one">You can only share with up to %1$d chat</item>
+    </plurals>
+    <plurals name="n_chats_selected">
+        <item quantity="other">%d selected</item>
+        <item quantity="one">%d selected</item>
+    </plurals>
+    <plurals name="n_contacts">
+        <item quantity="other">%d contacts</item>
+        <item quantity="one">%d contact</item>
+    </plurals>
+    <plurals name="n_contacts_message_title">
+        <item quantity="other">%d contacts</item>
+        <item quantity="one">%d contact</item>
+    </plurals>
+    <plurals name="n_contacts_must_be_selected">
+        <item quantity="other">At least %d contacts must be selected</item>
+        <item quantity="one">At least %d contact must be selected</item>
+    </plurals>
+    <plurals name="n_contacts_selected">
+        <item quantity="other">%d selected</item>
+        <item quantity="one">%d selected</item>
+    </plurals>
+    <plurals name="n_groups_added">
+        <item quantity="other">%d added</item>
+        <item quantity="one">%d added</item>
+    </plurals>
+    <plurals name="n_items_selected">
+        <item quantity="other">%d items selected</item>
+        <item quantity="one">%d item selected</item>
+    </plurals>
+    <plurals name="n_more">
+        <item quantity="other">%d more</item>
+        <item quantity="one">%d more</item>
+    </plurals>
+    <plurals name="n_of_m_contacts_selected">
+        <item quantity="other">%1$d of %2$d selected</item>
+        <item quantity="one">%1$d of %2$d selected</item>
+    </plurals>
+    <plurals name="n_of_m_for_community">
+        <item quantity="other">%1$d of %2$d</item>
+        <item quantity="one">%1$d of %2$d</item>
+    </plurals>
+    <plurals name="n_of_m_groups_added">
+        <item quantity="other">%1$d of %2$d selected</item>
+        <item quantity="one">%1$d of %2$d selected</item>
+    </plurals>
+    <plurals name="n_photos_selected">
+        <item quantity="other">%d selected</item>
+        <item quantity="one">%d selected</item>
+    </plurals>
+    <plurals name="n_selected">
+        <item quantity="other">%d selected</item>
+        <item quantity="one">%d selected</item>
+    </plurals>
+    <plurals name="n_votes">
+        <item quantity="other">%1$d Votes</item>
+        <item quantity="one">%1$d Vote</item>
+    </plurals>
+    <plurals name="n_votes_m_percent">
+        <item quantity="other">%1$d votes, %2$d%%</item>
+        <item quantity="one">%1$d vote, %2$d%%</item>
+    </plurals>
+    <plurals name="names_others">
+        <item quantity="other">%1$d others</item>
+        <item quantity="one">%1$d other</item>
+    </plurals>
+    <plurals name="network_usage_message_count">
+        <item quantity="other">%1$d messages</item>
+        <item quantity="one">%1$d message</item>
+    </plurals>
+    <plurals name="network_usage_status_count">
+        <item quantity="other">%1$d status updates</item>
+        <item quantity="one">%1$d status update</item>
+    </plurals>
+    <plurals name="network_usage_voip_call_count">
+        <item quantity="other">%1$d calls</item>
+        <item quantity="one">%1$d call</item>
+    </plurals>
+    <plurals name="notification_downloading_multiple_media_filename">
+        <item quantity="other">%1$s and %2$d more files</item>
+        <item quantity="one">%1$s and %2$d more file</item>
+    </plurals>
+    <plurals name="notification_downloading_multiple_media_from">
+        <item quantity="other">from %1$s and %2$d more files</item>
+        <item quantity="one">from %1$s and %2$d more file</item>
+    </plurals>
+    <plurals name="notification_new_message">
+        <item quantity="other">%d new messages</item>
+        <item quantity="one">%d new message</item>
+    </plurals>
+    <plurals name="notification_new_message_from_multiple_contacts_1">
+        <item quantity="other">%d messages</item>
+        <item quantity="one">%d message</item>
+    </plurals>
+    <plurals name="notification_new_message_from_multiple_contacts_2">
+        <item quantity="other">%1$s from %2$d chats</item>
+        <item quantity="one">%1$s from %2$d chat</item>
+    </plurals>
+    <plurals name="notification_new_payment_method_update">
+        <item quantity="other">You have several notifications about your payments account or activity.</item>
+        <item quantity="one">You have one notification about your payments account or activity.</item>
+    </plurals>
+    <plurals name="notify_contacts_change_number_reach_limit">
+        <item quantity="other">"You can't select more than %1$d contacts."</item>
+        <item quantity="one">"You can't select more than %1$d contact."</item>
+    </plurals>
+    <plurals name="number_of_items">
+        <item quantity="other">%d items</item>
+        <item quantity="one">%d item</item>
+    </plurals>
+    <plurals name="number_of_pages">
+        <item quantity="other">%d pages</item>
+        <item quantity="one">%d page</item>
+    </plurals>
+    <plurals name="number_of_photos">
+        <item quantity="other">%d photos</item>
+        <item quantity="one">%d photo</item>
+    </plurals>
+    <plurals name="number_of_sheets">
+        <item quantity="other">%d sheets</item>
+        <item quantity="one">%d sheet</item>
+    </plurals>
+    <plurals name="number_of_slides">
+        <item quantity="other">%d slides</item>
+        <item quantity="one">%d slide</item>
+    </plurals>
+    <plurals name="number_of_videos">
+        <item quantity="other">%d videos</item>
+        <item quantity="one">%d video</item>
+    </plurals>
+    <plurals name="number_of_views">
+        <item quantity="other">%d views</item>
+        <item quantity="one">%d view</item>
+    </plurals>
+    <plurals name="nux_abbreviated_prompt">
+        <item quantity="other">You have %1$d contacts on WhatsApp</item>
+        <item quantity="one">You have %1$d contact on WhatsApp</item>
+    </plurals>
+    <plurals name="nux_one_more_contact_prompt">
+        <item quantity="other">&lt;b>%1$s&lt;/b> and %2$d more of your contacts are on WhatsApp</item>
+        <item quantity="one">&lt;b>%1$s&lt;/b> and %2$d other contact is on WhatsApp</item>
+    </plurals>
+    <plurals name="nux_three_more_contact_prompt">
+        <item quantity="other">&lt;b>%1$s&lt;/b>, &lt;b>%2$s&lt;/b>, &lt;b>%3$s&lt;/b> and %4$d more of your contacts are on WhatsApp</item>
+        <item quantity="one">&lt;b>%1$s&lt;/b>, &lt;b>%2$s&lt;/b>, &lt;b>%3$s&lt;/b> and %4$d other contact is on WhatsApp</item>
+    </plurals>
+    <plurals name="nux_two_more_contact_prompt">
+        <item quantity="other">&lt;b>%1$s&lt;/b>, &lt;b>%2$s&lt;/b> and %3$d more of your contacts are on WhatsApp</item>
+        <item quantity="one">&lt;b>%1$s&lt;/b>, &lt;b>%2$s&lt;/b> and %3$d other contact is on WhatsApp</item>
+    </plurals>
+    <plurals name="order_number_of_items">
+        <item quantity="other">%1$d items</item>
+        <item quantity="one">%1$d item</item>
+    </plurals>
+    <plurals name="parent_group_add_privacy_failure_prompt_invite">
+        <item quantity="other">"Couldn't add %s. You can invite them privately to join this community."</item>
+        <item quantity="one">"Couldn't add %s. You can invite them privately to join this community."</item>
+    </plurals>
+    <plurals name="parent_group_created_error_message_failed_to_add_groups">
+        <item quantity="other">The groups \"%1$s\", \"%2$s\", \"%3$s\" &amp; %4$d others could not be added to the community. Try adding them again.</item>
+        <item quantity="one">The group \"%1$s\" could not be added to the community. Try adding it again.</item>
+    </plurals>
+    <plurals name="parent_home_header_group_info">
+        <item quantity="other">Community · %1$d groups</item>
+        <item quantity="one">Community · %1$d group</item>
+    </plurals>
+    <plurals name="participants_remaining">
+        <item quantity="other">%d remaining</item>
+        <item quantity="one">%d remaining</item>
+    </plurals>
+    <plurals name="participants_title">
+        <item quantity="other">%d participants</item>
+        <item quantity="one">%d participant</item>
+    </plurals>
+    <plurals name="past_participants_footer">
+        <item quantity="other">People who left or were removed in the last %d days. &lt;a href=\"learn-more\">Learn&amp;nbsp;more&lt;/a></item>
+        <item quantity="one">People who left or were removed in the last %d day. &lt;a href=\"learn-more\">Learn&amp;nbsp;more&lt;/a></item>
+    </plurals>
+    <plurals name="payment_pin_retry_attempts">
+        <item quantity="other">%d attempts remaining</item>
+        <item quantity="one">%d attempt remaining</item>
+    </plurals>
+    <plurals name="payment_pin_retry_attempts_account_recovery">
+        <item quantity="other">%d attempts left. You’ll need to set up payments again after too many incorrect attempts.</item>
+        <item quantity="one">%d attempt left. You’ll need to set up payments again after too many incorrect attempts.</item>
+    </plurals>
+    <plurals name="payments_invite_limit_warning">
+        <item quantity="other">"You can't invite more than %1$d people to payments at a time."</item>
+        <item quantity="one">"You can't invite more than %1$d person to payments at a time."</item>
+    </plurals>
+    <plurals name="payments_max_requests_reached">
+        <item quantity="other">You can only send %d payment requests each day. Try again later.</item>
+        <item quantity="one">You can only send %d payment request each day. Try again later.</item>
+    </plurals>
+    <plurals name="payments_message_bubble_status_label_desc_expiration">
+        <item quantity="other">expires in %1$s</item>
+        <item quantity="one">expires in %1$s</item>
+    </plurals>
+    <plurals name="payments_multi_invite_snackbar">
+        <item quantity="other">Sending invites to %1$d contacts</item>
+        <item quantity="one">Sending invite to %1$d contact</item>
+    </plurals>
+    <plurals name="payments_request_message_generic_success">
+        <item quantity="other">%1$s requested %2$s from %3$s</item>
+        <item quantity="one">%1$s requested %2$s from %3$s</item>
+    </plurals>
+    <plurals name="payments_request_message_generic_success_sent_by_you">
+        <item quantity="other">You requested %1$s from %2$s</item>
+        <item quantity="one">You requested %1$s from %2$s</item>
+    </plurals>
+    <plurals name="payments_request_message_generic_success_to_you">
+        <item quantity="other">%1$s requested %2$s from You</item>
+        <item quantity="one">%1$s requested %2$s from You</item>
+    </plurals>
+    <plurals name="payments_request_received_notif_without_mentioning_sender">
+        <item quantity="other">Requested %1$s from %2$s</item>
+        <item quantity="one">Requested %1$s from %2$s</item>
+    </plurals>
+    <plurals name="payments_request_received_to_you_notif_without_mentioning_sender">
+        <item quantity="other">Requested %1$s from You</item>
+        <item quantity="one">Requested %1$s from You</item>
+    </plurals>
+    <plurals name="payments_settings_payment_requests">
+        <item quantity="other">Pending requests</item>
+        <item quantity="one">Pending request</item>
+    </plurals>
+    <plurals name="payments_settings_pending_transactions">
+        <item quantity="other">Pending transactions</item>
+        <item quantity="one">Pending transaction</item>
+    </plurals>
+    <plurals name="payments_transaction_message_generic_success">
+        <item quantity="other">%1$s sent %2$s to %3$s</item>
+        <item quantity="one">%1$s sent %2$s to %3$s</item>
+    </plurals>
+    <plurals name="payments_transaction_message_generic_success_from_you">
+        <item quantity="other">You sent %1$s to %2$s</item>
+        <item quantity="one">You sent %1$s to %2$s</item>
+    </plurals>
+    <plurals name="payments_transaction_message_generic_success_to_you">
+        <item quantity="other">%1$s sent %2$s to You</item>
+        <item quantity="one">%1$s sent %2$s to You</item>
+    </plurals>
+    <plurals name="payments_transaction_message_to_me">
+        <item quantity="other">%1$s sent you %2$s.</item>
+        <item quantity="one">%1$s sent you %2$s.</item>
+    </plurals>
+    <plurals name="payments_transaction_message_to_me_needs_accept">
+        <item quantity="other">You have %1$s to accept.</item>
+        <item quantity="one">You have %1$s to accept.</item>
+    </plurals>
+    <plurals name="payments_transaction_received_notif_pending_setup_without_mentioning_sender">
+        <item quantity="other">Sent you %1$s. Tap to accept.</item>
+        <item quantity="one">Sent you %1$s. Tap to accept.</item>
+    </plurals>
+    <plurals name="payments_transaction_received_notif_without_mentioning_sender">
+        <item quantity="other">Sent %1$s to %2$s</item>
+        <item quantity="one">Sent %1$s to %2$s</item>
+    </plurals>
+    <plurals name="payments_transaction_received_notif_without_mentioning_sender_to_you">
+        <item quantity="other">Sent %1$s to You</item>
+        <item quantity="one">Sent %1$s to You</item>
+    </plurals>
+    <plurals name="payments_transaction_system_message_to_me_pending_setup">
+        <item quantity="other">%1$s sent you %2$s. Tap to accept.</item>
+        <item quantity="one">%1$s sent you %2$s. Tap to accept.</item>
+    </plurals>
+    <plurals name="pin_toast">
+        <item quantity="other">Chats pinned</item>
+        <item quantity="one">Chat pinned</item>
+    </plurals>
+    <plurals name="poll_conversation_row_accessibility_description_votes_tied">
+        <item quantity="other">Many options have %1$d votes. %2$s.</item>
+        <item quantity="one">Many options have %1$d vote. %2$s.</item>
+    </plurals>
+    <plurals name="poll_conversation_row_accessibility_description_votes_top_vote_option">
+        <item quantity="other">Top vote count %1$s %2$d votes. %3$s.</item>
+        <item quantity="one">Top vote count %1$s %2$d vote. %3$s.</item>
+    </plurals>
+    <plurals name="products_total_quantity">
+        <item quantity="other">%1$d items</item>
+        <item quantity="one">%1$d item</item>
+    </plurals>
+    <plurals name="pushname_blacklisted_emoji_error">
+        <item quantity="other">"The %s emojis aren't allowed in your name."</item>
+        <item quantity="one">"The %s emoji isn't allowed in your name."</item>
+    </plurals>
+    <plurals name="quantity_selector_max_reached">
+        <item quantity="other">Only %d of these items are currently available.</item>
+        <item quantity="one">Only %d of these items is currently available.</item>
+    </plurals>
+    <plurals name="quick_contact_group_participants_info">
+        <item quantity="other">Group · %1$s participants</item>
+        <item quantity="zero">Group · %1$s participants</item>
+        <item quantity="one">Group · %1$s participant</item>
+    </plurals>
+    <plurals name="quick_contact_parent_group_participants_info">
+        <item quantity="other">Community · %1$s participants</item>
+        <item quantity="one">Community · %1$s participant</item>
+    </plurals>
+    <plurals name="reached_max_allowed_groups">
+        <item quantity="other">Limit of %1$s groups reached</item>
+        <item quantity="one">Limit of %1$s group reached</item>
+    </plurals>
+    <plurals name="reactions_a11y_all_tab_content_description">
+        <item quantity="other">All %1$s reactions tab</item>
+        <item quantity="one">All %1$s reaction tab</item>
+    </plurals>
+    <plurals name="reactions_a11y_emoji_tab_content_description">
+        <item quantity="other">%1$s %2$s reactions tab</item>
+        <item quantity="one">%1$s %2$s reaction tab</item>
+    </plurals>
+    <plurals name="reactions_bottom_sheet_all_tab_title">
+        <item quantity="other">All %1$s</item>
+        <item quantity="one">All %1$s</item>
+    </plurals>
+    <plurals name="reactions_group_notification_title">
+        <item quantity="other">%1$s +%2$s others @ %3$s</item>
+        <item quantity="one">%1$s +%2$s other @ %3$s</item>
+    </plurals>
+    <plurals name="reactions_summary_notification_title">
+        <item quantity="other">%1$s +%2$s others</item>
+        <item quantity="one">%1$s +%2$s other</item>
+    </plurals>
+    <plurals name="recipients_title">
+        <item quantity="other">%d recipients</item>
+        <item quantity="one">%d recipient</item>
+    </plurals>
+    <plurals name="register_voice_input_error_length_error">
+        <item quantity="other">Your code needs to be %d digits.</item>
+        <item quantity="one">Your code needs to be %d digit.</item>
+    </plurals>
+    <plurals name="resend_messages_from_date">
+        <item quantity="other">Resend %1$d messages from %2$s</item>
+        <item quantity="one">Resend %1$d message from %2$s</item>
+    </plurals>
+    <plurals name="resend_messages_from_yesterday">
+        <item quantity="other">Resend %1$d messages from yesterday</item>
+        <item quantity="one">Resend %1$d message from yesterday</item>
+    </plurals>
+    <plurals name="selected_recipients">
+        <item quantity="other">%d selected recipients</item>
+        <item quantity="one">%d selected recipient</item>
+    </plurals>
+    <plurals name="send_contacts">
+        <item quantity="other">Send contacts</item>
+        <item quantity="one">Send contact</item>
+    </plurals>
+    <plurals name="send_status_contacts_excluded">
+        <item quantity="other">Send to my contacts except %d</item>
+        <item quantity="one">Send to my contacts except %d</item>
+    </plurals>
+    <plurals name="send_status_contacts_selected">
+        <item quantity="other">Send to %d contacts</item>
+        <item quantity="one">Send to %d contact</item>
+    </plurals>
+    <plurals name="sending_audios_to_contact">
+        <item quantity="other">Sending %1$d audio files to %2$s</item>
+        <item quantity="one">Sending %1$d audio to %2$s</item>
+    </plurals>
+    <plurals name="sending_audios_to_contacts">
+        <item quantity="other">Sending %d audio files</item>
+        <item quantity="one">Sending %d audio</item>
+    </plurals>
+    <plurals name="sending_files_to_contact">
+        <item quantity="other">Sending %1$d files to %2$s</item>
+        <item quantity="one">Sending %1$d file to %2$s</item>
+    </plurals>
+    <plurals name="sending_files_to_contacts">
+        <item quantity="other">Sending %d files</item>
+        <item quantity="one">Sending %d file</item>
+    </plurals>
+    <plurals name="sending_gifs_to_contact">
+        <item quantity="other">Sending %1$d GIFs to %2$s</item>
+        <item quantity="one">Sending %1$d GIF to %2$s</item>
+    </plurals>
+    <plurals name="sending_gifs_to_contacts">
+        <item quantity="other">Sending %d GIFs</item>
+        <item quantity="one">Sending %d GIF</item>
+    </plurals>
+    <plurals name="sending_statuses">
+        <item quantity="other">Sending %d</item>
+        <item quantity="one">Sending</item>
+    </plurals>
+    <plurals name="sending_videos_to_contact">
+        <item quantity="other">Sending %1$d videos to %2$s</item>
+        <item quantity="one">Sending %1$d video to %2$s</item>
+    </plurals>
+    <plurals name="sending_videos_to_contacts">
+        <item quantity="other">Sending %d videos</item>
+        <item quantity="one">Sending %d video</item>
+    </plurals>
+    <plurals name="settings_gdrive_video_size_already_uploaded_plural">
+        <item quantity="other">%s backed up</item>
+        <item quantity="one">%s backed up</item>
+    </plurals>
+    <plurals name="settings_network_usage_calls_info_incoming">
+        <item quantity="other">%1$s incoming</item>
+        <item quantity="one">%1$s incoming</item>
+    </plurals>
+    <plurals name="settings_network_usage_calls_info_outgoing">
+        <item quantity="other">%1$s outgoing</item>
+        <item quantity="one">%1$s outgoing</item>
+    </plurals>
+    <plurals name="settings_network_usage_messages_info_received">
+        <item quantity="other">%1$s received</item>
+        <item quantity="one">%1$s received</item>
+    </plurals>
+    <plurals name="settings_network_usage_messages_info_sent">
+        <item quantity="other">%1$s sent</item>
+        <item quantity="one">%1$s sent</item>
+    </plurals>
+    <plurals name="settings_network_usage_status_info_received">
+        <item quantity="other">%1$s received</item>
+        <item quantity="one">%1$s received</item>
+    </plurals>
+    <plurals name="settings_network_usage_status_info_sent">
+        <item quantity="other">%1$s sent</item>
+        <item quantity="one">%1$s sent</item>
+    </plurals>
+    <plurals name="software_about_to_expire">
+        <item quantity="other">This version of WhatsApp needs to be updated in %d days. Update to the latest version?</item>
+        <item quantity="one">This version of WhatsApp needs to be updated in %d day. Update to the latest version?</item>
+    </plurals>
+    <plurals name="status_chip_allowlist_description">
+        <item quantity="other">Status (%d included)</item>
+        <item quantity="one">Status (%d included)</item>
+    </plurals>
+    <plurals name="status_chip_denylist_description">
+        <item quantity="other">Status (%d excluded)</item>
+        <item quantity="one">Status (%d excluded)</item>
+    </plurals>
+    <plurals name="status_contacts_excluded">
+        <item quantity="other">%d contacts excluded</item>
+        <item quantity="one">%d contact excluded</item>
+    </plurals>
+    <plurals name="status_contacts_selected">
+        <item quantity="other">%d contacts selected</item>
+        <item quantity="one">%d contact selected</item>
+    </plurals>
+    <plurals name="status_n_recipients_allow_list">
+        <item quantity="other">%d included</item>
+        <item quantity="one">%d included</item>
+    </plurals>
+    <plurals name="status_n_recipients_deny_list">
+        <item quantity="other">%d excluded</item>
+        <item quantity="one">%d excluded</item>
+    </plurals>
+    <plurals name="status_update_exceeds_character_limit">
+        <item quantity="other">Your status update cannot exceed %d characters.</item>
+        <item quantity="one">Your status update cannot exceed %d character.</item>
+    </plurals>
+    <plurals name="statuses_deleted">
+        <item quantity="other">Deleting %d status updates…</item>
+        <item quantity="one">Deleting %d status update…</item>
+    </plurals>
+    <plurals name="stop_share_btn_label">
+        <item quantity="other">Stop sharing</item>
+        <item quantity="one">Stop sharing</item>
+    </plurals>
+    <plurals name="storage_usage_chats_taking_less_space">
+        <item quantity="other">"%d chats not displayed because they're taking up a small amount of storage"</item>
+        <item quantity="one">%d chat not displayed because it is taking up a small amount of storage</item>
+    </plurals>
+    <plurals name="storage_usage_delete_completed_text">
+        <item quantity="other">%s deleted</item>
+        <item quantity="one">%s deleted</item>
+    </plurals>
+    <plurals name="storage_usage_delete_dialog_duplicate_item_subtitle">
+        <item quantity="other">To free up storage, delete any copies of these items from your WhatsApp media. Deleted items may still be saved on your device.</item>
+        <item quantity="one">To free up storage, delete any copies of this item from your WhatsApp media. Deleted items may still be saved on your device.</item>
+    </plurals>
+    <plurals name="storage_usage_delete_dialog_subtitle">
+        <item quantity="other">Items will be deleted from your WhatsApp media, but they may still be saved on your device.</item>
+        <item quantity="one">Item will be deleted from your WhatsApp media, but it may still be saved on your device.</item>
+    </plurals>
+    <plurals name="storage_usage_delete_messages_title">
+        <item quantity="other">Delete items?</item>
+        <item quantity="one">Delete item?</item>
+    </plurals>
+    <plurals name="storage_usage_detail_clear_messages_confirmation">
+        <item quantity="other">Clear %1$s (%2$s messages)?</item>
+        <item quantity="one">Clear %1$s (%2$s message)?</item>
+    </plurals>
+    <plurals name="storage_usage_detail_clear_messages_confirmation_title">
+        <item quantity="other">Clear messages</item>
+        <item quantity="one">Clear message</item>
+    </plurals>
+    <plurals name="storage_usage_detail_delete_items">
+        <item quantity="other">Delete items (%s)</item>
+        <item quantity="one">Delete item (%s)</item>
+    </plurals>
+    <plurals name="storage_usage_detail_delete_items_confirmation">
+        <item quantity="other">Delete %1$s (%2$s items)?</item>
+        <item quantity="one">Delete %1$s (%2$s item)?</item>
+    </plurals>
+    <plurals name="storage_usage_detail_delete_items_confirmation_title">
+        <item quantity="other">Delete items</item>
+        <item quantity="one">Delete item</item>
+    </plurals>
+    <plurals name="storage_usage_free_space">
+        <item quantity="other">Free</item>
+        <item quantity="one">Free</item>
+    </plurals>
+    <plurals name="storage_usage_used_space">
+        <item quantity="other">Used</item>
+        <item quantity="one">Used</item>
+    </plurals>
+    <plurals name="subgroup_view_all">
+        <item quantity="other">View all (%1$d more)</item>
+        <item quantity="one">View all (%1$d more)</item>
+    </plurals>
+    <plurals name="subject_reach_limit">
+        <item quantity="other">"Subject can't be more than %1$d characters."</item>
+        <item quantity="one">"Subject can't be more than %1$d character."</item>
+    </plurals>
+    <plurals name="suspicious_links_label">
+        <item quantity="other">%d suspicious links</item>
+        <item quantity="one">%d suspicious link</item>
+    </plurals>
+    <plurals name="system_message_sibling_link_four_or_more_known_name_by_author">
+        <item quantity="other">%3$s added the groups \"%1$s,\" \"%2$s\" &amp; %4$d others</item>
+        <item quantity="one">%3$s added the groups \"%1$s,\" \"%2$s\" &amp; %4$d other</item>
+    </plurals>
+    <plurals name="system_message_sibling_link_four_or_more_known_name_by_unknown">
+        <item quantity="other">Groups \"%1$s,\" \"%2$s\" &amp; %4$d others were added</item>
+        <item quantity="one">Groups \"%1$s,\" \"%2$s\" &amp; %4$d other were added</item>
+    </plurals>
+    <plurals name="system_message_sibling_link_four_or_more_known_name_by_you">
+        <item quantity="other">You added the groups \"%1$s,\" \"%2$s\" &amp; %4$d others</item>
+        <item quantity="one">You added the groups \"%1$s,\" \"%2$s\" &amp; %4$d other</item>
+    </plurals>
+    <plurals name="system_message_sibling_link_unknown_name_by_author">
+        <item quantity="other">%2$s added %1$1d groups</item>
+        <item quantity="one">%2$s added a group</item>
+    </plurals>
+    <plurals name="system_message_sibling_link_unknown_name_by_unknown">
+        <item quantity="other">%1$d groups were added</item>
+        <item quantity="one">A group was added</item>
+    </plurals>
+    <plurals name="system_message_sibling_link_unknown_name_by_you">
+        <item quantity="other">You added %1$d groups</item>
+        <item quantity="one">You added a group</item>
+    </plurals>
+    <plurals name="system_message_sibling_unlink_many_known_name_by_author">
+        <item quantity="other">%3$s removed the groups \"%1$s\" &amp; %2$d others</item>
+        <item quantity="one">%3$s removed the groups \"%1$s\" &amp; %2$d other</item>
+    </plurals>
+    <plurals name="system_message_sibling_unlink_many_known_name_by_unknown">
+        <item quantity="other">Groups \"%1$s\" &amp; %2$d others were removed</item>
+        <item quantity="one">Groups \"%1$s\" &amp; %2$d other were removed</item>
+    </plurals>
+    <plurals name="system_message_sibling_unlink_many_known_name_by_you">
+        <item quantity="other">You removed the groups \"%1$s\" &amp; %2$d others</item>
+        <item quantity="one">You removed the groups \"%1$s\" &amp; %2$d other</item>
+    </plurals>
+    <plurals name="system_message_sibling_unlink_unknown_name_by_author">
+        <item quantity="other">%2$s removed %1$1d groups</item>
+        <item quantity="one">%2$s removed a group</item>
+    </plurals>
+    <plurals name="system_message_sibling_unlink_unknown_name_by_unknown">
+        <item quantity="other">%1$d groups were removed</item>
+        <item quantity="one">A group was removed</item>
+    </plurals>
+    <plurals name="system_message_sibling_unlink_unknown_name_by_you">
+        <item quantity="other">You removed %1$d groups</item>
+        <item quantity="one">You removed a group</item>
+    </plurals>
+    <plurals name="tb_ephemeral_chat_expiration_in_days">
+        <item quantity="other">New messages will disappear from this chat after %d days.</item>
+        <item quantity="one">New messages will disappear from this chat after %d day.</item>
+    </plurals>
+    <plurals name="tb_ephemeral_chat_expiration_in_hours">
+        <item quantity="other">New messages will disappear from this chat after %d hours.</item>
+        <item quantity="one">New messages will disappear from this chat after %d hour.</item>
+    </plurals>
+    <plurals name="tb_ephemeral_chat_expiration_in_minutes">
+        <item quantity="other">New messages will disappear from this chat after %d minutes.</item>
+        <item quantity="one">New messages will disappear from this chat after %d minute.</item>
+    </plurals>
+    <plurals name="tb_ephemeral_chat_expiration_in_seconds">
+        <item quantity="other">New messages will disappear from this chat after %d seconds.</item>
+        <item quantity="one">New messages will disappear from this chat after %d second.</item>
+    </plurals>
+    <plurals name="tb_status_tab_new_updates">
+        <item quantity="other">%d new updates</item>
+        <item quantity="one">%d new update</item>
+    </plurals>
+    <plurals name="tb_status_tab_viewed_updates">
+        <item quantity="other">%d viewed updates</item>
+        <item quantity="zero">no updates</item>
+        <item quantity="one">%d viewed update</item>
+    </plurals>
+    <plurals name="tb_view_new_status_updates">
+        <item quantity="other">"%1$s's status. %2$d new updates"</item>
+        <item quantity="one">"%1$s's status. %2$d new update"</item>
+    </plurals>
+    <plurals name="text_limit_characters_remaining_description">
+        <item quantity="other">%d characters remaining</item>
+        <item quantity="one">%d character remaining</item>
+    </plurals>
+    <plurals name="text_status_truncation_info">
+        <item quantity="other">Text sent to My Status will be trimmed to the first %d characters.</item>
+        <item quantity="one">Text sent to My Status will be trimmed to the first %d character.</item>
+    </plurals>
+    <plurals name="time_left">
+        <item quantity="other">%s left</item>
+        <item quantity="one">%s left</item>
+    </plurals>
+    <plurals name="total_items">
+        <item quantity="other">%1$d items</item>
+        <item quantity="one">%1$d item</item>
+    </plurals>
+    <plurals name="transaction_status_collect_success_receiver">
+        <item quantity="other">You have %1$s to respond to this request</item>
+        <item quantity="one">You have %1$s to respond to this request</item>
+    </plurals>
+    <plurals name="transaction_status_collect_success_sender">
+        <item quantity="other">%1$s has %2$s to respond to your request</item>
+        <item quantity="one">%1$s has %2$s to respond to your request</item>
+    </plurals>
+    <plurals name="transaction_status_pending_receiver_setup">
+        <item quantity="other">%1$s has %2$s to accept this payment</item>
+        <item quantity="one">%1$s has %2$s to accept this payment</item>
+    </plurals>
+    <plurals name="transaction_status_pending_setup">
+        <item quantity="other">You have %1$s to accept this payment</item>
+        <item quantity="one">You have %1$s to accept this payment</item>
+    </plurals>
+    <plurals name="unpin_toast">
+        <item quantity="other">Chats unpinned</item>
+        <item quantity="one">Chat unpinned</item>
+    </plurals>
+    <plurals name="unread_message_count">
+        <item quantity="other">%d Unread Messages</item>
+        <item quantity="one">%d Unread Message</item>
+    </plurals>
+    <plurals name="unsent_messages_in_selection">
+        <item quantity="other">You have %1$d unsent messages in selection.</item>
+        <item quantity="one">You have %1$d unsent message in selection.</item>
+    </plurals>
+    <plurals name="unstar_while_clearing_error">
+        <item quantity="other">Cannot unstar messages while conversation is being cleared. Try again later.</item>
+        <item quantity="one">Cannot unstar message while conversation is being cleared. Try again later.</item>
+    </plurals>
+    <plurals name="upi_mandate_payment_request_status_time_remaining_to_approve">
+        <item quantity="other">You have %1$s to approve this request</item>
+        <item quantity="one">You have %1$s to approve this request</item>
+    </plurals>
+    <plurals name="verify_identity_tip_both_multiple_device">
+        <item quantity="other">To verify that messages and calls with %1$s are end-to-end encrypted, scan this code on their phone and %3$d other linked devices as well as on all devices linked to your account. You can also compare the number above instead. &lt;a href=\"%2$s\">Learn more&lt;/a></item>
+        <item quantity="one">To verify that messages and calls with %1$s are end-to-end encrypted, scan this code on their phone and %3$d other linked device as well as on all devices linked to your account. You can also compare the number above instead. &lt;a href=\"%2$s\">Learn more&lt;/a></item>
+    </plurals>
+    <plurals name="verify_identity_tip_contact_multiple_device">
+        <item quantity="other">To verify that messages and calls with %1$s are end-to-end encrypted, scan this code on their phone and %3$d other linked devices. You can also compare the number above instead. &lt;a href=\"%2$s\">Learn more&lt;/a></item>
+        <item quantity="one">To verify that messages and calls with %1$s are end-to-end encrypted, scan this code on their phone and %3$d other linked device. You can also compare the number above instead. &lt;a href=\"%2$s\">Learn more&lt;/a></item>
+    </plurals>
+    <plurals name="verify_resend_sms_button_disabled_hours">
+        <item quantity="other">Resend SMS in %d hours</item>
+        <item quantity="one">Resend SMS in %d hour</item>
+    </plurals>
+    <plurals name="verify_voice_call_button_disabled_hours">
+        <item quantity="other">Call me in %d hours</item>
+        <item quantity="one">Call me in %d hour</item>
+    </plurals>
+    <plurals name="video_lonely_state_notification_mins_left">
+        <item quantity="other">Ongoing video call - Waiting for others… This call will end in %d minutes if no one joins.</item>
+        <item quantity="one">Ongoing video call - Waiting for others… This call will end in %d minute if no one joins.</item>
+    </plurals>
+    <plurals name="video_missed_calls">
+        <item quantity="other">%d missed video calls</item>
+        <item quantity="one">%d missed video call</item>
+    </plurals>
+    <plurals name="video_status_truncation_info">
+        <item quantity="other">Videos sent to My Status will be trimmed to the first %d seconds.</item>
+        <item quantity="one">Videos sent to My Status will be trimmed to the first %d second.</item>
+    </plurals>
+    <plurals name="view_all">
+        <item quantity="other">View all (%d more)</item>
+        <item quantity="one">View all (%d more)</item>
+    </plurals>
+    <plurals name="view_contacts_title">
+        <item quantity="other">View contacts</item>
+        <item quantity="one">View contact</item>
+    </plurals>
+    <plurals name="viewed_by">
+        <item quantity="other">Viewed by %d</item>
+        <item quantity="one">Viewed by %d</item>
+    </plurals>
+    <plurals name="voice_lonely_state_notification_mins_left">
+        <item quantity="other">Ongoing voice call - Waiting for others… This call will end in %d minutes if no one joins.</item>
+        <item quantity="one">Ongoing voice call - Waiting for others… This call will end in %d minute if no one joins.</item>
+    </plurals>
+    <plurals name="voip_call_info_invited_participants_title">
+        <item quantity="other">Invited (%d)</item>
+        <item quantity="one">Invited (%d)</item>
+    </plurals>
+    <plurals name="voip_call_info_joined_participants_title">
+        <item quantity="other">Connected (%d)</item>
+        <item quantity="one">Connected (%d)</item>
+    </plurals>
+    <plurals name="voip_error_add_four_or_more_participant_failed_dialog_title">
+        <item quantity="other">"Couldn't add %1$s &amp; %2$d others"</item>
+        <item quantity="one">"Couldn't add %1$s &amp; %2$d other"</item>
+    </plurals>
+    <plurals name="voip_error_add_participant_failed_dialog_title">
+        <item quantity="other">"Couldn't add %s"</item>
+        <item quantity="one">"Couldn't add %s"</item>
+    </plurals>
+    <plurals name="voip_error_group_call_size_not_supported">
+        <item quantity="other">All participants need the latest version of WhatsApp for calls with %d people</item>
+        <item quantity="one">All participants need the latest version of WhatsApp for calls with %d person</item>
+    </plurals>
+    <plurals name="voip_error_multiple_participant_group_call_size_not_supported">
+        <item quantity="other">"Several people are using an old version of WhatsApp.
+
+To start calls with %d people, all participants need the latest version of WhatsApp."</item>
+        <item quantity="one">"Several people are using an old version of WhatsApp.
+
+To start calls with %d person, all participants need the latest version of WhatsApp."</item>
+    </plurals>
+    <plurals name="voip_error_one_participant_group_call_size_not_supported">
+        <item quantity="other">"%1$s is using an old version of WhatsApp.
+
+To start calls with %2$d people, all participants need the latest version of WhatsApp."</item>
+        <item quantity="one">"%1$s is using an old version of WhatsApp.
+
+To start calls with %2$d person, all participants need the latest version of WhatsApp."</item>
+    </plurals>
+    <plurals name="voip_group_call_not_supported_plural">
+        <item quantity="other">%s are unable to join WhatsApp group calls at this time.</item>
+        <item quantity="one">%s is unable to join WhatsApp group calls at this time.</item>
+    </plurals>
+    <plurals name="voip_group_call_reach_maximum">
+        <item quantity="other">"Couldn't place call. WhatsApp only supports a maximum of %d participants in a group call"</item>
+        <item quantity="one">"Couldn't place call. WhatsApp only supports a maximum of %d participant in a group call"</item>
+    </plurals>
+    <plurals name="voip_joinable_banner_notif_joined">
+        <item quantity="other">Joined</item>
+        <item quantity="one">Joined</item>
+    </plurals>
+    <plurals name="voip_joinable_invited_to_the_call">
+        <item quantity="other">Invited</item>
+        <item quantity="one">Invited</item>
+    </plurals>
+    <plurals name="voip_joinable_invited_to_the_call_announcement">
+        <item quantity="other">%s invited to the call</item>
+        <item quantity="one">%s invited to the call</item>
+    </plurals>
+    <plurals name="voip_joinable_new_group_call_warning">
+        <item quantity="other">"Choose up to %d people. They'll be able to join the call any time after it starts. &lt;a href=learn_more_link>Learn more&lt;/a>"</item>
+        <item quantity="one">"Choose up to %d person. They'll be able to join the call any time after it starts. &lt;a href=learn_more_link>Learn more&lt;/a>"</item>
+    </plurals>
+    <plurals name="voip_not_allowed_at_this_time_plural">
+        <item quantity="other">%s are unable to receive WhatsApp calls at this time.</item>
+        <item quantity="one">%s is unable to receive WhatsApp calls at this time.</item>
+    </plurals>
+    <plurals name="you_created_list">
+        <item quantity="other">You created broadcast list \"%1$s\" with %2$d recipients</item>
+        <item quantity="one">You created broadcast list \"%1$s\" with %2$d recipient</item>
+    </plurals>
+    <plurals name="you_created_list_unnamed">
+        <item quantity="other">You created a broadcast list with %d recipients</item>
+        <item quantity="one">You created a broadcast list with %d recipient</item>
+    </plurals>
+    <plurals name="your_invite_used_by_user_plural">
+        <item quantity="other">%s joined using your invite</item>
+        <item quantity="one">%s joined using your invite</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Fast forward %d seconds</item>
+        <item quantity="one">Fast forward %d second</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Rewind %d seconds</item>
+        <item quantity="one">Rewind %d second</item>
+    </plurals>
+    <plurals name="export_backup_not_enough_space_message">
+        <item quantity="other">Exporting chats will need %s of storage. Please free up storage space before exporting.</item>
+        <item quantity="one">Exporting chats will need %s of storage. Please free up storage space before exporting.</item>
+    </plurals>
+    <plurals name="failed_announcement_group_toggle_time">
+        <item quantity="other">You can only change this setting once every %d hours.</item>
+        <item quantity="one">You can only change this setting once every %d hour.</item>
+    </plurals>
+    <plurals name="import_backup_not_enough_space_message">
+        <item quantity="other">Importing will need %s of storage. Please free up storage space before importing.</item>
+        <item quantity="one">Importing will need %s of storage. Please free up storage space before importing.</item>
+    </plurals>
+    <plurals name="move_chats_insufficient_space_dialog">
+        <item quantity="other">"%1$s is needed on this device for transfer. Please clear out space by using WhatsApp's storage management tool."</item>
+        <item quantity="one">"%1$s is needed on this device for transfer. Please clear out space by using WhatsApp's storage management tool."</item>
+    </plurals>
+    <plurals name="settings_gdrive_video_size_to_be_uploaded_plural">
+        <item quantity="other">%s to be uploaded</item>
+        <item quantity="one">%s to be uploaded</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d new notifications</item>
+        <item quantity="one">%d new notification</item>
+    </plurals>
+</resources>

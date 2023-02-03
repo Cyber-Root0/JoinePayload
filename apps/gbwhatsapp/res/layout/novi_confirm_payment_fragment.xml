@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/novi_send_money_review_header" layout="@layout/novi_send_money_review_header" />
+    <include android:id="@id/novi_send_money_review_contact" layout="@layout/novi_send_money_review_contact" />
+    <include android:id="@id/novi_send_money_review_transaction_summary" layout="@layout/novi_send_money_review_transaction_summary" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/novi_send_money_payment_method_container" android:background="@drawable/selector_orange_gradient" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.payments.ui.widget.PaymentMethodRow android:id="@id/novi_send_money_payment_method_row" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center|right" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/chevron_right" android:contentDescription="@string/payment_expand_more" app:wivMirrorForRtl="true" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/novi_send_money_payment_description_container" android:background="@drawable/selector_orange_gradient" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.payments.ui.widget.PaymentDescriptionRow android:id="@id/novi_send_money_payment_description_row" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center|right" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/chevron_right" android:contentDescription="@string/payment_expand_more" app:wivMirrorForRtl="true" />
+    </LinearLayout>
+    <View android:id="@id/account_number_divider" android:background="@drawable/payments_divider_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="@dimen/payment_method_divider_start_margin" android:layout_marginBottom="16.0dip" />
+    <include android:id="@id/novi_send_money_review_extras" layout="@layout/novi_send_money_review_extras" />
+    <FrameLayout android:id="@id/novi_send_money_container" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" style="@style/NoviPayButtonFrame">
+        <com.gbwhatsapp.components.Button android:id="@id/novi_send_money_confirm_payment" android:layout_width="fill_parent" android:text="@string/confirm_payment_bottom_sheet_confirm_button" style="@style/NoviPayPrimaryButton" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/novi_send_money_confirm_payment_progressbar" android:visibility="gone" style="@style/NoviPayLoadingSpinner" />
+    </FrameLayout>
+</LinearLayout>

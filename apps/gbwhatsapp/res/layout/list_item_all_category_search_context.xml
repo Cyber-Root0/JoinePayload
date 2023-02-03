@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="horizontal" android:paddingLeft="@dimen/catalog_all_category_search_ctx_horizontal_margin" android:paddingTop="@dimen/catalog_all_category_search_ctx_vertical_margin" android:paddingRight="@dimen/catalog_all_category_search_ctx_horizontal_margin" android:paddingBottom="@dimen/catalog_all_category_search_ctx_vertical_margin" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="@color/selector_catalog_category_primary_text" android:layout_gravity="start|center" android:id="@id/title_category_list_item" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+    <com.gbwhatsapp.WaImageView android:layout_gravity="end|center" android:id="@id/image_arrow_all_category_list" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_right_arrow" />
+</FrameLayout>

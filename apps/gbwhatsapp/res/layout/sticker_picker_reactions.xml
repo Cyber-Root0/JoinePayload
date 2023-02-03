@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/reactions_bg" android:layout_width="wrap_content" android:layout_height="36.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/reactions_left" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <com.gbwhatsapp.WaImageView android:id="@id/reaction_lol" android:padding="6.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/sticker_reaction_lol_focus" android:scaleType="center" android:contentDescription="@string/sticker_reaction_lol_content_description" app:tint="@color/selector_emoji_icons" app:tintMode="src_in" />
+    </FrameLayout>
+    <com.gbwhatsapp.WaImageView android:id="@id/reaction_love" android:padding="6.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/sticker_reaction_love_focus" android:scaleType="center" android:contentDescription="@string/sticker_reaction_love_content_description" app:tint="@color/selector_emoji_icons" app:tintMode="src_in" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/reactions_right" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <com.gbwhatsapp.WaImageView android:id="@id/reaction_sad" android:padding="6.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/sticker_reaction_sad_focus" android:scaleType="center" android:contentDescription="@string/sticker_reaction_sad_content_description" app:tint="@color/selector_emoji_icons" app:tintMode="src_in" />
+        <com.gbwhatsapp.WaImageView android:id="@id/reaction_wow" android:padding="6.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/sticker_reaction_wow_focus" android:scaleType="center" android:contentDescription="@string/sticker_reaction_wow_content_description" app:tint="@color/selector_emoji_icons" app:tintMode="src_in" />
+    </LinearLayout>
+</LinearLayout>

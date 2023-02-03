@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="?settingsBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:gravity="center" android:paddingTop="0.0dip" android:paddingBottom="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:gravity="center" android:paddingLeft="0.5dip" android:paddingTop="@dimen/pref_profile_photo_top_padding" android:paddingRight="0.5dip" android:paddingBottom="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <com.gbwhatsapp.components.button.ThumbnailButton android:id="@id/photo_btn" android:layout_width="@dimen/pref_profile_photo_size" android:layout_height="@dimen/pref_profile_photo_size" android:layout_marginBottom="2.0dip" android:src="@drawable/ic_settings_profile" android:scaleType="fitCenter" android:adjustViewBounds="true" android:contentDescription="@string/profile_photo" whatsapp:tbtnBorderColor="?settingsProfilePhotoOutlineColor" whatsapp:tbtnBorderSize="1.0px" whatsapp:tbtnRadius="-1.0dip" />
+                <ProgressBar android:layout_gravity="center" android:id="@id/change_photo_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:progressBarStyleInverse" />
+                <com.gbwhatsapp.WaImageButton android:layout_gravity="bottom|center|right" android:id="@id/change_photo_btn" android:background="@drawable/input_circle" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginBottom="2.0dip" android:src="@drawable/ic_camera" android:contentDescription="@string/edit_photo_description" whatsapp:tint="@color/white" style="@style/ActionBarButtonStyle" />
+            </FrameLayout>
+        </RelativeLayout>
+        <com.gbwhatsapp.profile.ProfileSettingsRowIconText android:id="@id/profile_info_name_card" android:layout_width="fill_parent" android:layout_height="wrap_content" whatsapp:psritDescription="@string/settings_push_name_summary" whatsapp:psritIcon="@drawable/ic_settings_name" whatsapp:psritIconColor="?settingsIconColor" whatsapp:psritSecondaryIcon="@drawable/ic_settings_edit" whatsapp:psritSecondaryIconColor="?settingsGrayButtonColor" whatsapp:psritTitleText="@string/profile_settings_name_section_title" style="?settingsRowIconText" />
+        <View android:layout_marginLeft="72.0dip" style="@style/SectionDivider" />
+        <com.gbwhatsapp.profile.ProfileSettingsRowIconText android:id="@id/profile_info_status_card" android:layout_width="fill_parent" android:layout_height="wrap_content" whatsapp:psritIcon="@drawable/ic_settings_info" whatsapp:psritIconColor="?settingsIconColor" whatsapp:psritSecondaryIcon="@drawable/ic_settings_edit" whatsapp:psritSecondaryIconColor="?settingsGrayButtonColor" whatsapp:psritTitleText="@string/profile_settings_about_section_title" style="?settingsRowIconText" />
+        <View android:layout_marginLeft="72.0dip" style="@style/SectionDivider" />
+        <com.gbwhatsapp.profile.ProfileSettingsRowIconText android:id="@id/profile_phone_info" android:layout_width="fill_parent" android:layout_height="wrap_content" whatsapp:psritIcon="@drawable/ic_settings_phone" whatsapp:psritIconColor="?settingsIconColor" whatsapp:psritTitleText="@string/profile_settings_phone_section_title" style="?settingsRowIconText" />
+    </LinearLayout>
+</ScrollView>

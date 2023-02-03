@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.gifsearch.controls.AdaptiveRecyclerView android:id="@id/gif_grid" android:paddingLeft="4.0dip" android:paddingTop="2.0dip" android:paddingBottom="@dimen/picker_footer_height" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="@color/body_light_gray" android:gravity="center|top" android:layout_gravity="center" android:id="@id/no_results" android:layout_width="fill_parent" android:layout_height="60.0dip" android:text="@string/gif_search_no_results" />
+    <FrameLayout android:layout_gravity="center_vertical" android:id="@id/progress_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/gif_preview_size">
+        <ProgressBar android:layout_gravity="center" android:id="@id/gif_trending_progress" android:layout_width="36.0dip" android:layout_height="36.0dip" />
+    </FrameLayout>
+    <include layout="@layout/gif_search_retry_panel" />
+</FrameLayout>

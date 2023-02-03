@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:background="@color/primary_surface" style="@style/ContactInfoRow.GroupSetting">
+        <com.gbwhatsapp.WaTextView android:id="@id/group_setting_row_title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ListItemTitle" />
+        <com.gbwhatsapp.WaTextView android:textSize="@dimen/group_setting_info_text_size" android:textColor="@color/list_item_info" android:gravity="left" android:id="@id/group_setting_row_info" android:paddingRight="@dimen/group_setting_info_padding_right" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/group_setting_row_description_container" android:background="@color/dimmed_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View style="@style/ListBottomShadow" />
+        <com.gbwhatsapp.TextEmojiLabel android:textSize="@dimen/group_setting_info_text_size" android:textColor="@color/list_item_description" android:id="@id/group_setting_row_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/group_setting_info_description_margin" android:layout_marginRight="@dimen/group_setting_info_description_margin" android:layout_marginBottom="@dimen/group_settings_description_margin_bottom" />
+    </LinearLayout>
+</merge>

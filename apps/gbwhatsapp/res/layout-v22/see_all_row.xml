@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/selector_orange_gradient" android:layout_width="fill_parent" android:layout_height="@dimen/communityTab_seeAll_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/chevron" android:layout_width="@dimen/small_list_avatar_size" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/communityTab_see_all_marginHorizontal" android:layout_marginRight="@dimen/communityTab_see_all_marginHorizontal" android:src="@drawable/chevron" android:layout_marginHorizontal="@dimen/communityTab_see_all_marginHorizontal" />
+    <com.gbwhatsapp.WaTextView android:textColor="@color/list_item_sub_title" android:gravity="start|center" android:id="@id/view_more" android:paddingRight="@dimen/communityTab_row_paddingEnd" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/see_all" android:textAlignment="viewStart" android:paddingEnd="@dimen/communityTab_row_paddingEnd" style="@style/ListItemTitle" />
+</LinearLayout>

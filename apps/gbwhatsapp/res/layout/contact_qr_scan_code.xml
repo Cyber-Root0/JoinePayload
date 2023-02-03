@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.qrcode.WaQrScannerView android:id="@id/qr_scanner_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.gbwhatsapp.qrcode.QrScannerOverlay android:id="@id/overlay" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" whatsapp:qsoShape="round_corners" whatsapp:qsoText="@string/contact_qr_scan_a_qr_code" whatsapp:qsoTextSize="@dimen/contact_qr_overlay_prompt_text_size" whatsapp:qsoTextTopMargin="@dimen/contact_qr_overlay_prompt_text_margin_top" />
+    <com.gbwhatsapp.WaImageView android:layout_gravity="bottom|center|left" android:id="@id/qr_scan_from_gallery" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:src="@drawable/ic_album" android:contentDescription="@string/scan_qr_from_gallery_action" whatsapp:tint="@color/white" style="@style/ActionBarButtonStyle" />
+    <com.gbwhatsapp.WaImageView android:layout_gravity="bottom|center|right" android:id="@id/qr_scan_flash" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:src="@drawable/flash_off" whatsapp:tint="@color/white" style="@style/ActionBarButtonStyle" />
+</FrameLayout>

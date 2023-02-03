@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Posunout vpřed o %d sekund</item>
+        <item quantity="one">Posunout vpřed o %d sekundu</item>
+        <item quantity="few">Posunout vpřed o %d sekundy</item>
+        <item quantity="many">Posunout vpřed o %d sekundy</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Přetočit zpět o %d sekund</item>
+        <item quantity="one">Přetočit zpět o %d sekundu</item>
+        <item quantity="few">Přetočit zpět o %d sekundy</item>
+        <item quantity="many">Přetočit zpět o %d sekundy</item>
+    </plurals>
+    <plurals name="export_backup_not_enough_space_message">
+        <item quantity="other">K exportu chatů je potřeba %s. Před exportováním uvolněte místo v úložišti.</item>
+        <item quantity="few">K exportu chatů jsou potřeba %s. Před exportováním uvolněte místo v úložišti.</item>
+    </plurals>
+    <plurals name="import_backup_not_enough_space_message">
+        <item quantity="other">K importu je potřeba %s. Před importováním uvolněte místo v úložišti.</item>
+        <item quantity="few">K importu jsou potřeba %s. Před importováním uvolněte místo v úložišti.</item>
+    </plurals>
+    <plurals name="move_chats_insufficient_space_dialog">
+        <item quantity="other">K přenosu zpráv je potřeba %1$s. Uvolněte místo ve Správě úložiště aplikace WhatsApp.</item>
+        <item quantity="few">K přenosu zpráv jsou potřeba %1$s. Uvolněte místo ve Správě úložiště aplikace WhatsApp.</item>
+    </plurals>
+    <plurals name="settings_gdrive_video_size_to_be_uploaded_plural">
+        <item quantity="other">Bude nahráno %s</item>
+        <item quantity="one">Bude nahrán %s</item>
+        <item quantity="few">Budou nahrány %s</item>
+    </plurals>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.KeyboardPopupLayout android:id="@id/main" android:background="@color/primary_surface" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/out_of_chat_playback_holder" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include android:id="@id/toolbar_holder" android:background="@color/primary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/out_of_chat_playback_holder" layout="@layout/toolbar_with_search" />
+    <androidy.recyclerview.widget.RecyclerView android:id="@id/poll_creator_options_recycler_view" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="7.0dip" android:layout_below="@id/toolbar_holder" android:layout_alignParentBottom="true" />
+    <com.gbwhatsapp.components.FloatingActionButton android:id="@id/poll_create_button" android:src="@drawable/input_send" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:contentDescription="@string/send_button" style="@style/WA.FAB" />
+</com.gbwhatsapp.KeyboardPopupLayout>

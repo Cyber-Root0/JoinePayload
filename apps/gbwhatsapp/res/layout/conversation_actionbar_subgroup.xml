@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/custom_view" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="?actionBarSize"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/conversation_actionbar_subgroup_back_button" />
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/icon_layout_anchor" layout="@layout/conversation_actionbar_views" />
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center_vertical" android:id="@id/picture_frame" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaImageView android:id="@id/picture" android:layout_width="62.0dip" android:layout_height="62.0dip" android:src="@drawable/avatar_contact" android:scaleType="fitCenter" />
+        <com.gbwhatsapp.WaImageView android:id="@id/picture_in_group" android:visibility="gone" android:layout_width="62.0dip" android:layout_height="62.0dip" android:scaleType="fitCenter" />
+    </FrameLayout>
+    <com.gbwhatsapp.WaButton android:textSize="13.0sp" android:textColor="@color/white" android:layout_gravity="center" android:id="@id/fast_playback_overlay" android:background="@drawable/fast_playback_ptt_rounded_corner" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:layout_marginBottom="3.0dip" android:scaleType="fitCenter" android:minWidth="44.0dip" android:minHeight="26.0dip" android:elevation="0.0dip" android:stateListAnimator="@null" app:action="media" app:useLegacy="true" app:variant="tonal" app:wdsButtonSize="small" />
+    <com.gbwhatsapp.WaImageView android:layout_gravity="bottom|center|left" android:id="@id/mic_overlay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mic_played" android:scaleType="fitCenter" />
+</merge>

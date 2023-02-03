@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/media_container" android:paddingLeft="2.0dip" android:paddingTop="2.0dip" android:paddingRight="2.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.whatsapp.stickers.StickerView android:layout_gravity="center_horizontal" android:id="@id/sticker_image" android:layout_width="@dimen/conversation_row_sticker_size" android:layout_height="@dimen/conversation_row_sticker_size" android:contentDescription="@string/sticker_message_content_description" />
+        <FrameLayout android:layout_gravity="center" android:id="@id/control_frame" android:background="@drawable/download_background" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.gbwhatsapp.CircularProgressBar android:layout_gravity="center" android:id="@id/progress_bar" android:visibility="gone" android:layout_width="64.0dip" android:layout_height="64.0dip" android:indeterminateOnly="false" />
+            <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/cancel_download" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_cancel" android:contentDescription="@string/cancel" />
+            <com.gbwhatsapp.WaButton android:id="@id/control_btn" style="@style/ConversationRowControlButton.Left" />
+        </FrameLayout>
+    </FrameLayout>
+</merge>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Menu" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Menu" />
+    <style name="Base.TextAppearance.AppCompat.Widget.Button.Inverse" parent="@android:style/TextAppearance.Material.Widget.Button.Inverse" />
+    <style name="Base.Theme.AppCompat" parent="@style/Base.V23.Theme.AppCompat" />
+    <style name="Base.Theme.AppCompat.Light" parent="@style/Base.V23.Theme.AppCompat.Light" />
+    <style name="Base.Widget.AppCompat.ActionButton.Overflow" parent="@android:style/Widget.Material.ActionButton.Overflow" />
+    <style name="Base.Widget.AppCompat.Button.Borderless.Colored" parent="@android:style/Widget.Material.Button.Borderless.Colored" />
+    <style name="Base.Widget.AppCompat.Button.Colored" parent="@android:style/Widget.Material.Button.Colored">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Widget.Button.Colored</item>
+    </style>
+    <style name="Base.Widget.AppCompat.EditText" parent="@android:style/Widget.Material.EditText">
+        <item name="android:breakStrategy">simple</item>
+        <item name="android:hyphenationFrequency">none</item>
+    </style>
+    <style name="Base.Widget.AppCompat.RatingBar.Indicator" parent="@android:style/Widget.Material.RatingBar.Indicator" />
+    <style name="Base.Widget.AppCompat.RatingBar.Small" parent="@android:style/Widget.Material.RatingBar.Small" />
+    <style name="Base.Widget.AppCompat.Spinner.Underlined" parent="@android:style/Widget.Material.Spinner.Underlined" />
+    <style name="Base.Widget.AppCompat.TextView" parent="@android:style/Widget.Material.TextView">
+        <item name="android:breakStrategy">high_quality</item>
+        <item name="android:hyphenationFrequency">none</item>
+    </style>
+    <style name="CardView" parent="@style/Base.CardView">
+        <item name="cardBackgroundColor">?android:colorBackgroundFloating</item>
+    </style>
+    <style name="StatusPrivacyBottomSheetDetailedTextView">
+        <item name="android:textColor">@color/action_text</item>
+        <item name="android:gravity">end|center</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:hyphenationFrequency">none</item>
+    </style>
+    <style name="StatusPrivacyBottomSheetRadioButton" parent="@style/RadioButton">
+        <item name="android:textSize">@dimen/settings_title_text_size</item>
+        <item name="android:textColor">@color/settings_item_title_text</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">@dimen/space_base_halfStep</item>
+        <item name="android:paddingTop">@dimen/status_privacy_settings_radio_button_vertical_padding</item>
+        <item name="android:paddingRight">@dimen/space_base</item>
+        <item name="android:paddingBottom">@dimen/status_privacy_settings_radio_button_vertical_padding</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:hyphenationFrequency">none</item>
+    </style>
+    <style name="Theme.App.NoActionBar.Neutral" parent="@style/Theme.App.NoActionBar">
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="colorPrimaryDark">@color/lightStatusBarBackgroundColor</item>
+    </style>
+    <style name="Theme.App.White.NoActionBarLightStatusBar" parent="@style/Theme.App.White.NoActionBar">
+        <item name="android:statusBarColor">@color/primary_surface</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+    <style name="Theme.NoviVideoSelfie" parent="@style/Theme.App.NoActionBar">
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="colorAccent">@color/primary_surface</item>
+        <item name="colorPrimary">@color/primary_surface</item>
+        <item name="colorPrimaryDark">@color/primary_surface</item>
+    </style>
+    <style name="Base.V23.Theme.AppCompat" parent="@style/Base.V22.Theme.AppCompat">
+        <item name="actionBarItemBackground">?android:actionBarItemBackground</item>
+        <item name="actionMenuTextAppearance">?android:actionMenuTextAppearance</item>
+        <item name="actionMenuTextColor">?android:actionMenuTextColor</item>
+        <item name="actionOverflowButtonStyle">?android:actionOverflowButtonStyle</item>
+        <item name="controlBackground">@drawable/abc_control_background_material</item>
+        <item name="ratingBarStyleIndicator">?android:ratingBarStyleIndicator</item>
+        <item name="ratingBarStyleSmall">?android:ratingBarStyleSmall</item>
+    </style>
+    <style name="Base.V23.Theme.AppCompat.Light" parent="@style/Base.V22.Theme.AppCompat.Light">
+        <item name="actionBarItemBackground">?android:actionBarItemBackground</item>
+        <item name="actionMenuTextAppearance">?android:actionMenuTextAppearance</item>
+        <item name="actionMenuTextColor">?android:actionMenuTextColor</item>
+        <item name="actionOverflowButtonStyle">?android:actionOverflowButtonStyle</item>
+        <item name="controlBackground">@drawable/abc_control_background_material</item>
+        <item name="ratingBarStyleIndicator">?android:ratingBarStyleIndicator</item>
+        <item name="ratingBarStyleSmall">?android:ratingBarStyleSmall</item>
+    </style>
+</resources>

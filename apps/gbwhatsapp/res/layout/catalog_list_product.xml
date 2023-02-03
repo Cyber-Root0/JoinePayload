@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/catalog_item_view" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.gbwhatsapp.components.button.ThumbnailButton android:id="@id/catalog_list_product_image" style="@style/ProductImageThumbnail" />
+        <ViewStub android:id="@id/hidden_item_indicator_stub" android:inflatedId="@id/hidden_item_indicator" style="@style/ProductImageThumbnail" />
+        <ViewStub android:layout_gravity="center|left|top" android:id="@id/corner_indicator_stub" android:inflatedId="@id/corner_indicator" android:layout_width="@dimen/selection_check_image_size" android:layout_height="@dimen/selection_check_image_size" android:layout_marginLeft="8.0dip" />
+        <com.gbwhatsapp.components.SelectionCheckView android:layout_gravity="bottom|center|right" android:id="@id/selection_check" android:layout_width="@dimen/selection_check_image_size" android:layout_height="@dimen/selection_check_image_size" />
+    </FrameLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="20.0dip">
+        <com.gbwhatsapp.TextEmojiLabel android:id="@id/catalog_list_product_title" android:duplicateParentState="true" style="@style/ProductTitle" />
+        <com.gbwhatsapp.TextEmojiLabel android:textSize="14.0sp" android:textColor="@color/selector_product_catalog_secondary_text" android:ellipsize="end" android:id="@id/catalog_list_product_description" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+        <com.gbwhatsapp.WaTextView android:id="@id/catalog_list_product_price" android:duplicateParentState="true" style="@style/ProductPrice" />
+    </LinearLayout>
+</merge>

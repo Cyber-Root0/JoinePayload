@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:background="@drawable/san_landingpage_connect_network_bg" android:layout_width="@dimen/common_dimens_43dp" android:layout_height="@dimen/common_dimens_43dp" android:scaleType="fitXY" />
+    <TextView android:textSize="@dimen/common_text_size_14sp" android:textColor="@color/white" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/common_dimens_10dp" android:layout_marginTop="@dimen/common_dimens_13dp" android:layout_marginRight="@dimen/common_dimens_10dp" android:text="@string/request_failed_network_msg" android:lineSpacingMultiplier="1.5" />
+    <TextView android:textSize="@dimen/common_text_size_14sp" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_connect_network" android:background="@drawable/san_button_filled_blue" android:layout_width="@dimen/common_dimens_190dp" android:layout_height="@dimen/common_dimens_36dp" android:layout_marginTop="@dimen/common_dimens_20dp" android:text="@string/no_net_guide_network_dialog_connect" />
+</LinearLayout>

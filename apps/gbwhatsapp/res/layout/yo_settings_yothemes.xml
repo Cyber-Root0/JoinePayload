@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:background="@color/yosettings_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/yo_toolbar" />
+        <LinearLayout android:orientation="vertical" android:background="@drawable/rounded_card" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_divider_text_margin_top">
+            <LinearLayout android:orientation="vertical" android:background="?android:selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:onClick="theme_download">
+                <com.gbwhatsapp.yo.tf android:text="@string/DownloadThemes" style="@style/YoSettings_row" />
+                <com.gbwhatsapp.yo.tf android:text="@string/DownloadThemesSum" style="@style/YoSettings_row_subtitle" />
+            </LinearLayout>
+            <View android:layout_marginLeft="@dimen/settings_row_horizontal_padding" android:layout_marginRight="@dimen/settings_row_horizontal_padding" android:layout_marginStart="@dimen/settings_row_horizontal_padding" android:layout_marginEnd="@dimen/settings_row_horizontal_padding" style="@style/FlatCardSeparator" />
+            <LinearLayout android:orientation="vertical" android:background="?android:selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:onClick="theme_load">
+                <com.gbwhatsapp.yo.tf android:text="@string/loadTheme" style="@style/YoSettings_row" />
+                <com.gbwhatsapp.yo.tf android:text="@string/loadThemeSum" style="@style/YoSettings_row_subtitle" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/rounded_card" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_divider_text_margin_top">
+            <LinearLayout android:orientation="vertical" android:background="?android:selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:onClick="theme_save">
+                <com.gbwhatsapp.yo.tf android:text="@string/saveTheme" style="@style/YoSettings_row" />
+                <com.gbwhatsapp.yo.tf android:text="@string/saveThemeS" style="@style/YoSettings_row_subtitle" />
+            </LinearLayout>
+            <View android:layout_marginLeft="@dimen/settings_row_horizontal_padding" android:layout_marginRight="@dimen/settings_row_horizontal_padding" android:layout_marginStart="@dimen/settings_row_horizontal_padding" android:layout_marginEnd="@dimen/settings_row_horizontal_padding" style="@style/FlatCardSeparator" />
+            <LinearLayout android:orientation="vertical" android:background="?android:selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:onClick="theme_restore">
+                <com.gbwhatsapp.yo.tf android:text="@string/restoreTheme" style="@style/YoSettings_row" />
+                <com.gbwhatsapp.yo.tf android:text="@string/restoreThemeS" style="@style/YoSettings_row_subtitle" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/rounded_card" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_divider_text_margin_top">
+            <LinearLayout android:orientation="vertical" android:background="?android:selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:onClick="theme_reset">
+                <com.gbwhatsapp.yo.tf android:text="@string/resetThemes" style="@style/YoSettings_row" />
+                <com.gbwhatsapp.yo.tf android:text="@string/resetThemesSum" style="@style/YoSettings_row_subtitle" />
+            </LinearLayout>
+            <View android:layout_marginLeft="@dimen/settings_row_horizontal_padding" android:layout_marginRight="@dimen/settings_row_horizontal_padding" android:layout_marginStart="@dimen/settings_row_horizontal_padding" android:layout_marginEnd="@dimen/settings_row_horizontal_padding" style="@style/FlatCardSeparator" />
+            <LinearLayout android:orientation="vertical" android:background="?android:selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:onClick="deleteAllThemes">
+                <com.gbwhatsapp.yo.tf android:text="@string/deletethemes" style="@style/YoSettings_row" />
+                <com.gbwhatsapp.yo.tf android:text="@string/deletethemessum" style="@style/YoSettings_row_subtitle" />
+            </LinearLayout>
+        </LinearLayout>
+        <com.gbwhatsapp.yo.tf android:id="@id/div2" android:layout_marginTop="@dimen/settings_divider_text_margin_top" style="@style/YoSettings_row_subtitle" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.mediacomposer.doodle.textentry.TextEntryLegacyView android:id="@id/main" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="bottom" android:background="@color/black_alpha_54" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.gbwhatsapp.mediacomposer.doodle.textentry.DoodleEditText android:textSize="28.0sp" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/text" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip" android:maxLength="1000" android:imeOptions="actionDone" />
+    </FrameLayout>
+    <com.gbwhatsapp.mediacomposer.doodle.ColorPickerComponent android:id="@id/color_picker_component" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/picker_button_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/title_bar_text_entry_top_margin" android:layout_marginRight="48.0dip" android:layout_alignParentRight="true">
+        <com.gbwhatsapp.WaImageView android:id="@id/font_picker_btn" android:layout_width="48.0dip" android:layout_height="48.0dip" android:contentDescription="@string/doodle_change_font" style="@style/ActionBarButtonStyle" />
+        <com.gbwhatsapp.WaTextView android:textSize="24.0dip" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/font_picker_preview" android:layout_width="48.0dip" android:layout_height="48.0dip" android:text="@string/font_style_selector" android:shadowColor="@color/black_alpha_87" android:shadowRadius="2.0" android:contentDescription="@string/font_style_description" />
+    </FrameLayout>
+</com.gbwhatsapp.mediacomposer.doodle.textentry.TextEntryLegacyView>

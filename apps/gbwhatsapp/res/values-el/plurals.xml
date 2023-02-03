@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Γρήγορη προώθηση κατά %d δευτερόλεπτα</item>
+        <item quantity="one">Γρήγορη προώθηση κατά %d δευτερόλεπτο</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Μετάβαση προς τα πίσω κατά %d δευτερόλεπτα</item>
+        <item quantity="one">Μετάβαση προς τα πίσω κατά %d δευτερόλεπτο</item>
+    </plurals>
+    <plurals name="export_backup_not_enough_space_message">
+        <item quantity="other">Η εξαγωγή των συνομιλιών θα χρειαστεί %s αποθηκευτικού χώρου. Ελευθερώστε αποθηκευτικό χώρο πριν την εξαγωγή.</item>
+    </plurals>
+    <plurals name="import_backup_not_enough_space_message">
+        <item quantity="other">Η εισαγωγή των συνομιλιών θα χρειαστεί %s αποθηκευτικού χώρου. Ελευθερώστε αποθηκευτικό χώρο πριν την εισαγωγή.</item>
+    </plurals>
+    <plurals name="move_chats_insufficient_space_dialog">
+        <item quantity="other">Για να γίνει η μεταφορά, απαιτούνται %1$s σε αυτήν τη συσκευή. Ελευθερώστε χώρο, χρησιμοποιώντας το εργαλείο διαχείρισης αποθηκευτικού χώρου του WhatsApp.</item>
+        <item quantity="one">Για να γίνει η μεταφορά, απαιτείται %1$s σε αυτήν τη συσκευή. Ελευθερώστε χώρο, χρησιμοποιώντας το εργαλείο διαχείρισης αποθηκευτικού χώρου του WhatsApp.</item>
+    </plurals>
+    <plurals name="settings_gdrive_video_size_to_be_uploaded_plural">
+        <item quantity="other">‎%s για αποστολή</item>
+    </plurals>
+</resources>

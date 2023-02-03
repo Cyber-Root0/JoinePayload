@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/callRatingSheetBackgroundColor" />
+    <corners android:topLeftRadius="@dimen/call_rating_bottom_sheet_corner_radius" android:topRightRadius="@dimen/call_rating_bottom_sheet_corner_radius" />
+</shape>

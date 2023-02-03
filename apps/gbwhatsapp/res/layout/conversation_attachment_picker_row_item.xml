@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/AttachPickerItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaImageButton android:id="@id/icon" style="@style/AttachPickerIconV2" />
+    <include layout="@layout/conversation_attachment_picker_row_item_text" />
+</LinearLayout>

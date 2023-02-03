@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.InfoCard android:id="@id/business_chaining_container" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/InfoCard"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@color/primary_surface" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+        <com.gbwhatsapp.ListItemWithLeftIcon android:id="@id/business_chaining_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:listItemWithIconIcon="@drawable/ic_find_businesses" />
+    </LinearLayout>
+</com.gbwhatsapp.InfoCard>

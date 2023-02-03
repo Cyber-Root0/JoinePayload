@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/group_call_log_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/header_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.ui.voip.MultiContactThumbnail android:layout_gravity="center" android:id="@id/multi_contact_photo" android:layout_width="@dimen/contact_photo_size" android:layout_height="@dimen/contact_photo_size" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" whatsapp:mctPhotoSpacing="0.75dip" whatsapp:mctRadius="24.0dip" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/call_type_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/call_link_log_info_vertical_spacing" android:layout_toRightOf="@id/multi_contact_photo" android:layout_alignTop="@id/multi_contact_photo">
+            <com.gbwhatsapp.WaTextView android:textSize="17.0sp" android:textColor="@color/list_item_title" android:id="@id/call_type_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_weight="1.0" whatsapp:fontFamily="sans-serif" />
+            <com.gbwhatsapp.WaImageView android:id="@id/call_type_icon" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginLeft="4.0dip" android:src="@drawable/ic_call_incoming" />
+        </LinearLayout>
+        <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="@color/list_item_sub_title" android:id="@id/call_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/call_type_container" android:layout_alignLeft="@id/call_type_container" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/stats" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/call_date" android:layout_alignLeft="@id/call_date">
+            <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="@color/list_item_sub_title" android:id="@id/call_duration" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <View android:id="@id/dot" android:background="@drawable/dot_divider" android:layout_width="3.0dip" android:layout_height="3.0dip" android:layout_marginLeft="4.0dip" />
+            <com.gbwhatsapp.WaTextView android:textColor="@color/list_item_sub_title" android:id="@id/call_data" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/call_link_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/call_log_link_section_padding" android:layout_below="@id/header_container">
+        <View android:background="@color/divider_gray" android:layout_width="fill_parent" android:layout_height="@dimen/call_log_divider_height" android:layout_marginTop="@dimen/call_link_log_info_vertical_spacing" />
+        <com.gbwhatsapp.WaTextView android:textSize="@dimen/call_link_log_info_font_size" android:textColor="@color/link_color" android:id="@id/call_link_text" android:background="@drawable/selector_orange_gradient" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/call_link_log_info_vertical_spacing" />
+        <com.gbwhatsapp.WaButton android:id="@id/join_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/call_link_log_info_vertical_spacing" android:text="@string/voip_joinable_join" android:drawablePadding="@dimen/call_log_join_btn_icon_padding" whatsapp:variant="tonal" style="@style/WA.Button" />
+        <View android:background="@color/divider_gray" android:layout_width="fill_parent" android:layout_height="@dimen/call_log_divider_height" android:layout_marginTop="@dimen/call_link_log_info_vertical_spacing" android:layout_marginBottom="@dimen/call_link_log_info_divider_margin" />
+    </LinearLayout>
+    <View android:id="@id/divider" android:background="@color/divider_gray" android:layout_width="fill_parent" android:layout_height="0.100000024dip" android:layout_marginTop="16.0dip" android:layout_below="@id/call_link_container" />
+    <androidy.recyclerview.widget.RecyclerView android:id="@id/participants_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="8.0dip" android:layout_below="@id/divider" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.App.NoActionBar.Neutral" parent="@style/Theme.App.NoActionBar">
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="colorPrimaryDark">@color/primary</item>
+    </style>
+</resources>

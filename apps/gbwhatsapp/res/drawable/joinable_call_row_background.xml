@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+            <corners android:radius="8.0dip" />
+            <solid android:color="@color/list_item_selected" />
+        </shape>
+    </item>
+    <item android:state_focused="true">
+        <shape>
+            <corners android:radius="8.0dip" />
+            <solid android:color="@color/list_item_selected" />
+        </shape>
+    </item>
+    <item android:state_selected="true">
+        <shape>
+            <corners android:radius="8.0dip" />
+            <solid android:color="@color/list_item_selected" />
+        </shape>
+    </item>
+    <item android:state_activated="true">
+        <shape>
+            <corners android:radius="8.0dip" />
+            <solid android:color="@color/list_item_selected" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <corners android:radius="8.0dip" />
+            <solid android:color="@color/voip_joinable_call_log_background" />
+        </shape>
+    </item>
+</selector>

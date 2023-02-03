@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.RollingCounterView android:id="@id/rollingcounterview" android:background="@color/paletteBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.gbwhatsapp.WaButton android:id="@id/add_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Add 10" style="@style/WA.Button" />
+    <com.gbwhatsapp.WaButton android:id="@id/subtract_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Subtract 10" style="@style/WA.Button" />
+    <androidy.appcompat.widget.AppCompatSeekBar android:id="@id/duration_seekbar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <androidy.appcompat.widget.SwitchCompat android:id="@id/animate_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="Animate" />
+</LinearLayout>

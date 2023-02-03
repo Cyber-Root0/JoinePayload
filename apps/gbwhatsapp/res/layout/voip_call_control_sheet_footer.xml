@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.gbwhatsapp.WaImageButton android:id="@id/speaker_btn" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_voip_speaker_control" style="?voipBottomSheetInCallBtnStyle" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/bluetooth_btn_layout" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.gbwhatsapp.WaImageButton android:id="@id/bluetooth_btn" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_voip_bluetooth_control" style="?voipBottomSheetInCallBtnStyle" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/toggle_video_btn_layout" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.gbwhatsapp.WaImageButton android:id="@id/toggle_video_btn" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_voip_video_control" style="?voipBottomSheetInCallBtnStyle" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.gbwhatsapp.WaImageButton android:id="@id/mute_btn" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_voip_mute_control" style="?voipBottomSheetInCallBtnStyle" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/end_call_btn_layout" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.gbwhatsapp.WaImageButton android:layout_gravity="center" android:id="@id/footer_end_call_btn" android:background="@drawable/call_control_sheet_end_call" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_voip_end_call_control" android:contentDescription="@string/voip_joinable_leave_call_description" app:tint="@color/white" />
+    </FrameLayout>
+</merge>

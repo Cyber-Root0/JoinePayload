@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/deactivate_community_main_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/toolbar" />
+    <ScrollView android:orientation="vertical" android:id="@id/deactivate_community_disclaimer_scrollview" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:layout_width="140.0dip" android:layout_height="120.0dip" android:layout_marginTop="@dimen/space_xxLoose">
+                <com.gbwhatsapp.components.button.ThumbnailButton android:layout_gravity="center" android:id="@id/deactivate_community_disclaimer_photo_view" android:layout_width="@dimen/deactivate_community_disclaimer_photo_size" android:layout_height="@dimen/deactivate_community_disclaimer_photo_size" />
+                <com.gbwhatsapp.WaImageView android:layout_gravity="end|bottom|center" android:layout_width="@dimen/space_xxLoose_halfStep" android:layout_height="@dimen/space_xxLoose_halfStep" app:srcCompat="@drawable/ic_deactivate_with_fill" />
+            </FrameLayout>
+            <com.gbwhatsapp.TextEmojiLabel android:textSize="24.0sp" android:textColor="@color/primary_text" android:gravity="center_horizontal" android:id="@id/deactivate_community_disclaimer_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_xLoose" style="@style/Base.TextAppearance.AppCompat.Title" />
+            <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="@color/primary_text" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_xLoose" android:layout_marginBottom="@dimen/space_xLoose" android:text="@string/deactivate_community_disclaimer_action_cannot_be_undone" android:layout_marginVertical="@dimen/space_xLoose" />
+            <com.gbwhatsapp.community.deactivate.DeactivateCommunityInfoRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/space_loose" app:dcir_description="@string/deactivate_community_disclaimer_group_removed_description" app:dcir_icon="@drawable/ic_groups_disconnected" app:dcir_title="@string/deactivate_community_disclaimer_group_removed_title" />
+            <com.gbwhatsapp.community.deactivate.DeactivateCommunityInfoRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/space_loose" app:dcir_description="@string/deactivate_community_disclaimer_admins_removed_description" app:dcir_icon="@drawable/ic_announcement_group_closed" app:dcir_title="@string/deactivate_community_disclaimer_admins_removed_title" />
+            <com.gbwhatsapp.community.deactivate.DeactivateCommunityInfoRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/space_xxLoose" app:dcir_description="@string/deactivate_community_disclaimer_community_info_removed_description" app:dcir_icon="@drawable/ic_community_info_deleted" app:dcir_title="@string/deactivate_community_disclaimer_community_info_removed_title" />
+        </LinearLayout>
+    </ScrollView>
+    <FrameLayout android:id="@id/community_deactivate_disclaimer_continue_button_container" android:background="@color/primary_surface" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.components.Button android:id="@id/community_deactivate_disclaimer_continue_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_loose" android:layout_marginRight="@dimen/space_loose" android:layout_marginBottom="@dimen/space_xLoose" android:text="@string/deactivate_community_deactivate" android:layout_marginHorizontal="@dimen/space_loose" style="@style/WA.Button.Error" />
+    </FrameLayout>
+</LinearLayout>

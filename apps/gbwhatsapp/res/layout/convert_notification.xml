@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/notification_layout" android:layout_width="fill_parent" android:layout_height="240.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/notification_cover" android:layout_width="fill_parent" android:layout_height="240.0dip" android:scaleType="centerCrop" />
+    <RelativeLayout android:id="@id/notification_content" android:background="#ffffffff" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="64.0dip" android:layout_alignParentBottom="true">
+        <ImageView android:id="@id/notification_icon" android:layout_width="54.0dip" android:layout_height="54.0dip" android:scaleType="centerCrop" android:layout_alignParentLeft="true" />
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="#ff191919" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/notification_title" android:layout_width="wrap_content" android:layout_height="27.0dip" android:layout_marginLeft="5.0dip" android:text="App Title" android:maxLines="1" android:layout_toRightOf="@id/notification_icon" android:layout_alignTop="@id/notification_icon" />
+        <TextView android:textSize="14.0sp" android:textColor="#ff757575" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/notification_description" android:layout_width="wrap_content" android:layout_height="27.0dip" android:layout_marginLeft="5.0dip" android:text="App Description" android:maxLines="1" android:layout_toRightOf="@id/notification_icon" android:layout_alignBottom="@id/notification_icon" />
+        <ImageView android:id="@id/notification_up" android:layout_width="19.0dip" android:layout_height="19.0dip" android:src="@drawable/icon_up" android:scaleType="center" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        <TextView android:textSize="14.0sp" android:textColor="#ffff2d47" android:id="@id/notification_index" android:layout_width="wrap_content" android:layout_height="19.0dip" android:layout_marginRight="5.0dip" android:text="633463" android:layout_toLeftOf="@id/notification_up" />
+        <Button android:textSize="14.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/notification_button" android:background="@drawable/shape_notification_button" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_marginTop="5.0dip" android:text="Go" android:layout_below="@id/notification_up" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</RelativeLayout>

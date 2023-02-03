@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="export_backup_not_enough_space_message">
+        <item quantity="other">Beidh %s de stóras de dhíth le comhráite a easpórtáil. Saor spás stórais roimh easpórtáil.</item>
+    </plurals>
+    <plurals name="import_backup_not_enough_space_message">
+        <item quantity="other">Beidh %s de stóras de dhíth le hiompórtáil. Saor spás stórais roimh iompórtáil.</item>
+    </plurals>
+    <plurals name="move_chats_insufficient_space_dialog">
+        <item quantity="other">Tá %1$s de dhíth ar an ngléas seo le haghaidh an aistrithe. Úsáid uirlis bainistíochta stórais WhatsApp chun tuilleadh spáis a chur ar fáil.</item>
+    </plurals>
+    <plurals name="settings_gdrive_video_size_to_be_uploaded_plural">
+        <item quantity="other">‎%s le huaslódáil</item>
+    </plurals>
+</resources>

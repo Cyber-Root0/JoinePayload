@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:background="@color/yosettings_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:title="settings_general"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/yo_toolbar" />
+        <LinearLayout android:orientation="vertical" android:background="@drawable/rounded_card" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_divider_text_margin_top">
+            <com.gbwhatsapp.yo.tf android:text="@string/settings_privacy" style="@style/YoSettings_row_title" />
+            <com.gbwhatsapp.youbasha.ui.YoNoScrollListView android:id="@android:id/list" android:paddingLeft="@dimen/info_screen_padding" android:paddingRight="@dimen/info_screen_padding" android:paddingBottom="@dimen/info_screen_padding" android:layout_width="fill_parent" android:layout_height="0.0dip" android:divider="@drawable/divider_gray" android:layout_weight="1.0" android:paddingStart="@dimen/info_screen_padding" android:paddingEnd="@dimen/info_screen_padding" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/rounded_card" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_divider_text_margin_top">
+            <com.gbwhatsapp.yo.tf android:text="@string/settings_security" style="@style/YoSettings_row_title" />
+            <LinearLayout android:orientation="vertical" android:padding="@dimen/info_screen_padding" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <Switch android:textSize="16.0sp" android:textColor="@color/primary_text" android:id="@id/checkbox" android:tag="applockV2" android:paddingLeft="@dimen/settings_row_horizontal_padding" android:paddingTop="@dimen/info_screen_padding" android:paddingRight="@dimen/settings_row_horizontal_padding" android:paddingBottom="@dimen/info_screen_card_spacing" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/Lock" android:paddingStart="@dimen/settings_row_horizontal_padding" android:paddingEnd="@dimen/settings_row_horizontal_padding" />
+                <RadioGroup android:id="@id/checkbox_area" android:tag="lock_typeV2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_list_padding_top">
+                    <com.gbwhatsapp.yo.radiobtn android:id="@id/action_btn_1" android:tag="Fingerprint" android:padding="@dimen/list_row_padding" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/locktype_fingerprint" android:layout_marginStart="@dimen/settings_icon_margin_end" />
+                    <com.gbwhatsapp.yo.radiobtn android:id="@id/action_btn_2" android:tag="Pattern" android:padding="@dimen/list_row_padding" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/locktype_pattern" android:layout_marginStart="@dimen/settings_icon_margin_end" />
+                    <com.gbwhatsapp.yo.radiobtn android:id="@id/action_btn_3" android:tag="PIN" android:padding="@dimen/list_row_padding" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/locktype_pin" android:layout_marginStart="@dimen/settings_icon_margin_end" />
+                </RadioGroup>
+            </LinearLayout>
+            <View android:layout_marginLeft="@dimen/settings_row_horizontal_padding" android:layout_marginRight="@dimen/settings_row_horizontal_padding" android:layout_marginStart="@dimen/settings_row_horizontal_padding" android:layout_marginEnd="@dimen/settings_row_horizontal_padding" style="@style/FlatCardSeparator" />
+            <LinearLayout android:orientation="vertical" android:id="@id/modPassword" android:background="?android:selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.gbwhatsapp.yo.tf android:text="@string/ChangeP" style="@style/YoSettings_row" />
+                <com.gbwhatsapp.yo.tf android:text="@string/ChangePS" style="@style/YoSettings_row_subtitle" />
+            </LinearLayout>
+            <View android:layout_marginLeft="@dimen/settings_row_horizontal_padding" android:layout_marginRight="@dimen/settings_row_horizontal_padding" android:layout_marginStart="@dimen/settings_row_horizontal_padding" android:layout_marginEnd="@dimen/settings_row_horizontal_padding" style="@style/FlatCardSeparator" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/patternView" android:background="?android:selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.gbwhatsapp.yo.tf android:text="@string/ChangePt" style="@style/YoSettings_row" />
+            </LinearLayout>
+            <View android:layout_marginLeft="@dimen/settings_row_horizontal_padding" android:layout_marginRight="@dimen/settings_row_horizontal_padding" android:layout_marginStart="@dimen/settings_row_horizontal_padding" android:layout_marginEnd="@dimen/settings_row_horizontal_padding" style="@style/FlatCardSeparator" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/recoveryQ" android:background="?android:selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.gbwhatsapp.yo.tf android:text="@string/yoRecoveryQ" style="@style/YoSettings_row" />
+            </LinearLayout>
+            <View android:layout_marginLeft="@dimen/settings_row_horizontal_padding" android:layout_marginRight="@dimen/settings_row_horizontal_padding" android:layout_marginStart="@dimen/settings_row_horizontal_padding" android:layout_marginEnd="@dimen/settings_row_horizontal_padding" style="@style/FlatCardSeparator" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/set_wallpaper_button" android:background="?android:selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.gbwhatsapp.yo.tf android:text="@string/changeLPW" style="@style/YoSettings_row" />
+            </LinearLayout>
+            <View android:layout_marginLeft="@dimen/settings_row_horizontal_padding" android:layout_marginRight="@dimen/settings_row_horizontal_padding" android:layout_marginStart="@dimen/settings_row_horizontal_padding" android:layout_marginEnd="@dimen/settings_row_horizontal_padding" style="@style/FlatCardSeparator" />
+            <LinearLayout android:orientation="vertical" android:padding="@dimen/info_screen_padding" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <Switch android:textSize="16.0sp" android:textColor="@color/primary_text" android:id="@id/button1" android:tag="pattern_invisible" android:padding="@dimen/info_screen_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/pat_invisible" />
+                <Switch android:textSize="16.0sp" android:textColor="@color/primary_text" android:id="@id/button2" android:tag="pattern_novibration" android:padding="@dimen/info_screen_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/pat_disableVibration" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

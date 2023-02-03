@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaImageView android:id="@id/thumb" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <View android:background="@drawable/balloon_media_botshade" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom|center|right" android:orientation="horizontal" android:id="@id/album_thumbnail_date_wrapper" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaTextView android:textColor="@color/conversation_row_image_text" android:id="@id/date" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/WA.TextAppearance.ConversationRowDateRight" />
+        <com.gbwhatsapp.WaImageView android:id="@id/album_thumb_status" android:paddingLeft="4.0dip" android:layout_width="19.0dip" android:layout_height="10.0dip" android:layout_marginLeft="3.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="4.0dip" android:scaleType="center" android:layout_marginVertical="4.0dip" />
+    </LinearLayout>
+</merge>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioGroup android:orientation="vertical" android:paddingLeft="20.0dip" android:paddingTop="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidy.appcompat.widget.AppCompatRadioButton android:id="@id/first_radio_button" android:paddingLeft="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" style="@style/ListItemTitle" />
+        <androidy.appcompat.widget.AppCompatRadioButton android:id="@id/second_radio_button" android:paddingLeft="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" style="@style/ListItemTitle" />
+    </RadioGroup>
+</FrameLayout>

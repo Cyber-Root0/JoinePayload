@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.group.GroupSettingMembershipApprovalRowV2 android:id="@id/require_membership_approval" android:background="@color/primary_surface" android:layout_width="fill_parent" android:layout_height="wrap_content" whatsapp:listItemWithIconDescription="@string/group_settings_require_membership_approval_info" whatsapp:listItemWithIconIcon="@drawable/ic_how_to_reg_black" whatsapp:listItemWithIconTitle="@string/group_settings_require_membership_approval_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto" />

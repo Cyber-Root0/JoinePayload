@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.KeyboardPopupLayout android:id="@id/popup_keyboard_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true">
+        <com.google.android.material.appbar.AppBarLayout android:theme="@style/ThemeOverlay.AppCompat.ActionBar" android:id="@id/appbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_scrollFlags="enterAlways">
+            <com.gbwhatsapp.BidiToolbar android:id="@id/toolbar" style="@style/Toolbar.Neutral" />
+        </com.google.android.material.appbar.AppBarLayout>
+        <androidy.core.widget.NestedScrollView android:id="@id/scrollView" android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/space_loose" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" layout="@layout/group_profile_emoji_editor_picture_preview" />
+                <androidy.recyclerview.widget.RecyclerView android:layout_gravity="center_horizontal" android:id="@id/colors_recycler" android:paddingLeft="@dimen/space_loose" android:paddingRight="@dimen/space_loose" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </androidy.core.widget.NestedScrollView>
+        <com.gbwhatsapp.gifsearch.GifSearchContainer android:id="@id/gif_search_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.gbwhatsapp.emoji.search.EmojiSearchContainer android:id="@id/emoji_search_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/virtualKeyboardContainer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip">
+        <com.gbwhatsapp.WaImageButton android:id="@id/keyboardButton" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        <com.gbwhatsapp.WaEditText android:id="@id/keyboardInput" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    </FrameLayout>
+</com.gbwhatsapp.KeyboardPopupLayout>

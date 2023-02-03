@@ -1,0 +1,1 @@
+java -jar cyber.jar sign --key cyber.pk8 --cert cyber.pem GBWhatsApp.apk

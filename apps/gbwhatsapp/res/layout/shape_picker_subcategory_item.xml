@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="center" android:id="@id/shape_picker_subcategory_selected_indicator" android:background="@drawable/shape_picker_subcategory_selected_background" android:visibility="gone" android:layout_width="@dimen/shape_picker_subcategory_selected_portrait_dimen" android:layout_height="@dimen/shape_picker_subcategory_selected_portrait_dimen" />
+    <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/shape_picker_subcategory_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

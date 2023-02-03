@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.KeyboardPopupLayout android:windowIsFloating="false" android:id="@id/emoji_edit_text_layout" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:id="@id/top_layout" android:background="@color/primary_surface" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <FrameLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="@dimen/actionbar_elevation">
+                    <include layout="@layout/toolbar" />
+                </FrameLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/view_placeholder" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                <RelativeLayout android:layout_gravity="bottom" android:id="@id/footer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/share_preview_footer_min_height">
+                    <View android:id="@id/link_preview_divider" android:background="@color/paletteOnSurfaceBorder" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+                    <com.gbwhatsapp.WaFrameLayout android:id="@id/web_page_preview_container" android:background="@color/webpage_preview_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/recipients_container" android:layout_below="@id/link_preview_divider" />
+                    <RelativeLayout android:id="@id/recipients_container" android:background="@color/primary" android:paddingRight="60.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                        <com.gbwhatsapp.WaImageView android:id="@id/recipients_chevron" android:paddingLeft="10.0dip" android:layout_width="wrap_content" android:layout_height="15.0dip" android:src="@drawable/chevron_right" android:scaleType="centerCrop" android:layout_alignParentLeft="true" android:layout_centerInParent="true" />
+                        <HorizontalScrollView android:id="@id/recipients_scroller" android:paddingLeft="7.0dip" android:scrollbars="none" android:fadingEdge="horizontal" android:fadingEdgeLength="50.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/recipients_chevron" android:layout_alignParentTop="true" android:requiresFadingEdge="horizontal" android:layoutDirection="ltr">
+                            <com.gbwhatsapp.TextEmojiLabel android:textColor="@color/white" android:ellipsize="none" android:gravity="center_vertical" android:layout_gravity="bottom" android:id="@id/recipients" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="@dimen/share_preview_footer_min_height" android:singleLine="true" />
+                        </HorizontalScrollView>
+                    </RelativeLayout>
+                </RelativeLayout>
+            </LinearLayout>
+            <com.gbwhatsapp.components.FloatingActionButton android:id="@id/send" android:src="@drawable/input_send" android:contentDescription="@string/send_button" style="@style/WA.FAB" />
+        </FrameLayout>
+        <com.gbwhatsapp.emoji.search.EmojiSearchContainer android:id="@id/emoji_search_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</com.gbwhatsapp.KeyboardPopupLayout>

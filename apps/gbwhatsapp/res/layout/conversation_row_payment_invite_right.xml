@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="right" android:orientation="vertical" android:id="@id/main_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:minHeight="30.0dip">
+        <include layout="@layout/conversation_row_participant_header_with_padding" />
+        <FrameLayout android:id="@id/payment_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/payment_bubble_margin_width">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="@dimen/payment_bubble_amount_width">
+                <FrameLayout android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ViewStub android:id="@id/payment_invite_right_view_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                </FrameLayout>
+                <LinearLayout android:layout_gravity="bottom|center|left" android:orientation="horizontal" android:background="@drawable/payments_message_bubble_background" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.gbwhatsapp.WaImageView android:layout_gravity="top" android:id="@id/payment_brand_logo" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="8.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="20.0dip" />
+                    <com.gbwhatsapp.components.TextAndDateLayout android:id="@id/text_and_date" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <com.gbwhatsapp.TextEmojiLabel android:textColor="@color/primary_text" android:id="@id/invite_description" android:padding="@dimen/conversation_row_inner_item_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="4" app:fontFamily="sans-serif" />
+                        <include layout="@layout/conversation_row_date_wrapper_right" />
+                    </com.gbwhatsapp.components.TextAndDateLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</merge>

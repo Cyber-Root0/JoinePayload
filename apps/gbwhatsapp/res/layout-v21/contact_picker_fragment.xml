@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/contact_picker_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/toolbar_with_search" />
+        <FrameLayout android:id="@id/frequently_forwarded_holder" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="4.0dip" />
+        <include android:id="@id/contact_list" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" layout="@layout/contact_picker_list" />
+        <RelativeLayout android:id="@id/recipients_container" android:background="@color/primary" android:paddingRight="60.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.gbwhatsapp.WaImageView android:id="@id/recipients_chevron" android:paddingLeft="10.0dip" android:layout_width="wrap_content" android:layout_height="15.0dip" android:src="@drawable/chevron_right" android:scaleType="centerCrop" android:layout_alignParentLeft="true" android:layout_centerInParent="true" whatsapp:tint="@color/contactPickerChevronTint" />
+            <HorizontalScrollView android:id="@id/recipients_scroller" android:paddingLeft="7.0dip" android:scrollbars="none" android:fadingEdge="horizontal" android:fadingEdgeLength="50.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/recipients_chevron" android:layout_alignParentTop="true" android:requiresFadingEdge="horizontal" android:layoutDirection="ltr">
+                <com.gbwhatsapp.TextEmojiLabel android:textColor="@color/contactPickerRecipients" android:ellipsize="none" android:gravity="center_vertical" android:layout_gravity="bottom" android:id="@id/recipients" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="44.0dip" android:singleLine="true" />
+            </HorizontalScrollView>
+        </RelativeLayout>
+    </LinearLayout>
+    <com.gbwhatsapp.components.FloatingActionButton android:id="@id/send_old" android:visibility="gone" android:src="@drawable/input_send" android:contentDescription="@string/send_button" style="@style/WA.FAB" />
+</FrameLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="registration_description_line_space_multiplier">1.0</item>
+</resources>

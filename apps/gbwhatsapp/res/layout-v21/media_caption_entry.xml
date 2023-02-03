@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="bottom" android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/input_container" android:background="@drawable/ib_new_round" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/capture_preview_caption_horizontal_margin" android:layout_marginBottom="@dimen/capture_preview_caption_bottom_margin" android:minHeight="@dimen/capture_preview_caption_bubble_height" android:layout_toLeftOf="@id/send" android:layout_alignParentLeft="true" android:backgroundTint="@color/conversationEntryBackground">
+            <FrameLayout android:id="@id/mention_attach" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.gbwhatsapp.mediacomposer.bottombar.caption.CaptionView android:orientation="horizontal" android:id="@id/input_container_inner" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <com.gbwhatsapp.WaImageButton android:id="@id/send" android:background="@drawable/input_circle" android:layout_width="@dimen/capture_preview_caption_send_button_width" android:layout_height="@dimen/capture_preview_caption_send_button_height" android:layout_marginLeft="@dimen/capture_preview_caption_inner_margin" android:layout_marginRight="@dimen/capture_preview_caption_margin_right" android:src="@drawable/input_send" android:scaleType="center" android:layout_alignBottom="@id/input_container" android:layout_alignParentRight="true" android:contentDescription="@string/send_button" android:elevation="6.0dip" android:stateListAnimator="@anim/fab_animation" />
+        <com.gbwhatsapp.emoji.search.EmojiSearchContainer android:id="@id/emoji_search_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/input_container" />
+    </RelativeLayout>
+</merge>

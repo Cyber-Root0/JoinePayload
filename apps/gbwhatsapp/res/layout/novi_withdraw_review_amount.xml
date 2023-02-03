@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.components.button.ThumbnailButton android:id="@id/novi_withdraw_review_profile_photo" android:layout_marginRight="16.0dip" android:contentDescription="@string/profile_photo" app:tbtnForegroundOnly="true" app:tbtnRadius="-1.0dip" style="@style/NoviReviewSheetImageIcon" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="@color/list_item_sub_title_v2" android:id="@id/novi_withdraw_review_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="4.0sp" />
+        <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="@color/list_item_title" android:id="@id/novi_withdraw_review_amount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="8.0sp" />
+        <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="@color/list_item_title" android:id="@id/novi_withdraw_review_amount_crypto" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:lineSpacingExtra="8.0sp" />
+        <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="@color/list_item_sub_title_v2" android:id="@id/novi_withdraw_review_amount_rate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="4.0sp" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="18.0dip" android:width="12.0dip" android:viewportWidth="12.0" android:viewportHeight="18.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/location_pin_blue" android:pathData="M0.1667,6.721C0.1667,3.496 2.7751,0.8877 6.0001,0.8877C9.2251,0.8877 11.8334,3.496 11.8334,6.721C11.8334,10.196 8.1501,14.9877 6.6417,16.8127C6.3084,17.2127 5.7001,17.2127 5.3667,16.8127C3.8501,14.9877 0.1667,10.196 0.1667,6.721ZM3.9167,6.721C3.9167,7.871 4.8501,8.8044 6.0001,8.8044C7.1501,8.8044 8.0834,7.871 8.0834,6.721C8.0834,5.571 7.1501,4.6377 6.0001,4.6377C4.8501,4.6377 3.9167,5.571 3.9167,6.721Z" android:fillType="evenOdd" />
+</vector>

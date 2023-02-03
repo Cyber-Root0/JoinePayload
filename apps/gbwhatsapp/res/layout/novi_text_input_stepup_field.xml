@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaEditText android:scrollbarAlwaysDrawVerticalTrack="true" android:scrollbarStyle="outsideOverlay" android:textSize="16.0sp" android:textColor="@color/settings_contact_us_describe_problem_text" android:textColorHint="@color/secondary_text" android:gravity="start|center|top" android:id="@id/text_input_field_text" android:padding="8.0dip" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="4" android:minLines="4" android:selectAllOnFocus="true" android:imeOptions="actionDone" android:scrollbarFadeDuration="300" android:scrollbarDefaultDelayBeforeFade="200" />
+        <com.gbwhatsapp.WaTextView android:ellipsize="marquee" android:id="@id/text_input_field_dropdown" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" style="?android:spinnerDropDownItemStyle" />
+    </LinearLayout>
+</merge>

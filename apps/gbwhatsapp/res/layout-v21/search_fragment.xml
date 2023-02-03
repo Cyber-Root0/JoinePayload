@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/search_fragment" android:background="@color/primary_surface" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.BidiToolbar android:layout_gravity="center_vertical" android:id="@id/toolbar" android:layout_height="55.0dip" style="@style/Toolbar.Neutral">
+        <com.gbwhatsapp.search.views.TokenizedSearchInput android:id="@id/search_input_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.gbwhatsapp.BidiToolbar>
+    <View android:id="@id/divider" style="@style/SectionDivider" />
+    <View android:id="@id/transition_clipper_top" android:layout_width="fill_parent" android:layout_height="0.0dip" android:transitionName="@string/transition_clipper_top" />
+    <zoo.view.SearchGuideFmView android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <androidy.recyclerview.widget.RecyclerView android:id="@id/result_list" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <com.gbwhatsapp.search.views.ProgressView android:id="@id/progress" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+    <View android:id="@id/transition_clipper_bottom" android:layout_width="fill_parent" android:layout_height="0.0dip" android:transitionName="@string/transition_clipper_bottom" />
+</LinearLayout>

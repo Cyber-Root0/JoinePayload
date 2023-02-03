@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:background="@color/search_attachment_background" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:gravity="center" android:id="@id/search_message_attachment_container_icon" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        <FrameLayout android:gravity="center_vertical" android:id="@id/search_message_attachment_container_content" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <com.gbwhatsapp.WaFrameLayout android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="@drawable/balloon_incoming_frame" app:waflForegroundTint="@color/primary_surface" />
+</merge>

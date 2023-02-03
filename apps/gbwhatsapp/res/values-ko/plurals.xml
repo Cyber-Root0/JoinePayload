@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">%d초 빨리 감기</item>
+        <item quantity="one">%d초 빨리 감기</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">%d초 되감기</item>
+        <item quantity="one">%d초 되감기</item>
+    </plurals>
+    <plurals name="export_backup_not_enough_space_message">
+        <item quantity="other">대화를 내보내려면 %s의 저장 공간이 필요합니다. 내보내기 전에 저장 공간을 확보하세요.</item>
+    </plurals>
+    <plurals name="import_backup_not_enough_space_message">
+        <item quantity="other">백업을 가져오려면 %s의 저장 공간이 필요합니다. 가져오기 전에 저장 공간을 확보하세요.</item>
+    </plurals>
+    <plurals name="move_chats_insufficient_space_dialog">
+        <item quantity="other">이전하려면 이 기기에 %1$s가 필요합니다. WhatsApp 저장 공간 관리 도구를 사용해 공간을 확보하세요.</item>
+    </plurals>
+    <plurals name="settings_gdrive_video_size_to_be_uploaded_plural">
+        <item quantity="other">‎%s 업데이트됩니다.</item>
+    </plurals>
+</resources>

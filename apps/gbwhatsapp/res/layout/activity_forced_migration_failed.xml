@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:paddingLeft="@dimen/forced_migration_failed_padding" android:paddingRight="@dimen/forced_migration_failed_padding" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_restore_error" />
+    <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/msg_store_creation_backup_message" />
+</LinearLayout>

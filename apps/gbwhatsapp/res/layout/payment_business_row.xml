@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/payment_business_account_row_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@id/payment_business_icon" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_margin="16.0dip" android:src="@drawable/bank_logo_placeholder_with_circle_bg" android:scaleType="fitXY" android:contentDescription="@string/payments_settings_business_account_icon" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip">
+            <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:ellipsize="end" android:id="@id/business_account_name" android:layout_width="fill_parent" android:layout_height="0.0dip" android:singleLine="true" android:layout_weight="1.0" style="@style/ListItemTitle" />
+            <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="@color/secondary_text" android:id="@id/business_account_status" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</merge>

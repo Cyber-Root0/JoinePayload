@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/product_margin_16dp">
+        <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="@color/primary_text" android:id="@id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="@color/primary_text" android:gravity="end" android:id="@id/amount" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    </LinearLayout>
+    <View android:id="@id/divider" android:background="@drawable/payments_divider_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="@dimen/product_margin_16dp" />
+</LinearLayout>

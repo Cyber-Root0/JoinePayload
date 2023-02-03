@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rc.whatsapp.home.RCTABS.BasicNavigationView android:layout_gravity="bottom" android:id="@id/mOneUiBarView" android:layout_width="fill_parent" android:layout_height="56.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:gravity="bottom" android:layout_gravity="bottom" android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="bottom" android:layout_gravity="bottom" android:paddingBottom="2.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:id="@id/bnv_camera" android:background="?selectableItemBackgroundBorderless" android:paddingLeft="8.0dip" android:paddingTop="2.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:id="@id/mICamera" android:layout_width="fill_parent" android:layout_height="22.0dip" android:src="@drawable/rc_cam_unsel" android:tint="@color/black" />
+                <com.gbwhatsapp.yo.tf android:textSize="13.0sp" android:textStyle="bold" android:textColor="@color/black" android:id="@id/mTCamera" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/camera_button_description" android:singleLine="true" />
+            </LinearLayout>
+            <LinearLayout android:gravity="bottom|center" android:orientation="horizontal" android:id="@id/bnv_home" android:background="?selectableItemBackgroundBorderless" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <FrameLayout android:gravity="bottom|center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <LinearLayout android:gravity="bottom|center" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                        <ImageView android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/mIChats" android:layout_width="fill_parent" android:layout_height="23.0dip" android:src="@drawable/rc_chat_sel" />
+                        <com.gbwhatsapp.yo.tf android:textSize="13.0sp" android:textStyle="bold" android:textColor="@color/black" android:id="@id/mTChats" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/chats" android:singleLine="true" />
+                    </LinearLayout>
+                    <com.gbwhatsapp.yo.tf android:textSize="10.5sp" android:textStyle="bold" android:textColor="@color/conversations_row_unread_count" android:gravity="center" android:layout_gravity="center|top" android:tag="chats_unread" android:background="@drawable/new_messages_indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:minWidth="20.0dip" android:minHeight="20.0dip" android:text="7" android:singleLine="true" android:layout_marginStart="15.0dip" />
+                </FrameLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="bottom|center" android:orientation="horizontal" android:id="@id/bnv_group" android:background="?selectableItemBackgroundBorderless" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <FrameLayout android:gravity="bottom|center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <LinearLayout android:gravity="bottom|center" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                        <ImageView android:gravity="center_horizontal" android:id="@id/mIGroup" android:layout_width="fill_parent" android:layout_height="22.0dip" android:src="@drawable/rc_basic_group_sel" />
+                        <com.gbwhatsapp.yo.tf android:textSize="13.0sp" android:textStyle="bold" android:textColor="@color/black" android:id="@id/mTGroups" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/notification_settings_title_groups" android:singleLine="true" />
+                    </LinearLayout>
+                    <com.gbwhatsapp.yo.tf android:textSize="10.5sp" android:textStyle="bold" android:textColor="@color/conversations_row_unread_count" android:gravity="center" android:layout_gravity="center|top" android:tag="groups_unread" android:background="@drawable/new_messages_indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:minWidth="20.0dip" android:minHeight="20.0dip" android:text="7" android:singleLine="true" android:layout_marginStart="15.0dip" />
+                </FrameLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="bottom|center" android:orientation="horizontal" android:id="@id/bnv_status" android:background="?selectableItemBackgroundBorderless" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <FrameLayout android:gravity="bottom|center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <LinearLayout android:gravity="bottom|center" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                        <ImageView android:gravity="center_horizontal" android:id="@id/mIStatus" android:layout_width="fill_parent" android:layout_height="22.0dip" android:src="@drawable/rc_basic_status_sel" />
+                        <com.gbwhatsapp.yo.tf android:textSize="13.0sp" android:textStyle="bold" android:textColor="@color/black" android:id="@id/mTStatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/statuses" android:singleLine="true" />
+                    </LinearLayout>
+                    <com.gbwhatsapp.yo.tf android:textSize="10.5sp" android:textStyle="bold" android:textColor="@color/conversations_row_unread_count" android:gravity="center" android:layout_gravity="center|top" android:tag="status_unread" android:background="@drawable/new_messages_indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:minWidth="20.0dip" android:minHeight="20.0dip" android:text="7" android:singleLine="true" android:layout_marginStart="15.0dip" />
+                </FrameLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="bottom|center" android:orientation="horizontal" android:id="@id/bnv_calls" android:background="?selectableItemBackgroundBorderless" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:paddingEnd="8.0dip">
+                <FrameLayout android:gravity="bottom|center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <LinearLayout android:gravity="bottom|center" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                        <ImageView android:gravity="center_horizontal" android:id="@id/mICalls" android:layout_width="fill_parent" android:layout_height="23.0dip" android:src="@drawable/rc_call_sel" android:tint="@color/black" />
+                        <com.gbwhatsapp.yo.tf android:textSize="13.0sp" android:textStyle="bold" android:textColor="@color/black" android:id="@id/mTCalls" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/calls" android:singleLine="true" />
+                    </LinearLayout>
+                    <com.gbwhatsapp.yo.tf android:textSize="10.5sp" android:textStyle="bold" android:textColor="@color/conversations_row_unread_count" android:gravity="center" android:layout_gravity="center|top" android:tag="calls_unread" android:background="@drawable/new_messages_indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:minWidth="20.0dip" android:minHeight="20.0dip" android:text="7" android:singleLine="true" android:layout_marginStart="15.0dip" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <View android:layout_gravity="top" android:background="#375e5e5e" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    </FrameLayout>
+</rc.whatsapp.home.RCTABS.BasicNavigationView>

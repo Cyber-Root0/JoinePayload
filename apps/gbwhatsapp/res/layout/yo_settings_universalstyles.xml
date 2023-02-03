@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:background="@color/yosettings_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:title="settings_general"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/yo_toolbar" />
+        <LinearLayout android:orientation="vertical" android:id="@id/participants_card" android:background="@drawable/rounded_card" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_divider_text_margin_top" android:layoutDirection="ltr">
+            <com.gbwhatsapp.yo.tf android:text="@string/em_set" style="@style/YoSettings_row_title" />
+            <RadioGroup android:id="@id/checkbox_area" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_list_padding_top" android:layout_marginEnd="@dimen/settings_row_horizontal_padding">
+                <RadioButton android:id="@id/button0" android:tag="stock" android:padding="@dimen/list_row_padding" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/settings_icon_margin_end" android:checked="true" android:text="WhatsApp" android:layout_marginStart="@dimen/settings_icon_margin_end" />
+                <RadioButton android:id="@id/button1" android:tag="olde" android:padding="@dimen/list_row_padding" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/settings_icon_margin_end" android:text="Old WhatsApp (iOS)" android:layout_marginStart="@dimen/settings_icon_margin_end" />
+                <RadioButton android:id="@id/button2" android:tag="one" android:padding="@dimen/list_row_padding" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/settings_icon_margin_end" android:text="One" android:layout_marginStart="@dimen/settings_icon_margin_end" />
+                <RadioButton android:id="@id/button3" android:tag="fb" android:padding="@dimen/list_row_padding" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/settings_icon_margin_end" android:text="Facebook" android:layout_marginStart="@dimen/settings_icon_margin_end" />
+                <RadioButton android:id="@id/button4" android:tag="androidO" android:padding="@dimen/list_row_padding" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/settings_icon_margin_end" android:text="Android O" android:layout_marginStart="@dimen/settings_icon_margin_end" />
+                <RadioButton android:id="@id/button5" android:tag="sys" android:padding="@dimen/list_row_padding" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/settings_icon_margin_end" android:layout_marginBottom="@dimen/settings_list_padding_top" android:text="System Emoji (EXPERIMENTAL)" android:layout_marginStart="@dimen/settings_icon_margin_end" />
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/rounded_card" android:padding="@dimen/info_screen_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/settings_divider_text_margin_top">
+            <com.gbwhatsapp.youbasha.ui.YoNoScrollListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="0.0dip" android:divider="@drawable/divider_gray" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

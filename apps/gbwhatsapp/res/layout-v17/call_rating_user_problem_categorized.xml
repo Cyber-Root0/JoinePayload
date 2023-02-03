@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.WaLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidy.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/user_problems_recycler_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/call_rating_bottom_sheet_margin_small" />
+    <com.gbwhatsapp.WaLinearLayout android:orientation="vertical" android:id="@id/user_problem_free_text_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/call_rating_bottom_sheet_margin_small">
+        <com.gbwhatsapp.WaTextView android:textStyle="bold" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_marginTop="@dimen/call_rating_bottom_sheet_margin_small" android:text="@string/call_issue_something_else" android:paddingStart="5.0dip" android:paddingEnd="5.0dip" style="@style/Theme.CallRatingText" />
+        <com.gbwhatsapp.WaEditText android:id="@id/user_problem_descriptive_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/call_rating_bottom_sheet_margin_small" android:hint="@string/user_feedback_hint" android:inputType="textCapSentences" />
+    </com.gbwhatsapp.WaLinearLayout>
+</com.gbwhatsapp.WaLinearLayout>

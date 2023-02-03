@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <GridLayout android:id="@id/skin_tone_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="8.0dip" android:rowCount="2" android:columnCount="5" android:useDefaultMargins="true" />
+    <View android:background="@color/divider_gray" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" />
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip">
+        <com.gbwhatsapp.WaImageView android:id="@id/default_emoji" android:background="@drawable/multi_skin_tone_emoji_selector" android:padding="@dimen/emoji_picker_icon_padding" android:layout_width="@dimen/multi_skin_selected_emoji" android:layout_height="@dimen/multi_skin_selected_emoji" />
+        <com.gbwhatsapp.WaImageView android:id="@id/selected_emoji" android:background="@drawable/multi_skin_tone_emoji_selector" android:padding="@dimen/emoji_picker_icon_padding" android:layout_width="@dimen/multi_skin_selected_emoji" android:layout_height="@dimen/multi_skin_selected_emoji" android:layout_marginLeft="48.0dip" />
+    </LinearLayout>
+</merge>

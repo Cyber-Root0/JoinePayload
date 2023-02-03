@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fkf">E1E1C343CE08185001D4E3F6757541EB</string>
+    <string name="yo_activate">Activate</string>
+    <string name="dots_indicator">...................................</string>
+    <string name="airplane_mode">Airplane Mode</string>
+    <string name="story_style">Stories Style</string>
+    <string name="change_p_s">Change Photo Profile / Status Preview</string>
+    <string name="name_contact_sto">Contact Name</string>
+    <string name="name_contact_sto_sum">Change Color Contact Name in Stories</string>
+    <string name="sum_change_p_s">Change display in Stories from Profile picture to Status preview</string>
+    <string name="bg_counter_color">Counter Background</string>
+    <string name="bg_counter_color_sum">Change Color background counter Stories</string>
+    <string name="text_counter_color">Counter Text</string>
+    <string name="text_counter_color_sum">Change Color text of counter</string>
+</resources>

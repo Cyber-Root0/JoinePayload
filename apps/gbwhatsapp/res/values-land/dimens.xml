@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_action_bar_default_height_material">48.0dip</dimen>
+    <dimen name="abc_text_size_subtitle_material_toolbar">12.0dip</dimen>
+    <dimen name="abc_text_size_title_material_toolbar">14.0dip</dimen>
+    <dimen name="attribution_bottom_padding">14.0dip</dimen>
+    <dimen name="community_home_icon_size">120.0dip</dimen>
+    <dimen name="dir_business_row_product_images_height">80.0dip</dimen>
+    <dimen name="payments_value_props_desc_max_width">330.0dip</dimen>
+    <dimen name="pref_profile_photo_size">120.0dip</dimen>
+    <dimen name="pref_profile_photo_top_padding">16.0dip</dimen>
+    <dimen name="settings_2fa_disabled_logo_margin_top">24.0dip</dimen>
+    <dimen name="settings_change_number_overview_body_top_margin">24.0dip</dimen>
+    <dimen name="settings_delete_logo_margin_top">16.0dip</dimen>
+    <dimen name="trust_signals_nux_image_height">50.0dip</dimen>
+    <dimen name="trust_signals_nux_image_margin">20.0dip</dimen>
+    <dimen name="trust_signals_nux_line_spacing">0.0dip</dimen>
+    <dimen name="user_notice_modal_bullets_horizontal_margin">0.0dip</dimen>
+    <dimen name="user_notice_modal_default_icon_size">24.0dip</dimen>
+    <dimen name="user_notice_modal_horizontal_padding">54.0dip</dimen>
+    <dimen name="user_notice_modal_server_icon_size">48.0dip</dimen>
+    <dimen name="community_home_side_panel_size">216.0dip</dimen>
+</resources>

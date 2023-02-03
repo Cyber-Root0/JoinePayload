@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/parent_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/qrcode_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7.5dip">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <FrameLayout android:id="@id/frame_bounds" android:background="@drawable/display_qrcode_white_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="24.0dip" android:layout_marginTop="40.0dip" android:layout_marginRight="24.0dip" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <FrameLayout android:layout_gravity="center|top" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.gbwhatsapp.WaImageView android:id="@id/contact_photo_background" android:layout_width="70.0dip" android:layout_height="70.0dip" android:layout_marginTop="4.0dip" android:src="@drawable/primary_color_circle" android:contentDescription="@null" />
+                    <com.gbwhatsapp.WaImageView android:id="@id/contact_photo" android:layout_width="@dimen/mid_avatar_size" android:layout_height="@dimen/mid_avatar_size" android:layout_marginLeft="4.0dip" android:layout_marginTop="8.0dip" android:src="@drawable/avatar_contact" android:contentDescription="@string/contact_profile_photo" />
+                </FrameLayout>
+                <com.gbwhatsapp.WaTextView android:textSize="18.0sp" android:textColor="@color/list_item_title" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/user_account_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="8.0dip" app:fontFamily="sans-serif-medium" />
+                <com.gbwhatsapp.CopyableTextView android:textSize="12.0sp" android:textColor="@color/list_item_sub_title" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/user_wa_vpa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" app:fontFamily="sans-serif" app:toastString="@string/vpa_copied_to_clipboard" />
+                <com.gbwhatsapp.WaTextView android:textSize="12.0sp" android:textColor="@color/list_item_sub_title" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/user_wa_phone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" app:fontFamily="sans-serif" />
+                <com.gbwhatsapp.payments.ui.widget.IndiaUpiDisplaySecureQrCodeView android:id="@id/display_qr_code_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </FrameLayout>
+        <com.gbwhatsapp.WaTextView android:textSize="12.0sp" android:textColor="@color/list_item_sub_title" android:layout_gravity="bottom|center" android:id="@id/scan_to_pay_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="26.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="16.0dip" android:text="@string/scan_this_code_to_pay_user" android:maxLines="1" android:singleLine="true" app:fontFamily="sans-serif" />
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center_horizontal" android:id="@id/bottom_icon" android:layout_marginBottom="16.0dip" style="@style/PoweredByUpiLogo" />
+    </LinearLayout>
+</ScrollView>

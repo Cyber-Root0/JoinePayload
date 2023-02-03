@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginRight="@dimen/product_margin_8dp" android:layout_marginBottom="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="@color/search_token_text" android:id="@id/hint_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/product_margin_8dp" android:layout_marginBottom="@dimen/product_margin_8dp" />
+</FrameLayout>

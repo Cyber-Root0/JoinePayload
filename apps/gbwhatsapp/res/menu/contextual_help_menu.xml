@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_more_vertical" android:id="@id/menu_more" android:minWidth="0.0dip" android:minHeight="0.0dip" android:title="@null" app:showAsAction="ifRoom">
+        <menu>
+            <item android:icon="@null" android:id="@id/menuitem_open_in_browser" android:title="@string/faq_open_in_browser" app:showAsAction="always" />
+        </menu>
+    </item>
+</menu>

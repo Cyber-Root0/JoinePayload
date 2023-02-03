@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaImageButton android:id="@id/close_button" android:background="@drawable/selector_orange_gradient" android:padding="@dimen/inline_controls_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_close" android:contentDescription="@string/close" />
+        <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/primary_text" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="48.0dip" android:text="@string/message_rating_title" app:layout_constraintBottom_toBottomOf="@id/close_button" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/close_button" />
+    </LinearLayout>
+    <androidy.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" app:layout_constraintTop_toBottomOf="@id/title">
+        <RelativeLayout android:orientation="vertical" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.gbwhatsapp.FAQTextView android:textSize="16.0sp" android:gravity="center" android:id="@id/description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="12.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+            <com.gbwhatsapp.StarRatingBar android:id="@id/rating_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/description" android:layout_centerHorizontal="true" android:importantForAccessibility="yes" />
+            <com.gbwhatsapp.WaTextView android:id="@id/rating_label" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/rating_bar" android:layout_centerHorizontal="true" />
+            <com.gbwhatsapp.components.Button android:enabled="false" android:id="@id/submit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" android:text="@string/submit" android:layout_below="@id/rating_label" style="@style/WA.Button" />
+        </RelativeLayout>
+    </androidy.core.widget.NestedScrollView>
+</LinearLayout>

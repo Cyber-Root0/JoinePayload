@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/video_player" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/content" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/media_guidelines" />
+        <include layout="@layout/doodle_view" />
+        <include layout="@layout/doodle_decoration" />
+        <FrameLayout android:layout_gravity="center|top" android:id="@id/trim_info_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.gbwhatsapp.WaTextView android:id="@id/trim_info" android:background="@drawable/video_preview_label_background" android:visibility="invisible" android:layout_marginTop="20.0dip" style="@style/VideoPreviewLabel" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/video_controls" android:paddingTop="@dimen/actionbar_height" android:paddingBottom="@dimen/actionbar_height" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.gbwhatsapp.mediacomposer.VideoTimelineView android:id="@id/timeline_view" android:paddingLeft="16.0dip" android:paddingTop="1.0dip" android:paddingRight="16.0dip" android:paddingBottom="4.0dip" android:focusable="true" android:layout_width="fill_parent" android:layout_height="44.0dip" app:vtvBorderColor="@color/white" app:vtvBorderSize="2.0dip" app:vtvDimColor="@color/video_preview_timeline_background" app:vtvThumbColor="@color/white" app:vtvThumbColorPressed="@color/white" app:vtvThumbSize="6.0dip" app:vtvThumbSizePressed="8.0dip" />
+                <RelativeLayout android:paddingLeft="16.0dip" android:paddingTop="4.0dip" android:paddingRight="16.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center" android:id="@id/mute_video_container" android:background="@drawable/video_preview_label_background" android:visibility="gone" android:layout_width="36.0dip" android:layout_height="26.0dip" android:layout_marginRight="8.0dip">
+                        <com.gbwhatsapp.WaImageView android:id="@id/mute_video" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_mute" app:tint="@color/white_alpha_100" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:background="@drawable/video_preview_label_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/mute_video_container">
+                        <com.gbwhatsapp.WaTextView android:id="@id/duration" style="@style/VideoPreviewLabel" />
+                        <com.gbwhatsapp.WaTextView android:id="@id/bullet_size" android:paddingLeft="0.0dip" android:paddingRight="0.0dip" android:text="@string/contacts_help_bullet" style="@style/VideoPreviewLabel" />
+                        <com.gbwhatsapp.WaTextView android:id="@id/size" style="@style/VideoPreviewLabel" />
+                    </LinearLayout>
+                    <com.gbwhatsapp.WaImageView android:id="@id/video_gif_toggle" android:paddingLeft="12.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_gif_off" android:layout_alignParentRight="true" android:contentDescription="@string/video_gif_toggle" />
+                </RelativeLayout>
+            </LinearLayout>
+            <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/play" android:background="@drawable/exo_player_gray_circle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_video_play" android:scaleType="center" android:contentDescription="@string/play_video" />
+        </FrameLayout>
+    </FrameLayout>
+</FrameLayout>

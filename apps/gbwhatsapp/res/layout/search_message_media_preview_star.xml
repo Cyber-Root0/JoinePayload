@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="bottom|center|right" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="15.0dip" android:layout_marginRight="@dimen/search_grid_video_icon_margin_end" android:layout_marginBottom="@dimen/search_grid_video_mark_margin_bottom"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaImageView android:id="@id/starred_status" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="15.0dip" android:src="@drawable/message_star_media_gallery" />
+    <com.gbwhatsapp.WaImageView android:id="@id/kept_status" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="15.0dip" android:src="@drawable/message_keep_media_gallery" />
+</LinearLayout>

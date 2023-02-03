@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip">
+        <include layout="@layout/conversation_row_quoted_frame" />
+        <FrameLayout android:id="@id/media_container" android:padding="@dimen/conversation_video_thumb_padding" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <view android:id="@id/media_grid" android:layout_width="wrap_content" android:layout_height="wrap_content" class="com.gbwhatsapp.conversation.conversationrow.ConversationRowImageAlbum$AlbumGridFrame">
+                <com.gbwhatsapp.WaFrameLayout android:layout_gravity="center|left|top" android:id="@id/thumb_0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="@drawable/balloon_outgoing_frame" app:waflForegroundPressedTint="@color/bubble_color_outgoing_pressed" app:waflForegroundTint="@color/bubble_color_outgoing">
+                    <include layout="@layout/album_thumbnail_outgoing" />
+                </com.gbwhatsapp.WaFrameLayout>
+                <com.gbwhatsapp.WaFrameLayout android:layout_gravity="center|right|top" android:id="@id/thumb_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="@drawable/balloon_outgoing_frame" app:waflForegroundPressedTint="@color/bubble_color_outgoing_pressed" app:waflForegroundTint="@color/bubble_color_outgoing">
+                    <include layout="@layout/album_thumbnail_outgoing" />
+                </com.gbwhatsapp.WaFrameLayout>
+                <com.gbwhatsapp.WaFrameLayout android:layout_gravity="bottom|center|left" android:id="@id/thumb_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="@drawable/balloon_outgoing_frame" app:waflForegroundPressedTint="@color/bubble_color_outgoing_pressed" app:waflForegroundTint="@color/bubble_color_outgoing">
+                    <include layout="@layout/album_thumbnail_outgoing" />
+                </com.gbwhatsapp.WaFrameLayout>
+                <com.gbwhatsapp.WaFrameLayout android:layout_gravity="bottom|center|right" android:id="@id/thumb_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="@drawable/balloon_outgoing_frame" app:waflForegroundPressedTint="@color/bubble_color_outgoing_pressed" app:waflForegroundTint="@color/bubble_color_outgoing">
+                    <include layout="@layout/album_thumbnail_outgoing" />
+                    <com.gbwhatsapp.WaTextView android:id="@id/more" style="@style/ConversationRowAlbumMoreItems" />
+                </com.gbwhatsapp.WaFrameLayout>
+            </view>
+            <FrameLayout android:layout_gravity="center" android:id="@id/control_frame" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ViewStub android:layout_gravity="center" android:id="@id/progress_bar" android:layout="@layout/circular_progress_bar_album" android:inflatedId="@id/progress_bar" android:layout_width="56.0dip" android:layout_height="56.0dip" />
+                <ViewStub android:layout_gravity="center" android:id="@id/cancel_download" android:layout="@layout/cancel_download_button_album" android:inflatedId="@id/cancel_download" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <com.gbwhatsapp.WaTextView android:textStyle="bold" android:textColor="@color/album_progress_indeterminate" android:ellipsize="none" android:gravity="center_vertical" android:layout_gravity="center" android:id="@id/control_btn" android:background="@null" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="56.0dip" android:singleLine="true" android:drawableLeft="@drawable/btn_upload_dark" android:drawablePadding="8.0dip" android:textAllCaps="true" app:drawableTint="@color/albumDownloadButtonTint" />
+            </FrameLayout>
+        </FrameLayout>
+    </LinearLayout>
+</merge>

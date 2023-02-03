@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidy.recyclerview.widget.RecyclerView android:id="@id/expandable_list_catalog_category" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/catalog_category_list_top_margin" app:layoutManager="androidy.recyclerview.widget.LinearLayoutManager" />
+</LinearLayout>

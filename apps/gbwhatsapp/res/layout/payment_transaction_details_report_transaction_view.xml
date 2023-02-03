@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/primary_surface" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/payment_support_container" android:background="@drawable/selector_orange_gradient" android:paddingLeft="@dimen/settings_row_horizontal_padding" android:paddingTop="@dimen/settings_row_vertical_padding_small" android:paddingRight="@dimen/settings_row_horizontal_padding" android:paddingBottom="@dimen/settings_row_vertical_padding_small" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaImageView android:id="@id/payment_support_icon" android:layout_width="@dimen/payment_settings_icon_size" android:layout_height="@dimen/payment_settings_icon_size" android:layout_marginRight="@dimen/settings_icon_margin_end" android:src="@drawable/ic_report" app:wivMirrorForRtl="true" />
+        <com.gbwhatsapp.WaTextView android:textSize="@dimen/settings_title_text_size" android:textColor="@color/settings_item_title_text" android:id="@id/payment_support_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/transaction_details_report_payment_label" />
+    </LinearLayout>
+</FrameLayout>

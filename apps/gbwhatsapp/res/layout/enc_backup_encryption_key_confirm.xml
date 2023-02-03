@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.gbwhatsapp.WaLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/encrypted_backup_layout_horizontal_margin" android:layout_marginRight="@dimen/encrypted_backup_layout_horizontal_margin">
+            <com.gbwhatsapp.WaTextView android:id="@id/encryption_key_confirm_title" style="@style/EncryptedBackupTitle" />
+            <com.gbwhatsapp.WaTextView android:text="@string/encrypted_backup_encryption_key_confirm_message" style="@style/EncryptedBackupBody" />
+            <RelativeLayout android:id="@id/enc_key_background" style="@style/EncryptedBackupEncryptionKeyBackground">
+                <FrameLayout android:id="@id/encryption_key_confirm_encryption_key_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </RelativeLayout>
+            <com.gbwhatsapp.WaTextView android:layout_marginTop="@dimen/product_margin_16dp" android:text="@string/encrypted_backup_encryption_key_confirm_disclaimer" style="@style/EncryptedBackupSubtitle" />
+        </com.gbwhatsapp.WaLinearLayout>
+    </ScrollView>
+    <com.gbwhatsapp.components.Button android:id="@id/encryption_key_confirm_button_confirm" style="@style/EncryptedBackupPrimaryButton" />
+    <com.gbwhatsapp.components.Button android:id="@id/encryption_key_confirm_button_cancel" android:text="@string/cancel" style="@style/EncryptedBackupSecondaryButton" />
+</LinearLayout>

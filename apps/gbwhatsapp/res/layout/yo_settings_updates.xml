@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:background="@color/yosettings_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/yo_toolbar" />
+        <LinearLayout android:orientation="vertical" android:background="@drawable/rounded_card" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_divider_text_margin_top">
+            <LinearLayout android:orientation="vertical" android:background="?android:selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:onClick="checkForUpdates">
+                <com.gbwhatsapp.yo.tf android:text="@string/yo_CUpdates" android:drawableLeft="@drawable/updates_updates" android:drawablePadding="@dimen/settings_row_horizontal_padding" android:drawableStart="@drawable/updates_updates" android:drawableTint="@null" style="@style/YoSettings_row" />
+            </LinearLayout>
+            <View android:layout_marginLeft="@dimen/settings_row_horizontal_padding" android:layout_marginRight="@dimen/settings_row_horizontal_padding" android:layout_marginStart="@dimen/settings_row_horizontal_padding" android:layout_marginEnd="@dimen/settings_row_horizontal_padding" style="@style/FlatCardSeparator" />
+            <LinearLayout android:orientation="vertical" android:background="?android:selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:onClick="openChangelog">
+                <com.gbwhatsapp.yo.tf android:text="@string/yo_changelog" android:drawableLeft="@drawable/updates_changelog" android:drawablePadding="@dimen/settings_row_horizontal_padding" android:drawableStart="@drawable/updates_changelog" android:drawableTint="@null" style="@style/YoSettings_row" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/rounded_card" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/settings_divider_text_margin_top" android:foreground="?android:selectableItemBackground" android:onClick="openWebsite">
+            <com.gbwhatsapp.yo.tf android:text="@string/alex_web_update" android:drawableLeft="@drawable/updates_download" android:drawablePadding="@dimen/settings_row_horizontal_padding" android:drawableStart="@drawable/updates_download" android:drawableTint="@null" style="@style/YoSettings_row" />
+        </LinearLayout>
+        <com.gbwhatsapp.yo.tf android:gravity="center" android:layout_marginTop="15.0dip" android:text="@string/yowav" style="@style/YoSettings_row" />
+    </LinearLayout>
+</ScrollView>

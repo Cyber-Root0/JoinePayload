@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidy.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/empty_layout_top_img_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/common_dimens_90dp" android:src="@drawable/game_tasks_empty_logo" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.31" />
+    <TextView android:textSize="@dimen/common_dimens_14dp" android:textStyle="bold" android:textColor="#ff999990" android:gravity="center_horizontal" android:id="@id/empty_title_tv" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/common_dimens_60dp" android:layout_marginTop="@dimen/common_dimens_22dp" android:layout_marginRight="@dimen/common_dimens_60dp" android:text="@string/modulegame_tasks_empty_tip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/empty_layout_top_img_iv" />
+</androidy.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/scroll_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.gbwhatsapp.WaImageView android:id="@id/logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_2fa_disabled_logo_margin_top" android:src="@drawable/settings_2fa" />
+            <com.gbwhatsapp.WaTextView android:gravity="center" android:id="@id/description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="24.0dip" android:lineSpacingExtra="4.0dip" style="?settingsTitleText" />
+            <View android:id="@id/disable_panel_divider" android:background="@color/settings_divider" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="24.0dip" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/disable_panel" android:paddingTop="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip">
+                <com.gbwhatsapp.WaTextView android:gravity="center_vertical" android:id="@id/disable_button" android:background="?android:selectableItemBackground" android:paddingLeft="24.0dip" android:paddingTop="16.0dip" android:paddingRight="16.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_two_factor_auth_disable" android:drawableLeft="@drawable/ic_settings_disable" android:drawablePadding="24.0dip" android:drawableTint="@color/settings_icon" style="?settingsTitleText" />
+                <com.gbwhatsapp.WaTextView android:gravity="center_vertical" android:id="@id/change_code_button" android:background="?android:selectableItemBackground" android:paddingLeft="24.0dip" android:paddingTop="16.0dip" android:paddingRight="16.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_two_factor_auth_change_code" android:drawableLeft="@drawable/ic_settings_pin" android:drawablePadding="24.0dip" android:drawableTint="@color/settings_icon" style="?settingsTitleText" />
+                <com.gbwhatsapp.WaTextView android:gravity="center_vertical" android:id="@id/change_email_button" android:background="@drawable/selector_orange_gradient" android:paddingLeft="24.0dip" android:paddingTop="16.0dip" android:paddingRight="16.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_two_factor_auth_change_email" android:drawableLeft="@drawable/ic_settings_contact" android:drawablePadding="24.0dip" android:drawableTint="@color/settings_icon" style="?settingsTitleText" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <FrameLayout android:id="@id/enable_panel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.components.Button android:layout_gravity="bottom|center" android:id="@id/enable_button" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:text="@string/settings_two_factor_auth_enable" style="@style/WA.Button" />
+    </FrameLayout>
+</LinearLayout>

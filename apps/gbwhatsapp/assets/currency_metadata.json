@@ -1,0 +1,33 @@
+{
+  "fiat_currencies": [
+    {
+      "code": "USD",
+      "symbol": "$",
+      "offset": 100,
+      "displayExponent": 2,
+      "weight": 55
+    },
+    {
+      "code": "GTQ",
+      "symbol": "Q",
+      "offset": 100,
+      "displayExponent": 2,
+      "weight": 99999
+    }
+  ],
+  "crypto_currencies": [
+    {
+      "code": "USDP",
+      "symbol": "USDP",
+      "offset": 1000000,
+      "displayExponent": 2,
+      "weight": 50,
+      "isStable": true,
+      "defaultMatchingFiat": "USD",
+      "matchingFiats": [
+        "USD",
+        "GTQ"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:paddingLeft="@dimen/product_margin_16dp" android:paddingTop="@dimen/product_margin_24dp" android:paddingRight="@dimen/product_margin_16dp" android:paddingBottom="@dimen/product_margin_8dp" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaTextView android:textSize="12.0sp" android:id="@id/recent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/recent" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:textAllCaps="true" android:fontFamily="sans-serif-medium" style="@style/ListItemSubtitle" />
+    <com.gbwhatsapp.WaTextView android:textSize="12.0sp" android:textColor="@color/neutralButtonTextColor" android:id="@id/clear_all_btn" android:padding="@dimen/dir_margin_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dir_clear_all" android:layout_alignRight="@id/recent" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:textAllCaps="true" android:fontFamily="sans-serif-medium" />
+</RelativeLayout>

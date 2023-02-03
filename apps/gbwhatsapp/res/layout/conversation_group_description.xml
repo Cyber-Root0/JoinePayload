@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:background="@color/primary_surface" android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:paddingRight="48.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaTextView android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/group_description" style="@style/FlatCardTitle" />
+        <com.gbwhatsapp.text.ReadMoreTextView android:textColor="@color/conversation_info_text" android:id="@id/group_description_text" android:layout_width="fill_parent" android:layout_height="wrap_content" app:rmtvLines="2" app:rmtvLinkColor="@color/link_color" app:rmtvText="@string/read_more" />
+    </LinearLayout>
+    <com.gbwhatsapp.WaImageView android:layout_gravity="center|right" android:id="@id/group_description_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_close" android:contentDescription="@string/close" style="@style/ActionBarButtonStyle" />
+    <View android:layout_gravity="bottom" style="@style/SectionDivider.Heavy" />
+</merge>

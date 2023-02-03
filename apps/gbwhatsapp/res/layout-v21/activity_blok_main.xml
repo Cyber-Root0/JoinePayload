@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/bloks_background_layout" android:background="@color/bloks_activity_background" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/bloks_fragment_container" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ProgressBar android:layout_gravity="center" android:id="@id/bloks_progress_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.payments.ui.widget.PayToolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="48.0dip" android:contentInsetLeft="0.0dip" app:contentInsetLeft="0.0dip" app:contentInsetStartWithNavigation="0.0dip" />
+        <View android:layout_gravity="bottom" android:id="@id/toolbar_bottom_divider" android:background="@drawable/payments_divider_gray" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    </LinearLayout>
+</FrameLayout>

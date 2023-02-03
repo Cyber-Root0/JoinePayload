@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaTextView android:id="@id/header" android:visibility="gone" style="@style/PaymentSettingsSectionHeader" />
+    <LinearLayout android:orientation="vertical" android:id="@id/list_item_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:id="@id/custom_empty_view_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/see_more_container" android:background="?android:selectableItemBackground" android:paddingLeft="@dimen/payment_settings_default_margin" android:paddingTop="@dimen/payment_settings_default_margin" android:paddingRight="@dimen/payment_settings_default_margin" android:paddingBottom="@dimen/payment_settings_default_margin" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/see_more_icon" android:layout_width="@dimen/payment_settings_icon_size" android:layout_height="@dimen/payment_settings_icon_size" android:src="@drawable/view_history_icon" android:scaleType="fitCenter" />
+        <com.gbwhatsapp.WaTextView android:textSize="@dimen/settings_title_text_size" android:textColor="@color/settings_item_title_text" android:id="@id/see_more_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="32.0dip" android:text="@string/payments_settings_see_more_requests" />
+    </LinearLayout>
+</LinearLayout>

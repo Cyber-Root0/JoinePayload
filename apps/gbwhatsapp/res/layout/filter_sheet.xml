@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/filter_bottom_sheet" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="no"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <androidy.recyclerview.widget.RecyclerView android:layout_gravity="bottom|center" android:id="@id/filter_selector" android:background="@color/filter_selector_background" android:paddingLeft="@dimen/filter_selector_horizontal_padding" android:paddingTop="@dimen/filter_selector_vertical_padding" android:paddingRight="@dimen/filter_selector_horizontal_padding" android:paddingBottom="@dimen/filter_selector_vertical_padding" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="@dimen/filter_selector_height" />
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="48.0dip" android:minHeight="?actionBarSize"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaImageView android:layout_gravity="center|left" android:id="@id/common_action_bar_header_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_back" app:tint="@color/fb_pay_hub_icon_tint" app:wivMirrorForRtl="true" style="?actionButtonStyle" />
+    <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/common_action_bar_header_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/novi_wordmark" app:tint="@color/novi_purple" />
+    <View android:layout_gravity="bottom" android:background="@drawable/payments_divider_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+</FrameLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Derulează rapid înainte cu %d de secunde</item>
+        <item quantity="one">Derulează rapid înainte cu %d secundă</item>
+        <item quantity="few">Derulează rapid înainte cu %d secunde</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Derulează înapoi cu %d de secunde</item>
+        <item quantity="one">Derulează înapoi cu %d secundă</item>
+        <item quantity="few">Derulează înapoi cu %d secunde</item>
+    </plurals>
+    <plurals name="export_backup_not_enough_space_message">
+        <item quantity="other">Conversațiile exportate vor ocupa %s din spațiul de stocare. Eliberați spațiu de stocare înainte de a exporta.</item>
+    </plurals>
+    <plurals name="import_backup_not_enough_space_message">
+        <item quantity="other">Importarea va necesita %s din spațiul de stocare. Eliberați spațiu de stocare înainte de a importa.</item>
+    </plurals>
+    <plurals name="move_chats_insufficient_space_dialog">
+        <item quantity="other">Pentru transfer, acest dispozitiv trebuie să aibă disponibili %1$s. Eliberați spațiu folosind funcția WhatsApp de gestionare a spațiului de stocare.</item>
+        <item quantity="one">Pentru transfer, acest dispozitiv trebuie să aibă disponibil %1$s. Eliberați spațiu folosind funcția WhatsApp de gestionare a spațiului de stocare.</item>
+    </plurals>
+    <plurals name="settings_gdrive_video_size_to_be_uploaded_plural">
+        <item quantity="other">‎%s de încărcat</item>
+    </plurals>
+</resources>

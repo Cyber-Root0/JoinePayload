@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rc.whatsapp.dialog.DialogAddContent android:orientation="vertical" android:id="@id/mHolder" android:background="@drawable/rc_dialog_bg" android:paddingLeft="16.0dip" android:paddingTop="12.0dip" android:paddingRight="16.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="8.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/bar_image" android:layout_width="70.0dip" android:layout_height="fill_parent" android:src="@drawable/rc_dotline_dialog" />
+    </LinearLayout>
+    <com.gbwhatsapp.yo.tf android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/black" android:layout_gravity="center|left" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginTop="3.0dip" android:layout_marginBottom="3.0dip" android:text="@string/my_status_more_options_content_description" />
+    <View android:background="#ad474747" android:layout_width="fill_parent" android:layout_height="0.9dip" android:layout_marginBottom="10.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/camera" android:padding="10.0dip" android:paddingTop="10.0dip" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="1.5dip" android:layout_marginRight="1.5dip" android:layout_weight="1.0">
+            <ImageView android:id="@id/Icam" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/rc_cam_sel" />
+            <com.gbwhatsapp.yo.tf android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/black" android:id="@id/Cam" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/attach_camera" android:singleLine="true" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/status" android:padding="10.0dip" android:paddingTop="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="1.5dip" android:layout_marginRight="1.5dip" android:layout_weight="1.0">
+            <ImageView android:id="@id/Istatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/rc_ic_status" android:tint="@color/black" />
+            <com.gbwhatsapp.yo.tf android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/black" android:id="@id/Status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/menuitem_new_text_status" android:singleLine="true" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/splitvideo" android:padding="10.0dip" android:paddingTop="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="1.5dip" android:layout_marginRight="1.5dip" android:layout_weight="1.0">
+            <ImageView android:id="@id/Isplit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/rc_ic_video" android:tint="@color/black" />
+            <com.gbwhatsapp.yo.tf android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/black" android:id="@id/Split" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/status_splitter" android:singleLine="true" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/priv_statu" android:padding="10.0dip" android:paddingTop="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="1.5dip" android:layout_marginRight="1.5dip" android:layout_weight="1.0">
+            <ImageView android:id="@id/IPrivaStatu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/rc_priv_statu" />
+            <com.gbwhatsapp.yo.tf android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/black" android:id="@id/TPrivStatu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/status_privacy" android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+</rc.whatsapp.dialog.DialogAddContent>

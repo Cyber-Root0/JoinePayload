@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Keri %d sekundit edasi</item>
+        <item quantity="one">Keri %d sekund edasi</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Keri %d sekundit tagasi</item>
+        <item quantity="one">Keri %d sekund tagasi</item>
+    </plurals>
+    <plurals name="export_backup_not_enough_space_message">
+        <item quantity="other">Vestluste eksportimiseks on vaja %s salvestusruumi. Vabasta enne eksportimist salvestusruumi.</item>
+    </plurals>
+    <plurals name="import_backup_not_enough_space_message">
+        <item quantity="other">Importimiseks on vaja %s salvestusruumi. Enne importimist vabasta salvestusruumi.</item>
+    </plurals>
+    <plurals name="move_chats_insufficient_space_dialog">
+        <item quantity="other">Seadmes peab edastamiseks olema %1$s ruumi. Vabasta ruumi WhatsAppi salvestusruumi haldustööriistaga.</item>
+    </plurals>
+    <plurals name="settings_gdrive_video_size_to_be_uploaded_plural">
+        <item quantity="other">‎%s üles laadida</item>
+    </plurals>
+</resources>

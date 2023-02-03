@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Przewiń do przodu o %d sekundy</item>
+        <item quantity="one">Przewiń do przodu o %d sekundę</item>
+        <item quantity="few">Przewiń do przodu o %d sekundy</item>
+        <item quantity="many">Przewiń do przodu o %d sekund</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Przewiń do tyłu o %d sekundy</item>
+        <item quantity="one">Przewiń do tyłu o %d sekundę</item>
+        <item quantity="few">Przewiń do tyłu o %d sekundy</item>
+        <item quantity="many">Przewiń do tyłu o %d sekund</item>
+    </plurals>
+    <plurals name="export_backup_not_enough_space_message">
+        <item quantity="other">Do wyeksportowania czatów będzie wymaganych %s pamięci. Zwolnij miejsce, zanim rozpoczniesz eksportowanie.</item>
+        <item quantity="one">Do wyeksportowania czatów będzie wymagany %s pamięci. Zwolnij miejsce, zanim rozpoczniesz eksportowanie.</item>
+        <item quantity="few">Do wyeksportowania czatów będą wymagane %s pamięci. Zwolnij miejsce, zanim rozpoczniesz eksportowanie.</item>
+    </plurals>
+    <plurals name="import_backup_not_enough_space_message">
+        <item quantity="other">Do zaimportowania czatów będzie wymaganych %s pamięci. Zwolnij miejsce, zanim rozpoczniesz importowanie.</item>
+        <item quantity="one">Do zaimportowania czatów będzie wymagany %s pamięci. Zwolnij miejsce, zanim rozpoczniesz importowanie.</item>
+        <item quantity="few">Do zaimportowania czatów będą wymagane %s pamięci. Zwolnij miejsce, zanim rozpoczniesz importowanie.</item>
+    </plurals>
+    <plurals name="move_chats_insufficient_space_dialog">
+        <item quantity="other">Aby przenieść wiadomości z tego urządzenia, potrzebujesz %1$s. Zwolnij miejsce, używając narzędzia WhatsApp do zarządzania pamięcią.</item>
+    </plurals>
+    <plurals name="settings_gdrive_video_size_to_be_uploaded_plural">
+        <item quantity="other">‎%s do przesłania</item>
+    </plurals>
+</resources>

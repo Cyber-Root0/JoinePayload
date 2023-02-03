@@ -1,0 +1,11 @@
+1- Ter o Java JDK instalado No Computador
+2- Colocar o app do Metasploit como o nome "payload.apk" sem aspas
+3- Executar a Ferramenta e Escolher uma das 4 opçoes.
+4- Inserir o nome "payload.apk" 
+4- Pressione Enter
+5- Aguarde seu App Sendo Gerado
+
+Criador: Cyber Root - Cyber Intelligence
+============================================
+Bruno V. Estudante de Segurança da Informação 26/02/2021
+github.com/Cyber-Root0

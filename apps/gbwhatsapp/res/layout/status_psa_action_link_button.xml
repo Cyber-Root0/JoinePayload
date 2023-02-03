@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.components.Button android:textSize="@dimen/action_link_button_text_size" android:textColor="@color/black" android:gravity="center" android:id="@id/status_psa_action_link_button" android:background="@drawable/status_psa_action_link_button_background" android:paddingLeft="@dimen/action_link_button_padding_left_right" android:paddingRight="@dimen/action_link_button_padding_left_right" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

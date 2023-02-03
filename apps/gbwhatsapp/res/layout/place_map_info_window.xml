@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.WaLinearLayout android:orientation="vertical" android:background="@drawable/bubble_send_location" android:layout_width="wrap_content" android:layout_height="wrap_content" app:wallBackgroundTint="@color/location_bubble_background"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.TextEmojiLabel android:id="@id/place_name" style="@style/MapBalloonTitle" />
+    <com.gbwhatsapp.WaTextView android:id="@id/place_address" style="@style/MapBalloonDetails" />
+</com.gbwhatsapp.WaLinearLayout>

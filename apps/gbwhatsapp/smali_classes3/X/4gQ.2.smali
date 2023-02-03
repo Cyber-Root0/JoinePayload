@@ -1,0 +1,58 @@
+.class public final LX/4gQ;
+.super Ljava/lang/Object;
+.source ""
+
+# interfaces
+.implements LX/0l6;
+
+
+# instance fields
+.field public final A00:LX/57D;
+
+.field public final A01:LX/0ky;
+
+.field public final A02:Ljava/util/concurrent/Executor;
+
+
+# direct methods
+.method public constructor <init>(LX/57D;LX/0ky;Ljava/util/concurrent/Executor;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p3, p0, LX/4gQ;->A02:Ljava/util/concurrent/Executor;
+
+    iput-object p1, p0, LX/4gQ;->A00:LX/57D;
+
+    iput-object p2, p0, LX/4gQ;->A01:LX/0ky;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final AhP(LX/0ky;)V
+    .locals 3
+
+    iget-object v2, p0, LX/4gQ;->A02:Ljava/util/concurrent/Executor;
+
+    const/16 v1, 0x14
+
+    new-instance v0, Lcom/facebook/redex/RunnableRunnableShape12S0200000_I1;
+
+    invoke-direct {v0, p1, v1, p0}, Lcom/facebook/redex/RunnableRunnableShape12S0200000_I1;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
+
+    invoke-interface {v2, v0}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
+
+    return-void
+.end method
+
+.method public final Ahe()V
+    .locals 1
+
+    invoke-static {}, LX/0jp;->A0n()Ljava/lang/UnsupportedOperationException;
+
+    move-result-object v0
+
+    throw v0
+.end method

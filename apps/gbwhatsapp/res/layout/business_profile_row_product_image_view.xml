@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.shimmer.ShimmerFrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaImageView android:id="@id/product_image_view" android:background="@color/dimmed_background" android:layout_width="fill_parent" android:layout_height="@dimen/dir_business_row_product_images_height" android:scaleType="centerCrop" />
+    <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/product_empty_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_broken_image" app:tint="@color/disabled_text" />
+</com.facebook.shimmer.ShimmerFrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.components.Button android:textColor="@color/white" android:id="@id/button_view" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/WA.Button" />
+    <ProgressBar android:id="@id/loader_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/space_base" android:layout_alignTop="@id/button_view" android:layout_alignBottom="@id/button_view" android:layout_centerInParent="true" />
+</merge>

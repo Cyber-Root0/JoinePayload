@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.gbwhatsapp.WaLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="@dimen/encrypted_backup_layout_horizontal_margin" android:layout_marginRight="@dimen/encrypted_backup_layout_horizontal_margin">
+            <com.gbwhatsapp.WaTextView android:text="@string/settings_gdrive_backup_e2e_encrypted_title" style="@style/EncryptedBackupTitle" />
+            <com.gbwhatsapp.WaImageView android:layout_width="fill_parent" android:layout_height="@dimen/encrypted_backup_small_icon_height" android:layout_marginTop="48.0dip" android:src="@drawable/ic_key" android:rotation="45.0" app:tint="@color/primary_light" />
+            <com.gbwhatsapp.WaTextView android:layout_marginTop="@dimen/product_margin_8dp" android:text="@string/encrypted_backup_enable_warning_message" style="@style/EncryptedBackupBody" />
+            <com.gbwhatsapp.WaImageView android:layout_width="fill_parent" android:layout_height="@dimen/encrypted_backup_small_icon_height" android:layout_marginTop="48.0dip" android:src="@drawable/ic_warning" app:tint="@color/red_error" />
+            <com.gbwhatsapp.WaTextView android:layout_marginTop="@dimen/product_margin_8dp" android:text="@string/encrypted_backup_enable_warning_disclaimer" style="@style/EncryptedBackupBody" />
+        </com.gbwhatsapp.WaLinearLayout>
+    </ScrollView>
+    <com.gbwhatsapp.components.Button android:id="@id/enable_education_create_password_button" android:text="@string/encrypted_backup_enable_warning_create_password_button" style="@style/EncryptedBackupPrimaryButton" />
+    <com.gbwhatsapp.components.Button android:id="@id/enable_education_use_encryption_key_button" style="@style/EncryptedBackupSecondaryButton" />
+</LinearLayout>

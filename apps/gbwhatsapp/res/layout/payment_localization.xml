@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/payment_shimmer" android:layout_width="fill_parent" android:layout_height="@dimen/payment_bubble_amount_height" style="@style/PaymentLoadingShimmer">
+        <View android:background="@drawable/payment_loading_box" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.facebook.shimmer.ShimmerFrameLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/payment_loading_error" android:background="@drawable/payment_loading_error_box" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/payment_bubble_amount_height">
+        <com.gbwhatsapp.WaTextView android:textSize="12.0sp" android:textColor="@color/payments_pill_text_left" android:textColorHighlight="@color/payments_pill_text_highlight" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/payment_could_not_load" android:maxLines="4" app:fontFamily="sans-serif" />
+        <com.gbwhatsapp.WaTextView android:textSize="12.0sp" android:textColor="@color/payments_pill_text_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/payment_tap_to_retry" android:maxLines="4" app:fontFamily="sans-serif" />
+    </LinearLayout>
+</merge>

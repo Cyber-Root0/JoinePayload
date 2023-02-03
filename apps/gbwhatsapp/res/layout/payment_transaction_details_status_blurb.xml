@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/primary_surface" android:paddingLeft="@dimen/payment_settings_default_margin" android:paddingRight="@dimen/payment_settings_default_margin" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/bg" android:background="@drawable/txn_details_rounded_error_blurb_bg" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip">
+        <com.gbwhatsapp.WaImageView android:id="@id/img" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="18.0dip" android:layout_marginRight="18.0dip" android:src="@drawable/ic_action_info_filled" android:rotation="180.0" app:tint="@color/txn_blurb_error_icon_color" />
+        <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="@color/primary_text" android:id="@id/text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:singleLine="false" style="@style/ListItemTitle" />
+    </LinearLayout>
+</FrameLayout>

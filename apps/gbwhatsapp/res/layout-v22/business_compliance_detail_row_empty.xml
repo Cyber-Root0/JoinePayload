@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.WaTextView android:id="@id/business_compliance_error_empty" android:layout_marginLeft="@dimen/product_margin_16dp" android:layout_marginRight="@dimen/product_margin_16dp" android:layout_marginBottom="@dimen/product_margin_8dp" android:text="@string/business_compliance_information_not_provided" android:layout_marginHorizontal="@dimen/product_margin_16dp" app:lineHeight="@dimen/product_compliance_info_line_height" style="@style/ComplianceTextInfo"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

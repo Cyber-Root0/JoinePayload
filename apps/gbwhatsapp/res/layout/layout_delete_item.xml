@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:id="@id/button" android:clickable="true" android:layout_width="64.0dip" android:layout_height="64.0dip">
+        <ImageView android:id="@id/buttonImage" android:focusable="false" android:clickable="false" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/ic_backspace" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+    </LinearLayout>
+</LinearLayout>

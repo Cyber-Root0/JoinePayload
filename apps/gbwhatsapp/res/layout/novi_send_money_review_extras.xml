@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/payment_method_divider_start_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="16.0dip">
+        <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="@color/secondary_text" android:id="@id/novi_send_money_review_extras_sender_amount_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/novi_send_money_review_extras_sender_label" android:layout_weight="1.0" />
+        <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="@color/secondary_text" android:id="@id/novi_send_money_review_extras_sender_amount" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="16.0dip">
+        <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="@color/secondary_text" android:id="@id/novi_send_money_review_extras_fee_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/novi_send_money_review_extras_fees_label" android:layout_weight="1.0" />
+        <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="@color/secondary_text" android:id="@id/novi_send_money_review_extras_fee_amount" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="16.0dip">
+        <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="@color/primary_text" android:id="@id/novi_send_money_review_extras_total_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/novi_send_money_review_extras_total_label" android:layout_weight="1.0" android:fontFamily="sans-serif-medium" />
+        <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="@color/primary_text" android:id="@id/novi_send_money_review_extras_total_amount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif-medium" />
+    </LinearLayout>
+</LinearLayout>

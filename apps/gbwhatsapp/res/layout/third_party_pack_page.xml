@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/emoji_popup_body" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidy.recyclerview.widget.RecyclerView android:id="@id/sticker_grid" android:paddingBottom="@dimen/picker_footer_height" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/loading_container" android:paddingBottom="@dimen/picker_footer_height" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.gbwhatsapp.CircularProgressBar android:layout_gravity="center" android:id="@id/pack_loading" android:layout_width="32.0dip" android:layout_height="32.0dip" android:indeterminate="true" android:indeterminateOnly="false" app:cpbBackground="@color/emoji_popup_body" app:cpbColor="@color/primary_light" app:cpbStrokeWidthFactor="4.0" />
+        <com.gbwhatsapp.WaTextView android:layout_gravity="center_horizontal" android:id="@id/pack_loading_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:text="@string/sticker_pack_loading" />
+        <com.gbwhatsapp.WaButton android:layout_gravity="center_horizontal" android:id="@id/cancel_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cancel" style="@style/WA.Button.Borderless.Colored" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/empty" android:paddingBottom="44.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center_horizontal" android:layout_width="72.0dip" android:layout_height="72.0dip" android:layout_marginBottom="16.0dip" android:src="@drawable/sticker_sad_cuppy" />
+        <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="@color/body_light_gray" android:layout_gravity="center_horizontal" android:id="@id/empty_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sticker_picker_no_stickers_in_pack" />
+        <com.gbwhatsapp.WaButton android:layout_gravity="center_horizontal" android:id="@id/more_info_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialog_button_more_info" style="@style/WA.Button.Borderless.Colored" />
+    </LinearLayout>
+</FrameLayout>

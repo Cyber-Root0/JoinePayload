@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/payment_bank_icon_background" />
+        </shape>
+    </item>
+    <item android:left="8.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip">
+        <bitmap android:src="@drawable/bank_logo_placeholder" android:tint="@color/fb_pay_hub_icon_tint" />
+    </item>
+</layer-list>

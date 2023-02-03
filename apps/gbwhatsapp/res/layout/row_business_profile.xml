@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="?selectableItemBackground" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.CircleWaImageView android:id="@id/business_avatar" android:background="@drawable/avatar_frame" android:layout_width="@dimen/biz_avatar_size" android:layout_height="@dimen/biz_avatar_size" android:layout_marginLeft="@dimen/horizontal_margin" android:layout_marginRight="@dimen/horizontal_margin" android:src="@drawable/avatar_contact" />
+    <com.gbwhatsapp.TextEmojiLabel android:layout_gravity="center_vertical" android:id="@id/business_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/horizontal_margin" app:fontFamily="sans-serif-medium" style="@style/ListItemTitle.V2" />
+</LinearLayout>

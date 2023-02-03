@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/payment_support_container" android:background="@drawable/selector_orange_gradient" android:paddingLeft="@dimen/payment_settings_default_margin" android:paddingTop="@dimen/payment_settings_default_margin" android:paddingRight="@dimen/payment_settings_default_margin" android:paddingBottom="@dimen/payment_settings_default_margin" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaImageView android:id="@id/payment_support_icon" android:layout_width="@dimen/novi_pay_hub_row_icon_size" android:layout_height="@dimen/novi_pay_hub_row_icon_size" android:layout_marginRight="@dimen/settings_icon_margin_end" android:src="@drawable/ic_help_novi" app:wivMirrorForRtl="true" />
+    <com.gbwhatsapp.WaTextView android:textSize="@dimen/settings_title_text_size" android:textColor="@color/list_item_title" android:id="@id/payment_support_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/novi_payment_transaction_details_help_row_label" app:fontFamily="sans-serif" />
+</LinearLayout>

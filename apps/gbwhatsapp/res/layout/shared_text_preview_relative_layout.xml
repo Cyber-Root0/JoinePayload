@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/entry_layout" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaImageButton android:id="@id/emoji_btn" android:layout_width="48.0dip" android:layout_height="40.0dip" android:src="@drawable/ib_emoji" android:layout_alignBottom="@id/subject_layout" android:layout_alignParentLeft="true" android:contentDescription="@string/emoji_button_description" app:tint="@color/ibEmojiIconTint" style="@style/ActionBarButtonStyle" />
+    <com.gbwhatsapp.contact.picker.SharedTextPreviewScrollView android:id="@id/subject_layout" android:paddingTop="16.0dip" android:paddingRight="15.0dip" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/emoji_btn">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.gbwhatsapp.mentions.MentionableEntry android:textColor="@color/primary_text" android:textColorHint="@color/hint_text" android:gravity="bottom" android:id="@id/mentionable_entry" android:paddingTop="5.0dip" android:paddingRight="@dimen/counter_text_padding" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="false" android:inputType="textCapSentences|textMultiLine" />
+            <View android:id="@id/stub" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_below="@id/mentionable_entry" />
+        </RelativeLayout>
+    </com.gbwhatsapp.contact.picker.SharedTextPreviewScrollView>
+</RelativeLayout>

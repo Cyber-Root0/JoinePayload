@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/transaction_root_layout" android:background="@drawable/rounded_box" android:paddingBottom="@dimen/novi_margin_medium" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/novi_margin_large"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaTextView android:textSize="13.0sp" android:textColor="@color/secondary_text" android:gravity="center|top" android:id="@id/transaction_type_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/novi_margin_medium" android:layout_marginTop="@dimen/novi_margin_medium" android:layout_marginRight="@dimen/novi_margin_medium" />
+    <androidy.recyclerview.widget.RecyclerView android:id="@id/transaction_questions" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/novi_margin_medium" android:layout_marginRight="@dimen/novi_margin_medium" />
+</LinearLayout>

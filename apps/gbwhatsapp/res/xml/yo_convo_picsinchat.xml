@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:robobunny="http://robobunny.com">
+    <PreferenceCategory android:title="@string/settings_chat">
+        <SwitchPreference android:title="@string/chat_contact_pic" android:key="chat_contactpicV2" android:summary="@string/chat_contact_pic_summary" android:defaultValue="false" />
+        <SwitchPreference android:title="@string/chat_my_pic" android:key="chat_mypicV2" android:summary="@string/chat_my_pic_summary" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/contact_picker_section_groups">
+        <SwitchPreference android:title="@string/group_participant_pic" android:key="group_participants_picV2" android:summary="@string/group_participant_pic_summary" android:defaultValue="true" />
+        <SwitchPreference android:title="@string/chat_my_pic_group" android:key="group_mypicV2" android:summary="@string/chat_my_pic_group_summary" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/action_settings">
+        <SwitchPreference android:title="@string/inside_bubble" android:key="pic_inside" android:defaultValue="false" />
+        <com.gbwhatsapp.yo.SeekBarPreference android:max="64" android:title="@string/pic_chat_size" android:key="pic_chat_size_pickerV2" android:summary="@string/pic_chat_size_summary" android:dependency="pic_inside" android:defaultValue="40" robobunny:min="10" robobunny:unitsLeft="" robobunny:unitsRight="dp" />
+        <ListPreference android:entries="@array/pic_location" android:title="@string/pic_location" android:key="pic_startlocation" android:summary="@string/pic_locationS" android:defaultValue="1" android:entryValues="@array/pic_location_values" />
+    </PreferenceCategory>
+</PreferenceScreen>

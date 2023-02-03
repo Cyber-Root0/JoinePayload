@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.TextEmojiLabel android:textSize="@dimen/conversation_row_participant_name_textsize" android:textColor="@color/primary_text" android:id="@id/conversation_row_contact_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:singleLine="true" />
+    <com.gbwhatsapp.TextEmojiLabel android:textSize="@dimen/conversation_row_participant_name_textsize" android:textColor="@color/conversation_row_contact_pushname_color" android:id="@id/conversation_row_contact_pushname" android:paddingLeft="12.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:singleLine="true" android:paddingStart="12.0sp" />
+</merge>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.gbwhatsapp.WaImageView android:id="@id/logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_2fa_disabled_logo_margin_top" android:src="@drawable/settings_2fa_done" />
+        <com.gbwhatsapp.WaTextView android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/two_factor_auth_saved" style="@style/Text.Description" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <include android:layout_width="wrap_content" android:layout_height="32.0dip" android:layout_above="@id/done_button" android:layout_centerHorizontal="true" layout="@layout/page_indicator" />
+            <com.gbwhatsapp.components.Button android:layout_gravity="bottom|center" android:id="@id/done_button" android:layout_marginTop="8.0dip" android:layout_marginBottom="24.0dip" android:text="@string/done" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/WA.Button" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

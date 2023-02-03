@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Pretočiť dopredu o %d sekúnd</item>
+        <item quantity="one">Pretočiť dopredu o %d sekundu</item>
+        <item quantity="few">Pretočiť dopredu o %d sekundy</item>
+        <item quantity="many">Pretočiť dopredu o %d sekundy</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Pretočiť späť o %d sekúnd</item>
+        <item quantity="one">Pretočiť späť o %d sekundu</item>
+        <item quantity="few">Pretočiť späť o %d sekundy</item>
+        <item quantity="many">Pretočiť späť o %d sekundy</item>
+    </plurals>
+    <plurals name="export_backup_not_enough_space_message">
+        <item quantity="other">Na exportovanie chatov bude potrebných %s miesta v úložisku. Skôr než vykonáte export, uvoľnite miesto v úložisku.</item>
+        <item quantity="one">Na exportovanie chatov bude potrebný %s miesta v úložisku. Skôr než vykonáte export, uvoľnite miesto v úložisku.</item>
+        <item quantity="few">Na exportovanie chatov budú potrebné %s miesta v úložisku. Skôr než vykonáte export, uvoľnite miesto v úložisku.</item>
+    </plurals>
+    <plurals name="import_backup_not_enough_space_message">
+        <item quantity="other">Na importovanie bude potrebných %s miesta v úložisku. Skôr než vykonáte import, uvoľnite miesto v úložisku.</item>
+        <item quantity="one">Na importovanie bude potrebný %s miesta v úložisku. Skôr než vykonáte import, uvoľnite miesto v úložisku.</item>
+        <item quantity="few">Na importovanie budú potrebné %s miesta v úložisku. Skôr než vykonáte import, uvoľnite miesto v úložisku.</item>
+    </plurals>
+    <plurals name="move_chats_insufficient_space_dialog">
+        <item quantity="other">Na prenos správ je treba %1$s. Uvoľnite miesto vo svojom zariadení pomocou nástroja na správu úložiska v aplikácii WhatsApp.</item>
+    </plurals>
+    <plurals name="settings_gdrive_video_size_to_be_uploaded_plural">
+        <item quantity="other">Nahrá sa %s</item>
+    </plurals>
+</resources>

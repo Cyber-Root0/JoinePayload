@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:paddingTop="8.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="@color/settings_title_accent" android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="14.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="8.0dip" app:fontFamily="sans-serif-medium" />
+        <RadioGroup android:paddingLeft="34.0dip" android:paddingRight="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RadioButton android:theme="?settingsRadioButtonStyle" android:id="@id/everyone_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <RadioButton android:theme="?settingsRadioButtonStyle" android:id="@id/my_contacts_button" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <RadioButton android:theme="?settingsRadioButtonStyle" android:id="@id/my_contacts_except_button" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <RadioButton android:theme="?settingsRadioButtonStyle" android:id="@id/nobody_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </RadioGroup>
+        <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="@color/settings_item_subtitle_text" android:id="@id/footer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="24.0dip" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AlertDialogTheme" parent="@style/Theme.AppCompat.DayNight.Dialog.Alert">
+        <item name="android:textColorPrimary">@color/primary_text</item>
+        <item name="android:windowBackground">@drawable/dialog_background</item>
+        <item name="android:layoutDirection">rtl</item>
+        <item name="colorAccent">@color/primary_light</item>
+        <item name="colorControlHighlight">@color/paletteOnPrimaryOverlay</item>
+    </style>
+</resources>

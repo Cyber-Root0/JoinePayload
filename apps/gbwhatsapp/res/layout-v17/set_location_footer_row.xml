@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="@color/list_item_title" android:id="@id/footer" android:paddingLeft="@dimen/product_margin_16dp" android:paddingTop="@dimen/dir_margin_12" android:paddingRight="68.0dip" android:paddingBottom="@dimen/dir_margin_12" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/biz_set_location_footer" android:paddingStart="@dimen/product_margin_16dp" android:paddingEnd="68.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

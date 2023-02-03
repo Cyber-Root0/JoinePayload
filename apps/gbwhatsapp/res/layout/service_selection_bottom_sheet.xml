@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="@color/list_item_title" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" android:text="@string/add_service_string" app:fontFamily="sans-serif-medium" />
+    <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip" android:text="@string/add_service_subtitle" android:lineSpacingExtra="6.0sp" app:fontFamily="sans-serif" />
+    <androidy.recyclerview.widget.RecyclerView android:id="@id/payment_selection_items" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" />
+</LinearLayout>

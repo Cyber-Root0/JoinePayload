@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/selector_orange_gradient" android:paddingRight="@dimen/horizontal_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidy.cardview.widget.CardView android:id="@id/cart_item_thumbnail_card" app:cardCornerRadius="@dimen/catalog_item_image_radius" style="@style/ProductImage">
+        <com.gbwhatsapp.WaImageView android:id="@id/cart_item_thumbnail" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </androidy.cardview.widget.CardView>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/cart_item_quantity_container" android:layout_toRightOf="@id/cart_item_thumbnail_card" android:layout_centerVertical="true">
+        <com.gbwhatsapp.TextEmojiLabel android:id="@id/cart_item_title" style="@style/ProductTitle" />
+        <com.gbwhatsapp.TextEmojiLabel android:id="@id/cart_item_subtitle" android:layout_marginTop="4.0dip" style="@style/ProductPrice" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/cart_item_quantity_container" android:background="@drawable/order_product_quantity_bg" android:paddingLeft="9.0dip" android:paddingTop="@dimen/order_product_quantity_bg_padding_vertical" android:paddingRight="7.0dip" android:paddingBottom="@dimen/order_product_quantity_bg_padding_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <com.gbwhatsapp.TextEmojiLabel android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/selector_product_catalog_primary_text" android:layout_gravity="center_vertical" android:id="@id/cart_item_quantity" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center_vertical" android:layout_width="19.0dip" android:layout_height="19.0dip" android:layout_marginLeft="13.0dip" android:src="@drawable/ic_chevron_down" app:tint="@color/disabled_text" />
+    </LinearLayout>
+</RelativeLayout>

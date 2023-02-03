@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="font_size">
+        <item>@string/font_small</item>
+        <item>@string/font_medium</item>
+        <item>@string/font_large</item>
+        <item>Очень большой</item>
+    </string-array>
+    <string-array name="ui_home_style">
+        <item>ONE UI</item>
+        <item>Стандарт</item>
+        <item>IOS</item>
+        <item>ПУЗЫРЬКИ</item>
+        <item>ВКЛАДКИ</item>
+    </string-array>
+    <string-array name="stories_entry">
+        <item>Стандарт</item>
+        <item>RC NOTIFY</item>
+        <item>RC FACEBOOK</item>
+        <item>RC CONCEPT V2</item>
+        <item>RC CONCEPT</item>
+    </string-array>
+    <string-array name="online_toast_location">
+        <item>Вверху</item>
+        <item>Центр</item>
+        <item>Внизу</item>
+    </string-array>
+</resources>

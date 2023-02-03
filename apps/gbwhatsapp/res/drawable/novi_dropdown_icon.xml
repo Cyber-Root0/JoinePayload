@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <bitmap android:src="@drawable/ic_dropdown" android:tint="@color/novi_dropdown_icon_tint" />
+    </item>
+</layer-list>

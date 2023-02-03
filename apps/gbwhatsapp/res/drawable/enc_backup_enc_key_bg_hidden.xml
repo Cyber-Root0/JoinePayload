@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="@color/encrypted_backup_encryption_key_bg_disabled" />
+            <corners android:radius="11.0dip" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/encr_key_reveal" />
+</layer-list>

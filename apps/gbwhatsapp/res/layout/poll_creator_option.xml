@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:importantForAccessibility="no"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaEditText android:textSize="16.0sp" android:textColorHint="@color/secondary_text" android:id="@id/poll_option_edit_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:hint="@string/poll_option_hint" android:inputType="textCapSentences|textMultiLine" android:imeOptions="actionNext" android:importantForAccessibility="yes" />
+    <ViewStub android:id="@id/duplicated_option" android:layout="@layout/poll_duplicated_option" android:inflatedId="@id/duplicated_option" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" />
+    <ViewStub android:id="@id/max_option_text_view" android:layout="@layout/poll_creator_max_option_text_view" android:inflatedId="@id/max_option_text_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:importantForAccessibility="yes" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/community_subgroups_bottom_sheet" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/header" android:layout_width="fill_parent" android:layout_height="@dimen/actionbar_height">
+        <com.gbwhatsapp.WaImageButton android:layout_gravity="center|left" android:id="@id/switch_subgroup_bottom_sheet_close_button" android:background="?selectableItemBackgroundBorderless" android:padding="@dimen/space_loose_halfStep" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_close" android:contentDescription="@string/close" app:tint="@color/icon_secondary" />
+        <com.gbwhatsapp.TextEmojiLabel android:textAppearance="@style/BottomSheetTitle" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/community_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/community_group_switcher_title_margin" android:layout_marginRight="@dimen/community_group_switcher_title_margin" />
+    </FrameLayout>
+    <View android:id="@id/spacer" android:background="@color/community_group_switcher_divider_color" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <androidy.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

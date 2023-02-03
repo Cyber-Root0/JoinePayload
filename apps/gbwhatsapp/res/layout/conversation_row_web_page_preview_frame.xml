@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/web_page_preview_holder" style="@style/WebPagePreviewHolder"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="@dimen/abc_action_bar_default_height_material"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaImageView android:layout_gravity="center|left" android:id="@id/search_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_back" android:contentDescription="@string/back" app:tint="@color/lightActionBarItemDrawableTint" style="?actionButtonStyle" />
+    <androidy.appcompat.widget.SearchView android:layout_gravity="center_vertical" android:id="@id/search_view" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.AppCompat.SearchView.ActionBar" />
+    <com.gbwhatsapp.WaImageView android:layout_gravity="center|right" android:id="@id/search_filter" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:tint="@color/chats_filter" style="?actionButtonStyle" />
+    <com.gbwhatsapp.WaImageView android:layout_gravity="center|right" android:id="@id/search_dialpad" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_action_dialpad" style="?actionButtonStyle" />
+</merge>

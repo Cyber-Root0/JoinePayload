@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.textfield.TextInputEditText android:theme="@style/WaTextInputLayoutAppearance.Purple" android:textColor="@color/primary_text" android:id="@id/text_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:imeOptions="flagNoExtractUi"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

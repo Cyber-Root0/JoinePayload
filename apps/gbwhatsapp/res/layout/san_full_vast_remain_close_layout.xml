@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/rl_time_bg" android:background="@drawable/san_vast_player_reward_time_bg" android:layout_width="wrap_content" android:layout_height="@dimen/common_dimens_25dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/common_text_size_12sp" android:textColor="@android:color/white" android:id="@id/tv_seconds" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/common_dimens_10dp" android:layout_marginRight="@dimen/common_dimens_10dp" android:singleLine="true" />
+    <TextView android:id="@id/tv_divider" android:background="@android:color/darker_gray" android:visibility="gone" android:layout_width="@dimen/common_dimens_1dp" android:layout_height="@dimen/common_dimens_13dp" />
+    <FrameLayout android:id="@id/fl_close" android:layout_width="wrap_content" android:layout_height="@dimen/common_dimens_25dp">
+        <ImageView android:layout_gravity="center" android:id="@id/iv_close" android:padding="@dimen/common_dimens_8dp" android:visibility="gone" android:layout_width="@dimen/common_dimens_25dp" android:layout_height="@dimen/common_dimens_25dp" android:layout_marginLeft="@dimen/common_dimens_3dp" android:layout_marginRight="@dimen/common_dimens_3dp" android:src="@drawable/san_vast_player_reward_close" android:scaleType="fitXY" android:alpha="1.0" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/white" android:layout_gravity="center" android:id="@id/tv_count" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/common_dimens_10dp" android:layout_marginRight="@dimen/common_dimens_10dp" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/round_rectangle" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.payments.ui.widget.PayToolbar android:id="@id/pay_service_toolbar" android:layout_width="fill_parent" android:layout_height="48.0dip" app:contentInsetLeft="0.0dip" app:contentInsetStartWithNavigation="0.0dip" />
+    <include layout="@layout/novi_divider" />
+    <com.gbwhatsapp.payments.ui.widget.PaymentView android:id="@id/payment_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

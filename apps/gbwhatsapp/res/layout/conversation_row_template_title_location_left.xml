@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/template_message" android:layout_width="@dimen/conversation_row_document_width" android:layout_height="wrap_content" android:layout_marginRight="@dimen/conversation_row_margin_large">
+        <include layout="@layout/conversation_row_participant_header" />
+        <include layout="@layout/template_message_title_location" />
+        <com.gbwhatsapp.conversation.conversationrow.TemplateRowContentLayout android:id="@id/template_message_content" android:layout_width="@dimen/conversation_row_document_width" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <com.gbwhatsapp.conversation.conversationrow.TemplateQuickReplyButtonsLayout android:id="@id/template_quick_reply_buttons" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</merge>

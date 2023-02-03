@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.CircleWaImageView android:id="@id/transaction_icon" android:layout_width="@dimen/novi_transaction_row_image_size" android:layout_height="@dimen/novi_transaction_row_image_size" android:layout_marginLeft="@dimen/payment_settings_default_margin" android:layout_marginTop="@dimen/payment_settings_default_margin" android:layout_marginRight="@dimen/payment_settings_default_margin" />
+        <LinearLayout android:orientation="vertical" android:id="@id/transaction_row_details" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/payment_settings_default_margin" android:layout_marginRight="@dimen/payment_settings_default_margin" android:layout_marginBottom="12.0dip">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.gbwhatsapp.TextEmojiLabel android:ellipsize="end" android:gravity="start" android:id="@id/transaction_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" android:fontFamily="sans-serif" style="@style/NoviPrimaryText" />
+                <com.gbwhatsapp.TextEmojiLabel android:textSize="16.0sp" android:textColor="@color/primary_text" android:gravity="end" android:id="@id/transaction_amount" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/payment_settings_default_margin" android:lineSpacingExtra="8.0sp" style="@style/ListItemTitle" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/transaction_info" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.gbwhatsapp.WaTextView android:ellipsize="end" android:layout_gravity="start|center" android:id="@id/transaction_subtitle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" style="@style/NoviSecondaryText" />
+                <com.gbwhatsapp.TextEmojiLabel android:textSize="12.0sp" android:textColor="@color/secondary_text" android:gravity="center_vertical" android:layout_gravity="end|center" android:id="@id/transaction_amount_secondary" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/payment_settings_default_margin" android:lineSpacingExtra="6.0sp" app:fontFamily="sans-serif-medium" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <com.gbwhatsapp.components.Button android:textSize="14.0sp" android:id="@id/view_code_button" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="66.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="14.0dip" android:text="@string/novi_payment_withdrawal_row_view_code" style="@style/NoviPaySecondaryButton" />
+    <View android:id="@id/divider" android:background="@drawable/payments_divider_gray" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="72.0dip" />
+</merge>

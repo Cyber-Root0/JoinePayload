@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/payment_shimmer" android:layout_width="fill_parent" android:layout_height="72.0dip" style="@style/PaymentLoadingShimmer">
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:background="@drawable/payment_loading_circle" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="@dimen/payment_settings_default_margin" android:layout_marginRight="@dimen/payment_settings_default_margin" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/payment_settings_default_margin">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip">
+                    <View android:background="@drawable/payment_loading_box" android:layout_width="160.0dip" android:layout_height="@dimen/payment_shimmer_element_height" />
+                    <Space android:layout_width="0.0dip" android:layout_height="@dimen/payment_shimmer_element_height" android:layout_weight="1.0" />
+                    <View android:background="@drawable/payment_loading_box" android:layout_width="64.0dip" android:layout_height="@dimen/payment_shimmer_element_height" />
+                </LinearLayout>
+                <View android:background="@drawable/payment_loading_box" android:layout_width="96.0dip" android:layout_height="@dimen/payment_shimmer_element_height" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/static_shimmer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="72.0dip">
+        <View android:layout_gravity="center_vertical" android:background="@drawable/payment_loading_error_circle" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="@dimen/payment_settings_default_margin" android:layout_marginRight="@dimen/payment_settings_default_margin" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/payment_settings_default_margin" android:layout_weight="1.0">
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip">
+                <View android:background="@drawable/payment_loading_error_box" android:layout_width="160.0dip" android:layout_height="@dimen/payment_shimmer_element_height" />
+            </LinearLayout>
+            <View android:background="@drawable/payment_loading_error_box" android:layout_width="96.0dip" android:layout_height="@dimen/payment_shimmer_element_height" />
+        </LinearLayout>
+        <com.gbwhatsapp.WaImageView android:id="@id/transaction_loading_error" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginTop="18.0dip" android:layout_marginRight="@dimen/payment_settings_default_margin" android:src="@drawable/ic_action_info" />
+    </LinearLayout>
+    <View android:layout_gravity="bottom" android:id="@id/divider" android:background="@drawable/payments_divider_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="72.0dip" />
+</merge>

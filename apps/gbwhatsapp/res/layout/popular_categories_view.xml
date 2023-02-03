@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/product_margin_8dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaTextView android:layout_gravity="left" android:id="@id/nearby_title" android:paddingLeft="@dimen/product_margin_16dp" android:paddingRight="@dimen/product_margin_16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="@string/biz_dir_categories" android:fontFamily="sans-serif-medium" style="@style/BizDirectorySecondaryText" />
+    <androidy.recyclerview.widget.RecyclerView android:id="@id/popular_categories_recycler_view" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:cacheColorHint="@color/transparent" />
+</LinearLayout>

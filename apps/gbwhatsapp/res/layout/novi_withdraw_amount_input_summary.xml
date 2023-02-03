@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.shimmer.ShimmerFrameLayout android:layout_gravity="center" android:id="@id/withdraw_amount_conversion_shimmer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" style="@style/PaymentLoadingShimmer">
+        <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="@color/secondary_text" android:id="@id/withdraw_amount_conversion" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="10.0sp" />
+    </com.facebook.shimmer.ShimmerFrameLayout>
+    <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="@color/novi_purple" android:layout_gravity="center" android:id="@id/withdraw_full_balance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/novi_withdraw_full_balance" android:lineSpacingExtra="2.0sp" app:fontFamily="sans-serif-medium" />
+</LinearLayout>

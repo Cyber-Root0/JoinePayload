@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:tag="tabs_root" android:background="@color/primary" android:layout_width="fill_parent" android:layout_height="@dimen/tab_height" android:layout_weight="10.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="center" android:tag="camera_tab" android:paddingLeft="6.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_home_camera" android:scaleType="center" android:layout_weight="1.0" android:paddingStart="6.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/tabs" android:layout_width="0.0dip" android:layout_height="fill_parent" android:weightSum="4.0" android:layout_weight="9.0">
+        <FrameLayout android:orientation="vertical" android:id="@id/tab" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.gbwhatsapp.yo.tf android:textSize="16.0sp" android:gravity="center" android:tag="chats_tab" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/chats" android:textAllCaps="true" />
+            <com.gbwhatsapp.yo.tf android:textSize="11.0sp" android:textStyle="bold" android:textColor="@color/primary" android:ellipsize="end" android:gravity="center" android:layout_gravity="end|center" android:id="@id/badge" android:background="@drawable/tab_badge_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:minWidth="21.0dip" android:minHeight="21.0dip" android:text="7" android:singleLine="true" android:layout_marginStart="5.0dip" />
+            <ImageView android:layout_gravity="bottom|center" android:id="@id/divider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/mtrl_tabs_default_indicator" />
+        </FrameLayout>
+        <com.gbwhatsapp.yo.tf android:textSize="16.0sp" android:gravity="center" android:tag="groups_tab" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/notification_settings_title_groups" android:layout_weight="1.0" android:textAllCaps="true" />
+        <com.gbwhatsapp.yo.tf android:textSize="16.0sp" android:gravity="center" android:tag="status_tab" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/statuses" android:layout_weight="1.0" android:textAllCaps="true" />
+        <com.gbwhatsapp.yo.tf android:textSize="16.0sp" android:gravity="center" android:tag="calls_tab" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/calls" android:layout_weight="1.0" android:textAllCaps="true" />
+    </LinearLayout>
+</LinearLayout>

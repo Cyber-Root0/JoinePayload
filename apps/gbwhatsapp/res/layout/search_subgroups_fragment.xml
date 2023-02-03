@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidy.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidy.recyclerview.widget.RecyclerView android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    <com.google.android.material.appbar.AppBarLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidy.appcompat.widget.Toolbar android:id="@id/toolbar" app:contentInsetEnd="@dimen/space_base" app:contentInsetLeft="0.0dip" app:contentInsetRight="@dimen/space_base" app:contentInsetStart="0.0dip" app:contentInsetStartWithNavigation="0.0dip" app:layout_scrollFlags="enterAlways" app:theme="@style/SearchSubgroupsActionBarTheme" style="@style/Toolbar.Neutral">
+            <androidy.appcompat.widget.SearchView android:layout_gravity="center_vertical" android:id="@id/search_view" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SearchSubgroupsSearchViewStyle" />
+        </androidy.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidy.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+</androidy.coordinatorlayout.widget.CoordinatorLayout>

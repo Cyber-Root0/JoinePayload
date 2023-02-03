@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/settings_privacy" android:summary="@string/yoPrivacySum"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="@string/alex_hide_lastseen" android:key="stat_cat">
+        <SwitchPreference android:title="@string/yoHideSeen" android:key="yoHideSeen" android:summary="@string/yoHideSeenSum" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/settings_privacy" android:key="stat_cat">
+        <com.gbwhatsapp.yo.YoPreference android:title="@string/contacts" android:key="cat_pc" android:summary="@string/change_privacy_settings" />
+        <com.gbwhatsapp.yo.YoPreference android:title="@string/groups_participation" android:key="cat_pg" android:summary="@string/change_privacy_settings" />
+        <com.gbwhatsapp.yo.YoPreference android:title="@string/broadcasts" android:key="cat_pb" android:summary="@string/change_privacy_settings" />
+        <com.gbwhatsapp.yo.YoPreference android:title="@string/specificPrivacy" android:key="yoCustomPrivList" android:summary="@string/view_contacts_button" app:WaString="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/alex_calls" android:key="stat_cat">
+        <Preference android:title="@string/whocancall" android:key="yoCallsPrivacy" android:summary="@string/privacy_everyone" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/alex_chats" android:key="stat_cat">
+        <SwitchPreference android:title="@string/yoDisableFwd" android:key="yoDisableFwd" android:summary="@string/yoDisableFwdS" android:defaultValue="true" />
+        <SwitchPreference android:title="@string/yoAntiRevoke" android:key="yoAntiRevoke" android:summary="@string/yoAntiRevokeS" android:defaultValue="true" />
+        <SwitchPreference android:title="@string/yoBlueOnReply" android:key="yoBlueOnReply" android:summary="@string/yoBlueOnReplyS" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/statuses" android:key="stat_cat">
+        <SwitchPreference android:title="@string/yoHideStatusView" android:key="yoHideStatViewV2" android:summary="@string/yoHideStatusViewSum" android:defaultValue="true" />
+        <SwitchPreference android:title="@string/yoAntiRevokeStatus" android:key="yoAntiRevokeStatus" android:summary="@string/yoAntiRevokeStatusS" android:defaultValue="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

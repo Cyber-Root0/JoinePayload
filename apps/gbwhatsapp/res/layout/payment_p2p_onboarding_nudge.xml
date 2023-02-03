@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/p2p_onboarding_nudge_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaImageView android:layout_gravity="top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/product_margin_16dp" android:layout_marginTop="@dimen/product_margin_16dp" android:layout_marginBottom="@dimen/product_margin_16dp" android:src="@drawable/ic_personal" android:scaleType="fitXY" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/product_margin_16dp" android:layout_marginRight="@dimen/product_margin_16dp" android:layout_marginBottom="@dimen/product_margin_16dp">
+            <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:ellipsize="end" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="@dimen/text_button_padding_horizontal" android:text="@string/p2p_onboarding_nudge_title" android:singleLine="true" android:layout_weight="1.0" style="@style/ListItemTitle" />
+            <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="@color/secondary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/text_button_padding_horizontal" android:text="@string/p2p_onboarding_nudge_desc" />
+            <com.gbwhatsapp.components.Button android:id="@id/p2p_onboarding_nudge_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/payment_get_started_button_text" style="@style/WA.Button.Borderless" />
+        </LinearLayout>
+    </LinearLayout>
+</merge>

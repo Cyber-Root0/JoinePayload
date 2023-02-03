@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center|left|top" android:orientation="vertical" android:id="@id/main_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="40.0dip" android:minHeight="30.0dip">
+        <include layout="@layout/conversation_row_participant_header_with_padding" />
+        <LinearLayout android:gravity="top" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.gbwhatsapp.WaImageView android:layout_gravity="top" android:id="@id/icon" android:paddingLeft="@dimen/conversation_row_inner_item_padding" android:paddingTop="@dimen/space_tight_halfStep" android:paddingBottom="@dimen/space_tight" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter" app:srcCompat="@drawable/message_got_receipt_revoked" app:tint="@color/conversationRowRevokedIcon" />
+            <com.gbwhatsapp.components.TextAndDateLayout android:layout_gravity="center|left" android:paddingRight="@dimen/space_xTight" android:paddingBottom="@dimen/space_xTight" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.gbwhatsapp.TextEmojiLabel android:textSize="@dimen/conversation_text_row_tv" android:textStyle="italic" android:textColor="@color/conversationRowRevokedText" android:gravity="center_vertical" android:layout_gravity="left" android:id="@id/message_text" android:paddingLeft="@dimen/space_tight" android:paddingTop="@dimen/space_tight_halfStep" android:paddingRight="@dimen/conversation_row_inner_item_padding" android:paddingBottom="@dimen/space_tight_halfStep" android:layout_width="wrap_content" android:layout_height="wrap_content" app:drawableTint="@color/conversationRowRevokedText" />
+                <include layout="@layout/conversation_row_date_wrapper_left" />
+            </com.gbwhatsapp.components.TextAndDateLayout>
+        </LinearLayout>
+    </LinearLayout>
+</merge>

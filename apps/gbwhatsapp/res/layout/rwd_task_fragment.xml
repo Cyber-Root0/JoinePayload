@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <san.t.getErrorCode android:id="@id/sliding_tab_layout" android:layout_width="wrap_content" android:layout_height="@dimen/common_dimens_37dp" app:clipPaddingLeft="@dimen/common_dimens_0dp" app:dividePage="true" app:indicatorColor="@color/modulegame_color_ff5a00" app:indicatorHeight="@dimen/common_dimens_2.5dp" app:indicatorMarginBottom="@dimen/common_dimens_6dp" app:indicatorWidth="@dimen/common_dimens_52dp" app:tabViewSelectedTextSize="14.0dip" app:tabViewTextColorList="@color/modulegame_color_list_ff5a00_191919" app:tabViewTextSize="14.0dip" />
+    <androidx.viewpager.widget.ViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

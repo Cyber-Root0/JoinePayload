@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:id="@id/add_groups_new_group" android:background="@drawable/simple_feedback_background" android:layout_width="fill_parent" android:layout_height="@dimen/add_groups_to_community_cta_height">
+            <com.gbwhatsapp.WaImageView android:layout_gravity="center_vertical" android:background="@drawable/green_circle" android:padding="@dimen/add_groups_to_community_cta_icon_padding" android:layout_width="@dimen/space_xxxLoose" android:layout_height="@dimen/space_xxxLoose" android:layout_marginLeft="@dimen/space_loose" android:src="@drawable/ic_add_new_group" />
+            <com.gbwhatsapp.WaTextView android:gravity="left" android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_loose" android:text="@string/create_new_group" android:layout_weight="1.0" style="@style/TextAppearance.General.Body1" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/add_groups_link_existing_groups" android:background="@drawable/simple_feedback_background" android:layout_width="fill_parent" android:layout_height="@dimen/add_groups_to_community_cta_height">
+            <com.gbwhatsapp.WaImageView android:layout_gravity="center_vertical" android:background="@drawable/green_circle" android:padding="@dimen/add_groups_to_community_cta_icon_padding" android:layout_width="@dimen/space_xxxLoose" android:layout_height="@dimen/space_xxxLoose" android:layout_marginLeft="@dimen/space_loose" android:src="@drawable/ic_action_add" />
+            <com.gbwhatsapp.WaTextView android:gravity="left" android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_loose" android:text="@string/link_existing_groups_menu" android:layout_weight="1.0" style="@style/TextAppearance.General.Body1" />
+        </LinearLayout>
+        <View android:background="@color/divider_gray" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="@dimen/space_base" />
+        <com.gbwhatsapp.WaTextView android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="@dimen/space_xxLoose_halfStep" android:layout_marginLeft="@dimen/space_loose" android:layout_marginTop="@dimen/space_base_halfStep" android:text="@string/groups_in_this_community" />
+        <androidy.recyclerview.widget.RecyclerView android:id="@id/added_groups" android:paddingBottom="@dimen/community_fab_button_offset" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <androidy.appcompat.widget.AppCompatSpinner android:layout_gravity="center_horizontal" android:id="@id/add_groups_subgroup_spinner" android:visibility="gone" android:layout_width="@dimen/space_xxxLoose" android:layout_height="@dimen/space_xxxLoose" />
+    </LinearLayout>
+    <com.gbwhatsapp.components.FloatingActionButton android:id="@id/community_add_groups_done_button" android:src="@drawable/ic_fab_next" android:contentDescription="@string/next" style="@style/WA.FAB" />
+</FrameLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidy.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.gbwhatsapp.WaImageButton android:id="@id/order_detail_close_btn" style="@style/OrderScreenCloseBtn" />
+        <com.gbwhatsapp.WaTextView android:id="@id/order_detail_title" android:text="@string/your_order" android:layout_alignTop="@id/order_detail_close_btn" android:layout_alignBottom="@id/order_detail_close_btn" style="@style/OrderScreenTitle" />
+        <View android:id="@id/order_detail_title_divider" android:layout_below="@id/order_detail_close_btn" style="@style/SectionDivider.Heavy" />
+        <LinearLayout android:orientation="vertical" android:id="@id/button_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <com.gbwhatsapp.components.Button android:enabled="false" android:id="@id/create_order" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/create_order" style="@style/WA.Button" />
+            <com.gbwhatsapp.components.Button android:id="@id/decline_order" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/decline_order" style="@style/WA.Button.Secondary" />
+        </LinearLayout>
+        <androidy.recyclerview.widget.RecyclerView android:id="@id/order_detail_recycler_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/button_container" android:layout_below="@id/order_detail_title_divider" app:layoutManager="androidy.recyclerview.widget.LinearLayoutManager" />
+    </RelativeLayout>
+    <ProgressBar android:layout_gravity="center" android:id="@id/order_detail_loading_spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:progressBarStyle" />
+</androidy.coordinatorlayout.widget.CoordinatorLayout>

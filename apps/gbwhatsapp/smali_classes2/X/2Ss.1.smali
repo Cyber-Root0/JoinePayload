@@ -1,0 +1,73 @@
+.class public final LX/2Ss;
+.super LX/0p9;
+.source ""
+
+
+# instance fields
+.field public A00:Ljava/lang/Long;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 4
+
+    const/4 v2, 0x1
+
+    const/16 v1, 0x3e8
+
+    const/16 v0, 0x2710
+
+    new-instance v3, LX/00G;
+
+    invoke-direct {v3, v2, v1, v0}, LX/00G;-><init>(III)V
+
+    const/16 v2, 0xc6a
+
+    const/4 v1, 0x2
+
+    const v0, 0x2421cbc
+
+    invoke-direct {p0, v2, v3, v1, v0}, LX/0p9;-><init>(ILX/00G;II)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public serialize(LX/1PS;)V
+    .locals 2
+
+    iget-object v1, p0, LX/2Ss;->A00:Ljava/lang/Long;
+
+    const/4 v0, 0x1
+
+    invoke-interface {p1, v0, v1}, LX/1PS;->Abz(ILjava/lang/Object;)V
+
+    return-void
+.end method
+
+.method public toString()Ljava/lang/String;
+    .locals 3
+
+    const-string v0, "WamClockSkewDifferenceT {"
+
+    new-instance v2, Ljava/lang/StringBuilder;
+
+    invoke-direct {v2, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    iget-object v1, p0, LX/2Ss;->A00:Ljava/lang/Long;
+
+    const-string v0, "clockSkewHourly"
+
+    invoke-static {v2, v0, v1}, LX/0p9;->appendFieldToStringBuilder(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/Object;)V
+
+    const-string/jumbo v0, "}"
+
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v2}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method

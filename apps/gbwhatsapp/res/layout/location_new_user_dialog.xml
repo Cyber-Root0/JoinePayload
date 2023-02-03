@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/location_new_user_dialog_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="@color/education_banner2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/header_logo" android:padding="16.0dip" android:layout_width="104.0dip" android:layout_height="104.0dip" />
+    </FrameLayout>
+    <com.gbwhatsapp.TextEmojiLabel android:textSize="14.0sp" android:textColor="@color/secondary_text" android:linksClickable="true" android:id="@id/location_new_user_description" android:padding="24.0dip" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

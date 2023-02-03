@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="export_backup_not_enough_space_message">
+        <item quantity="other">A exportação de conversas precisará de %s de armazenamento. Libere espaço de armazenamento antes de exportar.</item>
+    </plurals>
+    <plurals name="import_backup_not_enough_space_message">
+        <item quantity="other">A importação precisará de %s de armazenamento. Libere espaço de armazenamento antes de importar.</item>
+    </plurals>
+    <plurals name="move_chats_insufficient_space_dialog">
+        <item quantity="other">Você precisa de %1$s neste aparelho para fazer a transferência. Use o gerenciador de armazenamento do WhatsApp para liberar espaço.</item>
+    </plurals>
+    <plurals name="settings_gdrive_video_size_to_be_uploaded_plural">
+        <item quantity="other">‎%s a serem carregados</item>
+        <item quantity="one">‎%s a ser carregado</item>
+    </plurals>
+</resources>

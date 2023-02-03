@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/stub_toolbar_search" android:layout="@layout/toolbar_with_search" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:paddingTop="@dimen/chips_tab_section_margin_vertical" android:paddingBottom="@dimen/chips_tab_section_margin_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.google.android.material.tabs.TabLayout android:layout_gravity="center" android:id="@id/tabs" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/CatalogCategoryTabLayout" />
+            </FrameLayout>
+            <View style="@style/ListSectionDivider.V2" />
+            <androidy.viewpager.widget.ViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/catalog_search_host" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</LinearLayout>

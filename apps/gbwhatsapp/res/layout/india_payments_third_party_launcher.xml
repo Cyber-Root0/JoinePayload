@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/parent_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/overlay_container" android:background="@drawable/display_qrcode_white_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="32.0dip" android:layout_marginTop="32.0dip" android:layout_marginRight="32.0dip">
+            <com.gbwhatsapp.WaTextView android:textSize="18.0sp" android:textColor="@color/primary_text" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/user_account_name" android:paddingLeft="18.0dip" android:paddingRight="18.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="44.0dip" android:layout_marginBottom="7.0dip" app:fontFamily="sans-serif-medium" />
+            <com.gbwhatsapp.WaTextView android:textSize="12.0sp" android:textColor="@color/secondary_text" android:layout_gravity="center_horizontal" android:id="@id/user_wa_vpa" android:layout_width="wrap_content" android:layout_height="wrap_content" app:fontFamily="sans-serif-medium" />
+            <com.gbwhatsapp.WaTextView android:textSize="44.0sp" android:textColor="@color/primary_text" android:gravity="center" android:layout_gravity="center" android:id="@id/display_payment_amount" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:singleLine="true" />
+            <com.gbwhatsapp.components.Button android:id="@id/make_payment" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="36.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="36.0dip" android:layout_marginBottom="12.0dip" android:text="@string/make_payment" style="@style/WA.Button" />
+        </LinearLayout>
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center|top" android:layout_width="70.0dip" android:layout_height="70.0dip" android:src="@drawable/primary_color_circle" android:contentDescription="@null" />
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center|top" android:id="@id/contact_photo" android:layout_width="@dimen/mid_avatar_size" android:layout_height="@dimen/mid_avatar_size" android:layout_marginTop="4.0dip" android:src="@drawable/avatar_contact" android:scaleType="fitCenter" android:contentDescription="@string/contact_profile_photo" />
+    </FrameLayout>
+</FrameLayout>

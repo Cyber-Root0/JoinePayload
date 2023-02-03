@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference android:entries="@array/ui_home_style" android:title="@string/yoHomeUIStyle" android:key="ui_home_styleV3" android:defaultValue="stock" android:entryValues="@array/ui_home_styleV" />
+    <ListPreference android:entries="@array/stories_entry" android:title="@string/story_style" android:key="key_story_view" android:summary="%s" android:defaultValue="0" android:entryValues="@array/stories_value" />
+    <SwitchPreference android:title="@string/igStories" android:key="enable_ig_stories" android:defaultValue="false" />
+    <SwitchPreference android:title="@string/grpSeparate" android:key="enable_grp_separationV2" android:summary="@string/grpSeparateSum" android:defaultValue="true" />
+    <SwitchPreference android:title="@string/yoName" android:key="my_name" android:summary="@string/yoNameSum" android:defaultValue="false" />
+    <SwitchPreference android:title="@string/disablestatus" android:key="my_statusd" android:summary="@string/disablestatusSum" android:dependency="my_name" android:defaultValue="false" />
+    <SwitchPreference android:title="@string/showNightMode" android:key="yo_want_nightmode" android:defaultValue="true" />
+    <SwitchPreference android:title="@string/showAirplaneMode" android:key="yo_want_airplanemode" android:summary="@string/showAirplaneModeS" android:defaultValue="true" />
+    <SwitchPreference android:title="@string/disableHiddenAccess" android:key="disable_hiddenchat_access" android:summary="@string/disableHiddenAccessSum" android:defaultValue="false" />
+    <com.gbwhatsapp.yo.ColorPref android:title="@string/pagerColor" android:key="ModConColor" android:summary="@string/pagerColorS" />
+    <com.gbwhatsapp.yo.ColorPref android:title="@string/tabPagerTitle" android:key="pagetitle_picker" android:summary="@string/tabPagerTitleS" />
+    <com.gbwhatsapp.yo.ColorPref android:title="@string/selected_tabPagerTitle" android:key="pagetitle_sel_picker" android:summary="@string/selected_tabPagerTitleS" />
+    <com.gbwhatsapp.yo.ColorPref android:title="@string/tabPagerIndicator" android:key="tabindicator" />
+    <com.gbwhatsapp.yo.ColorPref android:title="@string/unread_counter" android:key="tabadgeBKColor" android:summary="@string/unread_counterS" />
+    <com.gbwhatsapp.yo.ColorPref android:title="@string/unread_textcounter" android:key="tabadgeTextColor" android:summary="@string/unread_textcounterS" />
+</PreferenceScreen>

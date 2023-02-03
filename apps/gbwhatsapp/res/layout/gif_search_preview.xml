@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="top" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/video_preview_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.gbwhatsapp.WaImageView android:id="@id/thumb_view" android:background="@color/gifPickerLoadingBackground" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:contentDescription="@string/gif_preview_description" />
+    <TextureView android:id="@id/gif_surface_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:layout_gravity="center" android:id="@id/button_frame" android:background="@drawable/download_background" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/button_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_gif_thumb" />
+    </LinearLayout>
+</FrameLayout>

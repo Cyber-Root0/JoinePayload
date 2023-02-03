@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/div" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+            <com.gbwhatsapp.yo.tf android:textSize="18.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="Color 1:" />
+            <ImageView android:id="@id/flag" android:background="@drawable/transparentbackrepeat" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginLeft="10.0px" android:scaleType="fitXY" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <View android:background="@drawable/list_divider" android:layout_width="fill_parent" android:layout_height="@dimen/settings_divider_height" />
+        <RelativeLayout android:id="@id/div2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+            <com.gbwhatsapp.yo.tf android:textSize="18.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="Color 2:" />
+            <ImageView android:id="@id/flag2" android:background="@drawable/transparentbackrepeat" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginLeft="10.0px" android:scaleType="fitXY" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <View android:background="@drawable/list_divider" android:layout_width="fill_parent" android:layout_height="@dimen/settings_divider_height" />
+        <RadioGroup android:id="@id/rGroup" android:layout_width="275.0dip" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+            <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TOP_BOTTOM" />
+            <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="LEFT_RIGHT" />
+            <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="DIAGONAL" />
+            <RadioButton android:id="@id/radioButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="BOTTOM_TOP" android:layout_weight="1.0" />
+            <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="RIGHT_LEFT" android:layout_weight="1.0" />
+        </RadioGroup>
+        <ImageView android:id="@id/flag3" android:background="@drawable/transparentbackrepeat" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_margin="3.0dip" />
+        <Button android:layout_gravity="right" android:id="@id/ok" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@android:string/ok" />
+    </LinearLayout>
+</RelativeLayout>

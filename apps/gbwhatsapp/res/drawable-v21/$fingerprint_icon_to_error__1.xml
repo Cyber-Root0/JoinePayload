@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator android:interpolator="@android:interpolator/fast_out_linear_in" android:duration="160" android:startOffset="90" android:valueFrom="0.134" android:valueTo="1" android:valueType="floatType" android:propertyName="trimPathEnd" />
+    <objectAnimator android:interpolator="@android:interpolator/fast_out_linear_in" android:duration="250" android:valueFrom="0" android:valueTo="0.29" android:valueType="floatType" android:propertyName="trimPathStart" />
+    <objectAnimator android:interpolator="@android:interpolator/linear_out_slow_in" android:duration="38" android:startOffset="161" android:valueFrom="?fingerprintPromptIcon" android:valueTo="?fingerprintErrorIcon" android:valueType="colorType" android:propertyName="strokeColor" />
+    <objectAnimator android:interpolator="@android:interpolator/linear_out_slow_in" android:duration="38" android:startOffset="161" android:valueFrom="0.54" android:valueTo="1" android:valueType="floatType" android:propertyName="strokeAlpha" />
+</set>

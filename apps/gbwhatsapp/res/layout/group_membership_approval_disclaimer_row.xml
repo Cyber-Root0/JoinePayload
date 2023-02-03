@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.TextEmojiLabel android:textSize="14.0sp" android:textColor="@color/secondary_text" android:gravity="center" android:id="@id/disclaimer_text_view" android:padding="@dimen/space_loose" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingMultiplier="1.4285" android:fontFamily="Roboto-Medium" />
+    <View android:id="@id/footer_separator" android:background="@color/group_pending_requests_disclaimer_footer" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

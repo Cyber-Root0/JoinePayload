@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="companion_registration_linking_padding">16.0dip</dimen>
+    <dimen name="companion_registration_qr_border_radius">32.0dip</dimen>
+    <dimen name="companion_registration_qr_border_size">32.0dip</dimen>
+    <item type="dimen" name="payment_bubble_background_alpha">0.12</item>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/warning_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/withdraw_code_shimmer" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/BalanceLoadingShimmer">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.gbwhatsapp.WaTextView android:textSize="24.0sp" android:textColor="@color/primary_text" android:gravity="center" android:id="@id/code" android:paddingTop="@dimen/payment_settings_default_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:letterSpacing="0.2" app:fontFamily="sans-serif" />
+            <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="@color/secondary_text" android:gravity="center" android:id="@id/expireTime" android:padding="@dimen/payment_settings_default_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:layout_marginBottom="@dimen/settings_divider_height" app:fontFamily="sans-serif" style="@style/ListItemTitle" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/withdraw_code_static_shimmer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <View android:layout_gravity="center" android:background="@drawable/payment_loading_error_box" android:layout_width="160.0dip" android:layout_height="32.0dip" android:layout_marginTop="12.0dip" />
+            <View android:layout_gravity="center" android:background="@drawable/payment_loading_error_box" android:layout_width="240.0dip" android:layout_height="16.0dip" android:layout_marginTop="24.0dip" />
+        </LinearLayout>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+</LinearLayout>

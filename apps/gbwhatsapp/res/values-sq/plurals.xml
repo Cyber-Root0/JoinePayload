@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Shpejt përpara %d sekonda</item>
+        <item quantity="one">Shpejt përpara %d sekondë</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Shko prapa %d sekonda</item>
+        <item quantity="one">Shko prapa %d sekondë</item>
+    </plurals>
+    <plurals name="export_backup_not_enough_space_message">
+        <item quantity="other">Eksportimi i bisedave do të kërkojë %s hapësirë ruajtëse. Liro hapësirën ruajtëse para eksportimit.</item>
+    </plurals>
+    <plurals name="import_backup_not_enough_space_message">
+        <item quantity="other">Importimi do të kërkojë %s hapësirë ruajtëse. Liro hapësirën ruajtëse para importimit.</item>
+    </plurals>
+    <plurals name="move_chats_insufficient_space_dialog">
+        <item quantity="other">‎%1$s nevojiten në këtë pajisje për transferimin. Pastro hapësirën duke përdorur mjetin e menaxhimit të hapësirës ruajtëse të WhatsApp.</item>
+        <item quantity="one">‎%1$s nevojitet në këtë pajisje për transferimin. Pastro hapësirën duke përdorur mjetin e menaxhimit të hapësirës ruajtëse të WhatsApp.</item>
+    </plurals>
+    <plurals name="settings_gdrive_video_size_to_be_uploaded_plural">
+        <item quantity="other">"‎%s për t'u ngarkuar"</item>
+    </plurals>
+</resources>

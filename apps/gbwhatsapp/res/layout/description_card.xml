@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.InfoCard android:orientation="vertical" android:id="@id/description_card" android:paddingTop="0.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" whatsapp:icTopDrawable="@null" style="@style/InfoCard"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@color/primary_surface" android:paddingLeft="@dimen/info_screen_padding" android:paddingTop="12.0dip" android:paddingRight="12.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/has_description_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.gbwhatsapp.WaTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/description" style="@style/FlatCardTitle" />
+            <LinearLayout android:orientation="vertical" android:paddingTop="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.gbwhatsapp.text.ReadMoreTextView android:textColor="@color/list_item_title" android:id="@id/group_description" android:layout_width="fill_parent" android:layout_height="wrap_content" whatsapp:rmtvLines="3" whatsapp:rmtvLinkColor="@color/link_color" whatsapp:rmtvText="@string/read_more" />
+                <ProgressBar android:id="@id/change_description_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:progressBarStyleSmallInverse" />
+            </LinearLayout>
+        </LinearLayout>
+        <com.gbwhatsapp.WaTextView android:id="@id/no_description_view" android:paddingTop="4.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/add_group_description" style="@style/ListItemTitle" />
+    </LinearLayout>
+</com.gbwhatsapp.InfoCard>

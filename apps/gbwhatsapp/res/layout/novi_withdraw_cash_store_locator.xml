@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/round_rectangle" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.payments.ui.widget.PayToolbar android:id="@id/pay_service_toolbar" android:layout_width="fill_parent" android:layout_height="48.0dip" app:contentInsetLeft="0.0dip" app:contentInsetStartWithNavigation="0.0dip" app:showLock="false" />
+        <FrameLayout android:id="@id/search_holder" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/abc_action_bar_default_height_material" />
+    </FrameLayout>
+    <FrameLayout android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/map_frame" layout="@layout/location_picker_map_frame" />
+        <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/bottom_sheet" android:background="@color/primary_surface" android:focusable="true" android:clickable="true" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+            <include android:id="@id/location_access_view" layout="@layout/novi_withdraw_cash_location_permission_row" />
+            <include android:id="@id/places_holder" layout="@layout/location_picker_places_holder" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="?android:colorControlHighlight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/mask">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/btn_padding_vertical" />
+            <solid android:color="@color/white" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/btn_padding_vertical" />
+            <stroke android:width="1.0dip" android:color="?colorSelfieButtonStroke" />
+        </shape>
+    </item>
+</ripple>

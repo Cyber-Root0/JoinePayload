@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/san_banner_bg" android:layout_width="@dimen/common_dimens_320dp" android:layout_height="@dimen/common_dimens_50dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/icon_layout" android:layout_width="@dimen/common_dimens_36dp" android:layout_height="@dimen/common_dimens_36dp" android:layout_marginLeft="@dimen/common_dimens_12dp" android:layout_centerVertical="true">
+        <ImageView android:id="@id/icon" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/ad_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/common_dimens_10dp" android:layout_toLeftOf="@id/fl_stereo" android:layout_toRightOf="@id/icon_layout" android:layout_centerVertical="true" android:layout_marginStart="@dimen/common_dimens_10dp" android:layout_toStartOf="@id/fl_stereo" android:layout_toEndOf="@id/icon_layout">
+        <TextView android:textSize="@dimen/common_text_size_13sp" android:textColor="@color/color_333" android:ellipsize="end" android:gravity="start" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="@dimen/common_dimens_16dp" android:singleLine="true" />
+        <TextView android:textSize="@dimen/common_text_size_11sp" android:textColor="@color/color_666" android:ellipsize="end" android:gravity="start" android:id="@id/message" android:layout_width="fill_parent" android:layout_height="@dimen/common_dimens_14dp" android:layout_marginTop="@dimen/common_dimens_4.5dp" android:singleLine="true" />
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="end" android:id="@id/choice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+    <FrameLayout android:id="@id/fl_stereo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/common_dimens_12dp" android:layout_marginRight="@dimen/common_dimens_12dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+        <com.san.widget.TextProgressButton android:gravity="center" android:id="@id/btn_stereo_progress" android:layout_width="wrap_content" android:layout_height="@dimen/common_dimens_22dp" android:max="100" android:progress="100" android:progressDrawable="@drawable/san_progress_bar_bg" app:textSize="@dimen/common_text_size_12sp" app:text_margin_left="@dimen/common_dimens_8dp" app:text_margin_right="@dimen/common_dimens_8dp" app:text_max_length="@dimen/common_dimens_60dp" app:text="@string/common_cta_desc" style="?android:progressBarStyleHorizontal" />
+    </FrameLayout>
+    <ImageView android:id="@id/iv_ad_icon" android:layout_width="@dimen/common_dimens_18dp" android:layout_height="@dimen/common_dimens_17dp" android:src="@drawable/san_ad_banner_logo" android:scaleType="fitXY" android:layout_alignParentTop="true" />
+</RelativeLayout>

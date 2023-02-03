@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/primary_surface" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/action_bar" layout="@layout/toolbar_with_search" />
+    <com.gbwhatsapp.contact.picker.BidiContactListView android:id="@android:id/list" android:background="@android:color/transparent" android:paddingLeft="@dimen/contact_list_padding_left" android:paddingRight="@dimen/contact_list_padding_right" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@null" android:choiceMode="singleChoice" android:headerDividersEnabled="false" android:footerDividersEnabled="true" />
+    <FrameLayout android:id="@android:id/empty" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_gravity="center" android:id="@id/init_contacts_progress" android:padding="@dimen/space_loose" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:progressBarStyleInverse" />
+        <LinearLayout android:orientation="vertical" android:id="@id/empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:id="@id/share_link_header" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <FrameLayout android:id="@id/contacts_section" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="@color/secondary_text" android:gravity="center" android:id="@id/invite_empty_description" android:paddingLeft="@dimen/horizontal_padding" android:paddingTop="@dimen/space_xxxLoose" android:paddingRight="@dimen/horizontal_padding" android:paddingBottom="@dimen/space_xxLoose" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Text" />
+            <com.gbwhatsapp.components.Button android:layout_gravity="center" android:id="@id/button_open_permission_settings" android:layout_marginBottom="@dimen/space_loose_halfStep" android:text="@string/permission_settings_open" style="@style/WA.Button" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/contact_picker_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/toolbar_with_search" />
+        <FrameLayout android:id="@id/frequently_forwarded_holder" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <include android:id="@id/contact_list" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" layout="@layout/contact_picker_list" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom" android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/recipients_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/shadow_top" android:background="@drawable/shadow_recipient_bar" android:layout_width="fill_parent" android:layout_height="10.0dip" />
+        <include android:visibility="gone" layout="@layout/forward_preview" />
+        <RelativeLayout android:background="@color/contactPickerRecipientsBarBackground" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <HorizontalScrollView android:layout_gravity="center_horizontal" android:id="@id/recipients_scroller" android:scrollbars="none" android:fadingEdge="horizontal" android:fadingEdgeLength="50.0dip" android:layout_width="wrap_content" android:layout_height="@dimen/media_recipients_container_height" android:layout_marginLeft="@dimen/space_loose" android:layout_marginRight="@dimen/media_recipients_scroller_margin_right" android:layout_alignParentLeft="true" android:requiresFadingEdge="horizontal">
+                <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.gbwhatsapp.WaImageView android:layout_gravity="bottom" android:id="@id/status_icon" android:visibility="gone" android:layout_width="@dimen/media_recipient_status_icon_size" android:layout_height="@dimen/media_recipient_status_icon_size" android:layout_marginRight="@dimen/space_tight" android:layout_marginBottom="1.0dip" android:src="@drawable/ic_status_recipient" app:tint="@color/primary_text" />
+                    <com.gbwhatsapp.TextEmojiLabel android:textColor="@color/primary_text" android:ellipsize="none" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/recipients" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                </LinearLayout>
+            </HorizontalScrollView>
+        </RelativeLayout>
+    </LinearLayout>
+    <com.gbwhatsapp.WaImageButton android:layout_gravity="bottom|center|right" android:id="@id/send" android:background="@drawable/input_circle" android:visibility="gone" android:layout_width="@dimen/media_send_button_size" android:layout_height="@dimen/media_send_button_size" android:layout_marginRight="@dimen/space_base" android:layout_marginBottom="@dimen/space_base" android:src="@drawable/input_send" android:scaleType="center" android:contentDescription="@string/send_button" android:transitionName="@string/transition_send" />
+</FrameLayout>

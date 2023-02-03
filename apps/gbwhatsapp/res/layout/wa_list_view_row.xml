@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip">
+        <FrameLayout android:id="@id/left_decoration" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.gbwhatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@id/image" android:visibility="gone" android:layout_width="56.0dip" android:layout_height="56.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="8.0dip" />
+            <androidy.appcompat.widget.AppCompatRadioButton android:layout_gravity="center_vertical" android:id="@id/radio" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="32.0dip" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.gbwhatsapp.WaTextView android:layout_gravity="start" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textIsSelectable="false" style="@style/ListItemTitle" />
+            <com.gbwhatsapp.WaTextView android:layout_gravity="start" android:id="@id/description" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:maxLines="4" android:singleLine="false" android:textIsSelectable="false" style="@style/ListItemSubtitle.V2" />
+        </LinearLayout>
+        <androidy.appcompat.widget.AppCompatRadioButton android:id="@id/right_radio" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" />
+    </LinearLayout>
+    <View android:layout_gravity="bottom" android:id="@id/divider" android:background="@color/divider_gray" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/SettingsStatusRow"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.TextEmojiLabel android:id="@id/status_row" android:maxLines="1" android:singleLine="true" style="@style/SettingsStatusText" />
+    <com.gbwhatsapp.WaImageView android:id="@id/status_selected_check" android:src="@drawable/ic_done" app:tint="@color/settings_checkbox" style="@style/SettingStatusIcon" />
+</LinearLayout>

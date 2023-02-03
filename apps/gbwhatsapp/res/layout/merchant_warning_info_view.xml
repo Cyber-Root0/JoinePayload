@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/warning_container" android:paddingBottom="@dimen/product_margin_16dp" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/product_margin_16dp" android:layout_marginTop="@dimen/product_margin_16dp" android:layout_marginRight="@dimen/product_margin_16dp">
+        <FrameLayout android:layout_width="40.0dip" android:layout_height="40.0dip">
+            <com.gbwhatsapp.WaImageView android:layout_gravity="center_horizontal" android:id="@id/warning_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_verify" android:scaleType="fitXY" />
+        </FrameLayout>
+        <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="@color/secondary_text" android:id="@id/warning_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/product_margin_16dp" />
+    </LinearLayout>
+    <com.gbwhatsapp.components.Button android:id="@id/cta_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/product_margin_16dp" android:layout_marginTop="@dimen/product_margin_16dp" android:layout_marginRight="@dimen/product_margin_16dp" style="@style/FbPaySecondaryButton" />
+</LinearLayout>

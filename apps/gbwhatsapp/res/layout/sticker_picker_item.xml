@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="@dimen/sticker_picker_item" android:layout_height="@dimen/sticker_picker_item"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.stickers.StickerView android:layout_gravity="center" android:id="@id/sticker_view" android:layout_width="@dimen/sticker_picker_icon" android:layout_height="@dimen/sticker_picker_icon" />
+</FrameLayout>

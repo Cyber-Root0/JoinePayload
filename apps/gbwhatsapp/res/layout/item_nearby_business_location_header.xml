@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/product_margin_16dp" android:paddingRight="@dimen/product_margin_16dp" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaTextView android:id="@id/nearby_title" android:paddingTop="@dimen/product_margin_16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/biz_dir_near_by_title" android:maxLines="1" android:fontFamily="sans-serif-medium" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/BizDirectorySecondaryText" />
+    <com.gbwhatsapp.TextEmojiLabel android:textColor="@color/primary_light" android:gravity="right" android:layout_gravity="right" android:id="@id/search_location_address" android:paddingTop="@dimen/product_margin_16dp" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/product_margin_4dp" android:layout_weight="1.0" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/LocationRowDescription" />
+</LinearLayout>

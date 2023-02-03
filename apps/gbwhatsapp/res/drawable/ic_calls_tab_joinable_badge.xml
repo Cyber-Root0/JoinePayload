@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="14.0dip" android:width="14.0dip" android:viewportWidth="14.0" android:viewportHeight="14.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:name="path" android:fillColor="@color/voip_joinable_calls_tab_badge_inner_circle" android:pathData="M 7 4 C 6.205 4 5.441 4.316 4.879 4.879 C 4.316 5.441 4 6.205 4 7 C 4 7.795 4.316 8.559 4.879 9.121 C 5.441 9.684 6.205 10 7 10 C 7.795 10 8.559 9.684 9.121 9.121 C 9.684 8.559 10 7.795 10 7 C 10 6.205 9.684 5.441 9.121 4.879 C 8.559 4.316 7.795 4 7 4 Z" android:strokeWidth="1.0" />
+    <path android:name="path_1" android:fillColor="@color/primary_light" android:pathData="M 7 14 C 10.866 14 14 10.866 14 7 C 14 3.134 10.866 0 7 0 C 3.134 0 0 3.134 0 7 C 0 10.866 3.134 14 7 14 Z M 7 11 C 9.209 11 11 9.209 11 7 C 11 4.791 9.209 3 7 3 C 4.791 3 3 4.791 3 7 C 3 9.209 4.791 11 7 11 Z" android:strokeWidth="1.0" android:fillAlpha="0.4" android:fillType="evenOdd" />
+</vector>

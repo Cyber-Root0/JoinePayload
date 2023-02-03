@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false">
+        <shape android:shape="oval">
+            <solid android:color="@android:color/transparent" />
+            <stroke android:width="@dimen/selected_contacts_action_fab_background_stroke_width" android:color="@color/selected_contacts_action_fab_background_stroke_color" />
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape android:shape="oval">
+            <solid android:color="@color/selected_contacts_action_fab_background_stroke_color" />
+            <stroke android:width="@dimen/selected_contacts_action_fab_background_stroke_width" android:color="@color/selected_contacts_action_fab_background_stroke_color" />
+        </shape>
+    </item>
+</selector>

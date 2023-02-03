@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/header_transition" android:layout_width="fill_parent" android:layout_height="0.0dip" android:transitionName="@string/transition_header" />
+    <View android:id="@id/footer_transition" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_alignParentBottom="true" android:transitionName="@string/transition_footer" />
+    <View android:id="@id/filter_swipe_transition" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:transitionName="@string/transition_filter_swipe" />
+    <View android:layout_gravity="bottom|center|right" android:id="@id/send_button_transition" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginRight="44.0dip" android:layout_alignParentBottom="true" android:layout_marginEnd="44.0dip" android:layout_alignParentEnd="true" android:transitionName="@string/transition_send" />
+</merge>

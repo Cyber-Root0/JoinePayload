@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.WaTextView android:textAppearance="@style/BottomSheetActionText" android:gravity="center" android:id="@id/view_community" android:background="@drawable/selector_orange_gradient" android:layout_width="fill_parent" android:layout_height="@dimen/actionbar_height" android:text="@string/view_parent_group"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

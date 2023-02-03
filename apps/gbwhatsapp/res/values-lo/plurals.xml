@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">ເລື່ອນໄປໜ້າ %d ວິນາທີ</item>
+        <item quantity="one">ເລື່ອນໄປໜ້າ %d ວິນາທີ</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">ຖອຍຫຼັງ %d ວິນາທີ</item>
+        <item quantity="one">ຖອຍຫຼັງ %d ວິນາທີ</item>
+    </plurals>
+    <plurals name="export_backup_not_enough_space_message">
+        <item quantity="other">ການສົ່ງອອກການສົນທະນາ ຈຳເປັນຕ້ອງມີບ່ອນຈັດເກັບຂໍ້ມູນ %s. ກະລຸນາສ້າງພື້ນທີ່ວ່າງສຳລັບການຈັດເກັບຂໍ້ມູນ ກ່ອນທີ່ຈະສົ່ງອອກ.</item>
+    </plurals>
+    <plurals name="import_backup_not_enough_space_message">
+        <item quantity="other">ການນຳເຂົ້າ ຈຳເປັນຕ້ອງມີບ່ອນຈັດເກັບຂໍ້ມູນ %s. ກະລຸນາສ້າງພື້ນທີ່ວ່າງສຳລັບການຈັດເກັບຂໍ້ມູນ ກ່ອນທີ່ຈະນຳເຂົ້າ.</item>
+    </plurals>
+    <plurals name="move_chats_insufficient_space_dialog">
+        <item quantity="other">ຈຳເປັນຕ້ອງມີ %1$s ໃນອຸປະກອນນີ້ເພື່ອໂອນຍ້າຍ. ກະລຸນາລົບລ້າງບ່ອນຈັດເກັບຂໍ້ມູນໂດຍການໃຊ້ເຄື່ອງມືການຈັດການພື້ນທີ່ບ່ອນຈັດເກັບຂໍ້ມູນຂອງ WhatsApp</item>
+    </plurals>
+    <plurals name="settings_gdrive_video_size_to_be_uploaded_plural">
+        <item quantity="other">ອັບໂຫຼດແລ້ວ %s</item>
+    </plurals>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaTextView android:id="@id/title" android:paddingTop="@dimen/product_margin_16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/product_margin_16dp" android:text="@string/biz_dir_popular_searches" android:fontFamily="sans-serif-medium" android:layout_marginStart="@dimen/product_margin_16dp" style="@style/BizDirectorySecondaryText" />
+    <com.google.android.material.chip.ChipGroup android:id="@id/suggestion_chip_group" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/product_margin_16dp" app:chipSpacingHorizontal="@dimen/product_margin_8dp" app:chipSpacingVertical="@dimen/product_margin_8dp" />
+</LinearLayout>

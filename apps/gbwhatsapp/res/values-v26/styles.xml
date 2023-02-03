@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.AppCompat" parent="@style/Base.V26.Theme.AppCompat" />
+    <style name="Base.Theme.AppCompat.Light" parent="@style/Base.V26.Theme.AppCompat.Light" />
+    <style name="Base.Widget.AppCompat.Toolbar" parent="@style/Base.V26.Widget.AppCompat.Toolbar" />
+    <style name="InstrumentationAuthImage">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_width">180.0dip</item>
+        <item name="android:layout_height">144.0dip</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_marginVertical">@dimen/space_xTight</item>
+    </style>
+    <style name="InstrumentationAuthListItem" parent="@style/MatchParentLayout">
+        <item name="android:layout_marginVertical">@dimen/space_base</item>
+    </style>
+    <style name="InstrumentationAuthPane">
+        <item name="android:paddingHorizontal">24.0dip</item>
+        <item name="android:paddingVertical">15.0dip</item>
+    </style>
+    <style name="InstrumentationAuthParagraphText" parent="@style/MatchParentLayout">
+        <item name="android:textSize">@dimen/list_item_subtitle_size</item>
+        <item name="android:textColor">@color/settings_item_title_text</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_marginVertical">@dimen/space_base</item>
+    </style>
+    <style name="Theme.App.FbPayCard" parent="@style/Theme.App.Bloks">
+        <item name="android:windowBackground">@color/bloks_statusbar_color</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:statusBarColor">@color/bloks_statusbar_color</item>
+    </style>
+    <style name="WACIntroBottomSheetLineItemStyle">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">24.0dip</item>
+        <item name="android:layout_marginTop">16.0dip</item>
+        <item name="android:layout_marginRight">24.0dip</item>
+        <item name="android:layout_marginHorizontal">24.0dip</item>
+    </style>
+    <style name="Widget.Design.AppBarLayout" parent="@android:style/Widget">
+        <item name="android:background">?colorPrimary</item>
+        <item name="android:stateListAnimator">@animator/design_appbar_state_list_animator</item>
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="android:keyboardNavigationCluster">true</item>
+    </style>
+    <style name="Base.V26.Theme.AppCompat" parent="@style/Base.V23.Theme.AppCompat">
+        <item name="colorError">?android:colorError</item>
+    </style>
+    <style name="Base.V26.Theme.AppCompat.Light" parent="@style/Base.V23.Theme.AppCompat.Light">
+        <item name="colorError">?android:colorError</item>
+    </style>
+    <style name="Base.V26.Widget.AppCompat.Toolbar" parent="@style/Base.V7.Widget.AppCompat.Toolbar">
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="android:keyboardNavigationCluster">true</item>
+    </style>
+</resources>

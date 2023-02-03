@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/shops_container" android:background="@color/primary_surface" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/info_screen_card_spacing" android:layout_marginBottom="@dimen/info_screen_card_spacing"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/shop_product_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/horizontal_padding" android:layout_marginRight="@dimen/horizontal_padding" />
+</LinearLayout>

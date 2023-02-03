@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidy.coordinatorlayout.widget.CoordinatorLayout android:id="@id/root_view" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.BidiToolbar android:id="@id/toolbar" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="@dimen/actionbar_height" app:popupTheme="@style/Toolbar.Popup" app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <FrameLayout android:id="@id/content" android:paddingTop="@dimen/actionbar_height" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/picture_animation" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+        <com.gbwhatsapp.mediaview.PhotoView android:id="@id/picture" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/progress_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.gbwhatsapp.WaTextView android:layout_gravity="center" android:id="@id/message" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+</androidy.coordinatorlayout.widget.CoordinatorLayout>

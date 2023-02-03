@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="8.0dip" android:paddingTop="4.0dip" android:paddingRight="8.0dip" android:paddingBottom="4.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="32.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaImageView android:id="@id/profile_picture" android:layout_width="24.0dip" android:layout_height="24.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:id="@id/sender_to_recipient_container" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.gbwhatsapp.TextEmojiLabel android:textColor="@color/starred_message_header_text" android:ellipsize="end" android:id="@id/sender_name" android:paddingLeft="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:singleLine="true" />
+        <com.gbwhatsapp.WaTextView android:textSize="8.0sp" android:textColor="@color/starred_message_header_text" android:ellipsize="end" android:id="@id/bullet" android:paddingLeft="4.0sp" android:paddingTop="2.0sp" android:paddingRight="4.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="▶" android:lines="1" android:singleLine="true" />
+        <com.gbwhatsapp.TextEmojiLabel android:textColor="@color/primary_text" android:ellipsize="end" android:id="@id/recipient_name" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:singleLine="true" />
+    </LinearLayout>
+    <com.gbwhatsapp.WaTextView android:textSize="@dimen/conversation_date_size" android:textColor="@color/list_item_sub_title" android:id="@id/message_date" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="true" />
+    <com.gbwhatsapp.WaImageView android:id="@id/chevron" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/chevron" app:tint="@color/starred_message_header_chevron" />
+</LinearLayout>

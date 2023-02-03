@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.shimmer.ShimmerFrameLayout android:id="@id/order_detail_shimmer_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:background="@color/order_details_background_settings_color" android:paddingLeft="@dimen/order_details_layout_margin_16dp" android:paddingTop="@dimen/order_details_layout_margin_12dp" android:paddingRight="@dimen/order_details_layout_margin_16dp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:layout_gravity="center" android:id="@id/shimmer_order_description" android:background="@drawable/category_loading_bg" android:paddingTop="@dimen/order_details_layout_margin_2dp" android:paddingRight="@dimen/order_details_layout_margin_8dp" android:paddingBottom="@dimen/order_details_layout_margin_4dp" android:layout_width="120.0dip" android:layout_height="14.0dip" android:layout_centerHorizontal="true" />
+        <com.gbwhatsapp.WaImageView android:id="@id/dashed_divider" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginTop="@dimen/order_details_layout_margin_16dp" android:layout_marginBottom="@dimen/order_details_layout_margin_8dp" android:src="@drawable/order_details_dashed_underline_gray" android:layout_below="@id/shimmer_order_description" />
+    </RelativeLayout>
+</com.facebook.shimmer.ShimmerFrameLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center|left" android:orientation="vertical" android:id="@id/main_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/conversation_row_margin_large" android:minHeight="30.0dip">
+        <include layout="@layout/conversation_row_participant_header_with_padding" />
+        <include layout="@layout/conversation_row_quoted_frame" />
+        <include layout="@layout/conversation_row_order_preview_left" />
+        <view android:layout_gravity="left" android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" class="com.gbwhatsapp.components.TextAndDateLayout">
+            <com.gbwhatsapp.TextEmojiLabel android:textAppearance="@style/WA.TextAppearance.ConversationRowMessage" android:layout_gravity="left" android:id="@id/message_text" android:paddingLeft="@dimen/conversation_row_inner_item_padding" android:paddingTop="2.0dip" android:paddingRight="@dimen/conversation_row_inner_item_padding" android:paddingBottom="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <include layout="@layout/conversation_row_date_wrapper_left" />
+        </view>
+        <View android:id="@id/button_div" style="@style/SectionDivider.Heavy" />
+        <include layout="@layout/conversation_row_order_btn" />
+    </LinearLayout>
+</merge>

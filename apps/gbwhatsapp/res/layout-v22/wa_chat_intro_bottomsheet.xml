@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidy.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.gbwhatsapp.WaImageButton android:id="@id/close_button" android:background="?selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="22.0dip" android:layout_marginTop="22.0dip" android:src="@drawable/ic_close" android:contentDescription="@string/close" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" app:tint="@color/icon_secondary" />
+            <com.gbwhatsapp.WaImageView android:id="@id/logo_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="48.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/ic_wa_chat" />
+        </androidy.constraintlayout.widget.ConstraintLayout>
+        <com.gbwhatsapp.WaTextView android:textSize="24.0sp" android:textColor="@color/primary_text" android:gravity="center" android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="25.0dip" android:text="@string/wac_intro_bottomsheet_header" android:fontFamily="sans-serif-medium" android:letterSpacing="0.0075" android:layout_marginHorizontal="25.0dip" />
+        <com.gbwhatsapp.WaLinearLayout style="@style/WACIntroBottomSheetLineItemStyle">
+            <com.gbwhatsapp.WaImageView android:src="@drawable/ic_settings_starred" style="@style/WACIntroBottomSheetLineItemIconStyle" />
+            <com.gbwhatsapp.WaTextView android:text="@string/wac_intro_bottomsheet_body1" style="@style/WACIntroBottomSheetLineItemTextStyle" />
+        </com.gbwhatsapp.WaLinearLayout>
+        <com.gbwhatsapp.WaLinearLayout style="@style/WACIntroBottomSheetLineItemStyle">
+            <com.gbwhatsapp.WaImageView app:srcCompat="@drawable/ic_tips" style="@style/WACIntroBottomSheetLineItemIconStyle" />
+            <com.gbwhatsapp.WaTextView android:id="@id/bodyLineItemText2" android:text="@string/wac_intro_bottomsheet_body2" style="@style/WACIntroBottomSheetLineItemTextStyle" />
+        </com.gbwhatsapp.WaLinearLayout>
+        <com.gbwhatsapp.WaLinearLayout style="@style/WACIntroBottomSheetLineItemStyle">
+            <com.gbwhatsapp.WaImageView android:src="@drawable/ic_action_archive" style="@style/WACIntroBottomSheetLineItemIconStyle" />
+            <com.gbwhatsapp.WaTextView android:text="@string/wac_intro_bottomsheet_body3" style="@style/WACIntroBottomSheetLineItemTextStyle" />
+        </com.gbwhatsapp.WaLinearLayout>
+        <com.gbwhatsapp.components.Button android:textSize="14.0sp" android:id="@id/continue_button" android:layout_width="fill_parent" android:layout_margin="24.0dip" android:text="@string/btn_continue" android:contentDescription="@string/btn_continue" android:letterSpacing="0.078" style="@style/WA.Button" />
+    </LinearLayout>
+</ScrollView>

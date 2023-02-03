@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/menu_manage_groups" android:title="@string/activity_home_manage_groups_menu_label" app:showAsAction="never" />
+    <item android:id="@id/menu_edit_community" android:title="@string/activity_home_edit_community_menu_label" app:showAsAction="never" />
+    <item android:id="@id/menu_view_members" android:title="@string/activity_home_view_members_menu_label" app:showAsAction="never" />
+</menu>

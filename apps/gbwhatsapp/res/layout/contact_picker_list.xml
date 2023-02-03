@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@android:id/content" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.collections.observablelistview.ObservableListView android:id="@android:id/list" android:background="@color/list_background" android:paddingLeft="@dimen/contact_list_padding_left" android:paddingRight="@dimen/contact_list_padding_right" android:paddingBottom="@dimen/media_recipients_container_height" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@android:color/transparent" android:divider="@null" />
+    <FrameLayout android:gravity="center" android:id="@android:id/empty" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/contacts_empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/contacts_empty_permission_denied" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/init_contacts_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:progressBarStyle" />
+        <com.gbwhatsapp.WaTextView android:textSize="18.0sp" android:textColor="?android:textColorSecondary" android:gravity="center" android:id="@id/search_no_matches" android:paddingLeft="12.0dip" android:paddingTop="96.0dip" android:paddingRight="12.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.gbwhatsapp.WaTextView android:gravity="center" android:id="@id/error_contact_search" android:paddingLeft="40.0dip" android:paddingTop="96.0dip" android:paddingRight="40.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ContactSearchErrorMessage" />
+    </FrameLayout>
+</FrameLayout>

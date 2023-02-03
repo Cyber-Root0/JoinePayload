@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/primary_surface" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="@dimen/actionbar_elevation"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/toolbar" />
+    <FrameLayout android:id="@id/search_holder" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/abc_action_bar_default_height_material" />
+</FrameLayout>

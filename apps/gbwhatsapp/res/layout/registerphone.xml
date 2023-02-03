@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.util.MarqueeToolbar android:id="@id/title_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:theme="@style/Widget.Styled.ActionBar.Registration.White">
+        <com.gbwhatsapp.WaTextView android:layout_gravity="center" android:id="@id/register_phone_toolbar_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/register_phone_header" style="@style/RegistrationTitle" />
+    </com.whatsapp.util.MarqueeToolbar>
+    <ScrollView android:id="@id/scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:paddingRight="16.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.gbwhatsapp.TextEmojiLabel android:textSize="14.0sp" android:gravity="center_horizontal" android:id="@id/description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/register_phone_number_code_confirm_general" android:lineSpacingMultiplier="@dimen/registration_description_line_space_multiplier" style="@style/Text.Description" />
+            <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:ellipsize="end" android:gravity="center" android:id="@id/registration_country" android:focusableInTouchMode="false" android:layout_width="260.0dip" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:hint="@string/pick_a_country" android:singleLine="true" android:inputType="none" style="@style/Base.Widget.AppCompat.Spinner.Underlined" />
+            <com.gbwhatsapp.components.PhoneNumberEntry android:gravity="center_vertical" android:id="@id/registration_fields" android:layout_width="260.0dip" android:layout_height="45.0dip" app:pneBarColor="@color/primary_light" />
+            <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColorLink="@color/link_color" android:gravity="center_horizontal" android:id="@id/mistyped_undercard_text" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:text="@string/register_number_mistyped_suggestion" style="@style/Text.Description" />
+            <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="@color/conversations_text_gray" android:gravity="center_horizontal" android:id="@id/carrier_charge_warning" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:text="@string/register_phone_number_carrier_charge_warning" style="@style/Text.Description" />
+            <Space android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <com.gbwhatsapp.components.Button android:layout_gravity="bottom|center" android:id="@id/registration_submit" android:layout_marginTop="8.0dip" android:layout_marginBottom="14.0dip" android:text="@string/next" style="@style/WA.Button" />
+            <com.gbwhatsapp.TextEmojiLabel android:textSize="12.0sp" android:textColor="@color/body_light_gray" android:gravity="bottom|center" android:id="@id/registration_info" android:paddingBottom="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingMultiplier="1.25" />
+            <LinearLayout android:orientation="vertical" android:background="@drawable/panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:backgroundTint="@color/primary_surface">
+                <com.gbwhatsapp.yo.tf android:paddingLeft="12.0dip" android:paddingTop="12.0dip" android:paddingRight="12.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/yoHowMove" style="@style/Text.Description" />
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip">
+                    <com.gbwhatsapp.yo.MoveBtn android:textSize="15.0sp" android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:text="@string/copyWA" android:layout_weight="1.0" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

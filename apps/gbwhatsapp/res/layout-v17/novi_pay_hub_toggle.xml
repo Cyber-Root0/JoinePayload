@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="16.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/toggle_container" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/novi_pay_hub_vertical_margin_medium">
+        <com.gbwhatsapp.WaTextView android:id="@id/novi_hub_toggle_title" android:layout_width="0.0dip" android:layout_marginRight="@dimen/novi_margin_small" android:text="@string/novi_fingerprint" android:layout_weight="1.0" android:layout_marginEnd="@dimen/novi_margin_small" style="@style/NoviPrimaryText" />
+        <androidy.appcompat.widget.SwitchCompat android:theme="@style/FbPaySwitchTheme" android:id="@id/toggle_button" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <com.gbwhatsapp.WaTextView android:id="@id/novi_hub_toggle_desc" android:layout_width="wrap_content" android:layout_marginRight="106.0dip" android:layout_marginBottom="@dimen/novi_pay_hub_vertical_margin_medium" android:text="@string/novi_fingerprint_description" style="@style/NoviSecondaryText" />
+</LinearLayout>

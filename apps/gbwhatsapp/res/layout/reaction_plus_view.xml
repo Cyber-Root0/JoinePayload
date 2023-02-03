@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.reactions.ReactionPlusView android:id="@id/reactions_plus_button" android:layout_width="@dimen/reaction_tray_item_bg_size" android:layout_height="@dimen/reaction_tray_item_bg_size"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center" android:background="@drawable/selector_orange_gradient" android:padding="@dimen/payment_settings_default_margin" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaImageView android:id="@id/icon" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginRight="@dimen/payment_settings_default_margin" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <com.gbwhatsapp.WaImageView android:id="@id/open_indicator" android:layout_width="8.0dip" android:layout_height="12.0dip" android:layout_marginLeft="@dimen/payment_settings_default_margin" android:layout_marginRight="10.0dip" android:src="@drawable/ic_right_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" app:wivMirrorForRtl="true" />
+    <com.gbwhatsapp.WaTextView android:textSize="13.0sp" android:textColor="@color/secondary_text" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/open_indicator" android:layout_toRightOf="@id/icon" android:layout_alignParentTop="true" android:lineSpacingExtra="5.0sp" app:fontFamily="sans-serif" />
+    <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="@color/primary_text" android:id="@id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/title" android:layout_alignLeft="@id/title" android:lineSpacingExtra="8.0sp" app:fontFamily="sans-serif" />
+</RelativeLayout>

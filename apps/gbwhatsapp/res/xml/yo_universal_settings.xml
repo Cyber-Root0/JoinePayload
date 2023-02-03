@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:robobunny="http://robobunny.com">
+    <ListPreference android:entries="@array/language_names" android:title="@string/settings_language" android:key="Language" android:defaultValue="0" android:entryValues="@array/language_val" />
+    <SwitchPreference android:title="@string/multiChat" android:key="multiChats" android:summary="@string/multiChatsS" android:defaultValue="false" />
+    <SwitchPreference android:title="@string/yoHeds" android:key="Pop_Heds" android:summary="@string/yoHedsSum" android:defaultValue="false" />
+    <SwitchPreference android:title="@string/yoDisableBCounter" android:key="disable_bcounter" android:summary="@string/yoDisableBCounterS" android:defaultValue="false" />
+    <SwitchPreference android:title="@string/yoDisableAudioHeads" android:key="disable_audioheads" android:summary="@string/yoDisableAudioHeadsS" android:defaultValue="false" />
+    <SwitchPreference android:title="@string/yoFwdLim" android:key="fwd_lim_incr" android:summary="@string/yoFwdLimSum" android:defaultValue="false" />
+    <SwitchPreference android:title="@string/yoDisableChatSwipe" android:key="disable_chatswipeV2" android:summary="@string/yoDisableChatSwipeS" android:defaultValue="true" />
+    <SwitchPreference android:title="@string/yoAOnline" android:key="always_online" android:summary="@string/yoAOnlineSum" android:defaultValue="false" />
+    <SwitchPreference android:title="Tenor/Giphy GIF provider" android:key="tenor_giphy" android:summary="Off = Tenor, On = Giphy" android:defaultValue="false" />
+    <Preference android:title="@string/clearlogs" android:key="clear_logs" />
+    <PreferenceCategory android:title="@string/yoImg" android:key="cat_img">
+        <com.gbwhatsapp.yo.SeekBarPreference android:max="3" android:title="@string/yoImgHiBtn" android:key="Img_highres_seek" android:summary="@string/yoImgHiBtnSum" android:defaultValue="1" robobunny:max="3" robobunny:min="1" robobunny:unitsLeft="" robobunny:unitsRight="MB" />
+        <SwitchPreference android:title="@string/yoImgShareLimit" android:key="Img_share_limit" android:summary="@string/yoImgShareLimitSum" android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

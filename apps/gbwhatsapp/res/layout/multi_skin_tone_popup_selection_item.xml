@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.WaImageButton android:id="@id/multi_skin_tone_selection_item" android:background="@drawable/multi_skin_tone_emoji_selector" android:padding="@dimen/multi_skin_tone_selector_padding" android:layout_width="@dimen/multi_skin_tone_selector_button_size" android:layout_height="@dimen/multi_skin_tone_selector_button_size" android:layout_marginLeft="4.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="4.0dip" android:contentDescription="@string/multi_skin_tone_emoji_selector_description"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

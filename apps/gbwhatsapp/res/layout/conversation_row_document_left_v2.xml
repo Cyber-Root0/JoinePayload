@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/main_layout" android:layout_width="@dimen/conversation_row_document_width" android:layout_height="wrap_content" android:layout_marginRight="@dimen/conversation_row_margin_large">
+        <LinearLayout android:orientation="vertical" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/conversation_row_participant_header" />
+            <include layout="@layout/conversation_row_quoted_frame" />
+            <include layout="@layout/conversation_row_web_page_preview_frame" />
+            <include layout="@layout/conversation_row_document_preview_container" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/suspicious_link_indicator_holder" android:paddingLeft="@dimen/space_tight" android:paddingRight="@dimen/space_tight" android:paddingBottom="@dimen/space_xTight" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.gbwhatsapp.components.TextAndDateLayout android:id="@id/text_and_date" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.gbwhatsapp.TextEmojiLabel android:textAppearance="@style/WA.TextAppearance.ConversationRowMessage" android:layout_gravity="left" android:id="@id/caption" android:paddingLeft="@dimen/bubble_horizontal_inner_frame_padding" android:paddingRight="@dimen/bubble_horizontal_inner_frame_padding" android:paddingBottom="@dimen/bubble_caption_bottom_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/conversation_document_date_text_top_padding" />
+            <LinearLayout android:layout_gravity="bottom|center|right" android:orientation="horizontal" android:id="@id/date_wrapper" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.gbwhatsapp.WaTextView android:id="@id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/WA.TextAppearance.ConversationRowDate" />
+            </LinearLayout>
+        </com.gbwhatsapp.components.TextAndDateLayout>
+    </LinearLayout>
+</merge>

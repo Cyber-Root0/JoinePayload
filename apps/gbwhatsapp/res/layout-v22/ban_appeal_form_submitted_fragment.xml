@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ban_info" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.gbwhatsapp.TextEmojiLabel android:textSize="16.0sp" android:textColor="@color/primary_text" android:id="@id/heading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="24.0dip" android:text="@string/ban_appeal_form_message" android:lineSpacingExtra="4.0sp" android:layout_marginHorizontal="24.0dip" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/appeal_submitted_view" android:background="@drawable/ban_appeal_form_submitted_background" android:paddingLeft="36.0dip" android:paddingTop="16.0dip" android:paddingRight="36.0dip" android:paddingBottom="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="24.0dip" android:layout_marginHorizontal="24.0dip" android:paddingHorizontal="36.0dip" android:paddingVertical="16.0dip">
+            <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="@color/primary_text" android:gravity="center_horizontal" android:id="@id/appeal_submitted_heading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ban_appeal_form_submitted_confirmation" android:lineSpacingExtra="4.0sp" />
+            <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="@color/secondary_text" android:gravity="center_horizontal" android:id="@id/appeal_submitted_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/ban_appeal_form_submitted_subtext" android:lineSpacingExtra="4.0sp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

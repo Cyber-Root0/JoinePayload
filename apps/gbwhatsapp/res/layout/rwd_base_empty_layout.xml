@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/root" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/image_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/request_empty_common" />
+    <TextView android:textSize="14.0sp" android:textColor="#ff191919" android:id="@id/retry_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/request_empty" />
+</LinearLayout>

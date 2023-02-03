@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="40.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="@color/settings_accented_text" android:layout_gravity="center_vertical" android:id="@id/transaction_history_section" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:fontFamily="sans-serif-medium" />
+    <com.gbwhatsapp.WaImageView android:layout_gravity="center|right" android:id="@id/upi_logo" android:visibility="gone" android:layout_marginRight="16.0dip" style="@style/PoweredByUpiLogo" />
+</FrameLayout>

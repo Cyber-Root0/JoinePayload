@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_permission_guide" android:visibility="visible" android:fitsSystemWindows="true" android:clipToPadding="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/rl_permission_lottie_guide" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/lottie_guide_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" app:lottie_loop="false" />
+    </RelativeLayout>
+</RelativeLayout>

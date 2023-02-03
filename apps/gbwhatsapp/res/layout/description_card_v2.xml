@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.InfoCard android:orientation="vertical" android:id="@id/description_card" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/InfoCard"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@color/primary_surface" android:padding="@dimen/info_screen_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/has_description_view" android:paddingTop="4.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.gbwhatsapp.text.ReadMoreTextView android:textSize="@dimen/caption_text_size_small" android:textColor="@color/ui_refresh_group_info_description_text_color" android:id="@id/group_description" android:layout_width="fill_parent" android:layout_height="wrap_content" whatsapp:rmtvLines="3" whatsapp:rmtvLinkColor="@color/primary_light" whatsapp:rmtvText="@string/read_more" />
+            <ProgressBar android:id="@id/change_description_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:progressBarStyleSmallInverse" />
+        </LinearLayout>
+        <com.gbwhatsapp.WaTextView android:textColor="@color/primary_light" android:id="@id/no_description_view" android:paddingTop="4.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/add_group_description" style="@style/ListItemTitle.V2" />
+        <com.gbwhatsapp.WaTextView android:id="@id/creation_info_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_base" />
+    </LinearLayout>
+</com.gbwhatsapp.InfoCard>

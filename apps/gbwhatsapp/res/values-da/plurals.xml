@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Spol %d sekunder frem</item>
+        <item quantity="one">Spol %d sekund frem</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Spol %d sekunder tilbage</item>
+        <item quantity="one">Spol %d sekund tilbage</item>
+    </plurals>
+    <plurals name="export_backup_not_enough_space_message">
+        <item quantity="other">Du skal bruge %s lagerplads for at eksportere chats. Frigør lagerplads, før du eksporterer.</item>
+    </plurals>
+    <plurals name="import_backup_not_enough_space_message">
+        <item quantity="other">Import kræver %s lagerplads. Frigør lagerplads, før du importerer.</item>
+    </plurals>
+    <plurals name="move_chats_insufficient_space_dialog">
+        <item quantity="other">Der mangler %1$s på denne enhed, før der kan overføres. Frigør plads ved hjælp af WhatsApps værktøj til lageradministration.</item>
+    </plurals>
+    <plurals name="settings_gdrive_video_size_to_be_uploaded_plural">
+        <item quantity="other">‎%s vil blive overført</item>
+    </plurals>
+</resources>

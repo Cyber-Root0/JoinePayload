@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.WaTextView android:textSize="12.0sp" android:textColor="@color/secondary_text" android:gravity="center_vertical" android:id="@id/warning_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/product_margin_16dp" android:text="@string/confirm_payment_debit_warning" android:drawableLeft="@drawable/ic_settings_warning" android:drawablePadding="8.0dip" app:fontFamily="sans-serif"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/places_holder" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ListView android:entries="@null" android:id="@id/places_list" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:cacheColorHint="#00000000" android:divider="@null" android:dividerHeight="0.0dip" />
+        <ProgressBar android:id="@id/progressbar_small" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_below="@id/places_list" android:layout_centerHorizontal="true" android:layout_centerVertical="true" style="?android:progressBarStyleLarge" />
+        <com.gbwhatsapp.WaTextView android:gravity="center" android:id="@id/places_empty" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/no_places_found" android:layout_below="@id/places_list" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaTextView android:gravity="center" android:id="@id/cag_non_admin_footer_disclaimer" android:background="@color/primary_surface" android:paddingTop="@dimen/space_loose" android:paddingBottom="@dimen/space_loose" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/cag_group_chat_info_participant_list_non_admin_footer_disclaimer" />
+    <View android:id="@id/list_bottom_shadow" style="@style/ListBottomShadow" />
+    <com.gbwhatsapp.InfoCard android:id="@id/leave_and_report_info_card" android:layout_width="fill_parent" android:layout_height="wrap_content" app:icContentColor="@color/primary_surface" style="@style/InfoCard">
+        <com.gbwhatsapp.ListItemWithLeftIcon android:id="@id/remove_group_from_community" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:listItemWithIconIcon="@drawable/ic_remove_from_community" app:listItemWithIconIconColor="@color/red_button_text" app:listItemWithIconTitle="@string/action_label_remove_group_from_community" app:listItemWithIconTitleColor="@color/red_button_text" />
+        <com.gbwhatsapp.ListItemWithLeftIcon android:id="@id/exit_group_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" app:listItemWithIconIcon="@drawable/ic_exit_group" app:listItemWithIconIconColor="@color/red_button_text" app:listItemWithIconTitle="@string/exit_group" app:listItemWithIconTitleColor="@color/red_button_text" />
+        <com.gbwhatsapp.ListItemWithLeftIcon android:id="@id/report_group_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" app:listItemWithIconIcon="@drawable/ic_spam_report" app:listItemWithIconIconColor="@color/red_button_text" app:listItemWithIconMirrorIconForRtl="false" app:listItemWithIconTitle="@string/report_group" app:listItemWithIconTitleColor="@color/red_button_text" />
+    </com.gbwhatsapp.InfoCard>
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/browser_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/browser_top" android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <Button android:layout_gravity="start|center" android:id="@id/browser_back" android:background="@drawable/selector_back" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginStart="10.0dip" />
+        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ff191919" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/browser_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_marginStart="44.0dip" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/browser_top">
+        <ProgressBar android:id="@id/browser_progress" android:layout_width="fill_parent" android:layout_height="2.0dip" android:max="100" android:indeterminateOnly="false" android:progressDrawable="@drawable/progress_browser" style="?android:progressBarStyleHorizontal" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <WebView android:id="@id/browser_web" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <LinearLayout android:orientation="vertical" android:id="@id/browser_error" android:background="#ffffffff" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:layout_gravity="center" android:background="@drawable/icon_browser_error" android:layout_width="113.0dip" android:layout_height="113.0dip" android:layout_marginBottom="10.0dip" />
+                <TextView android:textSize="16.0sp" android:textColor="#ffb1b1b1" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="A network error occurs\nPlease tap to reload" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/card_details_alert_divider" android:background="@color/settings_divider" android:layout_width="fill_parent" android:layout_height="@dimen/settings_divider_height" android:layout_marginLeft="72.0dip" />
+    <LinearLayout android:orientation="horizontal" android:paddingTop="16.0dip" android:paddingRight="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/card_details_alert_icon_container" android:layout_width="72.0dip" android:layout_height="wrap_content">
+            <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/card_details_alert_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_settings_secure" />
+        </FrameLayout>
+        <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="@color/settings_item_subtitle_text" android:id="@id/card_details_alert_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/verify_payment_card_message" />
+    </LinearLayout>
+    <com.gbwhatsapp.components.Button android:id="@id/card_details_alert_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="18.0dip" android:text="@string/verify_card" style="@style/FbPaySecondaryButton" />
+</merge>

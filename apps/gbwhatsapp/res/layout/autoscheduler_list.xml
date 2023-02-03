@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@android:id/content" android:background="@color/yosettings_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/yo_toolbar" />
+    <ListView android:id="@id/list_Scheduler" android:background="@drawable/rounded_card" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:divider="@drawable/divider_gray" android:dividerHeight="0.5dip" android:layout_below="@id/acjtoolbar" />
+    <ImageView android:layout_gravity="end|bottom|center" android:id="@id/add_schedule" android:background="@drawable/input_circle_green" android:layout_width="56.0dip" android:layout_height="56.0dip" android:layout_margin="16.0dip" android:src="@drawable/ic_action_add" android:scaleType="center" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" />
+</RelativeLayout>

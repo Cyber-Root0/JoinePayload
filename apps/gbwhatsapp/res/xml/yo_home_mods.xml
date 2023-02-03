@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:robobunny="http://robobunny.com">
+    <com.gbwhatsapp.yo.SeekBarPreference android:max="100" android:title="@string/square_photo_ratio" android:key="square_photo_ratio_picker" android:summary="@string/square_photo_ratio_summary" android:defaultValue="100" robobunny:min="1" robobunny:unitsLeft="" robobunny:unitsRight="r" />
+    <SwitchPreference android:title="@string/convo_confirm_before_sendingStatus" android:key="status_wantsendconfirmation" android:defaultValue="false" />
+    <SwitchPreference android:title="@string/viewed_your_status_toast" android:key="want_status_toast" android:summary="@string/viewed_your_status_toastS" android:defaultValue="false" />
+    <SwitchPreference android:title="@string/yoHideDiv" android:key="Hide_div" android:summary="@string/yoHideDivS" android:defaultValue="false" />
+    <SwitchPreference android:title="@string/yoOnlineTo" android:key="chats_show_contact_online_toast_check" android:summary="@string/yoOnline" android:defaultValue="false" />
+    <RingtonePreference android:title="@string/Ringtone" android:key="chats_play_contact_online_tone" android:summary="@string/RingtoneS" android:defaultValue="" android:ringtoneType="notification" android:showDefault="true" android:showSilent="true" />
+    <ListPreference android:entries="@array/online_toast_location" android:title="@string/yoOnlineToLocation" android:key="chats_show_contact_online_toast_location" android:summary="Top" android:entryValues="@array/online_toast_location" />
+    <PreferenceCategory android:title="Forward Settings">
+        <SwitchPreference android:title="@string/frequently_contacted" android:key="Hide_contact_picker_section_frequent_chats" android:summary="@string/frequently_contacted_sum" android:defaultValue="false" />
+        <SwitchPreference android:title="@string/other_contacts" android:key="Hide_contact_picker_section_other_contacts" android:summary="@string/other_contacts_sum" android:defaultValue="false" />
+        <SwitchPreference android:title="@string/recent_chats" android:key="Hide_contact_picker_section_recent_chats" android:summary="@string/recent_chats_sum" android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

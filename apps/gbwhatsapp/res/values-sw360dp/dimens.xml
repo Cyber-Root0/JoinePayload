@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bouncing_lock_arrow_margin_top">20.0dip</dimen>
+    <dimen name="bouncing_lock_height_expanded">172.0dip</dimen>
+    <dimen name="group_photo_editor_color_horizontal_padding">6.0dip</dimen>
+    <dimen name="group_photo_editor_preview_margin">52.0dip</dimen>
+    <dimen name="group_photo_editor_preview_size">160.0dip</dimen>
+    <dimen name="intent_selector_minimum_item_width">90.0dip</dimen>
+    <dimen name="linked_devices_no_device_placeholder_margin_top">80.0dip</dimen>
+    <dimen name="new_community_camera_icon_container_offset">84.0dip</dimen>
+    <item type="dimen" name="new_community_camera_icon_container_size">@dimen/space_xxxLoose</item>
+    <item type="dimen" name="new_community_camera_icon_size">@dimen/space_xxLoose_halfStep</item>
+    <item type="dimen" name="new_community_icon_margin_top">@dimen/space_xxLoose</item>
+    <dimen name="new_community_icon_size">114.0dip</dimen>
+    <item type="dimen" name="new_community_input_form_margin_top">@dimen/space_xxxLoose</item>
+    <dimen name="number_keyboard_key_minimum_height">48.0dip</dimen>
+    <dimen name="number_keyboard_key_vertical_padding">12.0dip</dimen>
+    <dimen name="number_keyboard_textsize">24.0dip</dimen>
+    <dimen name="registration_profile_photo_size">112.0dip</dimen>
+    <dimen name="selected_contact_avatar_size">48.0dip</dimen>
+    <dimen name="selected_contact_group_call_right_margin">5.0dip</dimen>
+    <dimen name="selected_contacts_item_height">50.0dip</dimen>
+    <dimen name="selected_contacts_item_max_width">55.0dip</dimen>
+    <dimen name="selected_contacts_layout_height_big">108.0dip</dimen>
+    <dimen name="selected_contacts_list_action_fab_size">50.0dip</dimen>
+    <dimen name="selected_list_action_fab_2_margin_right">76.0dip</dimen>
+    <dimen name="title_bar_top_padding">0.0dip</dimen>
+</resources>

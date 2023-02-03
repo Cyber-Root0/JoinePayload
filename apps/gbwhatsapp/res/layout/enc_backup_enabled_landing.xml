@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.gbwhatsapp.WaLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="@dimen/encrypted_backup_layout_horizontal_margin" android:layout_marginRight="@dimen/encrypted_backup_layout_horizontal_margin">
+            <com.gbwhatsapp.WaImageView android:layout_width="fill_parent" android:layout_height="@dimen/encrypted_backup_medium_icon_height" android:layout_marginTop="@dimen/encrypted_backup_top_icon_marginTop" android:layout_marginBottom="@dimen/encrypted_backup_top_icon_marginBottom" android:src="@drawable/illust_cloud_lock_on" />
+            <com.gbwhatsapp.WaTextView android:text="@string/encrypted_backup_enabled_landing_title" style="@style/EncryptedBackupTitle" />
+            <com.gbwhatsapp.WaTextView android:id="@id/enc_backup_enabled_landing_privacy_notice" android:text="@string/encrypted_backup_privacy_notice_local" style="@style/EncryptedBackupBody" />
+            <com.gbwhatsapp.WaTextView android:id="@id/enc_backup_enabled_landing_restore_notice" android:text="@string/encrypted_backup_restore_notice_password" style="@style/EncryptedBackupBody" />
+        </com.gbwhatsapp.WaLinearLayout>
+    </ScrollView>
+    <com.gbwhatsapp.components.Button android:id="@id/enc_backup_enabled_landing_password_button" android:text="@string/encrypted_backup_enabled_landing_button_change_password" style="@style/EncryptedBackupSecondaryButton" />
+    <com.gbwhatsapp.components.Button android:id="@id/enc_backup_enabled_landing_disable_button" android:text="@string/encrypted_backup_enabled_landing_disable" style="@style/EncryptedBackupWarningButton" />
+</LinearLayout>

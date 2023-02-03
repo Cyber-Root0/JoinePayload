@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.qrcode.WaQrScannerView android:id="@id/qr_scanner_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true" />
+    <com.gbwhatsapp.WaTextView android:textSize="20.0sp" android:textColor="@color/secondary_text" android:gravity="center" android:id="@id/hint" android:background="@color/gray_activity" android:padding="16.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fontFamily="sans-serif-light" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/hint">
+        <View android:id="@id/shade" android:background="#80000000" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.gbwhatsapp.qrcode.QrScannerOverlay android:id="@id/overlay" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" whatsapp:qsoShape="round_corners" />
+        <FrameLayout android:padding="32.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.gbwhatsapp.BoundedLinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/education" android:background="@drawable/panel" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxWidth="350.0dip" android:maxHeight="350.0dip" whatsapp:wallBackgroundTint="@color/background_panel_tint">
+                <com.gbwhatsapp.qrcode.QrEducationView android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                <com.gbwhatsapp.components.Button android:id="@id/ok" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:layout_marginRight="40.0dip" android:layout_marginBottom="10.0dip" android:text="@string/ok" style="@style/WA.Button" />
+            </com.gbwhatsapp.BoundedLinearLayout>
+        </FrameLayout>
+        <com.gbwhatsapp.WaImageView android:layout_gravity="bottom|center|left" android:id="@id/qr_scan_from_gallery" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:src="@drawable/ic_album" android:contentDescription="@string/scan_qr_from_gallery_action" whatsapp:tint="@color/white" style="@style/ActionBarButtonStyle" />
+        <com.gbwhatsapp.WaImageView android:layout_gravity="bottom|center|right" android:id="@id/qr_scan_flash" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:src="@drawable/flash_off" whatsapp:tint="@color/white" style="@style/ActionBarButtonStyle" />
+    </FrameLayout>
+</RelativeLayout>

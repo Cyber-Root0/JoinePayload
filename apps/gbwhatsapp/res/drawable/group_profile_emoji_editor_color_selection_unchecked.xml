@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/padding">
+        <shape android:shape="oval">
+            <solid android:color="@color/transparent" />
+            <padding android:left="@dimen/group_photo_editor_color_horizontal_padding" android:right="@dimen/group_photo_editor_color_horizontal_padding" />
+        </shape>
+    </item>
+    <item android:id="@id/color_selection_ring">
+        <shape android:shape="oval">
+            <solid android:color="@color/transparent" />
+            <size android:height="41.5dip" android:width="41.5dip" />
+        </shape>
+    </item>
+    <item android:id="@id/color_selection_circle" android:left="1.5dip" android:top="1.5dip" android:right="1.5dip" android:bottom="1.5dip">
+        <shape android:shape="oval">
+            <solid android:color="@color/white" />
+        </shape>
+    </item>
+</layer-list>

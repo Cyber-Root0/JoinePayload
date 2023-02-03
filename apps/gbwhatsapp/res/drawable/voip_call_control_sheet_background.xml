@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/paletteSurface_3dp" />
+    <corners android:topLeftRadius="@dimen/call_control_bottom_sheet_rounded_corner_radius" android:topRightRadius="@dimen/call_control_bottom_sheet_rounded_corner_radius" android:bottomLeftRadius="0.0dip" android:bottomRightRadius="0.0dip" />
+</shape>

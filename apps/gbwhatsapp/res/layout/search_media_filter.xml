@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.chip.Chip android:id="@id/image" android:layout_width="wrap_content" android:layout_height="wrap_content" app:chipIcon="@drawable/ic_camera" style="@style/SearchMediaFilterChip" />
+    <com.google.android.material.chip.Chip android:id="@id/video" android:layout_width="wrap_content" android:layout_height="wrap_content" app:chipIcon="@drawable/ic_video_storage_usage" style="@style/SearchMediaFilterChip" />
+    <com.google.android.material.chip.Chip android:id="@id/link" android:layout_width="wrap_content" android:layout_height="wrap_content" app:chipIcon="@drawable/ic_link" style="@style/SearchMediaFilterChip" />
+    <com.google.android.material.chip.Chip android:id="@id/gif" android:layout_width="wrap_content" android:layout_height="wrap_content" app:chipIcon="@drawable/ic_gif_storage_usage" style="@style/SearchMediaFilterChip" />
+    <com.google.android.material.chip.Chip android:id="@id/doc" android:layout_width="wrap_content" android:layout_height="wrap_content" app:chipIcon="@drawable/ic_document_storage_usage" style="@style/SearchMediaFilterChip" />
+    <com.google.android.material.chip.Chip android:id="@id/audio" android:layout_width="wrap_content" android:layout_height="wrap_content" app:chipIcon="@drawable/ic_audio" style="@style/SearchMediaFilterChip" />
+</merge>

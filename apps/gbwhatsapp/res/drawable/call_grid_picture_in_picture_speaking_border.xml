@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:id="@id/background_shape" android:left="0.0dip" android:top="0.0dip" android:right="0.0dip" android:bottom="@dimen/voice_call_grid_elevation"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke android:width="@dimen/call_grid_border_width_for_speaker" android:color="@color/transparent" />
+    <corners android:radius="@dimen/call_grid_picture_in_picture_border_radius" />
+</shape>

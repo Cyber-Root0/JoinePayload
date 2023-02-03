@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidy.constraintlayout.widget.ConstraintLayout android:paddingLeft="40.0dip" android:paddingRight="40.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/screen_share_warning_dialog" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintWidth_max="560.0dip">
+        <com.gbwhatsapp.WaFrameLayout android:layout_gravity="center" android:background="@drawable/panel_popup_top" android:layout_width="fill_parent" android:layout_height="112.0dip" app:waflBackgroundTint="@color/panelPopupTopTint">
+            <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/warning_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_storage_warning" app:tint="@color/white" />
+        </com.gbwhatsapp.WaFrameLayout>
+        <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.gbwhatsapp.WaLinearLayout android:orientation="vertical" android:background="@drawable/panel_popup_bot" android:layout_width="fill_parent" android:layout_height="wrap_content" app:wallBackgroundTint="@color/panelPopupBotTint">
+                <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:gravity="left" android:id="@id/permission_title" android:padding="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/payments_screen_recording_description" style="@style/Text" />
+                <com.gbwhatsapp.components.AutoOrientationLinearLayout android:gravity="right" android:orientation="horizontal" android:id="@id/footer_layout" android:layout_width="fill_parent" android:layout_height="52.0dip">
+                    <com.gbwhatsapp.WaButton android:layout_gravity="center_vertical" android:id="@id/close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/close" style="@style/WA.Button.Borderless.Colored" />
+                </com.gbwhatsapp.components.AutoOrientationLinearLayout>
+            </com.gbwhatsapp.WaLinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</androidy.constraintlayout.widget.ConstraintLayout>

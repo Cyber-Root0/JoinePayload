@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/list_container_padding_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/conversations_row_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaImageView android:id="@id/share" android:background="@drawable/circular_background_primary" android:padding="@dimen/round_icon_src_padding" android:layout_width="@dimen/contact_photo_size" android:layout_height="@dimen/contact_photo_size" android:src="@drawable/ic_share" app:backgroundTint="@color/primary_light" app:tint="@color/white" />
+    <com.gbwhatsapp.WaTextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/product_margin_16dp" android:text="@string/share_link" style="@style/ListItemTitle" />
+</LinearLayout>

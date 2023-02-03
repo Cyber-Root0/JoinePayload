@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.InfoCard android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/BizLocationBar"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidy.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaImageView android:id="@id/icon" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginLeft="@dimen/dir_item_margin" android:src="@drawable/ic_location_nearby_disabled" android:scaleType="center" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:tint="@color/icon_color_disabled" />
+        <com.gbwhatsapp.WaTextView android:id="@id/default_location" android:paddingTop="@dimen/product_margin_24dp" android:paddingBottom="@dimen/product_margin_24dp" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dir_item_margin" android:layout_marginRight="@dimen/product_margin_16dp" android:text="@string/biz_user_location_error" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/icon" app:layout_constraintTop_toTopOf="parent" style="@style/ListItemTitle.V2" />
+    </androidy.constraintlayout.widget.ConstraintLayout>
+</com.gbwhatsapp.InfoCard>

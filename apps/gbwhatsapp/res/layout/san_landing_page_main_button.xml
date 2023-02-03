@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="bottom" android:id="@id/btn_layout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/common_dimens_56dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="#ffeaeaea" android:layout_width="fill_parent" android:layout_height="@dimen/common_dimens_1dp" />
+    <com.san.widget.TextProgressButton android:textColor="@color/white" android:id="@id/btn_download" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/common_dimens_20dp" android:layout_marginTop="@dimen/common_dimens_10dp" android:layout_marginRight="@dimen/common_dimens_20dp" android:layout_marginBottom="@dimen/common_dimens_10dp" android:max="100" android:progress="100" android:progressDrawable="@drawable/san_progress_bar_bg" app:textSize="@dimen/common_text_size_14sp" app:text_margin_left="@dimen/common_dimens_8dp" app:text_margin_right="@dimen/common_dimens_8dp" app:text="@string/common_cta_desc" style="?android:progressBarStyleHorizontal" />
+</RelativeLayout>

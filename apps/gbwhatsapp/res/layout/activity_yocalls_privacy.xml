@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:paddingTop="8.0dip" layout="@layout/yo_toolbar" />
+        <com.gbwhatsapp.yo.tf android:textColor="#ff333333" android:paddingTop="12.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/whocancall" android:paddingStart="20.0dip" android:paddingEnd="12.0dip" style="@style/ListItemTitle" />
+        <RadioGroup android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.gbwhatsapp.yo.radiobtn android:id="@id/seeeme" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/privacy_everyone" android:layout_marginStart="20.0dip" style="@style/ListItemTitle" />
+            <View android:background="@drawable/divider_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <com.gbwhatsapp.yo.radiobtn android:id="@id/my_contacts_btn" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/select_status_recipients_my_contacts" android:layout_marginStart="20.0dip" style="@style/ListItemTitle" />
+            <View android:background="@drawable/divider_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <com.gbwhatsapp.yo.radiobtn android:id="@id/black_list_btn" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/select_status_recipients_black_list" android:layout_marginStart="20.0dip" style="@style/ListItemTitle" />
+            <View android:background="@drawable/divider_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <com.gbwhatsapp.yo.radiobtn android:id="@id/white_list_btn" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/select_contacts" android:layout_marginStart="20.0dip" style="@style/ListItemTitle" />
+            <View android:background="@drawable/divider_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <com.gbwhatsapp.yo.radiobtn android:id="@id/div2" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/privacy_nobody" android:layout_marginStart="20.0dip" style="@style/ListItemTitle" />
+        </RadioGroup>
+        <LinearLayout android:orientation="vertical" android:paddingTop="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.gbwhatsapp.yo.tf android:textColor="#ff333333" android:paddingTop="12.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/action_required_title" android:paddingStart="20.0dip" android:paddingEnd="12.0dip" style="@style/ListItemTitle" />
+            <RadioGroup android:id="@id/div" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.gbwhatsapp.yo.radiobtn android:tag="nointer_calling" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/no_internet_title" android:maxLines="2" android:singleLine="false" android:inputType="textMultiLine" android:layout_marginStart="20.0dip" style="@style/ListItemTitle" />
+                <View android:background="@drawable/divider_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+                <com.gbwhatsapp.yo.radiobtn android:tag="declined" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/voip_declined" android:layout_marginStart="20.0dip" style="@style/ListItemTitle" />
+                <View android:background="@drawable/divider_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+                <com.gbwhatsapp.yo.radiobtn android:tag="ended" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/voip_not_answered" android:layout_marginStart="20.0dip" style="@style/ListItemTitle" />
+                <View android:background="@drawable/divider_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+                <com.gbwhatsapp.yo.radiobtn android:tag="unabletoget" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/voip_not_allowed_never" android:maxLines="2" android:singleLine="false" android:inputType="textMultiLine" android:layout_marginStart="20.0dip" style="@style/ListItemTitle" />
+            </RadioGroup>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

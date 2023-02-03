@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">%d Sekunden vorspulen</item>
+        <item quantity="one">%d Sekunde vorspulen</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">%d Sekunden zurückspulen</item>
+        <item quantity="one">%d Sekunde zurückspulen</item>
+    </plurals>
+    <plurals name="export_backup_not_enough_space_message">
+        <item quantity="other">Für den Chat-Export werden %s Speicherplatz benötigt. Bitte schaffe freien Speicherplatz, bevor du deine Chats exportierst.</item>
+        <item quantity="one">Für den Chat-Export wird %s Speicherplatz benötigt. Bitte schaffe freien Speicherplatz, bevor du deine Chats exportierst.</item>
+    </plurals>
+    <plurals name="import_backup_not_enough_space_message">
+        <item quantity="other">Für den Import werden %s Speicherplatz benötigt. Bitte schaffe freien Speicherplatz, bevor du damit beginnst.</item>
+        <item quantity="one">Für den Import wird %s Speicherplatz benötigt. Bitte schaffe freien Speicherplatz, bevor du damit beginnst.</item>
+    </plurals>
+    <plurals name="move_chats_insufficient_space_dialog">
+        <item quantity="other">‎%1$s werden auf diesem Gerät für die Übertragung benötigt. Bitte schaffe freien Speicherplatz, indem du das Speicherverwaltungstool von WhatsApp verwendest.</item>
+        <item quantity="one">‎%1$s wird auf diesem Gerät für die Übertragung benötigt. Bitte schaffe freien Speicherplatz, indem du das Speicherverwaltungstool von WhatsApp verwendest.</item>
+    </plurals>
+    <plurals name="settings_gdrive_video_size_to_be_uploaded_plural">
+        <item quantity="other">‎%s werden hochgeladen</item>
+        <item quantity="one">‎%s wird hochgeladen</item>
+    </plurals>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">%d soniya oldinga</item>
+        <item quantity="one">%d soniya oldinga</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">%d soniya orqaga</item>
+        <item quantity="one">%d soniya orqaga</item>
+    </plurals>
+    <plurals name="export_backup_not_enough_space_message">
+        <item quantity="other">Chatlarni eksport qilishga %s xotira kerak. Eksport qilishdan oldin xotiradan joy ajrating.</item>
+    </plurals>
+    <plurals name="import_backup_not_enough_space_message">
+        <item quantity="other">Import qilishga %s xotira kerak. Import qilishdan oldin xotiradan joy ajrating.</item>
+    </plurals>
+    <plurals name="move_chats_insufficient_space_dialog">
+        <item quantity="other">Oʻtkazish uchun ushbu qurilmada %1$s zarur. WhatsApp xotirani boshqarish vositasi bilan xotiradan joy oching.</item>
+    </plurals>
+    <plurals name="settings_gdrive_video_size_to_be_uploaded_plural">
+        <item quantity="other">‎%s yuklanadi</item>
+    </plurals>
+</resources>

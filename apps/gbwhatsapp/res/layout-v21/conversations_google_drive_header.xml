@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/google_drive_progress_view" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/conversations_row_height">
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/google_drive_image_view" android:background="@drawable/conversations_google_drive_media_placeholder" android:layout_width="@dimen/contact_photo_size" android:layout_height="@dimen/contact_photo_size" android:layout_marginLeft="@dimen/horizontal_padding" android:src="@drawable/ic_in_progress" android:scaleType="center" android:cropToPadding="false" app:tint="@color/googleDriveMediaPlaceholderIconTint" />
+        <LinearLayout android:orientation="vertical" android:id="@id/google_drive_backup_info" android:paddingLeft="@dimen/list_container_padding_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginRight="@dimen/horizontal_padding" android:layout_marginBottom="10.0dip" android:layout_weight="1.0">
+            <com.gbwhatsapp.WaTextView android:layout_gravity="left" android:id="@id/google_drive_backup_info_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gdrive_media_restore_title_running" style="@style/ListItemTitle" />
+            <ProgressBar android:layout_gravity="center_vertical" android:id="@id/google_drive_progress" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:progressTint="@color/media_message_progress_determinate" android:indeterminateTint="@color/media_message_progress_determinate" android:indeterminateTintMode="src_atop" style="?android:progressBarStyleHorizontal" />
+            <com.gbwhatsapp.WaTextView android:layout_gravity="center|left" android:id="@id/google_drive_backup_info_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gdrive_media_restore_notification_string_preparation_message" style="@style/ListItemSubtitle" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

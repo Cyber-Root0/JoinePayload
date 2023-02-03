@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/quantity_selector_button_background_pressed"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <inset android:insetLeft="@dimen/button_inset_horizontal" android:insetRight="@dimen/button_inset_horizontal" android:insetTop="@dimen/button_inset_vertical" android:insetBottom="@dimen/button_inset_vertical">
+            <shape android:shape="rectangle">
+                <corners android:radius="4.0dip" />
+                <solid android:color="@color/quantity_selector_button_background" />
+            </shape>
+        </inset>
+    </item>
+</ripple>

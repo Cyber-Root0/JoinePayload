@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaTextView android:id="@id/title_text" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/FbPaySettingsCenteredTitle" />
+    <com.gbwhatsapp.WaTextView android:textSize="@dimen/settings_subtitle_text_size" android:textColor="@color/settings_item_subtitle_text" android:gravity="center" android:id="@id/subtitle_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/payment_settings_default_margin" android:layout_marginRight="@dimen/payment_settings_default_margin" android:layout_marginBottom="20.0dip" android:lineSpacingExtra="4.0sp" />
+</LinearLayout>

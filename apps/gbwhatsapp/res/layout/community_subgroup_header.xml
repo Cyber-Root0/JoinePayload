@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/primary_surface" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@drawable/community_divider_shadow" android:layout_width="fill_parent" android:layout_height="@dimen/community_home_divider_height" />
+    <com.gbwhatsapp.WaTextView android:gravity="center|left" android:id="@id/title" android:paddingLeft="@dimen/community_subgroup_header_padding_top_left" android:paddingTop="@dimen/community_subgroup_header_padding_top_left" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/community_home_subgroup_header" android:includeFontPadding="false" style="?listSectionTitleText" />
+</LinearLayout>

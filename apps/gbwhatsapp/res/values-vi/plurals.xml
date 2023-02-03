@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Tua nhanh %d giây</item>
+        <item quantity="one">Tua nhanh %d giây</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Tua lại %d giây</item>
+        <item quantity="one">Tua lại %d giây</item>
+    </plurals>
+    <plurals name="export_backup_not_enough_space_message">
+        <item quantity="other">Quá trình xuất đoạn chat sẽ cần %s trong bộ nhớ. Vui lòng giải phóng dung lượng bộ nhớ trước khi xuất.</item>
+    </plurals>
+    <plurals name="import_backup_not_enough_space_message">
+        <item quantity="other">Quá trình nhập sẽ cần %s trong bộ nhớ. Vui lòng giải phóng dung lượng bộ nhớ trước khi nhập.</item>
+    </plurals>
+    <plurals name="move_chats_insufficient_space_dialog">
+        <item quantity="other">Thiết bị này cần có %1$s trống để chuyển tệp. Vui lòng giải phóng dung lượng bằng công cụ quản lý bộ nhớ của WhatsApp.</item>
+    </plurals>
+    <plurals name="settings_gdrive_video_size_to_be_uploaded_plural">
+        <item quantity="other">‎%s sẽ được tải lên</item>
+    </plurals>
+</resources>

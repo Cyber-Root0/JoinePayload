@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.biz.catalog.view.AspectRatioFrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:arflAspectRatio="@dimen/product_catalog_detail_aspect_ratio_v2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidy.recyclerview.widget.RecyclerView android:id="@id/product_detail_image_list" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.gbwhatsapp.biz.catalog.view.CarouselScrollbarView android:layout_gravity="bottom" android:id="@id/scrollbar" android:layout_width="fill_parent" android:layout_height="@dimen/product_detail_image_scrollbar_height" android:layout_margin="@dimen/product_detail_image_scrollbar_margin" />
+</com.gbwhatsapp.biz.catalog.view.AspectRatioFrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/product_unavailable_in_area" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="@color/selector_product_catalog_primary_text" android:id="@id/product_unavailable_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:text="@string/product_not_available_in_area_message" android:letterSpacing="0.02" />
+    <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="@color/selector_product_catalog_primary_text" android:id="@id/product_unavailable_link" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/change_postcode_link" android:letterSpacing="0.02" />
+</LinearLayout>

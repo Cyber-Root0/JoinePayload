@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:padding="@dimen/product_margin_16dp" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@id/card_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/ic_card" android:scaleType="fitXY" />
+    <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="@color/primary_text" android:ellipsize="end" android:id="@id/card_number" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/product_margin_16dp" android:singleLine="true" style="@style/ListItemTitle" />
+</LinearLayout>

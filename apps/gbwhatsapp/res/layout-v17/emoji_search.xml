@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/emoji_search_background" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidy.recyclerview.widget.RecyclerView android:id="@id/search_result" android:paddingLeft="@dimen/picker_row_padding" android:paddingRight="@dimen/picker_row_padding" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="@dimen/emoji_picker_item" android:paddingStart="@dimen/picker_row_padding" android:paddingEnd="@dimen/picker_row_padding" />
+        <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="@color/emoji_search_no_results_text" android:gravity="center" android:layout_gravity="center" android:id="@id/no_results" android:layout_width="fill_parent" android:layout_height="@dimen/emoji_picker_item" android:layout_marginLeft="8.0dip" android:text="@string/gif_search_no_results" />
+        <FrameLayout android:id="@id/progress_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/emoji_picker_item">
+            <ProgressBar android:layout_gravity="center" android:id="@id/emoji_trending_progress" android:layout_width="36.0dip" android:layout_height="36.0dip" />
+        </FrameLayout>
+    </FrameLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginLeft="8.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="4.0dip">
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@id/back" android:layout_width="40.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_back" android:contentDescription="@string/back" app:tint="@color/icon_secondary" style="@style/ActionBarButtonStyle" />
+        <com.gbwhatsapp.InterceptingEditText android:layout_gravity="center_vertical" android:id="@id/search_bar" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="wrap_content" android:hint="@string/emoji_search_hint" android:singleLine="true" android:layout_weight="1.0" android:inputType="text" android:imeOptions="actionSearch" />
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@id/clear_search_btn" android:visibility="invisible" android:layout_width="40.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_close" android:contentDescription="@string/clear" app:tint="@color/icon_secondary" app:tintMode="src_atop" style="@style/ActionBarButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

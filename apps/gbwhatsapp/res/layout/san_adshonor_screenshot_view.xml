@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.recyclerview.widget.RecyclerView android:id="@id/rv_screen_scrop" android:paddingLeft="@dimen/common_dimens_16dp" android:paddingRight="@dimen/common_dimens_12dp" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/common_dimens_15dp" android:paddingStart="@dimen/common_dimens_16dp" android:paddingEnd="@dimen/common_dimens_12dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

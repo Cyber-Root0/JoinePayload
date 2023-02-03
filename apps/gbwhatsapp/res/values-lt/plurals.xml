@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Prasukti pirmyn %d sekundžių</item>
+        <item quantity="one">Prasukti pirmyn %d sekundę</item>
+        <item quantity="few">Prasukti pirmyn %d sekundes</item>
+        <item quantity="many">Prasukti pirmyn %d sekundės</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Atsukti atgal %d sekundžių</item>
+        <item quantity="one">Atsukti atgal %d sekundę</item>
+        <item quantity="few">Atsukti atgal %d sekundes</item>
+        <item quantity="many">Atsukti atgal %d sekundės</item>
+    </plurals>
+    <plurals name="export_backup_not_enough_space_message">
+        <item quantity="other">Pokalbiams eksportuoti reikės %s saugyklos vietos. Prieš eksportuodami atlaisvinkite vietos saugykloje.</item>
+    </plurals>
+    <plurals name="import_backup_not_enough_space_message">
+        <item quantity="other">Turiniui importuoti reikės %s saugyklos vietos. Prieš importuodami atlaisvinkite vietos saugykloje.</item>
+    </plurals>
+    <plurals name="move_chats_insufficient_space_dialog">
+        <item quantity="other">Šiame įrenginyje reikia %1$s, kad būtų galima perkelti. Atlaisvinkite vietos naudodami „WhatsApp“ saugyklos tvarkymo įrankį.</item>
+    </plurals>
+    <plurals name="settings_gdrive_video_size_to_be_uploaded_plural">
+        <item quantity="other">Bus įkelta %s</item>
+        <item quantity="one">Bus įkeltas %s</item>
+        <item quantity="few">Bus įkelti %s</item>
+    </plurals>
+</resources>

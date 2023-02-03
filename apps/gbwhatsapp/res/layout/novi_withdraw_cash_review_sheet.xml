@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/novi_send_money_review_header" />
+    <ViewStub android:id="@id/novi_withdraw_review_amount" android:inflatedId="@id/novi_withdraw_review_amount_inflated" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="12.0dip" />
+    <ViewStub android:id="@id/novi_withdraw_review_method" android:inflatedId="@id/novi_withdraw_review_method_inflated" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip" />
+    <View android:layout_gravity="bottom" android:id="@id/divider" android:background="@color/payments_divider_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="@dimen/payment_method_divider_start_margin" />
+    <ViewStub android:id="@id/novi_withdraw_review_summary" android:inflatedId="@id/novi_withdraw_review_summary_inflated" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/payment_method_divider_start_margin" android:layout_marginTop="16.0dip" />
+    <View android:layout_gravity="bottom" android:id="@id/bottom_divider" android:background="@color/payments_divider_gray" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="@dimen/payment_method_divider_start_margin" android:layout_marginTop="16.0dip" />
+    <com.gbwhatsapp.WaTextView android:textSize="12.0sp" android:textColor="@color/secondary_text" android:id="@id/novi_depost_review_footer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/payment_method_divider_start_margin" android:layout_marginTop="16.0dip" android:text="@string/novi_depost_review_footer_description" />
+    <ViewStub android:id="@id/novi_withdraw_review_confirm" android:inflatedId="@id/novi_withdraw_review_confirm_inflated" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/primary_surface" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidy.cardview.widget.CardView android:layout_gravity="center" android:id="@id/payment_expressive_background_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" app:cardCornerRadius="8.0dip" app:cardElevation="0.0dip">
+        <com.gbwhatsapp.WaImageView android:id="@id/payment_expressive_background" android:layout_width="@dimen/expressive_payment_background_width" android:layout_height="@dimen/expressive_payment_background_height" android:scaleType="fitXY" />
+    </androidy.cardview.widget.CardView>
+    <com.gbwhatsapp.WaTextView android:textSize="56.0sp" android:textColor="@color/payments_currency_amount_text_color" android:layout_gravity="center" android:id="@id/display_payment_amount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:singleLine="true" />
+</FrameLayout>

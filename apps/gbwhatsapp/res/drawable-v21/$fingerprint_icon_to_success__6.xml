@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator android:interpolator="@android:interpolator/fast_out_slow_in" android:duration="151" android:startOffset="349" android:valueFrom="0" android:valueTo="0.3" android:valueType="floatType" android:propertyName="trimPathStart" />
+    <objectAnimator android:interpolator="@android:interpolator/linear_out_slow_in" android:duration="212" android:startOffset="288" android:valueFrom="0" android:valueTo="1" android:valueType="floatType" android:propertyName="trimPathEnd" />
+    <objectAnimator android:interpolator="@android:interpolator/fast_out_slow_in" android:duration="349" android:valueFrom="0" android:valueTo="0" android:valueType="floatType" android:propertyName="trimPathStart" />
+    <objectAnimator android:interpolator="@android:interpolator/fast_out_slow_in" android:duration="288" android:valueFrom="0" android:valueTo="0" android:valueType="floatType" android:propertyName="trimPathEnd" />
+    <objectAnimator android:interpolator="@android:interpolator/fast_out_slow_in" android:duration="39" android:startOffset="249" android:valueFrom="0" android:valueTo="1" android:valueType="floatType" android:propertyName="strokeAlpha" />
+    <objectAnimator android:interpolator="@android:interpolator/fast_out_slow_in" android:duration="249" android:valueFrom="0" android:valueTo="0" android:valueType="floatType" android:propertyName="strokeAlpha" />
+</set>

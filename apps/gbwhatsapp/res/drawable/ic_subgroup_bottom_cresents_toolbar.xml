@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="36.0dip" android:width="21.0dip" android:viewportWidth="21.0" android:viewportHeight="36.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/subgroup_facepile_first_circle_color_toolbar" android:pathData="M0,18C0,9.199 6.316,1.873 14.663,0.309C8.321,3.663 4,10.327 4,18C4,25.673 8.321,32.337 14.663,35.691C6.316,34.126 0,26.801 0,18Z" android:fillType="evenOdd" />
+    <path android:fillColor="@color/subgroup_facepile_second_circle_color_toolbar" android:pathData="M20.663,0.309C12.316,1.873 6,9.199 6,18C6,26.801 12.316,34.126 20.663,35.691C14.321,32.337 10,25.673 10,18C10,10.327 14.321,3.663 20.663,0.309Z" />
+</vector>

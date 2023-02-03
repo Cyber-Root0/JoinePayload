@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:background="@color/storage_usage_delete_complete_dialog_background_color" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/check_mark_image_view" android:layout_width="96.0dip" android:layout_height="96.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" />
+    <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/white_alpha_87" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/title_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" />
+</LinearLayout>

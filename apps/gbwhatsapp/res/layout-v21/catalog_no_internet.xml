@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/no_internet_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:gravity="center" android:layout_gravity="center" android:id="@id/no_internet_connection_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_internet_connection_message" android:lineSpacingExtra="5.0sp" android:letterSpacing="0.02" />
+    <com.gbwhatsapp.components.Button android:layout_gravity="center" android:id="@id/no_internet_retry_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/retry" android:letterSpacing="0.09" style="@style/WA.Button.Borderless.Colored" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/san_vast_player_reward_time_bg" android:paddingLeft="@dimen/common_dimens_5dp" android:paddingRight="@dimen/common_dimens_5dp" android:layout_width="wrap_content" android:layout_height="@dimen/common_dimens_25dp" android:layout_marginLeft="@dimen/common_dimens_12dp" android:layout_marginTop="@dimen/common_dimens_20dp" android:minWidth="@dimen/common_dimens_30dp" android:layout_marginStart="@dimen/common_dimens_12dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/common_text_size_12sp" android:textColor="@color/san_white_transparent_30" android:gravity="center" android:layout_width="@dimen/common_dimens_25dp" android:layout_height="@dimen/common_dimens_25dp" android:text="AD" />
+    <View android:layout_gravity="center_vertical" android:id="@id/divider" android:background="@color/san_white_transparent_30" android:visibility="gone" android:layout_width="@dimen/common_dimens_1dp" android:layout_height="@dimen/common_dimens_13dp" android:layout_marginLeft="@dimen/common_dimens_5dp" android:layout_marginRight="@dimen/common_dimens_5dp" />
+    <ImageView android:id="@id/iv_volume" android:padding="@dimen/common_dimens_2dp" android:visibility="gone" android:layout_width="@dimen/common_dimens_25dp" android:layout_height="@dimen/common_dimens_25dp" android:src="@drawable/san_vast_player_sound_selector" android:scaleType="fitXY" />
+</LinearLayout>

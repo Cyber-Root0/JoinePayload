@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.textfield.TextInputLayout android:id="@id/name_text_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/community_name_hint" android:importantForAccessibility="yes" android:labelFor="@id/group_name" app:hintTextAppearance="@style/TextAppearance.General.Body2.TextInputLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaEditText android:textSize="@dimen/new_community_edit_text_size" android:textColorHint="@color/secondary_text" android:id="@id/group_name" android:background="@drawable/new_community_edit_text_background" android:paddingRight="@dimen/counter_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:lines="1" android:singleLine="true" android:inputType="textCapWords" android:imeOptions="actionNext" android:contentDescription="@string/community_name_hint" />
+</com.google.android.material.textfield.TextInputLayout>

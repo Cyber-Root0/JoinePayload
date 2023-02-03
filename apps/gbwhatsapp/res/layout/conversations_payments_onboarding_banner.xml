@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@color/chat_banner_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/conversations_row_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/banner_image_container" android:layout_width="@dimen/list_contact_selector_width" android:layout_height="fill_parent">
+        <com.gbwhatsapp.TextEmojiLabel android:textSize="20.0dip" android:textColor="@color/payments_onboarding_banner_icon_text_color" android:gravity="center" android:layout_gravity="center" android:id="@id/banner_image" android:background="@drawable/payments_banner_circle" android:layout_width="32.0dip" android:layout_height="32.0dip" />
+    </FrameLayout>
+    <com.gbwhatsapp.TextEmojiLabel android:textSize="14.0sp" android:textColor="@color/chat_banner_text" android:layout_gravity="center|left" android:id="@id/banner_title" android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/Text" />
+    <FrameLayout android:layout_width="52.0dip" android:layout_height="fill_parent">
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/cancel" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_close" android:contentDescription="@string/close" app:tint="@color/chat_banner_close" />
+    </FrameLayout>
+</LinearLayout>

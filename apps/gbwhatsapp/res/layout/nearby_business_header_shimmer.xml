@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/product_margin_8dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="left" android:background="@color/biz_shimmer_background" android:layout_width="72.0dip" android:layout_height="@dimen/dir_shimmer_consumer_home_title_height" android:layout_marginLeft="@dimen/product_margin_16dp" style="BusinessLoadingFilterBarShimmerItem" />
+    <View android:layout_gravity="right" android:background="@color/biz_shimmer_background" android:layout_width="72.0dip" android:layout_height="@dimen/dir_shimmer_consumer_home_title_height" android:layout_marginLeft="@dimen/product_margin_16dp" style="BusinessLoadingFilterBarShimmerItem" />
+</FrameLayout>

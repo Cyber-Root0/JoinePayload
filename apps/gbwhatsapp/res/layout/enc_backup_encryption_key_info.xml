@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.gbwhatsapp.WaLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/encrypted_backup_layout_horizontal_margin" android:layout_marginRight="@dimen/encrypted_backup_layout_horizontal_margin">
+            <com.gbwhatsapp.WaTextView android:text="@string/encrypted_backup_encryption_key_info_title" style="@style/EncryptedBackupTitle" />
+            <com.gbwhatsapp.WaTextView android:id="@id/encryption_key_info_info" android:text="@string/encrypted_backup_encryption_key_info_message" style="@style/EncryptedBackupBody" />
+            <RelativeLayout android:id="@id/enc_key_background" style="@style/EncryptedBackupEncryptionKeyBackgroundHidden">
+                <com.gbwhatsapp.components.Button android:textSize="14.0sp" android:textColor="@color/primary_light" android:id="@id/encryption_key_info_middle_button" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:textAllCaps="false" app:variant="borderless" />
+                <FrameLayout android:id="@id/encryption_key_info_encryption_key_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </RelativeLayout>
+        </com.gbwhatsapp.WaLinearLayout>
+    </ScrollView>
+    <com.gbwhatsapp.components.Button android:id="@id/encryption_key_info_bottom_button" android:text="@string/encrypted_backup_encryption_key_info_button_continue" style="@style/EncryptedBackupPrimaryButton" />
+</LinearLayout>

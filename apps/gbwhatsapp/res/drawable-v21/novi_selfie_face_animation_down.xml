@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector android:drawable="@drawable/$novi_selfie_face_animation_down__0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <target android:name="_R_G_L_3_G_D_0_P_0" android:animation="@drawable/$novi_selfie_face_animation_down__1" />
+    <target android:name="_R_G_L_3_G_T_1" android:animation="@drawable/$novi_selfie_face_animation_down__6" />
+    <target android:name="_R_G_L_2_G_D_0_P_0" android:animation="@drawable/$novi_selfie_face_animation_down__11" />
+    <target android:name="_R_G_L_2_G_T_1" android:animation="@drawable/$novi_selfie_face_animation_down__16" />
+    <target android:name="_R_G_L_1_G_D_0_P_0" android:animation="@drawable/$novi_selfie_face_animation_down__21" />
+    <target android:name="_R_G_L_1_G_T_1" android:animation="@drawable/$novi_selfie_face_animation_down__26" />
+    <target android:name="_R_G_L_0_G_D_0_P_0" android:animation="@drawable/$novi_selfie_face_animation_down__31" />
+    <target android:name="_R_G_L_0_G_T_1" android:animation="@drawable/$novi_selfie_face_animation_down__36" />
+    <target android:name="time_group" android:animation="@drawable/$novi_selfie_face_animation_down__41" />
+</animated-vector>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rc.whatsapp.conversation.dialogAttachment.DialogAttachContent android:orientation="vertical" android:id="@id/mHolder" android:background="@drawable/rc_dialog_bg" android:paddingLeft="16.0dip" android:paddingTop="12.0dip" android:paddingRight="16.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginRight="0.0dip" android:layout_marginBottom="0.0dip" android:animateLayoutChanges="true" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="8.0dip" android:layout_marginVertical="10.0dip">
+        <rc.whatsapp.views.dialImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/rc_dot_dialog" />
+        <rc.whatsapp.views.dialImageView android:layout_gravity="center_horizontal" android:layout_width="70.0dip" android:layout_height="fill_parent" android:src="@drawable/rc_dotline_dialog" />
+        <rc.whatsapp.views.dialImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/rc_dot_dialog" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="16.0dip" android:layout_marginVertical="8.0dip">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/a_document" android:padding="10.0dip" android:paddingTop="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:layout_marginRight="1.5dip" android:layout_weight="1.0">
+                <ImageView android:id="@id/i_document" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/att_document" app:tint="@color/black" />
+                <com.gbwhatsapp.WaTextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@id/t_document" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/attach_document" android:singleLine="true" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/a_room" android:padding="10.0dip" android:paddingTop="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:layout_marginLeft="1.5dip" android:layout_marginRight="1.5dip" android:layout_weight="1.0">
+                <ImageView android:id="@id/i_room" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/att_room" app:tint="@color/black" />
+                <com.gbwhatsapp.WaTextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@id/t_room" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:singleLine="true" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/a_gallery" android:padding="10.0dip" android:paddingTop="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:layout_marginLeft="1.5dip" android:layout_marginRight="1.5dip" android:layout_weight="1.0">
+                <ImageView android:id="@id/i_gallery" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/att_gallery" app:tint="@color/black" />
+                <com.gbwhatsapp.WaTextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@id/t_gallery" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/attach_picture_from_gallery" android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/a_audio" android:padding="10.0dip" android:paddingTop="10.0dip" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:layout_marginLeft="1.5dip" android:layout_marginRight="1.5dip" android:layout_weight="1.0">
+                <ImageView android:id="@id/i_audio" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/att_audio" app:tint="@color/black" />
+                <com.gbwhatsapp.WaTextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@id/t_audio" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/attach_audio" android:singleLine="true" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/a_location" android:padding="10.0dip" android:paddingTop="10.0dip" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:layout_marginLeft="1.5dip" android:layout_weight="1.0">
+                <ImageView android:id="@id/i_location" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/att_loaction" app:tint="@color/black" />
+                <com.gbwhatsapp.WaTextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@id/t_location" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/attach_location" android:singleLine="true" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/a_contact" android:padding="10.0dip" android:paddingTop="10.0dip" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:layout_marginLeft="1.5dip" android:layout_weight="1.0">
+                <ImageView android:id="@id/i_contact" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/att_contact" app:tint="@color/black" />
+                <com.gbwhatsapp.WaTextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@id/t_contact" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/attach_contact" android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</rc.whatsapp.conversation.dialogAttachment.DialogAttachContent>

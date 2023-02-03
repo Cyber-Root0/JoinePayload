@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Pārtīt uz priekšu par %d sekundēm</item>
+        <item quantity="zero">Pārtīt uz priekšu par %d sekundēm</item>
+        <item quantity="one">Pārtīt uz priekšu par %d sekundi</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Attīt atpakaļ par %d sekundēm</item>
+        <item quantity="zero">Attīt atpakaļ par %d sekundēm</item>
+        <item quantity="one">Attīt atpakaļ par %d sekundi</item>
+    </plurals>
+    <plurals name="export_backup_not_enough_space_message">
+        <item quantity="other">Lai eksportētu sarakstes, nepieciešami %s krātuves. Lūdzu, pirms eksportēšanas atbrīvojiet krātuves vietu.</item>
+        <item quantity="one">Lai eksportētu sarakstes, nepieciešams %s krātuves. Lūdzu, pirms eksportēšanas atbrīvojiet krātuves vietu.</item>
+    </plurals>
+    <plurals name="import_backup_not_enough_space_message">
+        <item quantity="other">Importēšanai ir nepieciešami %s brīvas vietas krātuvē. Lūdzu, atbrīvojiet vietu krātuvē pirms importēšanas.</item>
+        <item quantity="zero">Importēšanai ir nepieciešams %s brīvas vietas krātuvē. Lūdzu, atbrīvojiet vietu krātuvē pirms importēšanas.</item>
+        <item quantity="one">Importēšanai ir nepieciešams %s brīvas vietas krātuvē. Lūdzu, atbrīvojiet vietu krātuvē pirms importēšanas.</item>
+    </plurals>
+    <plurals name="move_chats_insufficient_space_dialog">
+        <item quantity="other">Lai veiktu pārsūtīšanu, šajā ierīcē nepieciešamās vietas lielums ir %1$s. Lūdzu, atbrīvojiet vietu, izmantojot WhatsApp krātuves pārvaldīšanas rīku.</item>
+    </plurals>
+    <plurals name="settings_gdrive_video_size_to_be_uploaded_plural">
+        <item quantity="other">Vēl jāveic augšupielāde: %s</item>
+    </plurals>
+</resources>

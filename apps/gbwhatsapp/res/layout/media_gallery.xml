@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidy.coordinatorlayout.widget.CoordinatorLayout android:id="@id/coordinator" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:theme="@style/ThemeOverlay.AppCompat.ActionBar" android:id="@id/appbar" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.BidiToolbar android:id="@id/toolbar" app:layout_scrollFlags="enterAlways|scroll|snap" style="@style/Toolbar.Neutral" />
+        <androidy.appcompat.widget.SearchView android:id="@id/search_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.AppCompat.SearchView.ActionBar" />
+        <com.google.android.material.tabs.TabLayout android:id="@id/tabs" android:layout_width="fill_parent" android:layout_height="wrap_content" app:tabGravity="fill" app:tabIndicatorColor="@color/media_gallery_tab_indicator" app:tabIndicatorHeight="3.0dip" app:tabMaxWidth="0.0dip" app:tabMode="fixed" app:tabPaddingEnd="@dimen/media_gallery_tab_padding_horz" app:tabPaddingStart="@dimen/media_gallery_tab_padding_horz" app:tabRippleColor="@color/mediaGalleryRippleColor" />
+        <View android:id="@id/separator" style="@style/SectionDivider" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidy.viewpager.widget.ViewPager android:id="@id/viewpager" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+</androidy.coordinatorlayout.widget.CoordinatorLayout>

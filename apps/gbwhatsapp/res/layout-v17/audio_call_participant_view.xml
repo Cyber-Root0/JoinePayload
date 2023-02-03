@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaImageView android:id="@id/audio_call_participant_photo" android:focusable="false" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/avatar_contact_voice_call" android:scaleType="centerCrop" android:importantForAccessibility="no" />
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/audio_call_status_layout" android:background="@drawable/audio_call_status_background" android:padding="2.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textStyle="bold" android:id="@id/audio_call_status" android:padding="@dimen/call_cancel_button_touch_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" />
+        <com.gbwhatsapp.WaImageButton android:id="@id/audio_call_status_button" android:background="@null" android:padding="@dimen/call_cancel_button_touch_padding" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="-8.0dip" android:scaleType="centerInside" android:contentDescription="@string/cancel" android:layout_marginStart="-8.0dip" app:srcCompat="@drawable/ic_cancel_black_24dp" app:tint="@color/btn_disabled" />
+    </LinearLayout>
+</FrameLayout>

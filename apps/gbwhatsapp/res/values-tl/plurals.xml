@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">I-fast forward nang %d na segundo</item>
+        <item quantity="one">I-fast forward nang %d segundo</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">I-rewind nang %d na segundo</item>
+        <item quantity="one">I-rewind nang %d segundo</item>
+    </plurals>
+    <plurals name="export_backup_not_enough_space_message">
+        <item quantity="other">Nangangailangan ng %s na storage kung mag-e-export ng mga chat. Mangyaring magbakante ng storage space bago mag-export.</item>
+    </plurals>
+    <plurals name="import_backup_not_enough_space_message">
+        <item quantity="other">Mangangailangan ng %s na storage kung mag-i-import. Mangyaring magbakante ng storage space bago mag-import.</item>
+    </plurals>
+    <plurals name="move_chats_insufficient_space_dialog">
+        <item quantity="other">Kailangan ng %1$s sa device na ito para sa paglilipat. Mangyaring magbakante ng espasyo sa pamamagitan ng paggamit sa storage management tool ng WhatsApp.</item>
+    </plurals>
+    <plurals name="settings_gdrive_video_size_to_be_uploaded_plural">
+        <item quantity="other">‎%s i-a-upload</item>
+    </plurals>
+</resources>

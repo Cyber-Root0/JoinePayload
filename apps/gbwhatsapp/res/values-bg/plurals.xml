@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Превъртане с(ъс) %d секунди напред</item>
+        <item quantity="one">Превъртане с %d секунда напред</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Превъртане с(ъс) %d секунди назад</item>
+        <item quantity="one">Превъртане с %d секунда назад</item>
+    </plurals>
+    <plurals name="export_backup_not_enough_space_message">
+        <item quantity="other">Експортирането на чатовете ще изисква %s в хранилището. Освободете място в хранилището, преди да експортирате.</item>
+    </plurals>
+    <plurals name="import_backup_not_enough_space_message">
+        <item quantity="other">Импортирането ще изисква %s в хранилището. Освободете място в хранилището, преди да импортирате.</item>
+    </plurals>
+    <plurals name="move_chats_insufficient_space_dialog">
+        <item quantity="other">За прехвърлянето са необходими %1$s на това устройство. Освободете място, като използвате инструмента за управление на съхранението на WhatsApp.</item>
+        <item quantity="one">За прехвърлянето е необходим %1$s на това устройство. Освободете място, като използвате инструмента за управление на съхранението на WhatsApp.</item>
+    </plurals>
+    <plurals name="settings_gdrive_video_size_to_be_uploaded_plural">
+        <item quantity="other">Остават %s за качване</item>
+        <item quantity="one">Остава %s за качване</item>
+    </plurals>
+</resources>

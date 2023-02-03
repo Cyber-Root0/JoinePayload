@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/incentive_info_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/product_margin_16dp" android:layout_marginRight="@dimen/product_margin_16dp">
+        <View android:id="@id/incentive_message_divider" android:background="@drawable/payments_divider_gray" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginBottom="4.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/incentive_blurb_container" android:background="@drawable/incentive_info_rounded_bg" android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:paddingRight="16.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip">
+            <com.gbwhatsapp.WaImageView android:id="@id/incentive_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginRight="16.0dip" android:src="@drawable/ic_light_gift" />
+            <com.gbwhatsapp.TextEmojiLabel android:textSize="14.0sp" android:id="@id/incentive_info_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="4.0sp" />
+        </LinearLayout>
+    </LinearLayout>
+</merge>

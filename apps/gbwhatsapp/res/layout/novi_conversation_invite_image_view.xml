@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaImageView android:id="@id/payment_invite_bubble_icon" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/novi_pay_bubble_icon_height" android:scaleType="centerCrop" />
+</LinearLayout>

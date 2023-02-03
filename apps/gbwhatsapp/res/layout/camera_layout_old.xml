@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.components.MainChildCoordinatorLayout android:id="@id/camera_coordinator" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:mcclChildId="@id/bottom_sheet"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/bottom_sheet" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:behavior_peekHeight="@dimen/camera_gallery_peek_height" app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+        <FrameLayout android:id="@id/gallery_container" android:background="@color/primary_surface" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:gravity="center" android:layout_gravity="center|top" android:orientation="vertical" android:id="@id/drag_indicator_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.gbwhatsapp.camera.DragBottomSheetIndicator android:id="@id/drag_indicator" android:padding="4.0dip" android:layout_width="18.0dip" android:layout_height="14.0dip" />
+            <com.gbwhatsapp.WaTextView android:textColor="@android:color/white" android:id="@id/swipe_up_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gallery_tip" android:shadowColor="@android:color/black" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="2.0" android:translationY="-2.0dip" />
+        </LinearLayout>
+        <androidy.recyclerview.widget.RecyclerView android:id="@id/recent_media" android:paddingTop="@dimen/camera_thumb_spacing" android:paddingBottom="@dimen/camera_thumb_spacing" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <View android:layout_width="fill_parent" android:layout_height="244.0dip" />
+    </FrameLayout>
+    <com.gbwhatsapp.camera.OldCameraActionsLayout android:id="@id/camera_actions" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include layout="@layout/camera_transitions" />
+    <com.gbwhatsapp.camera.recording.RecordingView android:layout_gravity="center_horizontal" android:id="@id/recording_view" android:background="@drawable/camera_info_background" android:paddingLeft="12.0dip" android:paddingTop="8.0dip" android:paddingRight="12.0dip" android:paddingBottom="8.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" />
+    <com.gbwhatsapp.camera.mode.CameraModeTabLayout android:id="@id/camera_mode_tab_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</com.gbwhatsapp.components.MainChildCoordinatorLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidy.constraintlayout.widget.ConstraintLayout android:id="@id/reactions_bottom_sheet_tab" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.TextEmojiLabel android:textColor="@color/secondary_text" android:id="@id/reactions_bottom_sheet_tab_emoji_text" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toLeftOf="@id/reactions_bottom_sheet_tab_counter_text" app:layout_constraintTop_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/ReactionsTabText" />
+    <com.gbwhatsapp.WaTextView android:id="@id/reactions_bottom_sheet_tab_counter_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_xTight" app:layout_constraintLeft_toRightOf="@id/reactions_bottom_sheet_tab_emoji_text" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/ReactionsTabText" />
+</androidy.constraintlayout.widget.ConstraintLayout>
